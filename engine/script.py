@@ -16,7 +16,7 @@ def read_json(path):
 
 
 def parse_json_text(txt):
-    txt = txt.strip()
+    txt = (txt or "").strip().lstrip("\ufeff")
     m = re.search(r"```(?:json)?\s*(.*?)```", txt, re.S)
     if m:
         txt = m.group(1).strip()
@@ -24,13 +24,21 @@ def parse_json_text(txt):
         i = txt.find("{")
         if i >= 0:
             txt = txt[i:txt.rfind("}") + 1]
-    txt = txt.replace("“", '"').replace("”", '"')
     txt = re.sub(r",\s*([}\]])", r"\1", txt)  # trailing commas
-    try:
-        return json.loads(txt)
-    except json.JSONDecodeError as e:
-        raise ScriptError(f"JSON theek nahi hai (line {e.lineno}, column {e.colno}): {e.msg}. "
-                          "Poora JSON dobara copy karein - shayad aakhri hissa kat gaya.")
+    tries = [txt,
+             # curly quotes INSIDE text (like “honeymoon”) -> plain apostrophes
+             txt.replace("\u201c", "'").replace("\u201d", "'").replace("\u2018", "'").replace("\u2019", "'"),
+             # whole JSON typed with curly quotes as delimiters
+             txt.replace("\u201c", '"').replace("\u201d", '"')]
+    err = None
+    for t in tries:
+        try:
+            return json.loads(t)
+        except json.JSONDecodeError as e:
+            err = err or e
+    raise ScriptError(f"JSON theek nahi hai (line {err.lineno}, column {err.colno}): {err.msg}. "
+                      "Poora JSON dobara copy karein - shayad aakhri hissa kat gaya. "
+                      "Ya ChatGPT ko ye error bata kar theek JSON maangein.")
 
 
 def validate(data, kind="video"):

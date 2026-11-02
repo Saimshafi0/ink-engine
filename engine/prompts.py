@@ -115,18 +115,25 @@ Write TWO different Shorts:
  2) a NEW related topic in the same style that you choose (say what it is in "topic").
 {"Use completely different jokes and angles than the obvious ones (variation " + str(variation) + ")." if variation else ""}
 
-RULES for each Short (110-140 words total, 35-55 seconds):
+RULES for each Short (100-130 words total, 35-50 seconds):
 - Shot 1 = the hook: a scroll-stopping line, type "big", same words in "text" and "say" (max 7 words).
-- Then fast points: a new shot every 1.5-2 seconds (each "say" = 4-9 words). 14-22 shots in total.
+  Make it a surprising claim or a question everyone has but never asked ("Why do we say bless you?").
+- Then fast points: a new shot every 1.5-2.5 seconds. 14-20 shots in total.
+- SOUND LIKE A FUNNY FRIEND TALKING, NOT A LIST OF FACTS:
+  * Each "say" is one spoken thought (4-14 words). Lines can flow into each other with commas.
+  * Use spoken connectors: "So,", "Okay, but", "Here's the thing.", "And honestly?", "Which, to be fair,".
+  * Talk to the viewer ("you"), react to the facts, deadpan jokes. Never 4 tiny "Fact. Fact." lines in a row.
+- Real facts only (if it's history or science). Simple words, US English.
 - A funny twist near the end. The LAST line must loop naturally back into the first line so people rewatch.
 - No "subscribe"/"follow" at the start. No emojis in "say".
-- Mostly "me" shots (pose/face changes a lot) + "big", "list", "compare", "diagram", "draw" shots.
+- Mostly "me" shots (pose/face changes a lot, many different props) + "big", "list", "compare", "diagram", "draw" shots.
+  Use animals and props from the lists below so every shot has something to look at.
 
 {SHOT_DOC}
 
 OUTPUT: ONLY valid JSON:
 {{
- "voice": "am_michael", "speed": 1.05,
+ "voice": "am_michael", "speed": 1.0,
  "shorts": [
   {{"topic":"...", "title":"curiosity title under 50 chars", "description":"1-2 lines + #shorts #tag1 #tag2",
     "pinned":"one question for viewers", "cover":"which moment makes the best cover frame",

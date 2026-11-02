@@ -1,0 +1,295 @@
+{
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "shorts": [
+    {
+      "topic": "Why is it called a honeymoon?",
+      "title": "Why Is It Called A Honeymoon?",
+      "description": "The sweet and surprisingly cynical history of the word honeymoon. #shorts #history #facts",
+      "pinned": "Would you drink medieval honey wine for 30 days straight?",
+      "cover": "The MONTH ONE vs MONTH TWO comparison shot.",
+      "shots": [
+        {
+          "type": "big",
+          "text": "WHY IS IT CALLED A HONEYMOON?",
+          "say": "Why is it called a honeymoon?"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "thinking",
+          "prop": "honey",
+          "say": "So, it actually comes from two surprisingly literal ancient things."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "happy",
+              "hold": "jar",
+              "wear": "robe"
+            },
+            {
+              "pose": "dance",
+              "face": "excited",
+              "hold": "flower",
+              "wear": "dress"
+            }
+          ],
+          "props": [
+            "honey",
+            "wine"
+          ],
+          "text": "THE MEAD STORY?",
+          "say": "One popular story says medieval newlyweds got a whole month of mead."
+        },
+        {
+          "type": "me",
+          "pose": "point",
+          "face": "smug",
+          "prop": "jar",
+          "say": "Supposedly for a full moon cycle, for luck and fertility. Hence, honey moon."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "confused",
+          "prop": "question",
+          "say": "Okay, but here's the dark historical catch nobody tells you."
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "people": [
+            {
+              "pose": "sit",
+              "face": "disgusted",
+              "hold": "book",
+              "wear": "rich"
+            }
+          ],
+          "props": [
+            "clock",
+            "chart_down"
+          ],
+          "text": "1500s ENGLAND",
+          "say": "But historians say that story is probably made up. The real one is darker."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "prop": "book",
+          "text": "1500s.",
+          "say": "In the fifteen hundreds, English writers used honeymoon as a little warning."
+        },
+        {
+          "type": "compare",
+          "left": {
+            "title": "MONTH ONE",
+            "prop": "honey",
+            "mark": "tick"
+          },
+          "right": {
+            "title": "MONTH TWO",
+            "prop": "chart_down",
+            "mark": "x"
+          },
+          "say": "Honey meant initial sweetness, but the moon represented constant fading."
+        },
+        {
+          "type": "me",
+          "pose": "point",
+          "face": "unimpressed",
+          "prop": "moon",
+          "say": "Basically, people believed marital affection naturally decayed like the moon."
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "walk",
+              "face": "excited",
+              "hold": "bag",
+              "wear": "rich"
+            }
+          ],
+          "props": [
+            "boat",
+            "money_bag"
+          ],
+          "text": "VICTORIAN ERA",
+          "say": "Later, wealthy Victorians turned it into expensive luxury bridal trips."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sweating",
+          "prop": "money_bag",
+          "say": "And honestly? Taking a trip sounds way better than warm mead."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "prop": "thought",
+          "say": "So next time someone says they're in the honeymoon phase, ask... why is it called a honeymoon?"
+        }
+      ]
+    },
+    {
+      "topic": "Why do we wear wedding rings on the fourth finger?",
+      "title": "Why Wear Wedding Rings Here?",
+      "description": "The weird ancient Roman medical myth behind your wedding ring finger. #shorts #history #facts",
+      "pinned": "Did you know doctors believed in a heart vein?",
+      "cover": "Shot 4 diagram showing the Roman heart route.",
+      "shots": [
+        {
+          "type": "big",
+          "text": "WHY WEAR RINGS ON THIS FINGER?",
+          "say": "Why wear rings on this finger?"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "thinking",
+          "prop": "ring",
+          "say": "So, it all started with ancient Roman medical bad science."
+        },
+        {
+          "type": "map",
+          "region": "Rome",
+          "label": "VENA AMORIS",
+          "prop": "ring",
+          "say": "Romans believed a special vein ran from this finger straight to the heart."
+        },
+        {
+          "type": "diagram",
+          "title": "ROMAN HEART ROUTE",
+          "steps": [
+            [
+              "ring",
+              "Ring Finger"
+            ],
+            [
+              "arrow",
+              "Direct Vein"
+            ],
+            [
+              "heart",
+              "The Heart"
+            ]
+          ],
+          "say": "They literally called it the Vena Amoris, or vein of love."
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "people": [
+            {
+              "pose": "point",
+              "face": "smug",
+              "hold": "scroll",
+              "wear": "toga"
+            }
+          ],
+          "props": [
+            "ring",
+            "heart"
+          ],
+          "text": "ROMAN THEORY",
+          "say": "So a ring there was like a direct line to your heart."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "unimpressed",
+          "prop": "magnifier",
+          "say": "Which sounds super cute, until modern biology actually checked."
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "neutral",
+              "hold": "magnifier",
+              "wear": "rich"
+            }
+          ],
+          "props": [
+            "bone",
+            "drop"
+          ],
+          "text": "ANATOMY CHECK",
+          "say": "Here's the thing: every finger has the exact same anatomy."
+        },
+        {
+          "type": "compare",
+          "left": {
+            "title": "ROMAN IDEA",
+            "prop": "heart",
+            "mark": "tick"
+          },
+          "right": {
+            "title": "ACTUAL VEINS",
+            "prop": "heart",
+            "mark": "x"
+          },
+          "say": "And honestly? There is zero special direct connection to anything."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sweating",
+          "prop": "thought",
+          "say": "The whole vein of love idea was completely made up."
+        },
+        {
+          "type": "me",
+          "pose": "point",
+          "face": "smug",
+          "prop": "ring",
+          "say": "Well, changing thousands of years of tradition is awkward."
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "trade",
+              "face": "happy",
+              "hold": "ring",
+              "wear": "rich"
+            }
+          ],
+          "props": [
+            "gold",
+            "coin"
+          ],
+          "text": "1940s ADS",
+          "say": "And in the 1940s, diamond ads made big rings feel like a must-have."
+        },
+        {
+          "type": "me",
+          "pose": "celebrate",
+          "face": "laugh",
+          "prop": "heart",
+          "say": "Which, to be fair, is a masterclass in marketing."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "prop": "question",
+          "say": "So next time you see a wedding ring, ask yourself... why wear rings on this finger?"
+        }
+      ]
+    }
+  ],
+  "topic": "Why is it called a honeymoon?"
+}
