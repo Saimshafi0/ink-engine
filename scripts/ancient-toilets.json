@@ -1,0 +1,169 @@
+{
+ "title": "Where Did Ancient Humans Go to the Toilet?",
+ "thumbnail_text": "NO TOILET?",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "thumbnails": [
+  {"text": "NO TOILET?", "face": "shocked", "pose": "scared", "bg": "jungle", "props": ["toilet"], "mark": "x"},
+  {"text": "THEY USED THIS?", "face": "disgusted", "pose": "point", "bg": "village", "props": ["sponge"]},
+  {"text": "4,000 YEARS AGO?", "face": "smug", "pose": "point_up", "bg": "desert", "props": ["pipe", "toilet"]}
+ ],
+ "seo": {
+  "titles": [
+   "Where Did Ancient Humans Go to the Toilet?",
+   "How Did Ancient Humans Go to the Bathroom?",
+   "Ancient Toilets Were Weirder Than You Think",
+   "What Ancient People Used Before Toilet Paper",
+   "The Disgusting History of Ancient Toilets"
+  ],
+  "best_title": "Where Did Ancient Humans Go to the Toilet?",
+  "description_hook": "Where did ancient humans go to the toilet before plumbing, toilet paper and locks on the door? The answer involves a toilet demon, a sponge on a stick, and a tax on pee.",
+  "paragraphs": [
+   "In this animated history explainer we follow the toilet from the Stone Age to the first flush: what early humans did in the wild, the first toilets of Mesopotamia, the surprisingly modern plumbing of the Indus Valley, and Rome's famous group latrines.",
+   "Then we go to ancient China, where archaeologists found a 2,400-year-old flush toilet in a palace, and to medieval Europe, where chamber pots, castle toilets and the 'gong farmers' who cleaned them made life very smelly.",
+   "Ancient hygiene, ancient sanitation, the history of toilet paper and everyday life in the past, explained simply with stick figures and a bit of dry humour."
+  ],
+  "sources": [
+   "Augusta McMahon - Trash and Toilets in Mesopotamia, The Ancient Near East Today (2016)",
+   "Ann Olga Koloski-Ostrow - The Archaeology of Sanitation in Roman Italy (2015)",
+   "Charlier et al. - Toilet hygiene in the classical era, BMJ (2012)",
+   "Sistiaga et al. - The Neanderthal Meal: A New Perspective Using Faecal Biomarkers, PLOS ONE (2014)",
+   "Jonathan Mark Kenoyer - Ancient Cities of the Indus Valley Civilization (1998)",
+   "Yueyang palace flush toilet find, Chinese Academy of Social Sciences, reported by Live Science (2023)",
+   "Rose George - The Big Necessity (2008)"
+  ],
+  "tags": [
+   "ancient toilets", "where did ancient humans go to the toilet", "history of toilets", "ancient hygiene",
+   "toilet paper history", "roman toilets", "roman latrines", "sponge on a stick", "tersorium",
+   "mesopotamia", "indus valley civilization", "mohenjo daro", "ancient china toilet",
+   "medieval toilets", "gong farmer", "how did people poop before toilets"
+  ],
+  "hashtags": ["#ancienttoilets", "#history", "#ancienthumans"],
+  "pinned_comment": "Be honest: sponge on a stick, pottery pebbles, or a pig under the toilet. Which one are you picking?"
+ },
+ "shorts": [
+  {"scenes": [4], "hook": "THE TOILET DEMON?", "title": "Babylonians Feared a Toilet Demon", "description": "Ancient Mesopotamians had toilets... and a demon living in them.", "hashtags": ["#shorts", "#history", "#mesopotamia"], "pinned": "Would you use a toilet with a demon in it?"},
+  {"scenes": [6], "hook": "ROMAN TOILETS. NO WALLS.", "title": "Roman Toilets Had No Walls", "description": "Rome's public toilets were a social event. And the sponge... we need to talk.", "hashtags": ["#shorts", "#romanempire", "#history"], "pinned": "Sponge on a stick or pottery pebbles?"},
+  {"scenes": [7], "hook": "ROME TAXED PEE.", "title": "Rome Literally Taxed Pee", "description": "Urine was so valuable in Rome that the emperor taxed it.", "hashtags": ["#shorts", "#ancientrome", "#history"], "pinned": "What's the weirdest tax you've ever heard of?"},
+  {"scenes": [8], "hook": "THE PIG TOILET.", "title": "Ancient China's Pig Toilet", "description": "A 2,400 year old flush toilet... and a pig with a very bad job.", "hashtags": ["#shorts", "#ancientchina", "#history"], "pinned": "Rate the pig toilet from 1 to 10."}
+ ],
+ "scenes": [
+  {"chapter": "Where Did They Go?", "shots": [
+   {"type": "me", "pose": "think", "face": "thinking", "say": "Right now, a toilet is the most boring room in your house."},
+   {"type": "me", "pose": "point_up", "face": "smug", "prop": "toilet", "say": "It flushes. It has paper. It even has a lock."},
+   {"type": "me", "pose": "shrug", "face": "confused", "text": "BUT 10,000 YEARS AGO?", "say": "But ten thousand years ago? None of that existed."},
+   {"type": "draw", "bg": "jungle", "people": [{"pose": "scared", "face": "worried"}], "think": "toilet", "say": "No pipes. No paper. No privacy.", "ai": "a worried stick figure standing alone in a jungle, thinking about a toilet"},
+   {"type": "big", "text": "SO WHERE DID THEY GO?", "say": "So where did ancient humans actually go?"},
+   {"type": "me", "pose": "explain", "face": "happy", "say": "Today we follow the toilet through history."},
+   {"type": "list", "title": "COMING UP", "items": [["demon", "A toilet demon"], ["sponge", "A sponge on a stick"], ["coin", "A tax on pee"]], "say": "There's a toilet demon, a sponge on a stick, and a tax on pee."},
+   {"type": "me", "pose": "facepalm", "face": "disgusted", "say": "Yes, really. Let's go."}
+  ]},
+  {"chapter": "Stone Age Bathrooms", "shots": [
+   {"type": "big", "text": "300,000 YEARS AGO.", "say": "For most of human history, the answer was simple."},
+   {"type": "draw", "bg": "grass", "people": [{"pose": "walk", "face": "neutral", "wear": "fur"}], "props": ["tree", "rock"], "say": "You walked away from camp. That's it. That was the bathroom.", "ai": "a stick figure in fur clothes walking away from a stone age camp toward some bushes"},
+   {"type": "me", "pose": "point_up", "face": "smug", "text": "RULE ONE: DISTANCE.", "say": "And there was one important rule. Distance."},
+   {"type": "crowd", "bg": "grass", "count": 7, "poses": ["sit", "stand", "dig"], "faces": ["happy", "neutral"], "say": "Groups of hunter-gatherers moved around a lot."},
+   {"type": "me", "pose": "explain", "face": "neutral", "prop": "stink", "say": "When a camp got too dirty, they just left."},
+   {"type": "draw", "bg": "white", "props": ["poop"], "label": "COPROLITE", "say": "And here's the weird part. We know some of this from fossil poop."},
+   {"type": "me", "pose": "facepalm", "face": "shocked", "text": "FOSSIL. POOP.", "say": "Yes. Scientists study fossil poop. It's called a coprolite."},
+   {"type": "map", "region": "Spain", "label": "EL SALT", "say": "At a site in Spain called El Salt..."},
+   {"type": "big", "text": "50,000 YEARS OLD.", "say": "...researchers found Neanderthal poop about fifty thousand years old."},
+   {"type": "list", "title": "NEANDERTHAL MENU", "items": [["meat", "Lots of meat"], ["berries", "Some plants"], ["mushroom", "Maybe nuts"]], "say": "It showed they ate mostly meat, but also plants."},
+   {"type": "me", "pose": "shrug", "face": "unimpressed", "say": "Somebody had to check that. That person is a hero."}
+  ]},
+  {"chapter": "Wiping Before Paper", "shots": [
+   {"type": "me", "pose": "think", "face": "worried", "text": "NO PAPER?", "say": "Which brings us to the question you're already asking."},
+   {"type": "big", "text": "WHAT DID THEY WIPE WITH?", "say": "What did they wipe with?"},
+   {"type": "list", "title": "STONE AGE OPTIONS", "items": [["leaf", "Leaves"], ["leaf", "Moss"], ["rock", "Smooth stones"]], "say": "Leaves. Moss. Grass. Smooth stones."},
+   {"type": "draw", "bg": "snow", "people": [{"pose": "scared", "face": "shocked", "wear": "fur"}], "say": "In cold places, snow.", "ai": "a shocked stick figure in fur clothes in a snowy landscape"},
+   {"type": "me", "pose": "facepalm", "face": "sad", "say": "Imagine living in the Ice Age and that's your only option."},
+   {"type": "draw", "bg": "sea", "people": [{"pose": "point", "face": "happy"}], "props": ["shell"], "say": "Near the sea, people used shells.", "ai": "a happy stick figure on a beach pointing at a big sea shell"},
+   {"type": "me", "pose": "point_up", "face": "smug", "prop": "drop", "say": "And in many cultures, the answer was simply water."},
+   {"type": "compare", "left": {"title": "LEAVES", "prop": "leaf", "mark": "tick"}, "right": {"title": "POISON IVY", "prop": "leaf", "mark": "x"}, "say": "The key skill was knowing which leaves not to touch."}
+  ]},
+  {"chapter": "First Toilets: Mesopotamia", "shots": [
+   {"type": "me", "pose": "explain", "face": "neutral", "say": "Then something changed. People started living in cities."},
+   {"type": "crowd", "bg": "desert", "count": 12, "poses": ["walk", "stand", "carry"], "faces": ["neutral", "worried"], "say": "Thousands of people. In one place. Every single day."},
+   {"type": "me", "pose": "scared", "face": "sweating", "prop": "stink", "say": "You can see the problem."},
+   {"type": "map", "region": "Mesopotamia", "label": "MESOPOTAMIA", "say": "In Mesopotamia, in what is now Iraq..."},
+   {"type": "big", "text": "ABOUT 3000 BC.", "say": "...some houses had toilets by about three thousand B C."},
+   {"type": "diagram", "title": "MESOPOTAMIAN TOILET", "steps": [["toilet", "Seat or hole"], ["pipe", "Clay rings"], ["mountain", "Deep pit"]], "say": "A seat over a pit, lined with clay rings to drain the waste."},
+   {"type": "me", "pose": "point", "face": "happy", "prop": "tick", "say": "Not bad. Honestly, not bad at all."},
+   {"type": "me", "pose": "crossed", "face": "unimpressed", "text": "ONLY RICH-ISH HOMES.", "say": "But in many neighborhoods, fewer than half the houses had one."},
+   {"type": "draw", "bg": "white", "props": ["demon"], "label": "SHULAK", "say": "And the Babylonians had one more worry. A toilet demon."},
+   {"type": "me", "pose": "scared", "face": "scared", "prop": "demon", "say": "His name was Shulak, and he lived in the bathroom."},
+   {"type": "me", "pose": "shrug", "face": "confused", "say": "If you got sick after using the toilet, Shulak got the blame."},
+   {"type": "me", "pose": "point_up", "face": "smug", "text": "IT WAS GERMS.", "say": "To be fair, something invisible really was attacking them. It was germs."}
+  ]},
+  {"chapter": "Indus Valley Plumbing", "shots": [
+   {"type": "me", "pose": "explain", "face": "excited", "say": "But the real plumbing champions lived further east."},
+   {"type": "map", "region": "Indus", "label": "MOHENJO-DARO", "say": "In the Indus Valley, in today's Pakistan and India."},
+   {"type": "big", "text": "4,500 YEARS AGO.", "say": "About four and a half thousand years ago..."},
+   {"type": "crowd", "bg": "city", "count": 9, "poses": ["walk", "stand", "wave"], "faces": ["happy", "neutral"], "say": "...cities like Mohenjo-daro and Harappa were planned on a grid."},
+   {"type": "diagram", "title": "INDUS DRAINS", "steps": [["toilet", "House toilet"], ["pipe", "Covered drain"], ["river", "Out of town"]], "say": "Many homes had a toilet connected to covered drains in the street."},
+   {"type": "me", "pose": "celebrate", "face": "laugh", "text": "4,500 YEARS AGO!", "say": "Covered drains. In the Bronze Age."},
+   {"type": "compare", "left": {"title": "INDUS 2500 BC", "prop": "pipe", "mark": "tick"}, "right": {"title": "LATER EUROPE", "prop": "chamber_pot", "mark": "x"}, "say": "Some European cities wouldn't match that for thousands of years."}
+  ]},
+  {"chapter": "Roman Toilets and the Sponge", "shots": [
+   {"type": "me", "pose": "point_up", "face": "smug", "say": "Now let's talk about the Romans. They made toilets social."},
+   {"type": "crowd", "bg": "market", "count": 8, "poses": ["sit"], "faces": ["happy", "neutral", "smug", "laugh"], "say": "Public toilets had long stone benches with holes. No walls."},
+   {"type": "me", "pose": "facepalm", "face": "shocked", "text": "NO WALLS.", "say": "You sat next to strangers. And you chatted."},
+   {"type": "draw", "bg": "market", "people": [{"pose": "explain", "face": "happy", "wear": "toga"}, {"pose": "sit", "face": "laugh", "wear": "toga"}], "say": "Business, gossip, dinner plans. All on the toilet.", "ai": "two stick figures in togas chatting while sitting on a long stone bench toilet in ancient Rome"},
+   {"type": "diagram", "title": "UNDER THE BENCH", "steps": [["toilet", "Bench"], ["drop", "Running water"], ["pipe", "Sewer"]], "say": "Under the bench, water ran into the sewer."},
+   {"type": "me", "pose": "think", "face": "thinking", "prop": "sponge", "say": "And then there's the famous sponge on a stick."},
+   {"type": "draw", "bg": "white", "props": ["sponge"], "label": "TERSORIUM", "say": "It's called a tersorium. Roman writers mention it."},
+   {"type": "me", "pose": "scared", "face": "disgusted", "text": "SHARED?!", "say": "The popular story is that everyone shared the same sponge."},
+   {"type": "big", "text": "BUT HERE'S THE TWIST.", "say": "But here's the twist."},
+   {"type": "me", "pose": "explain", "face": "neutral", "prop": "question", "say": "Some historians think it was actually a toilet brush."},
+   {"type": "me", "pose": "shrug", "face": "confused", "say": "For cleaning the toilet. Not the person. We're honestly not sure."},
+   {"type": "list", "title": "ALSO USED", "items": [["pot", "Pottery pebbles"], ["rock", "Stones"], ["drop", "Water"]], "say": "We do know some Greeks and Romans wiped with pottery pebbles."},
+   {"type": "me", "pose": "facepalm", "face": "sad", "text": "OUCH.", "say": "A study in a medical journal suggested these could cause injuries."},
+   {"type": "me", "pose": "crossed", "face": "unimpressed", "say": "Which nobody needed a study to guess."}
+  ]},
+  {"chapter": "Rome Taxed Pee", "shots": [
+   {"type": "me", "pose": "point_up", "face": "smug", "prop": "pot", "say": "Rome also had another bathroom secret. Pee was valuable."},
+   {"type": "draw", "bg": "market", "people": [{"pose": "carry", "face": "sweating", "hold": "pot"}], "say": "Pots were left in the street to collect urine.", "ai": "a stick figure carrying a big clay pot through a Roman street"},
+   {"type": "diagram", "title": "WHY URINE?", "steps": [["pot", "Collect"], ["stink", "Ammonia"], ["needle", "Clean wool"]], "say": "Laundry workers used it. The ammonia helped clean wool and cloth."},
+   {"type": "me", "pose": "facepalm", "face": "disgusted", "say": "Yes. Your toga was washed in pee."},
+   {"type": "draw", "bg": "white", "people": [{"pose": "hips", "face": "smug", "wear": "rich"}], "props": ["crown", "coin"], "say": "So Emperor Vespasian did what governments do. He taxed it."},
+   {"type": "big", "text": "A TAX ON PEE.", "say": "A tax on pee."},
+   {"type": "me", "pose": "explain", "face": "smug", "prop": "coin", "say": "When his son complained, the story says he held up a coin."},
+   {"type": "me", "pose": "point_up", "face": "smug", "text": "\"MONEY DOESN'T SMELL.\"", "say": "And said: money doesn't smell."}
+  ]},
+  {"chapter": "Ancient China: Flush and Pigs", "shots": [
+   {"type": "map", "region": "China", "label": "XI'AN", "say": "Meanwhile, in China, archaeologists found something amazing."},
+   {"type": "big", "text": "2,400 YEARS OLD.", "say": "A flush toilet about two thousand four hundred years old."},
+   {"type": "draw", "bg": "white", "props": ["toilet", "pipe"], "label": "PALACE TOILET", "say": "It was in a palace near Xi'an, with a pipe to a pit outside."},
+   {"type": "me", "pose": "shrug", "face": "confused", "text": "WHO FLUSHED?", "say": "But it didn't flush itself. So who flushed it?"},
+   {"type": "draw", "bg": "white", "people": [{"pose": "carry", "face": "unimpressed", "hold": "pot"}], "say": "Servants. They poured water in after each use.", "ai": "a bored stick figure servant carrying a water jar toward a palace toilet"},
+   {"type": "me", "pose": "facepalm", "face": "sad", "say": "Worst job in the palace. Or is it?"},
+   {"type": "draw", "bg": "village", "props": ["pig", "house"], "label": "PIG TOILET", "say": "Because in Han dynasty China, some toilets sat right above a pig pen.", "ai": "an ancient Chinese house with a toilet room built directly above a pig pen with a pig"},
+   {"type": "me", "pose": "scared", "face": "shocked", "prop": "pig", "say": "You can guess what the pig ate."},
+   {"type": "diagram", "title": "THE PIG LOOP", "steps": [["toilet", "Toilet"], ["pig", "Pig"], ["meat", "Dinner"]], "say": "Then people ate the pig. Recycling, but make it disgusting."},
+   {"type": "me", "pose": "point_up", "face": "happy", "prop": "scroll", "say": "China also gave us the first written mention of toilet paper."},
+   {"type": "timeline", "title": "TOILET PAPER", "points": [["589 AD", "scroll"], ["1393 AD", "crown"], ["1857 AD", "book"]], "say": "A scholar mentioned it in the five hundreds. By thirteen ninety-three, the emperor's family had special paper."}
+  ]},
+  {"chapter": "Medieval Chamber Pots", "shots": [
+   {"type": "me", "pose": "explain", "face": "neutral", "say": "Now, medieval Europe. Things got a little messy."},
+   {"type": "me", "pose": "point", "face": "unimpressed", "prop": "chamber_pot", "say": "Most people used a chamber pot. A bucket for the bedroom."},
+   {"type": "draw", "bg": "city", "people": [{"pose": "scared", "face": "shocked"}], "props": ["chamber_pot"], "say": "And in some crowded towns, it was emptied out of the window.", "ai": "a shocked stick figure on a medieval street as someone empties a chamber pot from a window above"},
+   {"type": "me", "pose": "scared", "face": "scared", "text": "LOOK UP.", "say": "So when walking in town, you looked up."},
+   {"type": "draw", "bg": "mountains", "props": ["house"], "label": "GARDEROBE", "say": "Castles had toilets called garderobes, sticking out of the wall.", "ai": "a medieval castle with a small toilet room sticking out from the wall high above a moat"},
+   {"type": "me", "pose": "facepalm", "face": "disgusted", "say": "Everything dropped straight down into the moat."},
+   {"type": "me", "pose": "point_up", "face": "smug", "text": "MOAT = DEFENSE?", "say": "Which made attacking the castle even less fun."},
+   {"type": "draw", "bg": "night", "people": [{"pose": "dig", "face": "sweating"}, {"pose": "carry", "face": "sad", "hold": "pot"}], "say": "In England, someone had to clean the cesspits. They were called gong farmers.", "ai": "two stick figures working at night cleaning a pit with buckets by torchlight"},
+   {"type": "me", "pose": "explain", "face": "neutral", "prop": "coin", "say": "They worked at night, and they were paid well. For obvious reasons."}
+  ]},
+  {"chapter": "The First Flush and What's Next", "shots": [
+   {"type": "big", "text": "1596.", "say": "Finally, in fifteen ninety-six..."},
+   {"type": "draw", "bg": "white", "people": [{"pose": "explain", "face": "happy", "wear": "rich"}], "props": ["toilet", "crown"], "say": "...an Englishman, John Harington, built a flushing toilet for Queen Elizabeth the first."},
+   {"type": "me", "pose": "celebrate", "face": "excited", "say": "It worked! And almost nobody copied it for two hundred years."},
+   {"type": "me", "pose": "facepalm", "face": "sad", "say": "Classic."},
+   {"type": "timeline", "title": "THE LONG ROAD", "points": [["50,000 BC", "leaf"], ["3000 BC", "pipe"], ["100 AD", "sponge"], ["1596 AD", "toilet"]], "say": "From leaves, to clay pipes, to sponges, to the flush."},
+   {"type": "me", "pose": "think", "face": "thinking", "prop": "toilet", "say": "So the next time you're in that boring little room..."},
+   {"type": "me", "pose": "point_up", "face": "smug", "text": "BE GRATEFUL.", "say": "...remember. No demon. No sponge. No pig."},
+   {"type": "me", "pose": "explain", "face": "happy", "prop": "question", "say": "But wait. If they had no soap, how did ancient people stay clean?"},
+   {"type": "me", "pose": "wave", "face": "smug", "say": "That's the next video. You might not like the answer."}
+  ]}
+ ]
+}

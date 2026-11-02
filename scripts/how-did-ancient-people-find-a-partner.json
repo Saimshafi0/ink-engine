@@ -1,0 +1,1084 @@
+{
+  "title": "How Did Ancient People Find a Partner?",
+  "thumbnail_text": "NO DATING APPS?",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "thumbnails": [
+    {
+      "text": "NO DATING APPS?",
+      "face": "shocked",
+      "pose": "scared",
+      "bg": "cave",
+      "props": [
+        "heart",
+        "fire"
+      ]
+    },
+    {
+      "text": "SOLD AT AUCTION?",
+      "face": "smug",
+      "pose": "point_up",
+      "bg": "market",
+      "props": [
+        "coin",
+        "heart"
+      ]
+    },
+    {
+      "text": "DATED NEANDERTHALS?",
+      "face": "confused",
+      "pose": "shrug",
+      "bg": "jungle",
+      "props": [
+        "heart"
+      ],
+      "mark": "x"
+    }
+  ],
+  "seo": {
+    "titles": [
+      "How Did Ancient People Find a Partner?",
+      "How Did Ancient Humans Find Love?",
+      "Dating in the Ancient World Was Wild",
+      "How Did People Date Before Dating Apps?",
+      "Ancient Dating: Matchmakers, Spells and Auctions"
+    ],
+    "best_title": "How Did Ancient People Find a Partner?",
+    "description_hook": "How did ancient people find a partner before dating apps, phones or even writing? The answer involves Neanderthals, a marriage auction, and a Roman dating guide that got its author exiled.",
+    "paragraphs": [
+      "In this animated history explainer we look at love and marriage in the ancient world: how Stone Age hunter-gatherers met people outside their small group, what ancient DNA tells us, and why every human outside Africa carries a little Neanderthal.",
+      "Then we visit Babylon's legendary marriage market, Egyptian love poems, Greek apple-throwing, the first engagement rings, Ovid's cheeky Roman dating advice, Chinese matchmakers and the red thread of fate, and the medieval poet who turned Valentine's Day into a romantic holiday.",
+      "Ancient dating, ancient marriage customs and everyday life in history, explained simply with stick figures and dry humour."
+    ],
+    "sources": [
+      "Sikora et al. - Ancient genomes show social and reproductive behavior of early Upper Paleolithic foragers, Science (2017)",
+      "Green et al. - A Draft Sequence of the Neandertal Genome, Science (2010)",
+      "Hill et al. - Co-Residence Patterns in Hunter-Gatherer Societies Show Unique Human Social Structure, Science (2011)",
+      "Herodotus - The Histories, Book 1.196 (c. 430 BC)",
+      "The Code of Hammurabi (c. 1754 BC), laws on marriage and bride-price",
+      "Ovid - Ars Amatoria (c. 2 AD)",
+      "Aulus Gellius - Attic Nights, 10.10 (c. 180 AD), on the ring finger",
+      "Michael V. Fox - The Song of Songs and the Ancient Egyptian Love Songs (1985)",
+      "Geoffrey Chaucer - Parlement of Foules (c. 1382)"
+    ],
+    "tags": [
+      "ancient dating",
+      "how did ancient people find a partner",
+      "ancient marriage",
+      "history of dating",
+      "love in ancient times",
+      "neanderthal interbreeding",
+      "babylon marriage market",
+      "herodotus",
+      "ovid art of love",
+      "ancient egypt love poems",
+      "chinese matchmaker",
+      "red thread of fate",
+      "history of valentines day",
+      "how did people date before apps",
+      "ancient relationships"
+    ],
+    "hashtags": [
+      "#ancientdating",
+      "#history",
+      "#ancienthumans"
+    ],
+    "pinned_comment": "Which ancient dating method would you survive: the matchmaker, the auction, or Ovid's chariot-race moves?"
+  },
+  "shorts": [
+    {
+      "scenes": [
+        3
+      ],
+      "hook": "YOU HAVE NEANDERTHAL DNA.",
+      "title": "Your Ancestors Dated Neanderthals",
+      "description": "Almost everyone outside Africa carries a little Neanderthal DNA. Here's why.",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#neanderthal"
+      ],
+      "pinned": "Did you know this before today?"
+    },
+    {
+      "scenes": [
+        4
+      ],
+      "hook": "A MARRIAGE AUCTION?",
+      "title": "Babylon's Strange Marriage Market",
+      "description": "Herodotus said Babylon auctioned brides once a year. Historians aren't so sure.",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#babylon"
+      ],
+      "pinned": "True story or ancient gossip?"
+    },
+    {
+      "scenes": [
+        6
+      ],
+      "hook": "ROMAN DATING ADVICE.",
+      "title": "A Roman Wrote a Dating Guide",
+      "description": "Ovid's tips for the chariot races. Then the emperor exiled him.",
+      "hashtags": [
+        "#shorts",
+        "#ancientrome",
+        "#history"
+      ],
+      "pinned": "Would Ovid's tips work today?"
+    },
+    {
+      "scenes": [
+        9
+      ],
+      "hook": "THE RED THREAD.",
+      "title": "The Ancient Chinese Red Thread of Fate",
+      "description": "Matchmakers, fortune tellers and a god who ties your feet to your future partner.",
+      "hashtags": [
+        "#shorts",
+        "#ancientchina",
+        "#history"
+      ],
+      "pinned": "Do you believe in the red thread?"
+    }
+  ],
+  "scenes": [
+    {
+      "chapter": "Love Before Apps",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "hold",
+          "face": "neutral",
+          "prop": "phone",
+          "say": "Today, finding a partner takes one thumb."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "unimpressed",
+          "prop": "heart",
+          "say": "Swipe left. Swipe right. Hope for the best."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "text": "NO PHONES. NO APPS.",
+          "say": "But for almost all of human history, there were no apps."
+        },
+        {
+          "type": "draw",
+          "bg": "cave",
+          "people": [
+            {
+              "pose": "sit",
+              "face": "sad",
+              "wear": "fur"
+            }
+          ],
+          "props": [
+            "fire"
+          ],
+          "say": "No phones. No bars. Often, no strangers at all.",
+          "ai": "a lonely stick figure in fur clothes sitting by a fire in a cave"
+        },
+        {
+          "type": "big",
+          "text": "SO HOW DID THEY MEET?",
+          "say": "So how did ancient people actually find a partner?"
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "unimpressed",
+          "text": "GOOD LUCK.",
+          "say": "Good luck finding someone new when everyone you know lives in your cave."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "Here's a surprising clue. Your own DNA."
+        },
+        {
+          "type": "list",
+          "title": "COMING UP",
+          "items": [
+            [
+              "skull",
+              "Neanderthal dates"
+            ],
+            [
+              "coin",
+              "A marriage auction"
+            ],
+            [
+              "scroll",
+              "A banned dating guide"
+            ]
+          ],
+          "say": "Today: Neanderthal romance, a marriage auction, and a banned dating guide."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "happy",
+          "say": "Let's go back to the very beginning."
+        }
+      ],
+      "say": "Today, finding a partner takes one thumb. Swipe left. Swipe right. Hope for the best. But for almost all of human history, there were no apps. No phones. No bars. Often, no strangers at all. So how did ancient people actually find a partner? Good luck finding someone new when everyone you know lives in your cave. Here's a surprising clue. Your own DNA. Today: Neanderthal romance, a marriage auction, and a banned dating guide. Let's go back to the very beginning."
+    },
+    {
+      "chapter": "Stone Age Dating Pool",
+      "shots": [
+        {
+          "type": "big",
+          "text": "100,000 YEARS AGO.",
+          "say": "For most of prehistory, people lived in small groups."
+        },
+        {
+          "type": "crowd",
+          "bg": "grass",
+          "count": 8,
+          "poses": [
+            "stand",
+            "sit",
+            "dig"
+          ],
+          "faces": [
+            "neutral",
+            "happy"
+          ],
+          "say": "A band of hunter-gatherers might be just a few dozen people."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "worried",
+          "text": "TINY DATING POOL.",
+          "say": "Which creates an obvious problem. A tiny dating pool."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "unimpressed",
+          "say": "And many of those people are your cousins."
+        },
+        {
+          "type": "diagram",
+          "title": "THE SOLUTION",
+          "steps": [
+            [
+              "tent",
+              "Your band"
+            ],
+            [
+              "campfire",
+              "Big meeting"
+            ],
+            [
+              "tent",
+              "Other band"
+            ]
+          ],
+          "say": "The solution? Groups met up with other groups."
+        },
+        {
+          "type": "crowd",
+          "bg": "night",
+          "count": 12,
+          "poses": [
+            "dance",
+            "sit",
+            "stand"
+          ],
+          "faces": [
+            "happy",
+            "laugh",
+            "excited"
+          ],
+          "say": "Seasonal gatherings, trade, feasts. Think of it as a giant party."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "text": "STONE AGE FESTIVAL.",
+          "say": "Basically a festival, minus the overpriced drinks."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Studies of modern hunter-gatherers back this up."
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "people": [
+            {
+              "pose": "wave",
+              "face": "happy",
+              "wear": "fur"
+            },
+            {
+              "pose": "walk",
+              "face": "happy",
+              "wear": "fur"
+            }
+          ],
+          "props": [
+            "tent"
+          ],
+          "say": "People moved between groups, and many bandmates weren't related at all.",
+          "ai": "two stick figures in fur clothes greeting each other between two stone age camps"
+        }
+      ],
+      "say": "For most of prehistory, people lived in small groups. A band of hunter-gatherers might be just a few dozen people. Which creates an obvious problem. A tiny dating pool. And many of those people are your cousins. The solution? Groups met up with other groups. Seasonal gatherings, trade, feasts. Think of it as a giant party. Basically a festival, minus the overpriced drinks. Studies of modern hunter-gatherers back this up. People moved between groups, and many bandmates weren't related at all."
+    },
+    {
+      "chapter": "Neanderthal Romance",
+      "shots": [
+        {
+          "type": "map",
+          "region": "Siberia",
+          "label": "SUNGIR",
+          "say": "Ancient DNA tells the same story. Take Sungir, in Russia."
+        },
+        {
+          "type": "big",
+          "text": "34,000 YEARS AGO.",
+          "say": "People were buried there about thirty-four thousand years ago."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "prop": "skull",
+          "say": "Their DNA showed they weren't close relatives."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "text": "THEY AVOIDED COUSINS.",
+          "say": "So even then, people looked for partners outside the family."
+        },
+        {
+          "type": "big",
+          "text": "BUT HERE'S THE WEIRD PART.",
+          "say": "But here's the weird part."
+        },
+        {
+          "type": "draw",
+          "bg": "jungle",
+          "people": [
+            {
+              "pose": "wave",
+              "face": "happy",
+              "wear": "fur"
+            },
+            {
+              "pose": "wave",
+              "face": "confused",
+              "wear": "fur"
+            }
+          ],
+          "props": [
+            "heart"
+          ],
+          "say": "Early humans also met a completely different kind of human.",
+          "ai": "a stick figure human awkwardly waving at a stockier stick figure Neanderthal in a forest, with a small heart between them"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "text": "NEANDERTHALS.",
+          "say": "Neanderthals. And yes, they had children together."
+        },
+        {
+          "type": "big",
+          "text": "1-2% NEANDERTHAL.",
+          "say": "Most people outside Africa carry about one to two percent Neanderthal DNA."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "So somewhere in your family tree, someone made a bold choice."
+        }
+      ],
+      "say": "Ancient DNA tells the same story. Take Sungir, in Russia. People were buried there about thirty-four thousand years ago. Their DNA showed they weren't close relatives. So even then, people looked for partners outside the family. But here's the weird part. Early humans also met a completely different kind of human. Neanderthals. And yes, they had children together. Most people outside Africa carry about one to two percent Neanderthal DNA. So somewhere in your family tree, someone made a bold choice."
+    },
+    {
+      "chapter": "Babylon's Marriage Market",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Then came farming, villages, and cities."
+        },
+        {
+          "type": "me",
+          "pose": "point",
+          "face": "unimpressed",
+          "prop": "coin",
+          "say": "And marriage became serious business. Literally."
+        },
+        {
+          "type": "map",
+          "region": "Babylon",
+          "label": "BABYLON",
+          "say": "In Babylon, the Code of Hammurabi had rules about marriage."
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "props": [
+            "scroll",
+            "coin"
+          ],
+          "label": "BRIDE-PRICE",
+          "say": "A groom's family often paid a bride-price to the bride's family."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "prop": "scroll",
+          "say": "Marriages came with contracts. Written on clay."
+        },
+        {
+          "type": "draw",
+          "bg": "market",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "smug",
+              "wear": "rich"
+            }
+          ],
+          "props": [
+            "coin",
+            "heart"
+          ],
+          "label": "MARRIAGE AUCTION",
+          "say": "Then there's the strangest story of all. A marriage auction.",
+          "ai": "a crowded ancient Babylonian market square with an auctioneer stick figure on a platform"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "The Greek historian Herodotus said it happened once a year."
+        },
+        {
+          "type": "diagram",
+          "title": "HERODOTUS' VERSION",
+          "steps": [
+            [
+              "coin",
+              "Rich men bid"
+            ],
+            [
+              "bag",
+              "Money collected"
+            ],
+            [
+              "heart",
+              "Dowry for others"
+            ]
+          ],
+          "say": "Rich men bid on brides. The money paid dowries for the women nobody bid on."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "confused",
+          "text": "TRUE? MAYBE NOT.",
+          "say": "But most historians doubt it happened like that, if at all."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "smug",
+          "say": "Herodotus loved a good story. Fact-checking, less so."
+        }
+      ],
+      "say": "Then came farming, villages, and cities. And marriage became serious business. Literally. In Babylon, the Code of Hammurabi had rules about marriage. A groom's family often paid a bride-price to the bride's family. Marriages came with contracts. Written on clay. Then there's the strangest story of all. A marriage auction. The Greek historian Herodotus said it happened once a year. Rich men bid on brides. The money paid dowries for the women nobody bid on. But most historians doubt it happened like that, if at all. Herodotus loved a good story. Fact-checking, less so."
+    },
+    {
+      "chapter": "Egyptian Love Poems",
+      "shots": [
+        {
+          "type": "map",
+          "region": "Egypt",
+          "label": "EGYPT",
+          "say": "Meanwhile, in Egypt, people were writing love poems."
+        },
+        {
+          "type": "big",
+          "text": "3,300 YEARS AGO.",
+          "say": "Love songs on papyrus survive from over three thousand years ago."
+        },
+        {
+          "type": "me",
+          "pose": "celebrate",
+          "face": "excited",
+          "prop": "heart",
+          "say": "And honestly? Some of them are really sweet."
+        },
+        {
+          "type": "draw",
+          "bg": "river",
+          "people": [
+            {
+              "pose": "sit",
+              "face": "happy",
+              "wear": "robe"
+            },
+            {
+              "pose": "sit",
+              "face": "happy",
+              "wear": "robe"
+            }
+          ],
+          "props": [
+            "heart"
+          ],
+          "say": "Lovers waiting by the river. Hearts racing. Sleepless nights.",
+          "ai": "two stick figures in white robes sitting by the Nile at sunset with a small heart above them"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "confused",
+          "text": "\"MY SISTER.\"",
+          "say": "One confusing detail. Lovers called each other brother and sister."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "prop": "tick",
+          "say": "Relax. It was just a pet name. Like calling someone babe."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "carry",
+              "face": "happy",
+              "hold": "pot"
+            }
+          ],
+          "props": [
+            "house"
+          ],
+          "say": "And marriage? Often it just meant moving into the same house.",
+          "ai": "a happy stick figure carrying belongings into a small mud brick house in ancient Egypt"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "No big ceremony required. Very low-budget wedding."
+        }
+      ],
+      "say": "Meanwhile, in Egypt, people were writing love poems. Love songs on papyrus survive from over three thousand years ago. And honestly? Some of them are really sweet. Lovers waiting by the river. Hearts racing. Sleepless nights. One confusing detail. Lovers called each other brother and sister. Relax. It was just a pet name. Like calling someone babe. And marriage? Often it just meant moving into the same house. No big ceremony required. Very low-budget wedding."
+    },
+    {
+      "chapter": "Ovid's Roman Dating Guide",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "happy",
+          "say": "Now, Rome. Rich Roman marriages were mostly arranged by families."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sad",
+          "text": "DAD DECIDES.",
+          "say": "Love was nice, but money and family alliances came first."
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "smug",
+              "wear": "toga"
+            }
+          ],
+          "props": [
+            "scroll"
+          ],
+          "label": "OVID",
+          "say": "But around 2 AD, a poet named Ovid wrote a dating guide.",
+          "ai": "a smug stick figure in a toga holding a scroll"
+        },
+        {
+          "type": "list",
+          "title": "OVID'S TIPS",
+          "items": [
+            [
+              "horse",
+              "Go to the races"
+            ],
+            [
+              "person",
+              "Sit very close"
+            ],
+            [
+              "cloud",
+              "Brush dust off her"
+            ]
+          ],
+          "say": "His advice? Go to the chariot races. Sit close. Make small talk."
+        },
+        {
+          "type": "me",
+          "pose": "point",
+          "face": "smug",
+          "say": "If dust lands on her dress, brush it off. Even if there's no dust."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "disgusted",
+          "text": "SMOOTH.",
+          "say": "Two thousand years later, people still try this move."
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "people": [
+            {
+              "pose": "crossed",
+              "face": "angry",
+              "wear": "rich"
+            }
+          ],
+          "props": [
+            "crown"
+          ],
+          "label": "AUGUSTUS",
+          "say": "Emperor Augustus was not a fan. He was promoting family values.",
+          "ai": "an angry stick figure emperor with a crown and crossed arms"
+        },
+        {
+          "type": "map",
+          "region": "Europe",
+          "label": "BLACK SEA",
+          "say": "In 8 AD, Ovid was exiled to the edge of the Black Sea."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "confused",
+          "text": "WHY EXACTLY?",
+          "say": "He blamed a poem and a mistake. Historians still argue about it."
+        }
+      ],
+      "say": "Now, Rome. Rich Roman marriages were mostly arranged by families. Love was nice, but money and family alliances came first. But around 2 AD, a poet named Ovid wrote a dating guide. His advice? Go to the chariot races. Sit close. Make small talk. If dust lands on her dress, brush it off. Even if there's no dust. Two thousand years later, people still try this move. Emperor Augustus was not a fan. He was promoting family values. In 8 AD, Ovid was exiled to the edge of the Black Sea. He blamed a poem and a mistake. Historians still argue about it."
+    },
+    {
+      "chapter": "Apples and Rings",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "prop": "apple",
+          "say": "Before Rome, the Greeks had a very strange flirting move."
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "people": [
+            {
+              "pose": "throw",
+              "face": "happy",
+              "wear": "toga"
+            },
+            {
+              "pose": "scared",
+              "face": "shocked",
+              "wear": "robe"
+            }
+          ],
+          "props": [
+            "apple"
+          ],
+          "say": "They threw an apple at the person they liked.",
+          "ai": "a stick figure in a toga tossing an apple to a surprised stick figure in a Greek olive grove"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "text": "THE APPLE MEANS LOVE.",
+          "say": "Catching it meant yes. Getting hit in the face meant, well, ouch."
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "props": [
+            "apple",
+            "heart"
+          ],
+          "label": "LOVE APPLE",
+          "say": "There's even an old Greek poem built around this apple toss."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "The Romans gave us something more lasting. The engagement ring."
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "people": [
+            {
+              "pose": "give",
+              "face": "happy",
+              "wear": "toga"
+            }
+          ],
+          "props": [
+            "coin"
+          ],
+          "label": "IRON RING",
+          "say": "Early Roman betrothal rings were often plain iron.",
+          "ai": "a happy stick figure in a toga offering a small plain iron ring"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "prop": "heart",
+          "say": "Worn on the fourth finger of the left hand."
+        },
+        {
+          "type": "diagram",
+          "title": "THE ROMAN THEORY",
+          "steps": [
+            [
+              "person",
+              "Ring finger"
+            ],
+            [
+              "arrow",
+              "Special vein"
+            ],
+            [
+              "heart",
+              "Straight to heart"
+            ]
+          ],
+          "say": "A Roman writer said a nerve ran from that finger straight to the heart."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "unimpressed",
+          "text": "ANATOMY: WRONG.",
+          "say": "Anatomy says no. But the tradition stuck anyway."
+        }
+      ],
+      "say": "Before Rome, the Greeks had a very strange flirting move. They threw an apple at the person they liked. Catching it meant yes. Getting hit in the face meant, well, ouch. There's even an old Greek poem built around this apple toss. The Romans gave us something more lasting. The engagement ring. Early Roman betrothal rings were often plain iron. Worn on the fourth finger of the left hand. A Roman writer said a nerve ran from that finger straight to the heart. Anatomy says no. But the tradition stuck anyway."
+    },
+    {
+      "chapter": "Love Spells and Potions",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "prop": "bottle",
+          "say": "And when charm didn't work, some people tried magic."
+        },
+        {
+          "type": "map",
+          "region": "Greece",
+          "label": "LOVE SPELLS",
+          "say": "Greek and Egyptian spell books include love charms."
+        },
+        {
+          "type": "draw",
+          "bg": "night",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "sweating",
+              "hold": "bottle"
+            }
+          ],
+          "props": [
+            "fire",
+            "moon"
+          ],
+          "say": "Potions, chants, little figures, and spells written on lead.",
+          "ai": "a nervous stick figure holding a potion bottle by a fire under the moon"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "worried",
+          "say": "Some of these spells were honestly a bit creepy."
+        },
+        {
+          "type": "compare",
+          "left": {
+            "title": "LOVE SPELL",
+            "prop": "bottle",
+            "mark": "x"
+          },
+          "right": {
+            "title": "ASKING NICELY",
+            "prop": "speech",
+            "mark": "tick"
+          },
+          "say": "Spoiler: there's no evidence any of them worked."
+        }
+      ],
+      "say": "And when charm didn't work, some people tried magic. Greek and Egyptian spell books include love charms. Potions, chants, little figures, and spells written on lead. Some of these spells were honestly a bit creepy. Spoiler: there's no evidence any of them worked."
+    },
+    {
+      "chapter": "Matchmakers and Red Thread",
+      "shots": [
+        {
+          "type": "map",
+          "region": "China",
+          "label": "CHINA",
+          "say": "In ancient China, you usually didn't pick your partner at all."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "smug",
+              "wear": "robe"
+            },
+            {
+              "pose": "hold",
+              "face": "worried"
+            }
+          ],
+          "props": [
+            "scroll"
+          ],
+          "say": "A matchmaker did. Families hired one to find a good match.",
+          "ai": "a smug stick figure matchmaker in a robe talking to a nervous stick figure family in an ancient Chinese village"
+        },
+        {
+          "type": "diagram",
+          "title": "THE MATCH",
+          "steps": [
+            [
+              "person",
+              "Matchmaker"
+            ],
+            [
+              "star",
+              "Check birth dates"
+            ],
+            [
+              "coin",
+              "Gifts exchanged"
+            ]
+          ],
+          "say": "Birth dates were checked for luck. Gifts went back and forth."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "unimpressed",
+          "text": "MEET ON WEDDING DAY.",
+          "say": "Sometimes the couple barely met before the wedding."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "happy",
+          "prop": "heart",
+          "say": "But there's also a lovely legend. The red thread of fate."
+        },
+        {
+          "type": "draw",
+          "bg": "night",
+          "people": [
+            {
+              "pose": "sit",
+              "face": "smug",
+              "wear": "robe"
+            }
+          ],
+          "props": [
+            "moon",
+            "heart"
+          ],
+          "label": "OLD MAN UNDER THE MOON",
+          "say": "The old man under the moon ties a red thread between future partners.",
+          "ai": "an old stick figure sitting under a big moon holding a long red thread"
+        },
+        {
+          "type": "me",
+          "pose": "celebrate",
+          "face": "happy",
+          "say": "However far apart, the thread will bring them together."
+        }
+      ],
+      "say": "In ancient China, you usually didn't pick your partner at all. A matchmaker did. Families hired one to find a good match. Birth dates were checked for luck. Gifts went back and forth. Sometimes the couple barely met before the wedding. But there's also a lovely legend. The red thread of fate. The old man under the moon ties a red thread between future partners. However far apart, the thread will bring them together."
+    },
+    {
+      "chapter": "Medieval Valentines",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "In medieval Europe, families and the church shaped most marriages."
+        },
+        {
+          "type": "crowd",
+          "bg": "village",
+          "count": 9,
+          "poses": [
+            "dance",
+            "stand",
+            "wave"
+          ],
+          "faces": [
+            "happy",
+            "laugh"
+          ],
+          "say": "But young people still met at markets, church, and village festivals."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "prop": "bird",
+          "say": "And one poet changed romance forever."
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "happy",
+              "wear": "robe"
+            }
+          ],
+          "props": [
+            "bird",
+            "heart"
+          ],
+          "label": "CHAUCER",
+          "say": "Around 1382, Geoffrey Chaucer wrote about birds choosing mates on Valentine's Day.",
+          "ai": "a stick figure poet in a robe writing outdoors while birds pair up around him"
+        },
+        {
+          "type": "big",
+          "text": "FIRST ROMANTIC VALENTINE.",
+          "say": "It's the oldest known link between Valentine's Day and romance."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "unimpressed",
+          "text": "BLAME CHAUCER.",
+          "say": "So if you hate Valentine's Day, you know who to blame."
+        }
+      ],
+      "say": "In medieval Europe, families and the church shaped most marriages. But young people still met at markets, church, and village festivals. And one poet changed romance forever. Around 1382, Geoffrey Chaucer wrote about birds choosing mates on Valentine's Day. It's the oldest known link between Valentine's Day and romance. So if you hate Valentine's Day, you know who to blame."
+    },
+    {
+      "chapter": "Then vs Now",
+      "shots": [
+        {
+          "type": "timeline",
+          "title": "HOW WE MET",
+          "points": [
+            [
+              "100,000 BC",
+              "campfire"
+            ],
+            [
+              "1754 BC",
+              "scroll"
+            ],
+            [
+              "2 AD",
+              "horse"
+            ],
+            [
+              "2026 AD",
+              "phone"
+            ]
+          ],
+          "say": "From festivals, to contracts, to chariot races, to phones."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Honestly? The basics haven't changed much."
+        },
+        {
+          "type": "list",
+          "title": "STILL TRUE",
+          "items": [
+            [
+              "campfire",
+              "Meet new people"
+            ],
+            [
+              "speech",
+              "Talk to them"
+            ],
+            [
+              "heart",
+              "Hope it works"
+            ]
+          ],
+          "say": "Meet new people. Try to be charming. Hope it works."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "prop": "heart",
+          "say": "But finding a partner was only half the story."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "confused",
+          "text": "AND IF IT FAILED?",
+          "say": "What happened when an ancient marriage went wrong?"
+        },
+        {
+          "type": "me",
+          "pose": "wave",
+          "face": "smug",
+          "say": "Ancient divorce is next. The Egyptians were surprisingly modern."
+        }
+      ],
+      "say": "From festivals, to contracts, to chariot races, to phones. Honestly? The basics haven't changed much. Meet new people. Try to be charming. Hope it works. But finding a partner was only half the story. What happened when an ancient marriage went wrong? Ancient divorce is next. The Egyptians were surprisingly modern."
+    }
+  ]
+}
