@@ -1,0 +1,2244 @@
+{
+ "title": "How Did Ancient Humans Discover Alcohol?",
+ "thumbnail_text": "DRUNK APES?",
+ "voice": "am_michael",
+ "speed": 0.95,
+ "thumbnails": [
+  {
+   "text": "DRUNK APES?",
+   "face": "laugh",
+   "pose": "dance",
+   "bg": "jungle",
+   "props": [
+    "fruit",
+    "monkey"
+   ]
+  },
+  {
+   "text": "PAID IN BEER?",
+   "face": "shocked",
+   "pose": "scared",
+   "bg": "desert",
+   "props": [
+    "beer",
+    "pyramid"
+   ]
+  },
+  {
+   "text": "10 MILLION YEARS?",
+   "face": "smug",
+   "pose": "point_up",
+   "bg": "cave",
+   "props": [
+    "beer"
+   ]
+  }
+ ],
+ "seo": {
+  "titles": [
+   "How Did Ancient Humans Discover Alcohol?",
+   "The 10 Million Year History of Alcohol",
+   "Who Made the First Beer in History?",
+   "Why Do Humans Drink Alcohol? It Started With Apes",
+   "Ancient Alcohol: Drunk Apes, Beer Pay and Wine"
+  ],
+  "best_title": "How Did Ancient Humans Discover Alcohol?",
+  "description_hook": "How did ancient humans discover alcohol? The story starts 10 million years before the first human, with an ape and a rotten fruit, and ends with workers paid in beer and a goddess saved by a beer prank.",
+  "paragraphs": [
+   "In this animated history of alcohol we follow the drunken monkey hypothesis, the ancient gene change that made our ancestors 40 times better at processing alcohol, and wild chimpanzees in Guinea that drink fermented palm sap.",
+   "Then we visit the oldest known beer at Raqefet Cave, the beer-before-bread debate and Gobekli Tepe, a 9,000 year old drink from Jiahu in China, the first wine in Georgia and Armenia, honey mead, Sumerian beer straws, Hammurabi's tavern laws, and Egyptian pyramid workers paid in beer.",
+   "We finish with Nubians whose bones show traces of an antibiotic from their beer, Greek watered-down wine, Roman posca, Aztec pulque and Andean chicha, medieval monks and official ale tasters, and the popular myth that beer was drunk because water was unsafe."
+  ],
+  "sources": [
+   "Carrigan et al. - Hominids adapted to metabolize ethanol long before human-directed fermentation, PNAS (2015)",
+   "Robert Dudley - The Drunken Monkey: Why We Drink and Abuse Alcohol (2014)",
+   "Hockings et al. - Tools to tipple: ethanol ingestion by wild chimpanzees, Royal Society Open Science (2015)",
+   "Liu et al. - Fermented beverage and food storage in 13,000 y-old stone mortars at Raqefet Cave, Israel, J. Archaeological Science: Reports (2018)",
+   "Braidwood et al. - Did Man Once Live by Beer Alone? American Anthropologist (1953)",
+   "McGovern et al. - Fermented beverages of pre- and proto-historic China, PNAS (2004)",
+   "McGovern et al. - Early Neolithic wine of Georgia in the South Caucasus, PNAS (2017)",
+   "Barnard et al. - Chemical evidence for wine production around 4000 BCE in the Late Chalcolithic Near Eastern highlands, J. Archaeological Science (2011)",
+   "Patrick McGovern - Uncorking the Past (2009)",
+   "Nelson et al. - Brief communication: Mass spectroscopic characterization of tetracycline in the skeletal remains of an ancient population from Sudanese Nubia 350-550 CE, Am. J. Physical Anthropology (2010)"
+  ],
+  "tags": [
+   "history of alcohol",
+   "how did ancient humans discover alcohol",
+   "oldest beer",
+   "first beer in history",
+   "drunken monkey hypothesis",
+   "ancient beer",
+   "ancient wine",
+   "raqefet cave",
+   "gobekli tepe",
+   "jiahu",
+   "sumerian beer",
+   "ancient egypt beer",
+   "pyramid workers beer",
+   "sekhmet myth",
+   "pulque",
+   "chicha",
+   "greek symposium",
+   "mead history",
+   "nubian antibiotic beer",
+   "medieval ale"
+  ],
+  "hashtags": [
+   "#historyofalcohol",
+   "#history",
+   "#ancienthumans"
+  ],
+  "pinned_comment": "Lumpy cave beer, Greek watered wine, or chewed-corn chicha: which ancient drink would you actually try?"
+ },
+ "shorts": [
+  {
+   "scenes": [
+    4
+   ],
+   "hook": "CHIMPS GET DRUNK?",
+   "title": "Wild Chimps Drink Palm Wine",
+   "description": "Scientists watched wild chimpanzees drinking fermented palm sap with leaf sponges.",
+   "hashtags": [
+    "#shorts",
+    "#chimpanzee",
+    "#history"
+   ],
+   "pinned": "Did you know apes do this?"
+  },
+  {
+   "scenes": [
+    12
+   ],
+   "hook": "PAID IN BEER.",
+   "title": "Pyramid Builders Were Paid in Beer",
+   "description": "Around 4 liters a day, by some estimates. Here's why that worked.",
+   "hashtags": [
+    "#shorts",
+    "#ancientegypt",
+    "#history"
+   ],
+   "pinned": "Would you take a job paid in beer?"
+  },
+  {
+   "scenes": [
+    13
+   ],
+   "hook": "SAVED BY BEER?",
+   "title": "The Egyptian Goddess Stopped by Beer",
+   "description": "Ra's plan to stop Sekhmet: thousands of jars of red beer.",
+   "hashtags": [
+    "#shorts",
+    "#egyptianmythology",
+    "#history"
+   ],
+   "pinned": "Best myth ending ever?"
+  },
+  {
+   "scenes": [
+    17
+   ],
+   "hook": "CHEWED CORN BEER?",
+   "title": "Ancient Beer Made With Spit",
+   "description": "In the Andes, chicha started with chewed corn. Gross, but clever chemistry.",
+   "hashtags": [
+    "#shorts",
+    "#inca",
+    "#history"
+   ],
+   "pinned": "Would you try chicha?"
+  },
+  {
+   "scenes": [
+    14
+   ],
+   "hook": "ANTIBIOTIC BEER?",
+   "title": "Ancient Nubians Drank Antibiotic Beer",
+   "description": "Their bones glowed with tetracycline. The likely source: beer.",
+   "hashtags": [
+    "#shorts",
+    "#history",
+    "#science"
+   ],
+   "pinned": "Did you know this?"
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "Older Than Humans",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "hold",
+     "face": "neutral",
+     "say": "Right now, millions of people around the world are holding a drink.",
+     "prop": "beer"
+    },
+    {
+     "type": "crowd",
+     "bg": "city",
+     "count": 9,
+     "poses": [
+      "dance",
+      "stand",
+      "wave"
+     ],
+     "faces": [
+      "happy",
+      "laugh",
+      "sleepy"
+     ],
+     "say": "Some of them are a little bit drunk. Some are just getting started.",
+     "hold": "beer"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "Maybe you had one last weekend. Beer, wine, whatever.",
+     "prop": "wine"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "unimpressed",
+     "say": "You didn't think about it. You drank it, and you moved on."
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "But that drink is one of the oldest habits our species has.",
+     "text": "VERY OLD HABIT."
+    },
+    {
+     "type": "list",
+     "title": "OLDER THAN...",
+     "items": [
+      [
+       "scroll",
+       "Writing"
+      ],
+      [
+       "wheat",
+       "Farming"
+      ],
+      [
+       "house",
+       "Cities"
+      ]
+     ],
+     "say": "It's older than writing. Older than cities. Probably older than farming."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "shocked",
+     "say": "Actually, it's older than human beings themselves.",
+     "text": "OLDER THAN HUMANS?"
+    },
+    {
+     "type": "big",
+     "text": "10,000,000 YEARS AGO.",
+     "say": "Because this story starts about ten million years ago."
+    },
+    {
+     "type": "draw",
+     "bg": "jungle",
+     "say": "With an ape, a hot afternoon, and a piece of rotten fruit.",
+     "people": [
+      {
+       "pose": "sit",
+       "face": "happy",
+       "wear": "fur"
+      }
+     ],
+     "props": [
+      "fruit"
+     ],
+     "ai": "an ape-like stick figure sitting in a jungle holding an overripe fruit"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "happy",
+     "say": "So, when did our ancestors start drinking? And why did they keep going?"
+    },
+    {
+     "type": "list",
+     "title": "TODAY",
+     "items": [
+      [
+       "monkey",
+       "Drunk apes"
+      ],
+      [
+       "pot",
+       "The first brewers"
+      ],
+      [
+       "coin",
+       "Paid in beer"
+      ],
+      [
+       "demon",
+       "A drunk goddess"
+      ]
+     ],
+     "say": "Today: drunk apes, the first brewers, workers paid in beer, and a very drunk goddess."
+    },
+    {
+     "type": "me",
+     "pose": "wave",
+     "face": "smug",
+     "say": "Grab a drink if you like. Let's go.",
+     "prop": "beer_mug"
+    }
+   ]
+  },
+  {
+   "chapter": "The Rotten Fruit",
+   "shots": [
+    {
+     "type": "draw",
+     "bg": "jungle",
+     "say": "Picture a forest millions of years ago. Fruit everywhere.",
+     "props": [
+      "tree",
+      "apple",
+      "berries"
+     ],
+     "ai": "a lush prehistoric forest full of fruit trees"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "When fruit gets very ripe, it starts to rot.",
+     "prop": "apple"
+    },
+    {
+     "type": "diagram",
+     "title": "HOW FRUIT MAKES ALCOHOL",
+     "steps": [
+      [
+       "apple",
+       "Sugar"
+      ],
+      [
+       "mushroom",
+       "Yeast"
+      ],
+      [
+       "beer",
+       "Alcohol"
+      ]
+     ],
+     "say": "Tiny yeasts eat the sugar inside, and turn it into alcohol."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "That's fermentation. It happens all by itself.",
+     "text": "NO HUMANS NEEDED."
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "Nobody invented alcohol. Nature was making it long before us.",
+     "prop": "fruit"
+    },
+    {
+     "type": "draw",
+     "bg": "jungle",
+     "say": "And animals found it. Birds, bats, insects, monkeys.",
+     "people": [
+      {
+       "pose": "sit",
+       "face": "happy"
+      }
+     ],
+     "props": [
+      "bird",
+      "monkey"
+     ],
+     "ai": "birds and a monkey eating fallen fermented fruit under a tree"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "confused",
+     "say": "Why would an animal eat rotting fruit?"
+    },
+    {
+     "type": "list",
+     "title": "BECAUSE",
+     "items": [
+      [
+       "apple",
+       "Sweet"
+      ],
+      [
+       "stink",
+       "Smells strong"
+      ],
+      [
+       "tick",
+       "Easy to find"
+      ]
+     ],
+     "say": "Because it's sweet, full of energy, and the smell carries a long way."
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "A biologist called Robert Dudley came up with a fun idea about this.",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "smug"
+      }
+     ],
+     "props": [
+      "book"
+     ],
+     "label": "ROBERT DUDLEY"
+    },
+    {
+     "type": "big",
+     "text": "THE DRUNKEN MONKEY.",
+     "say": "He called it the drunken monkey hypothesis."
+    },
+    {
+     "type": "diagram",
+     "title": "THE IDEA",
+     "steps": [
+      [
+       "stink",
+       "Smell alcohol"
+      ],
+      [
+       "apple",
+       "Find fruit"
+      ],
+      [
+       "heart",
+       "Survive"
+      ]
+     ],
+     "say": "Apes that followed the smell of alcohol found more ripe fruit, and survived better."
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "unimpressed",
+     "say": "Other scientists aren't fully convinced. But it's a great theory.",
+     "text": "STILL DEBATED."
+    }
+   ]
+  },
+  {
+   "chapter": "The 10 Million Year Mutation",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Here's the part with real evidence. It's in our DNA."
+    },
+    {
+     "type": "diagram",
+     "title": "YOUR BODY",
+     "steps": [
+      [
+       "beer",
+       "Alcohol"
+      ],
+      [
+       "person",
+       "Enzyme"
+      ],
+      [
+       "drop",
+       "Broken down"
+      ]
+     ],
+     "say": "Your body uses an enzyme to break down alcohol."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "In 2015, scientists rebuilt this enzyme from our ancient ancestors.",
+     "prop": "scroll"
+    },
+    {
+     "type": "big",
+     "text": "ABOUT 10 MILLION YEARS AGO.",
+     "say": "They found that about ten million years ago, it changed."
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "excited",
+     "say": "After the change, our ancestors got around forty times better at handling alcohol.",
+     "text": "40X BETTER."
+    },
+    {
+     "type": "draw",
+     "bg": "grass",
+     "say": "That's around the time our ancestors spent more time on the ground.",
+     "people": [
+      {
+       "pose": "walk",
+       "face": "happy",
+       "wear": "fur"
+      }
+     ],
+     "props": [
+      "apple",
+      "tree"
+     ],
+     "ai": "an early ape ancestor walking on the forest floor picking up fallen fruit"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "And fruit on the ground is the ripest, most fermented fruit of all.",
+     "prop": "apple"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "So our ancestors evolved to handle a drink before they evolved to stand up straight.",
+     "text": "PRIORITIES."
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "OLD ENZYME",
+      "prop": "beer",
+      "mark": "x"
+     },
+     "right": {
+      "title": "NEW ENZYME",
+      "prop": "beer",
+      "mark": "tick"
+     },
+     "say": "Without that change, even a little alcohol would have hit us much harder."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "So when someone says they can handle their drinks, thank a ten million year old ape."
+    }
+   ]
+  },
+  {
+   "chapter": "Drunk Chimpanzees",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "shocked",
+     "say": "And our closest living relatives? Some of them still do this.",
+     "prop": "monkey"
+    },
+    {
+     "type": "map",
+     "region": "Guinea",
+     "label": "GUINEA",
+     "say": "In Guinea, in West Africa, scientists watched wild chimpanzees for years."
+    },
+    {
+     "type": "draw",
+     "bg": "jungle",
+     "say": "Local people tap palm trees and collect the sweet sap in containers.",
+     "props": [
+      "palm",
+      "jar"
+     ],
+     "ai": "a palm tree with a container tied to it collecting sap in a West African forest"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "The sap ferments quickly into a weak palm wine.",
+     "prop": "drop"
+    },
+    {
+     "type": "draw",
+     "bg": "jungle",
+     "say": "The chimps climbed up, chewed leaves into little sponges, and dipped them in.",
+     "people": [
+      {
+       "pose": "carry",
+       "face": "happy",
+       "wear": "fur",
+       "hold": "leaf"
+      }
+     ],
+     "props": [
+      "palm"
+     ],
+     "ai": "a chimpanzee in a palm tree dipping a leaf sponge into a container of palm wine"
+    },
+    {
+     "type": "big",
+     "text": "ABOUT 3% ALCOHOL.",
+     "say": "The drink was about three percent alcohol, like a light beer."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "shocked",
+     "say": "Some chimps drank a lot. A few showed signs of being drunk.",
+     "text": "DRUNK CHIMPS."
+    },
+    {
+     "type": "crowd",
+     "bg": "jungle",
+     "count": 6,
+     "poses": [
+      "lie",
+      "sit",
+      "dance"
+     ],
+     "faces": [
+      "sleepy",
+      "laugh",
+      "confused"
+     ],
+     "say": "Some got sleepy. Some got restless."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "unimpressed",
+     "say": "So the habit is old. Very old. But apes didn't make their own drinks."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "For that, we need humans. And a lot of grain.",
+     "prop": "wheat"
+    }
+   ]
+  },
+  {
+   "chapter": "The First Brewers",
+   "shots": [
+    {
+     "type": "big",
+     "text": "13,000 YEARS AGO.",
+     "say": "Fast forward to about thirteen thousand years ago."
+    },
+    {
+     "type": "map",
+     "region": "Israel",
+     "label": "RAQEFET CAVE",
+     "say": "In a cave in what is now Israel, called Raqefet Cave."
+    },
+    {
+     "type": "draw",
+     "bg": "cave",
+     "say": "A group called the Natufians used it to bury their dead.",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "sad",
+       "wear": "fur"
+      },
+      {
+       "pose": "stand",
+       "face": "sad",
+       "wear": "fur"
+      }
+     ],
+     "props": [
+      "fire"
+     ],
+     "ai": "stick figures in fur clothes gathered quietly in a cave with a small fire"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "They were hunter-gatherers. Not yet farmers.",
+     "text": "NOT FARMERS YET."
+    },
+    {
+     "type": "draw",
+     "bg": "cave",
+     "say": "In the cave floor, archaeologists found deep holes carved into the rock.",
+     "props": [
+      "rock",
+      "pot"
+     ],
+     "label": "STONE MORTARS"
+    },
+    {
+     "type": "diagram",
+     "title": "THE RECIPE?",
+     "steps": [
+      [
+       "wheat",
+       "Wet grain"
+      ],
+      [
+       "fire",
+       "Heat"
+      ],
+      [
+       "pot",
+       "Ferment"
+      ]
+     ],
+     "say": "Inside were traces of wheat and barley that had been soaked, heated, and fermented."
+    },
+    {
+     "type": "big",
+     "text": "THAT'S BEER.",
+     "say": "That's beer. Probably the oldest beer we've found."
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "Not beer like today. More like a thick, sour porridge.",
+     "prop": "pot"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "disgusted",
+     "say": "Lumpy, warm, and full of bits. Delicious.",
+     "text": "LUMPY BEER."
+    },
+    {
+     "type": "crowd",
+     "bg": "cave",
+     "count": 8,
+     "poses": [
+      "sit",
+      "stand"
+     ],
+     "faces": [
+      "sad",
+      "neutral"
+     ],
+     "say": "They may have drunk it at funeral feasts, to honour the dead.",
+     "hold": "pot"
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "unimpressed",
+     "say": "To be fair, some researchers question whether it really was beer.",
+     "text": "SOME DISAGREE."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "But it's the oldest strong clue we have so far."
+    }
+   ]
+  },
+  {
+   "chapter": "Beer Before Bread?",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "Which leads to one of the biggest arguments in archaeology."
+    },
+    {
+     "type": "big",
+     "text": "BUT HERE'S THE WEIRD PART.",
+     "say": "But here's the weird part."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Why did humans start farming in the first place?",
+     "prop": "wheat"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "confused",
+     "say": "Farming is hard. Hunting and gathering is often easier.",
+     "text": "WHY FARM?"
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "GATHERING",
+      "prop": "berries",
+      "mark": "tick"
+     },
+     "right": {
+      "title": "FARMING",
+      "prop": "wheat",
+      "mark": "x"
+     },
+     "say": "Early farmers worked longer and were often less healthy than hunter-gatherers."
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "In 1953, scientists held a debate with an amazing title.",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "smug",
+       "wear": "robe"
+      },
+      {
+       "pose": "crossed",
+       "face": "angry",
+       "wear": "robe"
+      }
+     ],
+     "props": [
+      "book"
+     ]
+    },
+    {
+     "type": "big",
+     "text": "DID MAN ONCE LIVE BY BEER ALONE?",
+     "say": "Did man once live by beer alone?"
+    },
+    {
+     "type": "diagram",
+     "title": "THE BEER THEORY",
+     "steps": [
+      [
+       "wheat",
+       "Grow grain"
+      ],
+      [
+       "beer",
+       "Make beer"
+      ],
+      [
+       "crowd",
+       "Throw parties"
+      ]
+     ],
+     "say": "The idea: maybe people first grew grain to make beer, not bread."
+    },
+    {
+     "type": "map",
+     "region": "Turkey",
+     "label": "GOBEKLI TEPE",
+     "say": "At Gobekli Tepe in Turkey, people built huge stone monuments over eleven thousand years ago."
+    },
+    {
+     "type": "draw",
+     "bg": "desert",
+     "say": "Archaeologists found giant stone tubs there. Some think they held beer for feasts.",
+     "props": [
+      "pot",
+      "rock"
+     ],
+     "label": "STONE TUBS",
+     "ai": "huge ancient stone vats at Gobekli Tepe with carved stone pillars"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "So civilization might have started with a party. And a lot of beer.",
+     "text": "CIVILIZATION = PARTY?"
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "unimpressed",
+     "say": "Other experts say bread came first, and beer was a side project.",
+     "prop": "bread"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "Honestly, we don't know yet. But it's the best argument in history."
+    }
+   ]
+  },
+  {
+   "chapter": "China's Party Drink",
+   "shots": [
+    {
+     "type": "map",
+     "region": "China",
+     "label": "JIAHU",
+     "say": "Now jump to China, to a village called Jiahu."
+    },
+    {
+     "type": "big",
+     "text": "9,000 YEARS AGO.",
+     "say": "About nine thousand years ago."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "say": "People there buried pottery jars. Inside them, scientists found chemical traces.",
+     "props": [
+      "pot",
+      "jar"
+     ],
+     "ai": "ancient Chinese pottery jars in a neolithic village"
+    },
+    {
+     "type": "list",
+     "title": "THE INGREDIENTS",
+     "items": [
+      [
+       "grain",
+       "Rice"
+      ],
+      [
+       "honey",
+       "Honey"
+      ],
+      [
+       "fruit",
+       "Fruit"
+      ]
+     ],
+     "say": "Rice, honey, and fruit, like hawthorn or grapes."
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "excited",
+     "say": "A fermented mix of all three. One of the oldest known drinks.",
+     "text": "ANCIENT COCKTAIL."
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "A researcher named Patrick McGovern studies these drinks. People call him Doctor Pat.",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "happy",
+       "hold": "beer"
+      }
+     ],
+     "props": [
+      "jar"
+     ],
+     "label": "DR. PAT"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "He even worked with a brewery to recreate the Jiahu drink.",
+     "prop": "bottle"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "happy",
+     "say": "So yes, you can buy a version of a nine thousand year old drink."
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "And Jiahu is also famous for something else. Bone flutes.",
+     "prop": "music"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "Music and drinks. Some things never change.",
+     "text": "9,000 YEAR OLD PARTY."
+    }
+   ]
+  },
+  {
+   "chapter": "The First Wine",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Beer and mixed drinks came early. But what about wine?",
+     "prop": "wine"
+    },
+    {
+     "type": "map",
+     "region": "Georgia",
+     "label": "GEORGIA",
+     "say": "For that, we go to the mountains of Georgia, between Europe and Asia."
+    },
+    {
+     "type": "big",
+     "text": "8,000 YEARS AGO.",
+     "say": "Around eight thousand years ago, people there made wine in big clay jars."
+    },
+    {
+     "type": "draw",
+     "bg": "mountains",
+     "say": "Some jars were decorated with bunches of grapes.",
+     "props": [
+      "pot",
+      "berries"
+     ],
+     "ai": "large ancient clay jars decorated with grape patterns in the Caucasus mountains"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "Basically, the first wine labels.",
+     "text": "WINE LABEL.",
+     "prop": "pot"
+    },
+    {
+     "type": "map",
+     "region": "Armenia",
+     "label": "ARMENIA",
+     "say": "Next door in Armenia, in a cave called Areni-1..."
+    },
+    {
+     "type": "big",
+     "text": "6,100 YEARS AGO.",
+     "say": "...archaeologists found a complete winery about six thousand years old."
+    },
+    {
+     "type": "diagram",
+     "title": "ARENI WINERY",
+     "steps": [
+      [
+       "berries",
+       "Grapes"
+      ],
+      [
+       "person",
+       "Stomp"
+      ],
+      [
+       "pot",
+       "Ferment"
+      ]
+     ],
+     "say": "A basin for stomping grapes with feet, and jars to ferment the juice."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "disgusted",
+     "say": "Yes. Feet. The original wine press was your neighbor's feet.",
+     "text": "FEET."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "neutral",
+     "say": "They also found cups, and burials nearby. Wine was probably used at ceremonies."
+    }
+   ]
+  },
+  {
+   "chapter": "Mead: Honey Wine",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "There's another very old drink that needs no farming at all.",
+     "prop": "honey"
+    },
+    {
+     "type": "big",
+     "text": "MEAD.",
+     "say": "Mead. Wine made from honey."
+    },
+    {
+     "type": "diagram",
+     "title": "HOW MEAD HAPPENS",
+     "steps": [
+      [
+       "honey",
+       "Honey"
+      ],
+      [
+       "drop",
+       "Water"
+      ],
+      [
+       "mushroom",
+       "Wild yeast"
+      ]
+     ],
+     "say": "Mix honey with water, leave it alone, and wild yeast does the rest."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "Honey that got rained on could ferment all by itself.",
+     "prop": "jar"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "neutral",
+     "say": "So some people think mead could be one of humanity's oldest drinks.",
+     "text": "MAYBE THE OLDEST?"
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "unimpressed",
+     "say": "Honestly, it's hard to prove. Honey leaves very few traces."
+    },
+    {
+     "type": "draw",
+     "bg": "snow",
+     "say": "Later, mead became famous in northern Europe.",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "laugh",
+       "wear": "fur",
+       "hold": "beer_mug"
+      },
+      {
+       "pose": "hold",
+       "face": "happy",
+       "wear": "fur",
+       "hold": "beer_mug"
+      }
+     ],
+     "props": [
+      "fire"
+     ],
+     "ai": "two fur-clad northern European stick figures toasting with mugs of mead by a fire"
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "laugh",
+     "say": "Big halls, long winters, and a lot of honey wine.",
+     "text": "WINTER PLANS."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "The Greeks drank honey wine too. They called it hydromel. Honey water.",
+     "prop": "honey"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "Which sounds healthy. It was not health food."
+    }
+   ]
+  },
+  {
+   "chapter": "Sumer: Beer With Straws",
+   "shots": [
+    {
+     "type": "map",
+     "region": "Mesopotamia",
+     "label": "SUMER",
+     "say": "Then came the first cities, in Mesopotamia."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "And the Sumerians? They loved beer.",
+     "prop": "beer"
+    },
+    {
+     "type": "map",
+     "region": "Persia",
+     "label": "GODIN TEPE",
+     "say": "At a site called Godin Tepe in Iran, a jar over five thousand years old still had beer residue."
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "Sumerian beer was cloudy, with floating husks.",
+     "props": [
+      "pot",
+      "wheat"
+     ],
+     "label": "CLOUDY BEER"
+    },
+    {
+     "type": "draw",
+     "bg": "market",
+     "say": "So they drank it through long straws, from a shared jar.",
+     "people": [
+      {
+       "pose": "sit",
+       "face": "happy",
+       "wear": "robe"
+      },
+      {
+       "pose": "sit",
+       "face": "laugh",
+       "wear": "robe"
+      }
+     ],
+     "props": [
+      "pot"
+     ],
+     "ai": "two Sumerian stick figures sitting on either side of a big jar drinking through long straws"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "The first straws in history were for beer.",
+     "text": "BEER STRAWS."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "They even had a goddess of beer. Her name was Ninkasi.",
+     "prop": "crown"
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "A hymn to Ninkasi, written down almost four thousand years ago, describes making beer.",
+     "props": [
+      "scroll",
+      "beer"
+     ],
+     "label": "HYMN TO NINKASI"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "It's a song and a recipe at the same time.",
+     "text": "SINGING RECIPE."
+    },
+    {
+     "type": "diagram",
+     "title": "BEER = PAY",
+     "steps": [
+      [
+       "wheat",
+       "Work"
+      ],
+      [
+       "beer",
+       "Beer ration"
+      ],
+      [
+       "heart",
+       "Happy worker"
+      ]
+     ],
+     "say": "Workers were often paid partly in beer and bread."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "happy",
+     "say": "Beer wasn't just a party drink. It was food, payment, and a gift to the gods."
+    }
+   ]
+  },
+  {
+   "chapter": "Hammurabi's Bar Rules",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Where there's beer, there are taverns. And where there are taverns, there are rules.",
+     "prop": "beer_mug"
+    },
+    {
+     "type": "big",
+     "text": "1754 BC.",
+     "say": "Around seventeen fifty-four B C, King Hammurabi of Babylon wrote his famous laws."
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "Some of them are about taverns.",
+     "people": [
+      {
+       "pose": "crossed",
+       "face": "angry",
+       "wear": "rich"
+      }
+     ],
+     "props": [
+      "crown",
+      "scroll"
+     ],
+     "label": "HAMMURABI"
+    },
+    {
+     "type": "draw",
+     "bg": "market",
+     "say": "Taverns were often run by women, called alewives.",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "happy",
+       "wear": "robe",
+       "hold": "beer"
+      }
+     ],
+     "props": [
+      "pot"
+     ],
+     "ai": "a Babylonian tavern keeper serving beer from a large jar"
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "shocked",
+     "say": "If a tavern keeper cheated customers on the price of beer...",
+     "prop": "coin"
+    },
+    {
+     "type": "big",
+     "text": "INTO THE RIVER.",
+     "say": "...the law said she could be thrown into the river."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "sad",
+     "say": "That's a very harsh review.",
+     "text": "1 STAR."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Another law said she had to report criminals who met in her tavern."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "So the first bartender was also part-time police."
+    }
+   ]
+  },
+  {
+   "chapter": "Egypt: Paid in Beer",
+   "shots": [
+    {
+     "type": "map",
+     "region": "Egypt",
+     "label": "EGYPT",
+     "say": "In ancient Egypt, beer was everywhere."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "Rich or poor, young or old. Everyone drank it.",
+     "prop": "beer"
+    },
+    {
+     "type": "draw",
+     "bg": "desert",
+     "say": "Even the people who built the pyramids.",
+     "people": [
+      {
+       "pose": "carry",
+       "face": "sweating",
+       "hold": "rock"
+      }
+     ],
+     "props": [
+      "pyramid"
+     ],
+     "ai": "stick figure workers dragging stone blocks near a pyramid under the hot sun"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "shocked",
+     "say": "And no, they weren't slaves. Most were paid workers.",
+     "text": "PAID WORKERS."
+    },
+    {
+     "type": "diagram",
+     "title": "DAILY PAY",
+     "steps": [
+      [
+       "bread",
+       "Bread"
+      ],
+      [
+       "beer",
+       "Beer"
+      ],
+      [
+       "fish",
+       "Onions, fish"
+      ]
+     ],
+     "say": "Their pay included bread, beer, and other food."
+    },
+    {
+     "type": "big",
+     "text": "ABOUT 4 LITERS A DAY.",
+     "say": "Some estimates say a worker could get around four liters of beer a day."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "confused",
+     "say": "Four liters? Every day? How did anything get built?",
+     "text": "HOW?"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Because this beer was weak, thick, and full of calories.",
+     "prop": "pot"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "More like liquid bread than a party drink.",
+     "text": "LIQUID BREAD."
+    },
+    {
+     "type": "crowd",
+     "bg": "desert",
+     "count": 10,
+     "poses": [
+      "sit",
+      "stand",
+      "carry"
+     ],
+     "faces": [
+      "happy",
+      "sleepy",
+      "laugh"
+     ],
+     "say": "Hot sun, hard work, and a big jug of beer at the end of the day.",
+     "hold": "beer"
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "happy",
+     "say": "Honestly, not the worst job benefits in history."
+    }
+   ]
+  },
+  {
+   "chapter": "The Goddess Who Got Drunk",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "The Egyptians even had a myth where beer saved humanity.",
+     "prop": "beer"
+    },
+    {
+     "type": "draw",
+     "bg": "desert",
+     "say": "The sun god Ra was angry with people. They had stopped respecting him.",
+     "people": [
+      {
+       "pose": "crossed",
+       "face": "angry",
+       "wear": "rich"
+      }
+     ],
+     "props": [
+      "crown"
+     ],
+     "label": "RA"
+    },
+    {
+     "type": "draw",
+     "bg": "desert",
+     "say": "So he sent a goddess to punish them. Her name was Sekhmet.",
+     "props": [
+      "demon"
+     ],
+     "label": "SEKHMET",
+     "ai": "a fierce lion-headed goddess silhouette rampaging across the Egyptian desert"
+    },
+    {
+     "type": "me",
+     "pose": "scared",
+     "face": "scared",
+     "say": "Sekhmet went too far. She wanted to destroy everyone.",
+     "text": "UH OH."
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "worried",
+     "say": "Ra changed his mind. But how do you stop an unstoppable goddess?"
+    },
+    {
+     "type": "diagram",
+     "title": "RA'S PLAN",
+     "steps": [
+      [
+       "beer",
+       "Make beer"
+      ],
+      [
+       "drop",
+       "Dye it red"
+      ],
+      [
+       "drop",
+       "Pour on fields"
+      ]
+     ],
+     "say": "He ordered thousands of jars of beer, dyed red to look like blood."
+    },
+    {
+     "type": "draw",
+     "bg": "night",
+     "say": "The red beer was poured across the fields at night.",
+     "props": [
+      "pot"
+     ],
+     "ai": "jars of red beer flooding the fields at night in ancient Egypt"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "Sekhmet woke up, saw a lake of red, and drank all of it.",
+     "text": "SHE DRANK IT ALL."
+    },
+    {
+     "type": "draw",
+     "bg": "desert",
+     "say": "She got so drunk she fell asleep. Humanity was saved.",
+     "people": [
+      {
+       "pose": "lie",
+       "face": "sleepy"
+      }
+     ],
+     "props": [
+      "pot"
+     ]
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "excited",
+     "say": "Saved by a beer prank.",
+     "text": "SAVED BY BEER."
+    },
+    {
+     "type": "big",
+     "text": "THE FESTIVAL OF DRUNKENNESS.",
+     "say": "Egyptians even held a festival to remember it. The Festival of Drunkenness."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "Yes, that was its real name. Ancient Egypt did not do subtle."
+    }
+   ]
+  },
+  {
+   "chapter": "Antibiotic Beer",
+   "shots": [
+    {
+     "type": "map",
+     "region": "Nubia",
+     "label": "NUBIA",
+     "say": "Just south of Egypt, in ancient Nubia, scientists found something amazing."
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "They studied bones of people buried almost two thousand years ago.",
+     "props": [
+      "skull",
+      "bone"
+     ],
+     "label": "NUBIAN BONES"
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "Under a special light, the bones glowed.",
+     "prop": "lightning"
+    },
+    {
+     "type": "big",
+     "text": "TETRACYCLINE.",
+     "say": "The glow came from tetracycline. An antibiotic."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "shocked",
+     "say": "Antibiotics were only discovered in the twentieth century.",
+     "text": "HOW?!"
+    },
+    {
+     "type": "diagram",
+     "title": "THE THEORY",
+     "steps": [
+      [
+       "grain",
+       "Grain"
+      ],
+      [
+       "mushroom",
+       "Special bacteria"
+      ],
+      [
+       "beer",
+       "Medicine beer"
+      ]
+     ],
+     "say": "The best explanation: their beer was brewed with grain that grew antibiotic-making bacteria."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "So they may have been drinking a mild antibiotic. Regularly. Since childhood.",
+     "text": "BEER MEDICINE."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "confused",
+     "say": "Did they know it worked? We don't know. But it might have kept them healthier."
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "unimpressed",
+     "say": "Please do not try this with your local beer. It does not work like that."
+    }
+   ]
+  },
+  {
+   "chapter": "Greeks: Water It Down",
+   "shots": [
+    {
+     "type": "map",
+     "region": "Greece",
+     "label": "GREECE",
+     "say": "Over in Greece, wine was king.",
+     "prop": "wine"
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "Greeks held drinking parties called symposia. Mostly men, lying on couches.",
+     "people": [
+      {
+       "pose": "lie",
+       "face": "happy",
+       "wear": "toga"
+      },
+      {
+       "pose": "sit",
+       "face": "laugh",
+       "wear": "toga"
+      }
+     ],
+     "props": [
+      "wine"
+     ],
+     "ai": "Greek men in togas reclining on couches at a symposium with wine cups"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "They talked about philosophy, told jokes, sang, and played games.",
+     "prop": "music"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "But here's the rule: you never drank wine straight.",
+     "text": "NEVER STRAIGHT."
+    },
+    {
+     "type": "diagram",
+     "title": "GREEK WINE",
+     "steps": [
+      [
+       "wine",
+       "Wine"
+      ],
+      [
+       "drop",
+       "Lots of water"
+      ],
+      [
+       "pot",
+       "Mixing bowl"
+      ]
+     ],
+     "say": "Wine was mixed with water in a big bowl, often more water than wine."
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "MIXED",
+      "prop": "pot",
+      "mark": "tick"
+     },
+     "right": {
+      "title": "UNMIXED",
+      "prop": "wine",
+      "mark": "x"
+     },
+     "say": "Drinking it unmixed was considered wild. Something only barbarians did."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "unimpressed",
+     "say": "Imagine telling an ancient Greek about tequila shots.",
+     "text": "BARBARIC."
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "smug",
+     "say": "They also thought beer was a foreigner's drink. Very snobby."
+    }
+   ]
+  },
+  {
+   "chapter": "Rome: Wine for Everyone",
+   "shots": [
+    {
+     "type": "map",
+     "region": "Rome",
+     "label": "ROME",
+     "say": "The Romans took wine and made it an industry."
+    },
+    {
+     "type": "crowd",
+     "bg": "market",
+     "count": 9,
+     "poses": [
+      "hold",
+      "stand",
+      "walk"
+     ],
+     "faces": [
+      "happy",
+      "neutral"
+     ],
+     "say": "Wine for rich people. Cheap wine for poor people.",
+     "hold": "wine"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Huge clay jars carried wine across the whole empire.",
+     "prop": "pot"
+    },
+    {
+     "type": "draw",
+     "bg": "sea",
+     "say": "Shipwrecks full of wine jars still sit on the bottom of the Mediterranean.",
+     "props": [
+      "boat",
+      "pot"
+     ],
+     "ai": "an ancient Roman shipwreck on the seabed full of clay amphorae"
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "disgusted",
+     "say": "Soldiers drank something called posca. Sour wine mixed with water.",
+     "prop": "bottle"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "disgusted",
+     "say": "Basically vinegar water. Refreshing? Debatable.",
+     "text": "VINEGAR WATER."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "smug",
+     "say": "And beer? The Romans looked down on it too. A drink for northern tribes.",
+     "prop": "beer"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "laugh",
+     "say": "Which is funny, because a lot of those northern places are famous for beer today."
+    }
+   ]
+  },
+  {
+   "chapter": "Pulque and Chewed Corn",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Meanwhile, on the other side of the world, people invented their own drinks.",
+     "prop": "question"
+    },
+    {
+     "type": "map",
+     "region": "Mexico",
+     "label": "CENTRAL MEXICO",
+     "say": "In Mexico, people made pulque from the sap of the agave plant."
+    },
+    {
+     "type": "draw",
+     "bg": "desert",
+     "say": "It's milky white, a little sour, and gently alcoholic.",
+     "props": [
+      "palm",
+      "jar"
+     ],
+     "label": "PULQUE",
+     "ai": "a large agave plant with a jar of milky pulque beside it in central Mexico"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "The Aztecs had strict rules about it.",
+     "prop": "scroll"
+    },
+    {
+     "type": "me",
+     "pose": "scared",
+     "face": "shocked",
+     "say": "Getting drunk in public could be punished very harshly.",
+     "text": "NO PUBLIC DRUNKS."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "say": "But one Aztec manuscript shows an exception. The elderly.",
+     "people": [
+      {
+       "pose": "sit",
+       "face": "happy",
+       "wear": "robe",
+       "hold": "jar"
+      },
+      {
+       "pose": "sit",
+       "face": "laugh",
+       "wear": "robe",
+       "hold": "jar"
+      }
+     ],
+     "ai": "two elderly Aztec stick figures happily drinking pulque"
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "laugh",
+     "say": "Reach old age, and you've earned your drink.",
+     "text": "SENIOR DISCOUNT."
+    },
+    {
+     "type": "map",
+     "region": "Peru",
+     "label": "ANDES",
+     "say": "In the Andes, people drank chicha, a beer made from corn."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "disgusted",
+     "say": "And to start it fermenting, people chewed the corn first.",
+     "text": "CHEWED. CORN."
+    },
+    {
+     "type": "diagram",
+     "title": "CHICHA",
+     "steps": [
+      [
+       "grain",
+       "Chew corn"
+      ],
+      [
+       "drop",
+       "Spit it out"
+      ],
+      [
+       "pot",
+       "Ferment"
+      ]
+     ],
+     "say": "Saliva turns starch into sugar, and the sugar becomes alcohol."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "unimpressed",
+     "say": "Gross? Yes. Clever chemistry? Also yes."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "happy",
+     "say": "Chicha was so important that Inca rulers served it at huge state feasts.",
+     "prop": "crown"
+    }
+   ]
+  },
+  {
+   "chapter": "Monks and Medieval Ale",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Jump to medieval Europe. Beer was part of daily life.",
+     "prop": "beer_mug"
+    },
+    {
+     "type": "crowd",
+     "bg": "village",
+     "count": 9,
+     "poses": [
+      "sit",
+      "hold",
+      "stand"
+     ],
+     "faces": [
+      "happy",
+      "neutral"
+     ],
+     "say": "Breakfast, lunch, dinner. Ale was on the table.",
+     "hold": "beer"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "But most of it was small beer. Very weak.",
+     "text": "SMALL BEER."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "neutral",
+     "say": "Even children drank it sometimes. It was more like a snack in a cup."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "say": "Monasteries brewed some of the best beer around.",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "happy",
+       "wear": "robe",
+       "hold": "beer"
+      },
+      {
+       "pose": "dig",
+       "face": "sweating",
+       "wear": "robe"
+      }
+     ],
+     "props": [
+      "house",
+      "wheat"
+     ],
+     "ai": "medieval monks brewing beer in a monastery courtyard"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "happy",
+     "say": "They sold it to support the monastery, and to feed travelers.",
+     "prop": "coin"
+    },
+    {
+     "type": "draw",
+     "bg": "market",
+     "say": "Towns even hired official beer testers, called ale-conners.",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "thinking",
+       "wear": "robe",
+       "hold": "beer_mug"
+      }
+     ],
+     "label": "ALE-CONNER",
+     "ai": "a serious medieval official tasting a mug of ale in a market"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "Professional beer taster. Paid by the town. Dream job.",
+     "text": "DREAM JOB."
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "smug",
+     "say": "Their job was to make sure ale was good, and sold at a fair price."
+    }
+   ]
+  },
+  {
+   "chapter": "Safer Than Water?",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "Now, you've probably heard this one before.",
+     "prop": "drop"
+    },
+    {
+     "type": "big",
+     "text": "\"BEER WAS SAFER THAN WATER.\"",
+     "say": "People in the past drank beer because the water was dirty."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "confused",
+     "say": "Sounds logical. Boiling, alcohol, germs. Right?",
+     "text": "RIGHT?"
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "smug",
+     "say": "Many historians say this is mostly a myth.",
+     "text": "MOSTLY A MYTH."
+    },
+    {
+     "type": "draw",
+     "bg": "river",
+     "say": "People drank plenty of water. From wells, springs, and rivers.",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "happy",
+       "hold": "pot"
+      }
+     ],
+     "props": [
+      "river"
+     ],
+     "ai": "a medieval villager drinking water from a well"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Beer was popular because it was food, it gave energy, and it tasted good.",
+     "prop": "beer"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "Also, people liked being a bit tipsy. Some things are simple.",
+     "text": "SIMPLE REASON."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "And everything we've talked about so far was fairly weak.",
+     "prop": "beer_mug"
+    },
+    {
+     "type": "timeline",
+     "title": "HOW STRONG?",
+     "points": [
+      [
+       "Fruit",
+       "apple"
+      ],
+      [
+       "Beer",
+       "beer"
+      ],
+      [
+       "Wine",
+       "wine"
+      ],
+      [
+       "Spirits",
+       "bottle"
+      ]
+     ],
+     "say": "Rotten fruit, beer, wine. Strong spirits came much later."
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "neutral",
+     "say": "Distilling strong alcohol spread in Europe about eight hundred years ago.",
+     "prop": "bottle"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "shocked",
+     "say": "Monks and doctors called it water of life. Medicine, supposedly.",
+     "text": "WATER OF LIFE."
+    }
+   ]
+  },
+  {
+   "chapter": "Cheers, Ancestors",
+   "shots": [
+    {
+     "type": "timeline",
+     "title": "THE STORY",
+     "points": [
+      [
+       "10 M years",
+       "monkey"
+      ],
+      [
+       "13,000 BC",
+       "pot"
+      ],
+      [
+       "7000 BC",
+       "jar"
+      ],
+      [
+       "1754 BC",
+       "scroll"
+      ],
+      [
+       "Today",
+       "beer"
+      ]
+     ],
+     "say": "From rotten fruit, to cave beer, to clay jars, to bar laws, to today."
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "So, when did humans start drinking? Before we were even human."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Our bodies were shaped by it. Our parties were built on it."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "Maybe even farming itself started with a drink.",
+     "prop": "wheat"
+    },
+    {
+     "type": "me",
+     "pose": "hold",
+     "face": "happy",
+     "say": "So next time you raise a glass, remember who you're copying.",
+     "prop": "beer"
+    },
+    {
+     "type": "crowd",
+     "bg": "cave",
+     "count": 8,
+     "poses": [
+      "hold",
+      "dance",
+      "sit"
+     ],
+     "faces": [
+      "happy",
+      "laugh"
+     ],
+     "say": "An ape with a rotten fruit. A Natufian in a cave. An Egyptian on payday.",
+     "hold": "beer"
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "excited",
+     "say": "Cheers to them.",
+     "text": "CHEERS."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "worried",
+     "say": "But there's one thing ancient drinkers had to deal with the next morning."
+    },
+    {
+     "type": "big",
+     "text": "THE HANGOVER.",
+     "say": "The hangover."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "sleepy",
+     "say": "And their cures were wild. Some involved owls.",
+     "text": "OWLS?"
+    },
+    {
+     "type": "me",
+     "pose": "wave",
+     "face": "smug",
+     "say": "That's the next video. Trust me, you'll want to see it."
+    }
+   ]
+  }
+ ]
+}

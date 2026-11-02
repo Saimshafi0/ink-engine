@@ -61,7 +61,7 @@ def _me(pen, s, W, H, st):
     mark = "x" if s.get("cross") else ("tick" if s.get("tick") else None)
     top = H * .06
     if text:
-        top = D.hand_caption(pen, W, H * .11, text, maxw=W * .78, size=int(H * .085)) + H * .01
+        top = D.hand_caption(pen, W, H * .145, text, maxw=W * .78, size=int(H * .085)) + H * .01
     feet = H * .93
     avail = feet - top
     Hh = min(H * .66, avail * .97)
@@ -154,6 +154,9 @@ def _scene(pen, s, W, H, st):
         big = D.prop_name(name) in ("cave", "hut", "house", "pyramid", "mountain", "tent", "tree", "palm", "mammoth", "boat", "camel", "horse")
         sz = PS * (1.7 if big else 1.0)
         y = gy - sz * (.42 if big else .32)
+        if D.prop_name(name) in ("sun", "moon", "cloud", "star", "bird", "lightning"):
+            sz = PS * .8
+            y = H * .2
         if not np_ and not big and npr <= 2:
             y = H * .55
         D.draw_prop(pen, name, x, y, sz, lw=H * .0055)
