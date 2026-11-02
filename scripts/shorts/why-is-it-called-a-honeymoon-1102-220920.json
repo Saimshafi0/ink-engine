@@ -1,0 +1,212 @@
+{
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "shorts": [
+    {
+      "topic": "Why is it called a honeymoon?",
+      "title": "The weird dark origin of honeymoons",
+      "description": "Why do newlyweds get a honeymoon? Blame ancient Babylon and a lot of alcohol. #shorts #history #funfacts #marriage",
+      "pinned": "Would you survive 30 straight days of mead?",
+      "cover": "Shot 8 - drawing of a groom chugging mead under a giant moon",
+      "shots": [
+        {
+          "type": "big",
+          "text": "HONEYMOONS USED TO BE WEIRD.",
+          "say": "Honeymoons used to be weird."
+        },
+        {
+          "type": "me",
+          "pose": "point",
+          "face": "neutral",
+          "say": "Babylon weird, roughly four thousand years ago."
+        },
+        {
+          "type": "me",
+          "pose": "hold",
+          "face": "happy",
+          "prop": "honey",
+          "say": "The bride's dad supplied all the booze."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "prop": "honey",
+          "say": "Specifically mead, which is fermented honey."
+        },
+        {
+          "type": "me",
+          "pose": "hold",
+          "face": "confused",
+          "prop": "beer_mug",
+          "say": "The groom was forced to drink it."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "thinking",
+          "prop": "moon",
+          "say": "Every single day for one lunar month."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "confused",
+          "prop": "question",
+          "say": "The official goal was boosting male fertility."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "prop": "beer_mug",
+          "say": "Because apparently, thirty consecutive blackouts"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sweating",
+          "say": "is peak romantic performance."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "If a baby arrived nine months later,"
+        },
+        {
+          "type": "me",
+          "pose": "celebrate",
+          "face": "smug",
+          "prop": "gold",
+          "say": "the brewer actually got a cash bonus."
+        },
+        {
+          "type": "me",
+          "pose": "point",
+          "face": "unimpressed",
+          "prop": "moon",
+          "say": "Then sixteenth century poets ruined the vibe."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "smug",
+          "say": "So when you book that vacation,"
+        },
+        {
+          "type": "me",
+          "pose": "stand",
+          "face": "neutral",
+          "say": "remember you escaped mandatory ancient drunkenness."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Unless that was the goal, since"
+        }
+      ]
+    },
+    {
+      "topic": "Why weddings have a 'best man'",
+      "title": "The terrifying origin of the Best Man",
+      "description": "Your best man used to carry a sword to kidnap people. Weddings were intense. #shorts #history #wedding #facts",
+      "pinned": "Who would you trust with a sword at your wedding?",
+      "cover": "Shot 11 - stick figure holding a giant sword next to an altar",
+      "shots": [
+        {
+          "type": "big",
+          "text": "THE BEST MAN WAS A HITMAN.",
+          "say": "The best man was a hitman."
+        },
+        {
+          "type": "me",
+          "pose": "point",
+          "face": "neutral",
+          "say": "Modern weddings give him mild duties."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "unimpressed",
+          "say": "Maybe plan a mediocre weekend in Vegas."
+        },
+        {
+          "type": "me",
+          "pose": "point_left",
+          "face": "worried",
+          "say": "Back then, weddings were competitive sports."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "prop": "sword",
+          "say": "If a village ran out of brides,"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Naturally, her angry family chased you."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "prop": "sword",
+          "say": "So the groom brought his best fighter."
+        },
+        {
+          "type": "me",
+          "pose": "hold",
+          "face": "neutral",
+          "prop": "sword",
+          "say": "Literally the best man with a sword."
+        },
+        {
+          "type": "me",
+          "pose": "stand",
+          "face": "angry",
+          "say": "If the bride tried running away,"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "sweating",
+          "prop": "red_x",
+          "say": "he physically kept her at the ceremony."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "prop": "sword",
+          "say": "He stood right beside the groom"
+        },
+        {
+          "type": "me",
+          "pose": "point",
+          "face": "smug",
+          "prop": "sword",
+          "say": "with his right hand near his blade."
+        },
+        {
+          "type": "me",
+          "pose": "hold",
+          "face": "laugh",
+          "prop": "phone",
+          "say": "is an embarrassing high school photo."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "smug",
+          "say": "Be thankful for that toast, because"
+        }
+      ]
+    }
+  ],
+  "topic": "Why is it called a “honeymoon”?"
+}
