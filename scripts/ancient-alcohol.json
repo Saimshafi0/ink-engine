@@ -6,43 +6,60 @@
  "thumbnails": [
   {
    "text": "DRUNK APES?",
-   "face": "laugh",
-   "pose": "dance",
-   "bg": "jungle",
-   "props": [
-    "fruit",
-    "monkey"
-   ]
+   "title": "Humans Were Drinking Before They Were Human",
+   "color": "green",
+   "hero": "drunk_ape",
+   "hold": "apple",
+   "effects": [
+    "stars",
+    "stink"
+   ],
+   "sidekick": {
+    "pose": "point_left",
+    "face": "shocked"
+   }
   },
   {
-   "text": "PAID IN BEER?",
+   "text": "13,000 YEAR OLD BEER?",
+   "title": "Who Made the First Beer in History?",
+   "color": "dark",
+   "hero": "person",
+   "pose": "carry",
    "face": "shocked",
-   "pose": "scared",
-   "bg": "desert",
-   "props": [
-    "beer",
-    "pyramid"
-   ]
+   "wear": "fur",
+   "above": "beer_bowl",
+   "arrow": true
   },
   {
-   "text": "10 MILLION YEARS?",
-   "face": "smug",
-   "pose": "point_up",
-   "bg": "cave",
+   "text": "PAID IN BEER?!",
+   "title": "How Did Ancient Humans Discover Alcohol?",
+   "color": "orange",
+   "hero": "person",
+   "pose": "celebrate",
+   "face": "excited",
+   "wear": "white",
+   "hold": "beer",
+   "bg_prop": "pyramid",
    "props": [
+    "coin",
     "beer"
+   ],
+   "marks": [
+    "x",
+    "tick"
    ]
   }
  ],
  "seo": {
   "titles": [
+   "Humans Were Drinking Before They Were Human",
+   "Who Made the First Beer in History?",
    "How Did Ancient Humans Discover Alcohol?",
    "The 10 Million Year History of Alcohol",
-   "Who Made the First Beer in History?",
    "Why Do Humans Drink Alcohol? It Started With Apes",
    "Ancient Alcohol: Drunk Apes, Beer Pay and Wine"
   ],
-  "best_title": "How Did Ancient Humans Discover Alcohol?",
+  "best_title": "Humans Were Drinking Before They Were Human",
   "description_hook": "How did ancient humans discover alcohol? The story starts 10 million years before the first human, with an ape and a rotten fruit, and ends with workers paid in beer and a goddess saved by a beer prank.",
   "paragraphs": [
    "In this animated history of alcohol we follow the drunken monkey hypothesis, the ancient gene change that made our ancestors 40 times better at processing alcohol, and wild chimpanzees in Guinea that drink fermented palm sap.",

@@ -41,10 +41,50 @@ def animate_flags(shot):
     return False, False
 
 
-class ShotSource:
-    """Lazily renders the variants (blink / mouth / bob) of one shot."""
+OUTDOOR = ("jungle", "desert", "grass", "village", "sea", "river", "mountains", "snow")
 
-    def __init__(self, shot, W, H, ai_path=None, native=False):
+
+def _sprite_image(spec, H, scale):
+    """Render one floating element to an RGBA image. Returns (img, cx, cy) in output pixels."""
+    size = spec["size"]
+    B = size * 1.7
+    k = 2
+    im = Image.new("RGBA", (max(4, int(B * k)), max(4, int(B * k))), (0, 0, 0, 0))
+    pen = D.Pen(im, k, seed=7)
+    c = B / 2
+    name = spec["name"]
+    if name.startswith("__think__:"):
+        D.draw_prop(pen, "thought", c, c, size)
+        D.draw_prop(pen, name.split(":", 1)[1], c + size * .06, c - size * .16, size * .44)
+    else:
+        D.draw_prop(pen, name, c, c, size, lw=H * .0055)
+        if spec.get("mark"):
+            D.draw_prop(pen, spec["mark"], c, c, size * 1.05)
+    out = max(2, int(B * scale))
+    im = im.resize((out, out), Image.LANCZOS)
+    return im
+
+
+def _bird_imgs(px):
+    imgs = []
+    for up in (True, False):
+        k = 3
+        im = Image.new("RGBA", (int(px * 2.4 * k), int(px * 1.2 * k)), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        w, h = im.size
+        cx, cy = w / 2, h / 2
+        s = px * k
+        pts = ([(cx - s, cy), (cx - s * .5, cy - s * .45), (cx, cy), (cx + s * .5, cy - s * .45), (cx + s, cy)] if up else
+               [(cx - s, cy - s * .12), (cx - s * .5, cy + s * .06), (cx, cy), (cx + s * .5, cy + s * .06), (cx + s, cy - s * .12)])
+        d.line(pts, fill=D.INK, width=max(2, int(s * .14)), joint="curve")
+        imgs.append(im.resize((int(px * 2.4), int(px * 1.2)), Image.LANCZOS))
+    return imgs
+
+
+class ShotSource:
+    """Lazily renders the variants (blink / mouth / bob) of one shot, plus its moving parts."""
+
+    def __init__(self, shot, W, H, ai_path=None, native=False, seed=1):
         self.shot, self.W, self.H = shot, W, H
         self.cache = {}
         self.ai = None
@@ -56,17 +96,96 @@ class ShotSource:
                 self.ai = None
         self.focus, self.zoom_hint = (.5, .5), 1.0
         self.native = native
+        self.specs = None
+        self.sprites = []
+        self.birds = []
+        self.snow = None
+        self.rnd = random.Random(seed)
 
     def get(self, blink=False, mouth=0, bob=0):
         key = (blink, mouth, bob)
         if key not in self.cache:
             if len(self.cache) > 8:
                 self.cache.pop(next(iter(self.cache)))
+            first = self.specs is None
+            specs = [] if first else []
             img, f, z = S.render(self.shot, self.W, self.H, K=2, blink=blink, mouth=0.8 if mouth else 0.0,
-                                 bob=bob * self.H * .004, out_scale=OVERSCAN, ai_image=self.ai)
+                                 bob=bob * self.H * .004, out_scale=OVERSCAN, ai_image=self.ai, sprites=specs)
             self.focus, self.zoom_hint = f, z
             self.cache[key] = img
+            if first:
+                self.specs = specs
+                self._prepare()
         return self.cache[key]
+
+    def _prepare(self):
+        sc = OVERSCAN
+        for i, sp in enumerate(self.specs):
+            try:
+                im = _sprite_image(sp, self.H, sc)
+            except Exception:
+                continue
+            alt = None
+            if sp["anim"] == "flicker":
+                w, h = im.size
+                alt = Image.new("RGBA", im.size, (0, 0, 0, 0))
+                tall = im.resize((w, int(h * 1.07)), Image.BILINEAR)
+                alt.paste(tall, (0, h - tall.size[1]), tall)
+            self.sprites.append(dict(img=im, alt=alt, x=sp["x"] * sc, y=sp["y"] * sc, anim=sp["anim"],
+                                     ph=self.rnd.uniform(0, 6.28)))
+        t = S.norm_type(self.shot.get("type"))
+        bg = D.norm_bg(self.shot.get("bg"))
+        if self.ai is None and t in ("draw", "crowd") and bg in OUTDOOR and self.shot.get("birds", True):
+            n = self.rnd.choice((1, 2, 2, 3))
+            imgs = _bird_imgs(self.H * .026 * sc)
+            for k in range(n):
+                self.birds.append(dict(imgs=imgs, x0=self.rnd.uniform(-.05, .55) * self.W * sc,
+                                       y0=self.rnd.uniform(.08, .26) * self.H * sc,
+                                       v=self.rnd.uniform(.05, .09) * self.W * sc, ph=self.rnd.uniform(0, 6.28),
+                                       flap=self.rnd.randint(3, 5)))
+        if bg == "snow" and self.ai is None and t in ("draw", "crowd"):
+            self.snow = [(self.rnd.uniform(0, 1), self.rnd.uniform(0, 1), self.rnd.uniform(2, 5), self.rnd.uniform(.04, .09))
+                         for _ in range(70)]
+
+    def animated(self):
+        return bool(self.sprites or self.birds or self.snow)
+
+    def compose(self, base, i):
+        if not self.animated():
+            return base
+        t = i / FPS
+        img = base.copy()
+        W, H = img.size
+        for sp in self.sprites:
+            im = sp["img"]
+            dx = dy = 0.0
+            a = sp["anim"]
+            if a == "float":
+                dy = math.sin(t * 2.1 + sp["ph"]) * H * .009
+            elif a == "drift":
+                dx = math.sin(t * .5 + sp["ph"]) * W * .012
+                dy = math.sin(t * 1.1 + sp["ph"]) * H * .004
+            elif a == "idle":
+                dy = -abs(math.sin(t * 2.6 + sp["ph"])) * H * .006
+            elif a == "flicker" and sp["alt"] is not None and (i // 3) % 2:
+                im = sp["alt"]
+            x = int(sp["x"] + dx - im.size[0] / 2)
+            y = int(sp["y"] + dy - im.size[1] / 2)
+            img.paste(im, (x, y), im)
+        for b in self.birds:
+            im = b["imgs"][(i // b["flap"]) % 2]
+            x = int(b["x0"] + b["v"] * t)
+            if x > W + 50:
+                continue
+            y = int(b["y0"] + math.sin(t * 1.7 + b["ph"]) * H * .012)
+            img.paste(im, (x, y), im)
+        if self.snow:
+            d = ImageDraw.Draw(img)
+            for (fx, fy, r, sp_) in self.snow:
+                x = (fx * W + math.sin(t * 1.3 + fy * 9) * 12) % W
+                y = ((fy + sp_ * t) % 1.0) * H
+                d.ellipse([x - r, y - r, x + r, y + r], fill=(255, 255, 255))
+        return img
 
 
 def frame_states(shot, n, mouth_env, seed):
@@ -126,7 +245,7 @@ def render_segment(task):
     stopf = task.get("stopfile")
     W, H = task["W"], task["H"]
     n = task["frames"]
-    src = ShotSource(task["shot"], W, H, task.get("ai_path"))
+    src = ShotSource(task["shot"], W, H, task.get("ai_path"), seed=task["seed"])
     states = frame_states(task["shot"], n, task.get("env"), task["seed"])
     first = src.get(False, 0, 0)
     style = task.get("cam", "in")
@@ -141,7 +260,7 @@ def render_segment(task):
             if stopf and i % 30 == 0 and os.path.exists(stopf):
                 raise KeyboardInterrupt("stopped")
             b, m, bb = states[i]
-            img = src.get(b, m, bb)
+            img = src.compose(src.get(b, m, bb), i)
             IW, IH = img.size
             v, cx, cy = camera(i, n, style, src.focus, src.zoom_hint, pop)
             cw, ch = IW / v, IH / v
@@ -282,12 +401,12 @@ class VerticalSource:
         t = S.norm_type(shot.get("type"))
         self.native = t != "map"
         if self.native:
-            self.src = ShotSource(shot, VW, PANEL_H, ai_path)
+            self.src = ShotSource(shot, VW, PANEL_H, ai_path, seed=len(str(shot)))
         else:
-            self.src = ShotSource(shot, 1920, 1080, ai_path)
+            self.src = ShotSource(shot, 1920, 1080, ai_path, seed=len(str(shot)))
 
     def frame(self, state, i, n, pop):
-        img = self.src.get(*state)
+        img = self.src.compose(self.src.get(*state), i)
         IW, IH = img.size
         if self.native:
             v, cx, cy = camera(i, n, "in", (.5, .5), 1.0, pop)

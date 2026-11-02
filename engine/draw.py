@@ -941,11 +941,16 @@ def _horse(p, x, y, s, lw):
 
 
 def _bird(p, x, y, s, lw):
-    p.ellipse(x, y, .28 * s, .18 * s, fill=C["sky2"], w=lw)
-    p.circle(x + .25 * s, y - .12 * s, .12 * s, fill=C["sky2"], w=lw)
-    p.poly([(x + .35 * s, y - .14 * s), (x + .48 * s, y - .1 * s), (x + .35 * s, y - .06 * s)], fill=C["gold"], w=lw * .7)
-    p.dot(x + .28 * s, y - .15 * s, .02 * s)
-    p.poly([(x - .1 * s, y - .05 * s), (x + .05 * s, y - .32 * s), (x + .1 * s, y - .02 * s)], fill=C["sky"], w=lw * .8)
+    col = (110, 170, 220)
+    p.poly([(x - .3 * s, y), (x - .5 * s, y - .12 * s), (x - .48 * s, y + .1 * s)], fill=col, w=lw)
+    p.ellipse(x, y + .02 * s, .32 * s, .22 * s, fill=col, w=lw)
+    p.ellipse(x + .02 * s, y + .1 * s, .18 * s, .1 * s, fill=(236, 240, 244), w=0)
+    p.circle(x + .26 * s, y - .14 * s, .15 * s, fill=col, w=lw)
+    p.poly([(x + .39 * s, y - .17 * s), (x + .52 * s, y - .12 * s), (x + .39 * s, y - .08 * s)], fill=C["gold"], w=lw * .7)
+    _eye(p, x + .29 * s, y - .17 * s, .04 * s)
+    p.poly([(x - .15 * s, y - .05 * s), (x + .05 * s, y - .32 * s), (x + .12 * s, y - .02 * s)], fill=(90, 150, 205), w=lw * .9)
+    for dx in (-.03, .07):
+        p.line([(x + dx * s, y + .22 * s), (x + dx * s, y + .32 * s)], lw * .9, C["gold2"], wob=0)
 
 
 def _wheel(p, x, y, s, lw):
@@ -1072,6 +1077,246 @@ def _poop(p, x, y, s, lw):
 PROPS.update({"poop": _poop, "coprolite": _poop, "pig": _pig, "sponge": _sponge, "sponge_stick": _sponge, "chamber_pot": _chamberpot,
               "chamberpot": _chamberpot, "drop": _drop, "water": _drop, "stink": _stink, "smell": _stink,
               "pipe": _pipe, "drain": _pipe, "demon": _demon, "monster": _demon})
+
+
+# ---------------- more animals (all face right, x,y = centre, s = size) ----------------
+def _eye(p, x, y, r):
+    p.circle(x, y, r, fill=WHITE, w=max(1.5, r * .35))
+    p.dot(x + r * .2, y, r * .55)
+
+
+def _cat(p, x, y, s, lw):
+    col = (232, 160, 80)
+    p.line(p.bez((x - .3 * s, y + .2 * s), (x - .55 * s, y), (x - .45 * s, y - .3 * s)), lw * 3, col)
+    p.line(p.bez((x - .3 * s, y + .2 * s), (x - .55 * s, y), (x - .45 * s, y - .3 * s)), lw * .5)
+    p.ellipse(x - .05 * s, y + .18 * s, .3 * s, .24 * s, fill=col, w=lw)
+    for dx in (-.2, .1):
+        p.ellipse(x + dx * s, y + .4 * s, .07 * s, .05 * s, fill=col, w=lw * .8)
+    hx, hy = x + .22 * s, y - .12 * s
+    for d in (-1, 1):
+        p.poly([(hx + d * .2 * s, hy - .05 * s), (hx + d * .2 * s, hy - .32 * s), (hx + d * .04 * s, hy - .16 * s)], fill=col, w=lw)
+    p.circle(hx, hy, .22 * s, fill=col, w=lw)
+    _eye(p, hx - .08 * s, hy - .03 * s, .05 * s)
+    _eye(p, hx + .08 * s, hy - .03 * s, .05 * s)
+    p.dot(hx, hy + .07 * s, .025 * s, C["pink"])
+    for d in (-1, 1):
+        p.line([(hx + d * .08 * s, hy + .1 * s), (hx + d * .3 * s, hy + .08 * s)], lw * .5, wob=0)
+
+
+def _dog(p, x, y, s, lw):
+    col = (196, 150, 100)
+    for dx in (-.25, -.12, .12, .25):
+        p.line([(x + dx * s, y + .1 * s), (x + dx * s, y + .38 * s)], lw * 1.6)
+    p.line(p.bez((x - .32 * s, y - .02 * s), (x - .5 * s, y - .15 * s), (x - .45 * s, y - .3 * s)), lw * 1.6)
+    p.ellipse(x, y, .36 * s, .18 * s, fill=col, w=lw)
+    hx, hy = x + .36 * s, y - .2 * s
+    p.circle(hx, hy, .17 * s, fill=col, w=lw)
+    p.ellipse(hx + .16 * s, hy + .05 * s, .1 * s, .07 * s, fill=col, w=lw)
+    p.dot(hx + .25 * s, hy + .03 * s, .03 * s)
+    p.ellipse(hx - .1 * s, hy + .02 * s, .06 * s, .14 * s, fill=(120, 84, 54), w=lw * .8)
+    _eye(p, hx + .04 * s, hy - .05 * s, .045 * s)
+    p.line([(hx + .2 * s, hy + .12 * s), (hx + .2 * s, hy + .2 * s)], lw * 1.4, C["pink"], wob=0)
+
+
+def _lion(p, x, y, s, lw):
+    body = (226, 176, 92)
+    mane = (176, 104, 48)
+    for dx in (-.25, -.12, .12, .25):
+        p.rect(x + dx * s - .04 * s, y + .05 * s, x + dx * s + .04 * s, y + .38 * s, fill=body, w=lw * .8)
+    p.line(p.bez((x - .36 * s, y), (x - .55 * s, y - .1 * s), (x - .5 * s, y - .3 * s)), lw * 1.2)
+    p.circle(x - .5 * s, y - .3 * s, .05 * s, fill=mane, w=lw * .6)
+    p.ellipse(x, y, .38 * s, .2 * s, fill=body, w=lw)
+    hx, hy = x + .32 * s, y - .2 * s
+    pts = []
+    for i in range(24):
+        a = 2 * math.pi * i / 24
+        r = .3 * s if i % 2 == 0 else .24 * s
+        pts.append((hx + r * math.cos(a), hy + r * math.sin(a)))
+    p.poly(pts, fill=mane, w=lw)
+    p.circle(hx, hy, .17 * s, fill=body, w=lw)
+    _eye(p, hx - .06 * s, hy - .04 * s, .04 * s)
+    _eye(p, hx + .07 * s, hy - .04 * s, .04 * s)
+    p.ellipse(hx + .01 * s, hy + .06 * s, .05 * s, .035 * s, fill=(120, 70, 50), w=0)
+
+
+def _elephant(p, x, y, s, lw):
+    col = (160, 164, 172)
+    for dx in (-.22, -.08, .1, .24):
+        p.rect(x + dx * s - .06 * s, y + .05 * s, x + dx * s + .06 * s, y + .42 * s, fill=col, w=lw)
+    p.ellipse(x, y - .05 * s, .42 * s, .28 * s, fill=col, w=lw)
+    hx, hy = x + .38 * s, y - .15 * s
+    p.ellipse(hx - .1 * s, hy, .16 * s, .22 * s, fill=(176, 180, 188), w=lw)
+    p.circle(hx, hy, .17 * s, fill=col, w=lw)
+    p.line(p.bez((hx + .12 * s, hy + .05 * s), (hx + .25 * s, hy + .3 * s), (hx + .38 * s, hy + .28 * s)), lw * 3.2, col)
+    p.line(p.bez((hx + .12 * s, hy + .05 * s), (hx + .25 * s, hy + .3 * s), (hx + .38 * s, hy + .28 * s)), lw * .5)
+    _eye(p, hx + .05 * s, hy - .05 * s, .035 * s)
+    p.line([(hx + .1 * s, hy + .08 * s), (hx + .2 * s, hy + .14 * s)], lw * 1.6, WHITE, wob=0)
+
+
+def _owl(p, x, y, s, lw):
+    col = (150, 110, 80)
+    p.ellipse(x, y + .05 * s, .28 * s, .38 * s, fill=col, w=lw)
+    p.ellipse(x, y + .15 * s, .18 * s, .22 * s, fill=(226, 200, 160), w=lw * .6)
+    for d in (-1, 1):
+        p.poly([(x + d * .2 * s, y - .25 * s), (x + d * .26 * s, y - .42 * s), (x + d * .08 * s, y - .3 * s)], fill=col, w=lw)
+        p.circle(x + d * .11 * s, y - .14 * s, .1 * s, fill=WHITE, w=lw * .8)
+        p.dot(x + d * .11 * s, y - .14 * s, .05 * s)
+    p.poly([(x - .04 * s, y - .06 * s), (x + .04 * s, y - .06 * s), (x, y + .02 * s)], fill=C["gold"], w=lw * .6)
+    for d in (-1, 1):
+        p.line([(x + d * .08 * s, y + .42 * s), (x + d * .08 * s, y + .48 * s)], lw * 1.2, C["gold2"], wob=0)
+
+
+def _chicken(p, x, y, s, lw):
+    p.line([(x - .05 * s, y + .25 * s), (x - .05 * s, y + .45 * s)], lw * 1.2, C["gold2"])
+    p.line([(x + .08 * s, y + .25 * s), (x + .08 * s, y + .45 * s)], lw * 1.2, C["gold2"])
+    p.poly([(x - .32 * s, y - .05 * s), (x - .45 * s, y - .22 * s), (x - .4 * s, y + .05 * s)], fill=WHITE, w=lw)
+    p.ellipse(x, y + .05 * s, .32 * s, .24 * s, fill=WHITE, w=lw)
+    hx, hy = x + .25 * s, y - .2 * s
+    p.circle(hx, hy, .13 * s, fill=WHITE, w=lw)
+    for cx in (-.05, .02, .09):
+        p.circle(hx + cx * s, hy - .14 * s, .045 * s, fill=RED, w=lw * .6)
+    p.poly([(hx + .11 * s, hy - .02 * s), (hx + .22 * s, hy + .02 * s), (hx + .11 * s, hy + .05 * s)], fill=C["gold"], w=lw * .7)
+    p.ellipse(hx + .08 * s, hy + .1 * s, .03 * s, .05 * s, fill=RED, w=0)
+    _eye(p, hx + .03 * s, hy - .03 * s, .035 * s)
+
+
+def _bear(p, x, y, s, lw):
+    col = (120, 82, 56)
+    for dx in (-.24, -.1, .1, .24):
+        p.rect(x + dx * s - .07 * s, y + .05 * s, x + dx * s + .07 * s, y + .38 * s, fill=col, w=lw)
+    p.ellipse(x, y - .02 * s, .42 * s, .26 * s, fill=col, w=lw)
+    hx, hy = x + .38 * s, y - .18 * s
+    for d in (-1, 1):
+        p.circle(hx + d * .12 * s, hy - .14 * s, .06 * s, fill=col, w=lw)
+    p.circle(hx, hy, .18 * s, fill=col, w=lw)
+    p.ellipse(hx + .08 * s, hy + .06 * s, .09 * s, .07 * s, fill=(200, 160, 120), w=lw * .6)
+    p.dot(hx + .13 * s, hy + .04 * s, .03 * s)
+    _eye(p, hx + .02 * s, hy - .05 * s, .035 * s)
+
+
+def _rabbit(p, x, y, s, lw):
+    col = (236, 232, 226)
+    p.circle(x - .28 * s, y + .08 * s, .07 * s, fill=WHITE, w=lw)
+    p.ellipse(x - .05 * s, y + .12 * s, .26 * s, .2 * s, fill=col, w=lw)
+    hx, hy = x + .18 * s, y - .08 * s
+    for dx in (-.05, .05):
+        p.ellipse(hx + dx * s, hy - .26 * s, .045 * s, .16 * s, fill=col, w=lw)
+        p.ellipse(hx + dx * s, hy - .26 * s, .02 * s, .11 * s, fill=C["pink"], w=0)
+    p.circle(hx, hy, .13 * s, fill=col, w=lw)
+    _eye(p, hx + .04 * s, hy - .02 * s, .035 * s)
+    p.dot(hx + .12 * s, hy + .04 * s, .022 * s, C["pink"])
+
+
+def _frog(p, x, y, s, lw):
+    col = (110, 180, 90)
+    p.ellipse(x, y + .1 * s, .32 * s, .22 * s, fill=col, w=lw)
+    for d in (-1, 1):
+        p.circle(x + d * .14 * s, y - .12 * s, .1 * s, fill=col, w=lw)
+        _eye(p, x + d * .14 * s, y - .13 * s, .055 * s)
+    p.arc(x, y + .08 * s, .18 * s, .08 * s, 15, 165, lw)
+    for d in (-1, 1):
+        p.ellipse(x + d * .3 * s, y + .3 * s, .12 * s, .05 * s, fill=col, w=lw * .8)
+
+
+def _crocodile(p, x, y, s, lw):
+    col = (96, 140, 80)
+    pts = [(x - .55 * s, y + .05 * s), (x - .2 * s, y - .1 * s), (x + .3 * s, y - .1 * s), (x + .55 * s, y - .02 * s),
+           (x + .55 * s, y + .08 * s), (x + .25 * s, y + .12 * s), (x - .2 * s, y + .14 * s)]
+    p.poly(pts, fill=col, w=lw)
+    for i in range(5):
+        xx = x - .25 * s + i * .1 * s
+        p.poly([(xx, y - .1 * s), (xx + .04 * s, y - .17 * s), (xx + .08 * s, y - .1 * s)], fill=col, w=lw * .6)
+    for i in range(4):
+        xx = x + .3 * s + i * .06 * s
+        p.poly([(xx, y + .04 * s), (xx + .02 * s, y + .0 * s), (xx + .04 * s, y + .04 * s)], fill=WHITE, w=0)
+    _eye(p, x + .3 * s, y - .13 * s, .04 * s)
+    for dx in (-.15, .15):
+        p.line([(x + dx * s, y + .12 * s), (x + dx * s - .04 * s, y + .22 * s)], lw * 1.6, col)
+
+
+def _ape(p, x, y, s, lw, face="happy"):
+    """Big cartoon ape, head centre at upper part. s = overall height."""
+    fur = (122, 84, 54)
+    fc = (236, 214, 180)
+    r = s * .22
+    hx, hy = x, y - s * .2
+    p.ellipse(x, y + s * .22, r * 1.1, r * 1.3, fill=fur, w=lw)
+    p.ellipse(x, y + s * .25, r * .62, r * .82, fill=fc, w=lw * .7)
+    for d in (-1, 1):
+        p.circle(hx + d * r * 1.02, hy, r * .33, fill=fur, w=lw)
+        p.circle(hx + d * r * 1.02, hy, r * .18, fill=fc, w=0)
+    p.circle(hx, hy, r, fill=fur, w=lw)
+    p.ellipse(hx - r * .28, hy - r * .12, r * .42, r * .38, fill=fc, w=0)
+    p.ellipse(hx + r * .28, hy - r * .12, r * .42, r * .38, fill=fc, w=0)
+    p.ellipse(hx, hy + r * .38, r * .62, r * .42, fill=fc, w=0)
+    if face == "drunk":
+        for d in (-1, 1):
+            cx, cy = hx + d * r * .3, hy - r * .12
+            pts = [(cx + r * .2 * t / 12 * math.cos(t * d), cy + r * .2 * t / 12 * math.sin(t * d)) for t in [i * .3 for i in range(42)]]
+            p.line(pts, lw * .55, INK, wob=0)
+        for d in (-1, 1):
+            p.ellipse(hx + d * r * .58, hy + r * .2, r * .13, r * .07, fill=(225, 120, 120), w=0)
+    else:
+        for d in (-1, 1):
+            _eye(p, hx + d * r * .3, hy - r * .12, r * .13)
+    p.dot(hx - r * .08, hy + r * .22, r * .035)
+    p.dot(hx + r * .08, hy + r * .22, r * .035)
+    pts = p.ell_pts(hx, hy + r * .36, r * .42, r * .3, n=18, a0=0, a1=180, wob=False)
+    p.poly(pts, fill=INK, w=lw * .6)
+    p.ellipse(hx, hy + r * .55, r * .16, r * .07, fill=C["pink"], w=0)
+
+
+def _ape_prop(p, x, y, s, lw):
+    _ape(p, x, y, s, lw, "happy")
+
+
+def _drunk_ape(p, x, y, s, lw):
+    _ape(p, x, y, s, lw, "drunk")
+
+
+def _flower(p, x, y, s, lw):
+    p.line([(x, y + .45 * s), (x, y)], lw * 1.2, C["leaf2"])
+    for i in range(6):
+        a = math.radians(i * 60)
+        p.circle(x + .14 * s * math.cos(a), y - .1 * s + .14 * s * math.sin(a), .1 * s, fill=C["pink"], w=lw * .8)
+    p.circle(x, y - .1 * s, .08 * s, fill=C["gold"], w=lw * .8)
+
+
+def _ring(p, x, y, s, lw):
+    p.circle(x, y + .08 * s, .25 * s, fill=None, w=lw * 2.4, color=C["gold"])
+    p.circle(x, y + .08 * s, .25 * s, fill=None, w=lw * .5)
+    p.poly([(x - .1 * s, y - .17 * s), (x, y - .32 * s), (x + .1 * s, y - .17 * s), (x, y - .1 * s)], fill=C["sky"], w=lw * .8)
+
+
+def _soap(p, x, y, s, lw):
+    p.rrect(x - .35 * s, y - .15 * s, x + .35 * s, y + .2 * s, 10, fill=(170, 210, 230), w=lw)
+    for cx, cy, r in ((-.2, -.3, .09), (.05, -.38, .12), (.25, -.28, .08)):
+        p.circle(x + cx * s, y + cy * s, r * s, fill=WHITE, w=lw * .6)
+
+
+def _medicine(p, x, y, s, lw):
+    p.rrect(x - .3 * s, y - .25 * s, x + .3 * s, y + .3 * s, 8, fill=WHITE, w=lw)
+    p.rect(x - .06 * s, y - .12 * s, x + .06 * s, y + .18 * s, fill=RED, w=0)
+    p.rect(x - .18 * s, y - .0 * s, x + .18 * s, y + .06 * s, fill=RED, w=0)
+
+
+def _beer_bowl(p, x, y, s, lw):
+    p.ellipse(x, y + .05 * s, .5 * s, .18 * s, fill=C["stone2"], w=lw)
+    pts = p.ell_pts(x, y + .05 * s, .5 * s, .3 * s, n=24, a0=0, a1=180, wob=False)
+    p.poly(pts, fill=C["stone"], w=lw)
+    p.ellipse(x, y + .05 * s, .45 * s, .14 * s, fill=C["beer"], w=lw * .8)
+    for cx, cy, r in ((-.3, 0, .1), (-.14, -.04, .12), (.03, -.05, .13), (.2, -.03, .12), (.34, .01, .09)):
+        p.circle(x + cx * s, y + cy * s, r * s, fill=WHITE, w=lw * .7)
+
+
+PROPS.update({"beer_bowl": _beer_bowl, "bowl": _beer_bowl, "cat": _cat, "kitten": _cat, "dog": _dog, "puppy": _dog, "lion": _lion, "elephant": _elephant,
+              "owl": _owl, "chicken": _chicken, "hen": _chicken, "rooster": _chicken, "bear": _bear,
+              "rabbit": _rabbit, "bunny": _rabbit, "frog": _frog, "crocodile": _crocodile, "alligator": _crocodile,
+              "ape": _ape_prop, "chimp": _ape_prop, "chimpanzee": _ape_prop, "gorilla": _ape_prop,
+              "drunk_ape": _drunk_ape, "flower": _flower, "ring": _ring, "soap": _soap, "medicine": _medicine,
+              "doctor": _medicine})
+ANIMALS = {"cat", "dog", "lion", "elephant", "owl", "chicken", "bear", "rabbit", "frog", "crocodile", "ape",
+           "monkey", "goat", "cow", "pig", "horse", "camel", "mammoth", "deer", "wolf", "fish", "bird", "snake"}
 
 
 def prop_name(n):

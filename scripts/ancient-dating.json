@@ -6,38 +6,60 @@
  "thumbnails": [
   {
    "text": "NO DATING APPS?",
-   "face": "shocked",
-   "pose": "scared",
-   "bg": "cave",
+   "title": "How Did Ancient People Find a Partner?",
+   "color": "pink",
+   "hero": "person",
+   "pose": "shrug",
+   "face": "confused",
    "props": [
-    "heart",
-    "fire"
+    "phone"
+   ],
+   "marks": [
+    "x"
+   ],
+   "effects": [
+    "question"
    ]
   },
   {
    "text": "SOLD AT AUCTION?",
-   "face": "smug",
-   "pose": "point_up",
-   "bg": "market",
+   "title": "Babylon Had a Marriage Auction?",
+   "color": "orange",
+   "hero": "person",
+   "pose": "scared",
+   "face": "shocked",
+   "wear": "robe",
    "props": [
     "coin",
     "heart"
-   ]
+   ],
+   "arrow": true
   },
   {
    "text": "DATED NEANDERTHALS?",
-   "face": "confused",
-   "pose": "shrug",
-   "bg": "jungle",
+   "title": "Your Ancestors Dated Neanderthals",
+   "color": "green",
+   "hero": "person",
+   "pose": "wave",
+   "face": "happy",
+   "wear": "fur",
    "props": [
     "heart"
    ],
-   "mark": "x"
+   "effects": [
+    "hearts"
+   ],
+   "sidekick": {
+    "pose": "facepalm",
+    "face": "shocked"
+   }
   }
  ],
  "seo": {
   "titles": [
    "How Did Ancient People Find a Partner?",
+   "Babylon Had a Marriage Auction?",
+   "Your Ancestors Dated Neanderthals",
    "How Did Ancient Humans Find Love?",
    "Dating in the Ancient World Was Wild",
    "How Did People Date Before Dating Apps?",

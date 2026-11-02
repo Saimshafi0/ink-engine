@@ -6,39 +6,51 @@
  "thumbnails": [
   {
    "text": "NO TOILET?",
-   "face": "shocked",
+   "title": "Where Did Ancient Humans Go to the Toilet?",
+   "color": "blue",
+   "hero": "person",
    "pose": "scared",
-   "bg": "jungle",
+   "face": "shocked",
    "props": [
     "toilet"
    ],
-   "mark": "x"
+   "marks": [
+    "x"
+   ],
+   "arrow": true
   },
   {
-   "text": "THEY USED THIS?",
-   "face": "disgusted",
+   "text": "THEY USED THIS?!",
+   "title": "What Did People Use Before Toilet Paper?",
+   "color": "green",
+   "hero": "person",
    "pose": "point",
-   "bg": "village",
+   "face": "disgusted",
    "props": [
     "sponge"
-   ]
+   ],
+   "effects": [
+    "stink"
+   ],
+   "arrow": true
   },
   {
-   "text": "4,000 YEARS AGO?",
-   "face": "smug",
-   "pose": "point_up",
-   "bg": "desert",
-   "props": [
-    "pipe",
-    "toilet"
-   ]
+   "text": "A TOILET DEMON?",
+   "title": "Ancient Toilets Were Weirder Than You Think",
+   "color": "purple",
+   "hero": "demon",
+   "sidekick": {
+    "pose": "scared",
+    "face": "scared"
+   }
   }
  ],
  "seo": {
   "titles": [
    "Where Did Ancient Humans Go to the Toilet?",
-   "How Did Ancient Humans Go to the Bathroom?",
+   "What Did People Use Before Toilet Paper?",
    "Ancient Toilets Were Weirder Than You Think",
+   "How Did Ancient Humans Go to the Bathroom?",
    "What Ancient People Used Before Toilet Paper",
    "The Disgusting History of Ancient Toilets"
   ],

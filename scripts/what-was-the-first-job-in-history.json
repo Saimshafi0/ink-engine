@@ -1,0 +1,1162 @@
+{
+  "title": "What Was the First Job in History?",
+  "thumbnail_text": "FIRST WORKER: AN APE?",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "thumbnails": [
+    {
+      "text": "FIRST WORKER: AN APE?",
+      "title": "The First Job Is Older Than Humans",
+      "color": "green",
+      "hero": "ape",
+      "hold": "axe",
+      "sidekick": {
+        "pose": "point_left",
+        "face": "shocked"
+      }
+    },
+    {
+      "text": "FIRST STRIKE?!",
+      "title": "The First Strike in History Was About Pay",
+      "color": "red",
+      "hero": "person",
+      "pose": "hips",
+      "face": "angry",
+      "props": [
+        "wheat"
+      ],
+      "marks": [
+        "x"
+      ],
+      "bg_prop": "pyramid"
+    },
+    {
+      "text": "FIRST BOSS?!",
+      "title": "The First Job Title Ever Written Was Boss",
+      "color": "blue",
+      "hero": "person",
+      "pose": "point_up",
+      "face": "smug",
+      "above": "crown",
+      "props": [
+        "scroll"
+      ],
+      "arrow": true
+    }
+  ],
+  "seo": {
+    "titles": [
+      "The First Job Is Older Than Humans",
+      "The First Strike in History Was About Pay",
+      "The First Job Title Ever Written Was Boss",
+      "What Was the First Job in History?",
+      "The First Named Person Was an Accountant"
+    ],
+    "best_title": "The First Job Is Older Than Humans",
+    "description_hook": "What was the first job in history? The oldest stone tools are 3.3 million years old, older than humans themselves, and the first famous name in history belonged to an accountant.",
+    "paragraphs": [
+      "In this animated history of work we start with the Lomekwi stone tools in Kenya, look at roles in hunter-gatherer groups, the grandmother hypothesis, and the 9,000 year old female hunter from the Andes.",
+      "Then we visit 45,000 year old cave art in Sulawesi, the cared-for Neanderthal of Shanidar Cave, the Standard Professions List from Uruk, Kushim the first named person, workers paid in bread and beer, and the famous complaint against Ea-nasir.",
+      "We finish in Egypt with pyramid work gangs like the Drunkards of Menkaure, and the first recorded strike at Deir el-Medina."
+    ],
+    "sources": [
+      "Harmand et al. - 3.3-million-year-old stone tools from Lomekwi 3, West Turkana, Kenya, Nature (2015)",
+      "Hawkes et al. - Grandmothering, menopause, and the evolution of human life histories, PNAS (1998)",
+      "Haas et al. - Female hunters of the early Americas, Science Advances (2020)",
+      "Brumm et al. - Oldest cave art found in Sulawesi, Science Advances (2021)",
+      "Erik Trinkaus - The Shanidar Neandertals (1983)",
+      "Englund & Nissen - Die lexikalischen Listen der archaischen Texte aus Uruk (1993)",
+      "A. Leo Oppenheim - Letters from Mesopotamia (1967), letter of Nanni to Ea-nasir",
+      "Mark Lehner & Zahi Hawass - Giza and the Pyramids (2017)",
+      "William F. Edgerton - The Strikes in Ramses III's Twenty-Ninth Year, JNES (1951)"
+    ],
+    "tags": [
+      "first job in history",
+      "oldest job",
+      "history of work",
+      "oldest profession",
+      "lomekwi stone tools",
+      "first stone tools",
+      "grandmother hypothesis",
+      "female hunters",
+      "kushim",
+      "first named person in history",
+      "ea-nasir",
+      "oldest complaint",
+      "pyramid workers",
+      "drunkards of menkaure",
+      "first strike in history",
+      "deir el-medina"
+    ],
+    "hashtags": [
+      "#historyofwork",
+      "#history",
+      "#ancienthumans"
+    ],
+    "pinned_comment": "Which ancient job would you pick: toolmaker, cave painter, accountant, or pyramid builder?"
+  },
+  "shorts": [
+    {
+      "scenes": [
+        2
+      ],
+      "hook": "OLDER THAN HUMANS?",
+      "title": "The First Job Is Older Than Humans",
+      "description": "3.3 million year old stone tools. Made before our genus even existed.",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#evolution"
+      ],
+      "pinned": "Did you know this?"
+    },
+    {
+      "scenes": [
+        8
+      ],
+      "hook": "HIS NAME WAS KUSHIM.",
+      "title": "The First Famous Person Was an Accountant",
+      "description": "One of the oldest names in history belongs to someone counting barley.",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#mesopotamia"
+      ],
+      "pinned": "Hero or accountant?"
+    },
+    {
+      "scenes": [
+        10
+      ],
+      "hook": "THE FIRST COMPLAINT.",
+      "title": "The Oldest Customer Complaint Ever",
+      "description": "Nanni wanted a refund from Ea-nasir. 3,700 years ago.",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#eanasir"
+      ],
+      "pinned": "Would you buy copper from Ea-nasir?"
+    },
+    {
+      "scenes": [
+        12
+      ],
+      "hook": "THE FIRST STRIKE.",
+      "title": "The First Strike in History",
+      "description": "Egyptian tomb builders walked out when their pay was late.",
+      "hashtags": [
+        "#shorts",
+        "#ancientegypt",
+        "#history"
+      ],
+      "pinned": "Would you have joined the strike?"
+    }
+  ],
+  "scenes": [
+    {
+      "chapter": "Older Than Your Boss",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "sit",
+          "face": "sleepy",
+          "say": "Right now, millions of people are sitting at work, counting the minutes.",
+          "prop": "clock"
+        },
+        {
+          "type": "crowd",
+          "bg": "city",
+          "count": 9,
+          "poses": [
+            "sit",
+            "walk",
+            "carry"
+          ],
+          "faces": [
+            "sleepy",
+            "neutral",
+            "sweating"
+          ],
+          "say": "Some are in offices. Some are in kitchens. Some are pretending to be busy."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "unimpressed",
+          "say": "Maybe that's you right now. No judgment.",
+          "prop": "phone"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "But have you ever wondered who had the very first job?"
+        },
+        {
+          "type": "list",
+          "title": "OLDER THAN...",
+          "items": [
+            [
+              "scroll",
+              "Writing"
+            ],
+            [
+              "coin",
+              "Money"
+            ],
+            [
+              "wheat",
+              "Farming"
+            ]
+          ],
+          "say": "Because work is older than writing. Older than money. Older than farming."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "And the first job might be older than humans.",
+          "text": "OLDER THAN HUMANS?"
+        },
+        {
+          "type": "list",
+          "title": "TODAY",
+          "items": [
+            [
+              "axe",
+              "A 3 million year old job"
+            ],
+            [
+              "scroll",
+              "The first boss"
+            ],
+            [
+              "beer",
+              "Paid in beer"
+            ],
+            [
+              "exclaim",
+              "The first strike"
+            ]
+          ],
+          "say": "Today: a three million year old job, the first boss, beer salaries, and the first strike."
+        },
+        {
+          "type": "me",
+          "pose": "wave",
+          "face": "smug",
+          "say": "Clock in. Let's go.",
+          "prop": "clock"
+        }
+      ],
+      "say": "Right now, millions of people are sitting at work, counting the minutes. Some are in offices. Some are in kitchens. Some are pretending to be busy. Maybe that's you right now. No judgment. But have you ever wondered who had the very first job? Because work is older than writing. Older than money. Older than farming. And the first job might be older than humans. Today: a three million year old job, the first boss, beer salaries, and the first strike. Clock in. Let's go."
+    },
+    {
+      "chapter": "The 3 Million Year Job",
+      "shots": [
+        {
+          "type": "map",
+          "region": "Kenya",
+          "label": "KENYA",
+          "say": "Our story starts in Kenya, near Lake Turkana."
+        },
+        {
+          "type": "big",
+          "text": "3,300,000 YEARS AGO.",
+          "say": "About three point three million years ago."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "say": "Someone sat down and smashed one rock against another.",
+          "people": [
+            {
+              "pose": "sit",
+              "face": "thinking",
+              "wear": "fur"
+            }
+          ],
+          "props": [
+            "rock",
+            "axe"
+          ],
+          "ai": "an early ape-like human sitting in dry grassland knapping stones"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "They made sharp stone flakes. The oldest stone tools ever found.",
+          "prop": "axe"
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "The site is called Lomekwi 3. The tools were described in 2015.",
+          "props": [
+            "axe",
+            "rock"
+          ],
+          "label": "LOMEKWI 3"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "Here's the thing. That's older than our whole genus.",
+          "text": "NO HUMANS YET."
+        },
+        {
+          "type": "big",
+          "text": "BUT HERE'S THE WEIRD PART.",
+          "say": "But here's the weird part."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "No one is sure which species made them.",
+          "text": "WHO MADE THEM?"
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "say": "Maybe an early ape-like relative. Not a human at all.",
+          "props": [
+            "ape",
+            "axe"
+          ],
+          "ai": "a cartoon early hominin ape holding a sharp stone tool"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "So the first job in history might be: toolmaker. And the worker wasn't even human."
+        }
+      ],
+      "say": "Our story starts in Kenya, near Lake Turkana. About three point three million years ago. Someone sat down and smashed one rock against another. They made sharp stone flakes. The oldest stone tools ever found. The site is called Lomekwi 3. The tools were described in 2015. Here's the thing. That's older than our whole genus. But here's the weird part. No one is sure which species made them. Maybe an early ape-like relative. Not a human at all. So the first job in history might be: toolmaker. And the worker wasn't even human."
+    },
+    {
+      "chapter": "Stone Age Job Board",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Fast forward to real humans. Hunter-gatherers.",
+          "prop": "spear"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Did they have jobs? Not with job titles. But they had roles."
+        },
+        {
+          "type": "list",
+          "title": "STONE AGE ROLES",
+          "items": [
+            [
+              "spear",
+              "Hunters"
+            ],
+            [
+              "berries",
+              "Gatherers"
+            ],
+            [
+              "axe",
+              "Toolmakers"
+            ],
+            [
+              "fire",
+              "Fire keepers"
+            ]
+          ],
+          "say": "Hunting, gathering, making tools, keeping the fire going."
+        },
+        {
+          "type": "crowd",
+          "bg": "grass",
+          "count": 8,
+          "poses": [
+            "carry",
+            "sit",
+            "walk"
+          ],
+          "faces": [
+            "happy",
+            "sleepy",
+            "neutral"
+          ],
+          "say": "And the most important job of all? Looking after kids."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "Some scientists think grandmothers were the secret weapon.",
+          "text": "GRANDMA POWER."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "happy",
+          "say": "Grandmothers gathered food and helped raise kids, so mothers could have more children."
+        },
+        {
+          "type": "big",
+          "text": "THE GRANDMOTHER HYPOTHESIS.",
+          "say": "It's called the grandmother hypothesis. And yes, it's a real theory."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "neutral",
+          "say": "Like every big idea in human evolution, people still argue about it."
+        }
+      ],
+      "say": "Fast forward to real humans. Hunter-gatherers. Did they have jobs? Not with job titles. But they had roles. Hunting, gathering, making tools, keeping the fire going. And the most important job of all? Looking after kids. Some scientists think grandmothers were the secret weapon. Grandmothers gathered food and helped raise kids, so mothers could have more children. It's called the grandmother hypothesis. And yes, it's a real theory. Like every big idea in human evolution, people still argue about it."
+    },
+    {
+      "chapter": "Who Did the Hunting?",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Now, you've probably heard: men hunted, women gathered.",
+          "prop": "spear"
+        },
+        {
+          "type": "map",
+          "region": "Peru",
+          "label": "ANDES",
+          "say": "In 2018, archaeologists in Peru dug up a 9,000 year old burial."
+        },
+        {
+          "type": "draw",
+          "bg": "mountains",
+          "say": "The person was buried with a full hunting kit. Stone points and tools.",
+          "props": [
+            "spear",
+            "axe"
+          ],
+          "label": "HUNTING KIT",
+          "ai": "a stone age burial with spear points and tools laid out in the Andes"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "Everyone assumed it was a man. Then they checked.",
+          "text": "THEN THEY CHECKED."
+        },
+        {
+          "type": "big",
+          "text": "SHE WAS A HUNTER.",
+          "say": "It was a woman. A big game hunter."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "laugh",
+          "say": "Thousands of years of assumptions. Gone in one test.",
+          "text": "OOPS."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "How common were female hunters? Historians still disagree."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "happy",
+          "say": "But clearly, the job board was less strict than we thought."
+        }
+      ],
+      "say": "Now, you've probably heard: men hunted, women gathered. In 2018, archaeologists in Peru dug up a 9,000 year old burial. The person was buried with a full hunting kit. Stone points and tools. Everyone assumed it was a man. Then they checked. It was a woman. A big game hunter. Thousands of years of assumptions. Gone in one test. How common were female hunters? Historians still disagree. But clearly, the job board was less strict than we thought."
+    },
+    {
+      "chapter": "The First Artists and Healers",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Some jobs were about more than food.",
+          "prop": "drum"
+        },
+        {
+          "type": "map",
+          "region": "Indonesia",
+          "label": "SULAWESI",
+          "say": "On the island of Sulawesi, in Indonesia, there's a cave painting."
+        },
+        {
+          "type": "draw",
+          "bg": "cave",
+          "say": "It shows a wild pig. And it's at least forty-five thousand years old.",
+          "props": [
+            "pig"
+          ],
+          "label": "CAVE PIG",
+          "ai": "an ancient red ochre cave painting of a wild pig on a cave wall"
+        },
+        {
+          "type": "me",
+          "pose": "celebrate",
+          "face": "excited",
+          "say": "Someone spent hours painting a pig. Art might be one of our oldest jobs.",
+          "text": "ARTIST."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "And then there's healing.",
+          "prop": "medicine"
+        },
+        {
+          "type": "map",
+          "region": "Iraq",
+          "label": "SHANIDAR CAVE",
+          "say": "In Shanidar Cave in Iraq, archaeologists found a Neanderthal man."
+        },
+        {
+          "type": "draw",
+          "bg": "cave",
+          "say": "He had a crushed arm, a damaged eye, and probably couldn't hear well.",
+          "people": [
+            {
+              "pose": "sit",
+              "face": "sad",
+              "wear": "fur"
+            }
+          ],
+          "props": [
+            "fire"
+          ]
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "happy",
+          "say": "But he lived for years. Someone must have looked after him.",
+          "text": "SOMEONE CARED."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Caring for the sick may be one of humanity's oldest jobs too.",
+          "prop": "heart"
+        }
+      ],
+      "say": "Some jobs were about more than food. On the island of Sulawesi, in Indonesia, there's a cave painting. It shows a wild pig. And it's at least forty-five thousand years old. Someone spent hours painting a pig. Art might be one of our oldest jobs. And then there's healing. In Shanidar Cave in Iraq, archaeologists found a Neanderthal man. He had a crushed arm, a damaged eye, and probably couldn't hear well. But he lived for years. Someone must have looked after him. Caring for the sick may be one of humanity's oldest jobs too."
+    },
+    {
+      "chapter": "Farming Creates Jobs",
+      "shots": [
+        {
+          "type": "big",
+          "text": "12,000 YEARS AGO.",
+          "say": "Then, about twelve thousand years ago, came farming."
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "say": "Farming produced something new. Extra food.",
+          "people": [
+            {
+              "pose": "dig",
+              "face": "sweating"
+            }
+          ],
+          "props": [
+            "wheat",
+            "cow"
+          ],
+          "ai": "an early farmer working a wheat field with a cow nearby"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "And extra food meant not everyone had to find food anymore.",
+          "prop": "wheat"
+        },
+        {
+          "type": "diagram",
+          "title": "SURPLUS = JOBS",
+          "steps": [
+            [
+              "wheat",
+              "Extra food"
+            ],
+            [
+              "house",
+              "Villages"
+            ],
+            [
+              "person",
+              "New jobs"
+            ]
+          ],
+          "say": "Extra food, bigger villages, and suddenly, brand new jobs."
+        },
+        {
+          "type": "list",
+          "title": "NEW JOBS",
+          "items": [
+            [
+              "pot",
+              "Potters"
+            ],
+            [
+              "beer",
+              "Brewers"
+            ],
+            [
+              "sword",
+              "Guards"
+            ],
+            [
+              "crown",
+              "Chiefs"
+            ]
+          ],
+          "say": "Potters, brewers, builders, guards, and of course, chiefs."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "unimpressed",
+          "say": "Farming gave us bread, beer, and bosses.",
+          "text": "BREAD. BEER. BOSSES."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "smug",
+          "say": "Two out of three isn't bad."
+        }
+      ],
+      "say": "Then, about twelve thousand years ago, came farming. Farming produced something new. Extra food. And extra food meant not everyone had to find food anymore. Extra food, bigger villages, and suddenly, brand new jobs. Potters, brewers, builders, guards, and of course, chiefs. Farming gave us bread, beer, and bosses. Two out of three isn't bad."
+    },
+    {
+      "chapter": "The First Job List",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "But jobs with real titles? For that, we need writing.",
+          "prop": "scroll"
+        },
+        {
+          "type": "map",
+          "region": "Mesopotamia",
+          "label": "URUK",
+          "say": "And writing starts in Mesopotamia, in a city called Uruk."
+        },
+        {
+          "type": "big",
+          "text": "ABOUT 3200 BC.",
+          "say": "Around five thousand two hundred years ago."
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "Scribes wrote a list of job titles on clay. Over a hundred of them.",
+          "props": [
+            "scroll"
+          ],
+          "label": "JOB LIST"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "Historians call it the Standard Professions List.",
+          "text": "LITERALLY A JOB LIST."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Scribes copied it for centuries, like homework.",
+          "prop": "book"
+        },
+        {
+          "type": "list",
+          "title": "ON THE LIST",
+          "items": [
+            [
+              "crown",
+              "Leaders"
+            ],
+            [
+              "coin",
+              "Officials"
+            ],
+            [
+              "fish",
+              "Fishermen"
+            ],
+            [
+              "pot",
+              "Potters"
+            ]
+          ],
+          "say": "Leaders, officials, priests, cooks, fishermen, potters."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "laugh",
+          "say": "And what job is at the very top of the list?",
+          "text": "NUMBER ONE?"
+        },
+        {
+          "type": "big",
+          "text": "THE BOSS.",
+          "say": "Some kind of top leader. Probably the boss."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "unimpressed",
+          "say": "Five thousand years later, the boss is still at the top of the list."
+        }
+      ],
+      "say": "But jobs with real titles? For that, we need writing. And writing starts in Mesopotamia, in a city called Uruk. Around five thousand two hundred years ago. Scribes wrote a list of job titles on clay. Over a hundred of them. Historians call it the Standard Professions List. Scribes copied it for centuries, like homework. Leaders, officials, priests, cooks, fishermen, potters. And what job is at the very top of the list? Some kind of top leader. Probably the boss. Five thousand years later, the boss is still at the top of the list."
+    },
+    {
+      "chapter": "The First Named Person",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Here's something even stranger.",
+          "prop": "question"
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "One of the oldest names in all of history appears on a clay tablet from Uruk.",
+          "props": [
+            "scroll",
+            "wheat"
+          ],
+          "label": "KUSHIM"
+        },
+        {
+          "type": "big",
+          "text": "KUSHIM.",
+          "say": "The name is Kushim."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Was Kushim a king? A hero? A great warrior?",
+          "text": "A HERO?"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "unimpressed",
+          "say": "No. Kushim was probably an accountant.",
+          "text": "AN ACCOUNTANT."
+        },
+        {
+          "type": "diagram",
+          "title": "KUSHIM'S TABLET",
+          "steps": [
+            [
+              "wheat",
+              "Barley"
+            ],
+            [
+              "clock",
+              "37 months"
+            ],
+            [
+              "scroll",
+              "Signed: Kushim"
+            ]
+          ],
+          "say": "The tablet records barley stored over thirty-seven months, signed by Kushim."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "The first famous person in history did paperwork."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "To be fair, some experts think Kushim was a job title, not a name."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "Either way, the first written records are about work. And grain."
+        }
+      ],
+      "say": "Here's something even stranger. One of the oldest names in all of history appears on a clay tablet from Uruk. The name is Kushim. Was Kushim a king? A hero? A great warrior? No. Kushim was probably an accountant. The tablet records barley stored over thirty-seven months, signed by Kushim. The first famous person in history did paperwork. To be fair, some experts think Kushim was a job title, not a name. Either way, the first written records are about work. And grain."
+    },
+    {
+      "chapter": "Paid in Beer",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "So how did people get paid? No coins existed yet.",
+          "prop": "coin",
+          "cross": true
+        },
+        {
+          "type": "diagram",
+          "title": "SUMER PAYCHECK",
+          "steps": [
+            [
+              "wheat",
+              "Barley"
+            ],
+            [
+              "bread",
+              "Bread"
+            ],
+            [
+              "beer",
+              "Beer"
+            ]
+          ],
+          "say": "Workers were paid in rations. Barley, bread, and beer."
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "Archaeologists find thousands of cheap, identical clay bowls in these cities.",
+          "props": [
+            "pot",
+            "pot",
+            "pot"
+          ],
+          "label": "RATION BOWLS"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Many think they were ration bowls. One bowl, one day's grain.",
+          "prop": "pot"
+        },
+        {
+          "type": "me",
+          "pose": "celebrate",
+          "face": "laugh",
+          "say": "So your salary was, literally, a bowl.",
+          "text": "SALARY = BOWL."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "smug",
+          "say": "And on good days, a jug of beer.",
+          "prop": "beer"
+        }
+      ],
+      "say": "So how did people get paid? No coins existed yet. Workers were paid in rations. Barley, bread, and beer. Archaeologists find thousands of cheap, identical clay bowls in these cities. Many think they were ration bowls. One bowl, one day's grain. So your salary was, literally, a bowl. And on good days, a jug of beer."
+    },
+    {
+      "chapter": "The First Complaint",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "And where there are jobs, there are angry customers.",
+          "prop": "scroll"
+        },
+        {
+          "type": "map",
+          "region": "Mesopotamia",
+          "label": "UR",
+          "say": "Around 1750 BC, in the city of Ur, a man named Nanni wrote a letter."
+        },
+        {
+          "type": "draw",
+          "bg": "market",
+          "say": "He'd paid a merchant called Ea-nasir for copper. The copper was bad.",
+          "people": [
+            {
+              "pose": "crossed",
+              "face": "angry",
+              "wear": "robe"
+            },
+            {
+              "pose": "shrug",
+              "face": "sweating",
+              "wear": "rich"
+            }
+          ],
+          "props": [
+            "coin"
+          ],
+          "ai": "an angry Mesopotamian customer confronting a nervous merchant over copper"
+        },
+        {
+          "type": "big",
+          "text": "THE FIRST COMPLAINT LETTER.",
+          "say": "It's often called the oldest customer complaint in history."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "laugh",
+          "say": "Nanni says he was treated with contempt. He wants a refund. Now.",
+          "text": "I WANT A REFUND."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "Today, that tablet sits in the British Museum.",
+          "prop": "book"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "Ea-nasir is now famous online. For the worst reason possible."
+        }
+      ],
+      "say": "And where there are jobs, there are angry customers. Around 1750 BC, in the city of Ur, a man named Nanni wrote a letter. He'd paid a merchant called Ea-nasir for copper. The copper was bad. It's often called the oldest customer complaint in history. Nanni says he was treated with contempt. He wants a refund. Now. Today, that tablet sits in the British Museum. Ea-nasir is now famous online. For the worst reason possible."
+    },
+    {
+      "chapter": "Drunkards of Menkaure",
+      "shots": [
+        {
+          "type": "map",
+          "region": "Egypt",
+          "label": "GIZA",
+          "say": "Now, Egypt. The pyramid builders."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "say": "They weren't slaves, as people often think. Most were organized, paid workers.",
+          "people": [
+            {
+              "pose": "carry",
+              "face": "sweating",
+              "hold": "rock"
+            },
+            {
+              "pose": "carry",
+              "face": "sweating",
+              "hold": "rock"
+            }
+          ],
+          "props": [
+            "pyramid"
+          ],
+          "ai": "teams of stick figure workers dragging stone blocks toward a pyramid"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "happy",
+          "say": "They worked in teams. And the teams had names.",
+          "text": "TEAM NAMES."
+        },
+        {
+          "type": "list",
+          "title": "REAL GANG NAMES",
+          "items": [
+            [
+              "crown",
+              "Friends of Khufu"
+            ],
+            [
+              "beer",
+              "Drunkards of Menkaure"
+            ]
+          ],
+          "say": "Archaeologists found names like Friends of Khufu, and Drunkards of Menkaure."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "laugh",
+          "say": "Drunkards of Menkaure. That's a real team name. Carved in stone.",
+          "text": "REAL."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "smug",
+          "say": "Every office has that one team."
+        }
+      ],
+      "say": "Now, Egypt. The pyramid builders. They weren't slaves, as people often think. Most were organized, paid workers. They worked in teams. And the teams had names. Archaeologists found names like Friends of Khufu, and Drunkards of Menkaure. Drunkards of Menkaure. That's a real team name. Carved in stone. Every office has that one team."
+    },
+    {
+      "chapter": "The First Strike",
+      "shots": [
+        {
+          "type": "big",
+          "text": "1157 BC.",
+          "say": "Around eleven fifty-seven B C, near the Valley of the Kings."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "say": "The village of Deir el-Medina housed the skilled workers who built royal tombs.",
+          "props": [
+            "house",
+            "pyramid"
+          ],
+          "label": "DEIR EL-MEDINA",
+          "ai": "an ancient Egyptian workers village of mud brick houses near desert cliffs"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "They were paid in grain. And the grain was late. Again.",
+          "prop": "wheat"
+        },
+        {
+          "type": "me",
+          "pose": "hips",
+          "face": "angry",
+          "say": "So the workers did something nobody had recorded before.",
+          "text": "ENOUGH."
+        },
+        {
+          "type": "crowd",
+          "bg": "desert",
+          "count": 10,
+          "poses": [
+            "crossed",
+            "walk",
+            "sit"
+          ],
+          "faces": [
+            "angry",
+            "unimpressed"
+          ],
+          "say": "They put down their tools and walked out."
+        },
+        {
+          "type": "big",
+          "text": "THE FIRST STRIKE.",
+          "say": "It's the first recorded strike in history."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "A scribe wrote it all down on papyrus. It still exists.",
+          "prop": "scroll"
+        },
+        {
+          "type": "me",
+          "pose": "celebrate",
+          "face": "happy",
+          "say": "And it worked. Eventually, the rations came.",
+          "text": "THEY WON."
+        }
+      ],
+      "say": "Around eleven fifty-seven B C, near the Valley of the Kings. The village of Deir el-Medina housed the skilled workers who built royal tombs. They were paid in grain. And the grain was late. Again. So the workers did something nobody had recorded before. They put down their tools and walked out. It's the first recorded strike in history. A scribe wrote it all down on papyrus. It still exists. And it worked. Eventually, the rations came."
+    },
+    {
+      "chapter": "Clocking Out",
+      "shots": [
+        {
+          "type": "timeline",
+          "title": "THE HISTORY OF WORK",
+          "points": [
+            [
+              "3.3 M years",
+              "axe"
+            ],
+            [
+              "45,000 YRS AGO",
+              "pig"
+            ],
+            [
+              "3200 BC",
+              "scroll"
+            ],
+            [
+              "1157 BC",
+              "exclaim"
+            ]
+          ],
+          "say": "Toolmakers, artists, accountants, angry customers, and strikers."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "So what was the first job in history?"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "If you mean any work at all, it's probably making tools.",
+          "prop": "axe"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "If you mean the first job title written down, it was the boss.",
+          "prop": "crown"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "And the first famous worker was an accountant. Sorry, accountants."
+        },
+        {
+          "type": "me",
+          "pose": "hold",
+          "face": "neutral",
+          "say": "But one question is still open.",
+          "prop": "coin"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "How did people pay for things before money was invented?",
+          "text": "NO MONEY?"
+        },
+        {
+          "type": "me",
+          "pose": "wave",
+          "face": "smug",
+          "say": "That's the next video. Now get back to work."
+        }
+      ],
+      "say": "Toolmakers, artists, accountants, angry customers, and strikers. So what was the first job in history? If you mean any work at all, it's probably making tools. If you mean the first job title written down, it was the boss. And the first famous worker was an accountant. Sorry, accountants. But one question is still open. How did people pay for things before money was invented? That's the next video. Now get back to work."
+    }
+  ]
+}

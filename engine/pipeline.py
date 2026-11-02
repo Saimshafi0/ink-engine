@@ -203,7 +203,12 @@ def make_video(script_path, preview=False, mode="A", settings=None, out_name=Non
         R.concat(segs, wav, mp4, work)
         pr.set(7, 0)
         CAP.write_srt(words, os.path.join(folder, "captions.srt"))
-        make_thumbs(data, folder, aimap, flat)
+        tspecs = make_thumbs(data, folder, aimap, flat)
+        seo_ = data.setdefault("seo", {})
+        paired = [t["title"] for t in tspecs if t.get("title")]
+        if paired:
+            seo_["best_title"] = paired[0]
+            seo_["titles"] = paired + [t for t in (seo_.get("titles") or []) if t not in paired]
         chs = [(f["start"], f["chapter"]) for f in flat if not f.get("part")]
         best, tlist = SEO.titles(data)
         with open(os.path.join(folder, "title.txt"), "w", encoding="utf-8") as fh:
@@ -232,23 +237,40 @@ def make_video(script_path, preview=False, mode="A", settings=None, out_name=Non
         raise
 
 
-def make_thumbs(data, folder, aimap, flat):
-    th = data.get("thumbnails") or []
-    base_text = data.get("thumbnail_text") or "WAIT, WHAT?"
-    defaults = [dict(text=base_text, face="shocked", pose="scared", bg="village", props=["question"]),
-                dict(text=base_text, face="smug", pose="point_up", bg="desert", props=["skull"]),
-                dict(text=base_text, face="confused", pose="shrug", bg="cave", props=["fire"])]
-    for k, letter in enumerate("ABC"):
-        t = dict(defaults[k])
-        if k < len(th) and isinstance(th[k], dict):
-            t.update({a: b for a, b in th[k].items() if b})
-        img = T.make_thumbnail(t.get("text", base_text), bg=t.get("bg", "village"), face=t.get("face", "shocked"),
-                               pose=t.get("pose", "scared"), props=t.get("props") or [], mark=t.get("mark"),
-                               side_text=t.get("side", "right"), seed=k + 3)
+def make_thumbs(data, folder, aimap=None, flat=None):
+    """3 click-worthy thumbnails, each paired with its own title."""
+    given = [t for t in (data.get("thumbnails") or []) if isinstance(t, dict)]
+    auto = T.auto_specs(data)
+    specs = []
+    for k in range(3):
+        sp = dict(auto[k])
+        if k < len(given):
+            g = dict(given[k])
+            # old style entries only had text/face/pose/bg/props/mark: keep auto extras unless given
+            sp = dict(g) if any(x in g for x in ("hero", "color", "hold", "above", "sidekick", "arrow")) else dict(sp, **g)
+        specs.append(sp)
+    seo = data.get("seo") or {}
+    titles = [t for t in (seo.get("titles") or []) if t]
+    lines = []
+    for k, (letter, sp) in enumerate(zip("ABC", specs)):
+        try:
+            img = T.make_pro(sp, k)
+        except Exception as e:
+            print(f"NOTE: thumbnail {letter} simple style mein bana ({e})")
+            img = T.make_pro(T.auto_specs(data)[k], k)
         name = "thumbnail.jpg" if letter == "A" else f"thumbnail_{letter}.jpg"
-        img.save(os.path.join(folder, name), quality=92)
-        if letter == "A":
-            T.phone_preview(img).save(os.path.join(folder, "thumbnail_phone_preview.png"))
+        img.save(os.path.join(folder, name), quality=93)
+        T.phone_preview(img).save(os.path.join(folder, f"thumbnail_{letter}_phone.png"))
+        title = sp.get("title") or (titles[k] if k < len(titles) else data.get("title", ""))
+        sp["title"] = title
+        lines.append(f"{letter}: {name}\n   Thumbnail text: {sp.get('text')}\n   Title: {title}  [{len(title)} chars]")
+    best = specs[0].get("title") or data.get("title", "")
+    with open(os.path.join(folder, "thumbnails.txt"), "w", encoding="utf-8") as fh:
+        fh.write("THUMBNAILS + TITLES (YouTube Studio > Test & Compare)\n"
+                 "=====================================================\n\n" + "\n\n".join(lines) +
+                 f"\n\nAgar sirf thumbnails test ho sakte hain: title rakhein -> {best}\n"
+                 "Test 2-3 din chalne dein, beech mein kuch na badlein.\n")
+    return specs
 
 
 # ---------------------------------------------------------------------

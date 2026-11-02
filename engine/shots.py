@@ -19,8 +19,31 @@ def _seed(shot):
     return abs(hash(str(sorted((k, str(v)) for k, v in shot.items() if k not in ("dur", "words"))))) % 100000
 
 
-def render(shot, W=1920, H=1080, K=2, blink=False, mouth=0.0, bob=0.0, out_scale=1.0, ai_image=None):
-    """Return (RGB image of size W*out_scale x H*out_scale, focus(x,y in 0..1), zoom_hint)."""
+_SPR = None   # when a list: floating elements are collected here instead of drawn
+SKY = ("sun", "moon", "cloud", "star", "bird", "lightning")
+FLOAT_OK = True
+
+
+def _sprite(name, x, y, size, anim, mark=None):
+    """Draw now, or hand over as a floating sprite when the renderer asked for them."""
+    if _SPR is not None and FLOAT_OK:
+        _SPR.append(dict(name=name, x=x, y=y, size=size, anim=anim, mark=mark))
+        return True
+    return False
+
+
+def render(shot, W=1920, H=1080, K=2, blink=False, mouth=0.0, bob=0.0, out_scale=1.0, ai_image=None, sprites=None):
+    """Return (RGB image of size W*out_scale x H*out_scale, focus(x,y in 0..1), zoom_hint).
+    If `sprites` is a list, floating props are NOT drawn but appended to it (logical coords)."""
+    global _SPR
+    _SPR = sprites
+    try:
+        return _render(shot, W, H, K, blink, mouth, bob, out_scale, ai_image)
+    finally:
+        _SPR = None
+
+
+def _render(shot, W, H, K, blink, mouth, bob, out_scale, ai_image):
     t = norm_type(shot.get("type"))
     img = D.new_canvas(W, H, K)
     seed = shot.get("seed", _seed(shot))
@@ -64,16 +87,17 @@ def _me(pen, s, W, H, st):
         top = D.hand_caption(pen, W, H * .145, text, maxw=W * .78, size=int(H * .085)) + H * .01
     feet = H * .93
     avail = feet - top
-    Hh = min(H * .66, avail * .97)
+    Hh = min(H * .62, avail * .86)  # figure is ~1.14x taller than Hh (head on top)
     if prop:
         cx = W * .38
         D.draw_person(pen, cx, feet, Hh, s.get("pose", "point"), s.get("face", "neutral"), **st,
                       flip=False, lw=H * .0075, shadow=True)
         ps = min(H * .3, Hh * .55)
         px, py = W * .66, feet - Hh * .45
-        D.draw_prop(pen, prop, px, py, ps, lw=H * .0055)
-        if mark:
-            D.draw_prop(pen, mark, px, py, ps * 1.05)
+        if not _sprite(prop, px, py, ps, "float", mark):
+            D.draw_prop(pen, prop, px, py, ps, lw=H * .0055)
+            if mark:
+                D.draw_prop(pen, mark, px, py, ps * 1.05)
         return (0.5, (top / H + .93) / 2)
     D.draw_person(pen, W / 2, feet, Hh, s.get("pose", "stand"), s.get("face", "neutral"), **st, lw=H * .0075, shadow=True)
     if mark:
@@ -154,12 +178,24 @@ def _scene(pen, s, W, H, st):
         big = D.prop_name(name) in ("cave", "hut", "house", "pyramid", "mountain", "tent", "tree", "palm", "mammoth", "boat", "camel", "horse")
         sz = PS * (1.7 if big else 1.0)
         y = gy - sz * (.42 if big else .32)
-        if D.prop_name(name) in ("sun", "moon", "cloud", "star", "bird", "lightning"):
+        pn = D.prop_name(name)
+        anim = None
+        if pn in SKY:
             sz = PS * .8
             y = H * .2
-        if not np_ and not big and npr <= 2:
+            x = W * (.55 + .12 * (i % 3))
+            anim = "drift"
+        elif not np_ and not big and npr <= 2:
             y = H * .55
-        D.draw_prop(pen, name, x, y, sz, lw=H * .0055)
+            anim = "float"
+        elif pn in ("fire", "campfire", "torch"):
+            anim = "flicker"
+        elif pn in getattr(D, "ANIMALS", ()):
+            anim = "idle"
+        if (s.get("cross") or s.get("tick")) and i == 0:
+            anim = None
+        if not (anim and _sprite(name, x, y, sz, anim)):
+            D.draw_prop(pen, name, x, y, sz, lw=H * .0055)
         prop_pos.append((x, y, sz))
     _overlays(pen, s, W, H, gy, centers, prop_pos)
     if centers:
@@ -177,8 +213,9 @@ def _overlays(pen, s, W, H, gy, centers, prop_pos=()):
     if s.get("think") and centers:
         hx, hy = centers[0]
         bx, by = hx + H * .2, max(H * .2, hy - H * .25)
-        D.draw_prop(pen, "thought", bx, by, H * .32)
-        D.draw_prop(pen, s["think"], bx + H * .02, by - H * .05, H * .14)
+        if not _sprite("__think__:" + str(s["think"]), bx, by, H * .32, "float"):
+            D.draw_prop(pen, "thought", bx, by, H * .32)
+            D.draw_prop(pen, s["think"], bx + H * .02, by - H * .05, H * .14)
     if s.get("cross") or s.get("tick"):
         mark = "x" if s.get("cross") else "tick"
         if prop_pos:
