@@ -108,6 +108,14 @@ def make_music(seconds, seed=1, mood=None):
     return out.astype(np.float32)
 
 
+def _fit(x, n):
+    """Make an array exactly n samples long (cut or pad with zeros/ones-edge)."""
+    x = np.asarray(x, dtype=np.float32)
+    if len(x) >= n:
+        return x[:n]
+    return np.concatenate([x, np.full(n - len(x), x[-1] if len(x) else 0, np.float32)])
+
+
 def sfx(kind):
     if kind == "pop":
         n = int(0.09 * SR)
@@ -181,7 +189,8 @@ def mix(voice24, events, music_db=-24.0, target_lufs=-14.0, seed=1, music=True):
     out[:len(v)] += v
     vl = lufs(v) if len(v) > SR else -20
     if music:
-        m = make_music(n / SR, seed=seed)
+        m = make_music(n / SR + 0.5, seed=seed)
+        m = _fit(m, n)
         ml = lufs(m)
         gain = 10 ** ((vl + music_db - ml) / 20) if np.isfinite(ml) and np.isfinite(vl) else 0.05
         # gentle ducking: slightly louder in long pauses
@@ -192,7 +201,8 @@ def mix(voice24, events, music_db=-24.0, target_lufs=-14.0, seed=1, music=True):
         duck = np.ones(n, np.float32)
         duck[:len(env)] = np.where(env > 0.01, 1.0, 1.6)
         duck = np.convolve(duck, np.ones(int(.4 * SR)) / int(.4 * SR), mode="same").astype(np.float32)
-        out += m[:n] * gain * duck
+        duck = _fit(duck, n)
+        out += m * gain * duck
     sounds = {}
     for t, kind in events:
         if kind not in sounds:

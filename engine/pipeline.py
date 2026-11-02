@@ -222,7 +222,14 @@ def make_video(script_path, preview=False, mode="A", settings=None, out_name=Non
         meta = dict(title=best, duration=round(total, 1), shots=len(flat), preview=preview, mode=mode)
         if shorts and not preview:
             pr.set(8, 0)
-            make_shorts_from_video(data, flat, audio, words, folder, aimap, pr, 8)
+            try:
+                make_shorts_from_video(data, flat, audio, words, folder, aimap, pr, 8)
+            except KeyboardInterrupt:
+                raise
+            except Exception as e:
+                traceback.print_exc()
+                log(f"NOTE: Shorts nahi ban sake ({e}). Lambi video, thumbnails aur SEO tayyar hain.")
+                meta["shorts_error"] = str(e)
         shutil.rmtree(work, ignore_errors=True)
         safe_write_json(os.path.join(folder, "meta.json"), meta)
         pr.finish(dict(folder=folder, **meta))

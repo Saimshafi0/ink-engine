@@ -1319,6 +1319,81 @@ ANIMALS = {"cat", "dog", "lion", "elephant", "owl", "chicken", "bear", "rabbit",
            "monkey", "goat", "cow", "pig", "horse", "camel", "mammoth", "deer", "wolf", "fish", "bird", "snake"}
 
 
+def _louse(p, x, y, s, lw):
+    col = (196, 164, 120)
+    for d in (-1, 1):
+        for k, dy in enumerate((-.1, .02, .14)):
+            p.line([(x + d * .12 * s, y + dy * s), (x + d * .32 * s, y + dy * s - .06 * s), (x + d * .4 * s, y + dy * s + .06 * s)], lw * .8)
+    p.ellipse(x, y + .1 * s, .17 * s, .26 * s, fill=col, w=lw)
+    p.ellipse(x, y - .2 * s, .12 * s, .1 * s, fill=col, w=lw)
+    for d in (-1, 1):
+        p.line([(x + d * .05 * s, y - .28 * s), (x + d * .14 * s, y - .42 * s)], lw * .7)
+        _eye(p, x + d * .05 * s, y - .21 * s, .035 * s)
+    for i in range(3):
+        p.line([(x - .1 * s, y + (.02 + i * .1) * s), (x + .1 * s, y + (.02 + i * .1) * s)], lw * .5, (150, 120, 84), wob=0)
+
+
+def _snail(p, x, y, s, lw):
+    p.poly([(x - .45 * s, y + .3 * s), (x + .35 * s, y + .3 * s), (x + .45 * s, y + .1 * s), (x + .3 * s, y + .12 * s), (x - .4 * s, y + .2 * s)], fill=(214, 190, 160), w=lw)
+    for d in (.32, .4):
+        p.line([(x + d * s, y + .12 * s), (x + (d + .05) * s, y - .08 * s)], lw * .7)
+        p.dot(x + (d + .05) * s, y - .08 * s, .025 * s)
+    p.circle(x - .05 * s, y - .02 * s, .3 * s, fill=C["purple"], w=lw)
+    pts = [(x - .05 * s + .25 * s * t / 14 * math.cos(t), y - .02 * s + .25 * s * t / 14 * math.sin(t)) for t in [i * .3 for i in range(48)]]
+    p.line(pts, lw * .7, INK, wob=0)
+
+
+def _shoe(p, x, y, s, lw):
+    col = (150, 104, 66)
+    p.poly([(x - .4 * s, y + .2 * s), (x - .38 * s, y - .15 * s), (x - .15 * s, y - .18 * s), (x - .05 * s, y),
+            (x + .35 * s, y + .05 * s), (x + .45 * s, y + .2 * s)], fill=col, w=lw)
+    p.line([(x - .42 * s, y + .22 * s), (x + .47 * s, y + .22 * s)], lw * 1.6)
+    for i in range(3):
+        p.line([(x - .25 * s + i * .08 * s, y - .12 * s), (x - .18 * s + i * .08 * s, y - .02 * s)], lw * .6, C["sand"])
+
+
+def _beads(p, x, y, s, lw):
+    pts = p.ell_pts(x, y, .38 * s, .28 * s, n=14, a0=0, a1=360, wob=False)
+    p.line(pts, lw * .5, C["bark"], wob=0)
+    for i, (bx, by) in enumerate(pts[:-1]):
+        p.circle(bx, by, .06 * s, fill=(240, 232, 214) if i % 2 else C["gold"], w=lw * .6)
+
+
+def _fur_coat(p, x, y, s, lw):
+    col = C["fur"]
+    p.poly([(x - .15 * s, y - .4 * s), (x + .15 * s, y - .4 * s), (x + .38 * s, y + .4 * s), (x - .38 * s, y + .4 * s)], fill=col, w=lw)
+    for i in range(7):
+        xx = x - .34 * s + i * .113 * s
+        p.poly([(xx, y + .4 * s), (xx + .056 * s, y + .5 * s), (xx + .113 * s, y + .4 * s)], fill=col, w=lw * .6)
+    p.line([(x, y - .4 * s), (x, y + .4 * s)], lw * .6, C["fur2"])
+
+
+def _dress(p, x, y, s, lw):
+    col = (236, 226, 200)
+    p.poly([(x - .12 * s, y - .42 * s), (x + .12 * s, y - .42 * s), (x + .22 * s, y - .3 * s), (x + .42 * s, y - .2 * s),
+            (x + .3 * s, y - .05 * s), (x + .2 * s, y - .12 * s), (x + .3 * s, y + .45 * s), (x - .3 * s, y + .45 * s),
+            (x - .2 * s, y - .12 * s), (x - .3 * s, y - .05 * s), (x - .42 * s, y - .2 * s), (x - .22 * s, y - .3 * s)], fill=col, w=lw)
+    for i in range(4):
+        p.line([(x - .15 * s + i * .1 * s, y - .25 * s), (x - .18 * s + i * .1 * s, y - .05 * s)], lw * .45, (170, 160, 140), wob=.2)
+
+
+def _toga(p, x, y, s, lw):
+    p.poly([(x - .3 * s, y - .35 * s), (x + .25 * s, y - .4 * s), (x + .35 * s, y + .45 * s), (x - .35 * s, y + .45 * s)], fill=WHITE, w=lw)
+    p.line(p.bez((x - .3 * s, y - .3 * s), (x + .1 * s, y), (x + .3 * s, y + .4 * s)), lw * .7, C["purple"], wob=0)
+
+
+def _magnifier(p, x, y, s, lw):
+    p.line([(x + .15 * s, y + .15 * s), (x + .42 * s, y + .42 * s)], lw * 2.4, C["bark"], wob=0)
+    p.circle(x - .05 * s, y - .05 * s, .28 * s, fill=(220, 238, 246), w=lw * 1.4)
+
+
+PROPS.update({"louse": _louse, "lice": _louse, "bug": _louse, "flea": _louse, "snail": _snail, "murex": _snail,
+              "shoe": _shoe, "sandal": _shoe, "beads": _beads, "necklace": _beads, "fur_coat": _fur_coat,
+              "coat": _fur_coat, "clothes": _fur_coat, "dress": _dress, "shirt": _dress, "toga": _toga,
+              "magnifier": _magnifier, "magnifying_glass": _magnifier})
+ANIMALS = ANIMALS | {"louse", "snail"}
+
+
 def prop_name(n):
     n = (n or "").lower().strip().replace(" ", "_").replace("-", "_")
     if n in PROPS:
@@ -1515,7 +1590,7 @@ REGIONS = {
     "europe": (15, 50, 2.0), "greece": (22, 39, 2.8), "rome": (12, 42, 2.8), "italy": (12, 42, 2.6),
     "britain": (-2, 54, 2.8), "england": (-1, 52, 2.8), "france": (2, 46, 2.6), "spain": (-4, 40, 2.6),
     "germany": (10, 51, 2.6), "scandinavia": (15, 63, 2.2), "levant": (35, 32, 2.8), "israel": (35, 31.5, 2.8),
-    "turkey": (33, 39, 2.6), "anatolia": (33, 39, 2.6), "persia": (53, 32, 2.4), "iran": (53, 32, 2.4),
+    "turkey": (33, 39, 2.6), "anatolia": (33, 39, 2.6), "persia": (53, 32, 2.4), "iran": (53, 32, 2.4), "morocco": (-7, 32, 2.6), "denisova": (85, 51, 2.4), "altai": (85, 51, 2.4), "alps": (11, 46.8, 2.8), "oregon": (-121, 43.5, 2.6), "kenya": (37, 0, 2.2), "indonesia": (120, -2, 2.0),
     "arabia": (45, 23, 2.2), "india": (78, 22, 2.2), "indus": (69, 27, 2.4), "pakistan": (69, 29, 2.4),
     "china": (105, 35, 2.0), "japan": (138, 36, 2.6), "mongolia": (103, 47, 2.2), "siberia": (100, 62, 1.8),
     "russia": (90, 60, 1.6), "indonesia": (115, -2, 2.0), "australia": (134, -25, 2.0),

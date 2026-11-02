@@ -234,8 +234,8 @@ def make_pro(spec, idx=0, ai_image=None):
         D._ape(p, hx_center, H * .62, 700, 11, "drunk" if (hero == "drunk_ape" or s["face"] in ("laugh", "sleepy")) else "happy")
         head = (hx_center, H * .62 - 700 * .2, 700 * .22)
         if s.get("hold"):
-            D.draw_prop(p, s["hold"], hx_center + 250, H * .5, 200, lw=9)
-            target = (hx_center + 250, H * .45)
+            D.draw_prop(p, s["hold"], hx_center + 235, H * .66, 240, lw=9)
+            target = (hx_center + 235, H * .58)
     else:
         D.draw_prop(p, hero, hx_center, H * .58, 520, lw=11)
         head = (hx_center + 80, H * .4, 150)
@@ -262,7 +262,7 @@ def make_pro(spec, idx=0, ai_image=None):
     if has_side:
         L, p = _layer()
         sk = s["sidekick"] if isinstance(s["sidekick"], dict) else {}
-        D.draw_person(p, W * .87, 860, 440, sk.get("pose", "point_left"), sk.get("face", "shocked"), lw=10,
+        D.draw_person(p, W * .87, 905, 430, sk.get("pose", "point_left"), sk.get("face", "shocked"), lw=10,
                       outfit=_outfit(sk.get("wear")))
         _sticker(base, L)
     # text

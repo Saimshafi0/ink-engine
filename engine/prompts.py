@@ -58,11 +58,18 @@ LENGTH: about {words} words of narration (~{minutes} minutes).
 
 STORY RULES
 {HOOK_RULE}
-- Short spoken sentences. Dry jokes every 20-30 seconds. No cringe, no "smash that like button".
+- SOUND LIKE A PERSON, NOT A LIST OF FACTS. Write like a funny friend telling a story out loud:
+  * Sentences flow into each other. A "say" can end with a comma and the next shot continues the sentence.
+  * Mix short punchy lines with longer flowing ones. Never 5 tiny "Fact. Fact. Fact." lines in a row.
+  * Use spoken connectors: "So picture this,", "Now, here's the thing.", "And honestly?", "Which, to be fair,",
+    "Okay, quick question.", "Let me guess.", "You know what?", "...and that's where it gets weird."
+  * Talk to the viewer ("you", "imagine you're..."), react to the facts ("Pleats. Somebody pleated this."),
+    and make small jokes about yourself and modern life. Explain WHY things matter, not just WHAT happened.
+  * Each "say" is 6-20 words (one natural spoken thought). Dry joke every 20-30 seconds. No cringe, no "smash that like button".
 - Real history only: real dates, places, archaeology, named sources. If historians disagree, say so.
 - A twist in the middle ("but here's the weird part..."). End with a line that makes people want the next video.
-- 8-14 scenes. Each scene = one chapter (2-4 word chapter name with a keyword).
-- Each scene has 6-14 shots; every shot has its own "say" (one short sentence or half sentence, 5-12 words),
+- 8-22 scenes (more for longer videos). Each scene = one chapter (2-4 word chapter name with a keyword).
+- Each scene has 6-14 shots; every shot has its own "say" (one spoken thought, 6-20 words),
   so a new picture appears every 2-3 seconds. About 45% "me", 10% "big", 45% scenes/diagrams/maps.
 - Numbers can be written as digits ("10,000", "3000 BC"); the voice reads them correctly.
 

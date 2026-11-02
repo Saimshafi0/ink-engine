@@ -1,0 +1,1885 @@
+{
+ "title": "Why Did Ancient Humans Start Wearing Clothes?",
+ "thumbnail_text": "NO CLOTHES?",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "thumbnails": [
+  {
+   "text": "NO CLOTHES?",
+   "title": "Why Did Ancient Humans Start Wearing Clothes?",
+   "color": "blue",
+   "hero": "person",
+   "pose": "scared",
+   "face": "shocked",
+   "props": [
+    "fur_coat"
+   ],
+   "marks": [
+    "x"
+   ],
+   "effects": [
+    "sweat"
+   ]
+  },
+  {
+   "text": "LICE KNEW FIRST?!",
+   "title": "Tiny Bugs Revealed When Humans First Got Dressed",
+   "color": "orange",
+   "hero": "louse",
+   "sidekick": {
+    "pose": "scared",
+    "face": "disgusted"
+   },
+   "effects": []
+  },
+  {
+   "text": "NAKED APES?",
+   "title": "How Humans Lost Their Fur and Invented Clothes",
+   "color": "green",
+   "hero": "ape",
+   "hold": "needle",
+   "sidekick": {
+    "pose": "point_left",
+    "face": "shocked"
+   }
+  }
+ ],
+ "seo": {
+  "titles": [
+   "Why Did Ancient Humans Start Wearing Clothes?",
+   "Tiny Bugs Revealed When Humans First Got Dressed",
+   "How Humans Lost Their Fur and Invented Clothes",
+   "When Did Humans First Wear Clothes?",
+   "The 100,000 Year History of Clothes"
+  ],
+  "best_title": "Why Did Ancient Humans Start Wearing Clothes?",
+  "description_hook": "Why did ancient humans start wearing clothes, and when? The best clue comes from an unexpected place: lice. Plus the first needle, a 5,000 year old dress, and a snail worth more than gold.",
+  "paragraphs": [
+   "In this animated history of clothing we look at why humans lost their body hair, how early humans survived the ice age, and how body lice DNA reveals when people first started wearing clothes.",
+   "Then we visit 120,000 year old hide-working tools in Morocco, Neanderthal capes, the 50,000 year old bone needle from Denisova Cave, the beaded burials of Sungir, 30,000 year old dyed flax fibers, and Otzi the Iceman's outfit.",
+   "We finish with the oldest trousers (made for horse riders), Tutankhamun's 145 loincloths, the Tarkhan Dress, the oldest leather shoe, Chinese silk, Roman togas and Tyrian purple dye, buttons and zippers, and the real reasons humans wear clothes."
+  ],
+  "sources": [
+   "Toups et al. - Origin of clothing lice indicates early clothing use by anatomically modern humans in Africa, Molecular Biology and Evolution (2011)",
+   "Kittler, Kayser & Stoneking - Molecular evolution of Pediculus humanus and the origin of clothing, Current Biology (2003)",
+   "Rogers, Iltis & Wooding - Genetic variation at the MC1R locus and the time since loss of human body hair, Current Anthropology (2004)",
+   "Hallett et al. - A worked bone assemblage from 120,000-90,000 year old deposits at Contrebandiers Cave, Morocco, iScience (2021)",
+   "Kvavadze et al. - 30,000-year-old wild flax fibers, Science (2009)",
+   "Ian Gilligan - Climate, Clothing, and Agriculture in Prehistory (2019)",
+   "O'Sullivan et al. - A whole mitochondria analysis of the Tyrolean Iceman's leather, Scientific Reports (2016)",
+   "Stevenson et al. - The date of the earliest linen dress, Antiquity (2016)",
+   "Pinhasi et al. - First direct evidence of chalcolithic footwear from the Near Eastern highlands, PLOS ONE (2010)",
+   "Beck et al. - The invention of trousers and its likely affiliation with horseback riding and mobility, Quaternary International (2014)",
+   "Splitstoser et al. - Early pre-Hispanic use of indigo blue in Peru, Science Advances (2016)"
+  ],
+  "tags": [
+   "why did humans start wearing clothes",
+   "history of clothes",
+   "when did humans start wearing clothes",
+   "oldest clothes",
+   "lice clothing study",
+   "human body hair",
+   "first needle",
+   "denisova cave needle",
+   "otzi iceman clothes",
+   "tarkhan dress",
+   "oldest shoe",
+   "history of fashion",
+   "tyrian purple",
+   "roman toga",
+   "ancient silk",
+   "ice age humans",
+   "who invented pants",
+   "ancient underwear",
+   "caveman clothes myth",
+   "oldest indigo dye"
+  ],
+  "hashtags": [
+   "#historyofclothes",
+   "#history",
+   "#ancienthumans"
+  ],
+  "pinned_comment": "Which would you rather wear for a week: a Neanderthal fur cape, Otzi's outfit, or a Roman toga?"
+ },
+ "shorts": [
+  {
+   "scenes": [
+    4
+   ],
+   "hook": "LICE KNEW FIRST?",
+   "title": "Lice Revealed When Humans First Got Dressed",
+   "description": "Body lice live in clothes. Their DNA tells us when clothes appeared.",
+   "hashtags": [
+    "#shorts",
+    "#history",
+    "#science"
+   ],
+   "pinned": "Did you know this?"
+  },
+  {
+   "scenes": [
+    13
+   ],
+   "hook": "5,300 YEAR OLD OUTFIT.",
+   "title": "What Otzi the Iceman Was Wearing",
+   "description": "A goat coat, bearskin hat and grass-stuffed shoes.",
+   "hashtags": [
+    "#shorts",
+    "#otzi",
+    "#history"
+   ],
+   "pinned": "Would you wear Otzi's outfit?"
+  },
+  {
+   "scenes": [
+    16
+   ],
+   "hook": "WHO INVENTED PANTS?",
+   "title": "Pants Were Invented for Horses",
+   "description": "The oldest trousers belonged to a horse rider, about 3,000 years ago.",
+   "hashtags": [
+    "#shorts",
+    "#history",
+    "#fashion"
+   ],
+   "pinned": "Robe or pants?"
+  },
+  {
+   "scenes": [
+    19
+   ],
+   "hook": "PURPLE FROM SNAILS?",
+   "title": "Why Purple Was the Color of Emperors",
+   "description": "Thousands of sea snails for a little bit of dye.",
+   "hashtags": [
+    "#shorts",
+    "#ancientrome",
+    "#history"
+   ],
+   "pinned": "Worth it for a purple shirt?"
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "You Got Dressed Today",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Right now, as you're watching this, you are almost certainly wearing clothes.",
+     "prop": "dress"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "Maybe a hoodie. Maybe pajamas. Maybe something you really should have washed by now.",
+     "prop": "stink"
+    },
+    {
+     "type": "crowd",
+     "bg": "city",
+     "count": 10,
+     "poses": [
+      "walk",
+      "stand",
+      "wave"
+     ],
+     "faces": [
+      "neutral",
+      "happy",
+      "sleepy"
+     ],
+     "say": "And you're not alone. Pretty much all eight billion of us got dressed today,"
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "and most of us didn't think about it for even a second.",
+     "prop": "shoe"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "But here's a weird thing. We're the only animal that does this.",
+     "text": "ONLY US."
+    },
+    {
+     "type": "list",
+     "title": "WHO WEARS CLOTHES?",
+     "items": [
+      [
+       "cat",
+       "Cats: nope"
+      ],
+      [
+       "ape",
+       "Apes: nope"
+      ],
+      [
+       "person",
+       "You: every day"
+      ]
+     ],
+     "say": "Cats don't. Apes don't. And if your dog wears a sweater, that was your idea, not his."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "Sorry, buddy.",
+     "prop": "dog"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "So at some point, a very long time ago, a human looked at an animal skin and thought,",
+     "prop": "fur_coat"
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "you know what? I'm going to wear that.",
+     "text": "WEAR THAT."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "And that moment is older than writing, older than farming, older than any city on Earth.",
+     "text": "OLDER THAN CITIES."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "shocked",
+     "say": "And the best clue we have for when it happened comes from... lice.",
+     "prop": "louse"
+    },
+    {
+     "type": "big",
+     "text": "YES. LICE.",
+     "say": "Yes. The tiny bugs. We'll get there, I promise."
+    },
+    {
+     "type": "list",
+     "title": "TODAY",
+     "items": [
+      [
+       "ape",
+       "Why we lost our fur"
+      ],
+      [
+       "louse",
+       "The lice clue"
+      ],
+      [
+       "needle",
+       "The first needle"
+      ],
+      [
+       "snail",
+       "A snail worth gold"
+      ]
+     ],
+     "say": "Along the way, we'll find out why we lost our fur, how bugs became historians, and why a snail was worth more than gold."
+    },
+    {
+     "type": "me",
+     "pose": "wave",
+     "face": "happy",
+     "say": "So get comfortable. Clothes optional. Let's go."
+    }
+   ]
+  },
+  {
+   "chapter": "Why We Lost Our Fur",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Okay, first question. Why do we even need clothes in the first place?"
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "CHIMP",
+      "prop": "ape",
+      "mark": "tick"
+     },
+     "right": {
+      "title": "YOU",
+      "prop": "person",
+      "mark": "x"
+     },
+     "say": "Look at a chimpanzee. Covered in fur, head to toe. Now look at yourself in the mirror."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "confused",
+     "say": "Mostly not covered in fur. Hopefully.",
+     "text": "WHERE'D IT GO?"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Somewhere along the way, our ancestors lost almost all of their body hair."
+    },
+    {
+     "type": "big",
+     "text": "OVER 1,000,000 YEARS AGO.",
+     "say": "And scientists think it happened more than a million years ago."
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "Which raises the obvious question. How on earth do you date a missing thing?",
+     "prop": "magnifier"
+    },
+    {
+     "type": "diagram",
+     "title": "THE SKIN CLUE",
+     "steps": [
+      [
+       "ape",
+       "Fur hides skin"
+      ],
+      [
+       "sun",
+       "Fur goes away"
+      ],
+      [
+       "person",
+       "Skin gets darker"
+      ]
+     ],
+     "say": "The answer is skin color. Under thick fur, skin can stay pale. But take the fur away under the African sun,"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "and you need dark skin to protect you. Genes for that dark skin go back over a million years.",
+     "prop": "sun"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "So by then, the fur was mostly gone. But why lose it at all?"
+    },
+    {
+     "type": "list",
+     "title": "WHY NO FUR?",
+     "items": [
+      [
+       "drop",
+       "Sweat to stay cool"
+      ],
+      [
+       "deer",
+       "Chase prey for hours"
+      ],
+      [
+       "louse",
+       "Fewer bugs"
+      ]
+     ],
+     "say": "There are a few ideas. Sweating keeps you cool. Staying cool lets you chase animals for hours. And less fur means fewer places for bugs to live."
+    },
+    {
+     "type": "draw",
+     "bg": "desert",
+     "say": "Early humans could jog after an animal in the midday heat until it simply collapsed.",
+     "people": [
+      {
+       "pose": "run",
+       "face": "sweating",
+       "wear": "fur",
+       "hold": "spear"
+      }
+     ],
+     "props": [
+      "deer"
+     ],
+     "ai": "a sweating early human jogging after a deer across a hot savanna"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "We basically became the sweatiest marathon runners in the animal kingdom.",
+     "text": "SWEATY MARATHON."
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "neutral",
+     "say": "Scientists still argue about which reason mattered most. Honestly, probably all of them a bit."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "But losing your fur works great in Africa. The rest of the world, though? Not always so warm.",
+     "prop": "ice"
+    }
+   ]
+  },
+  {
+   "chapter": "Into the Cold",
+   "shots": [
+    {
+     "type": "map",
+     "region": "world",
+     "label": "OUT OF AFRICA",
+     "say": "Because over time, our ancestors spread out of Africa and across the planet."
+    },
+    {
+     "type": "draw",
+     "bg": "snow",
+     "say": "Into Europe and Asia, where the winters could be absolutely brutal.",
+     "people": [
+      {
+       "pose": "scared",
+       "face": "shocked"
+      }
+     ],
+     "props": [
+      "ice"
+     ],
+     "ai": "a shivering stick figure standing in a snowy ice age landscape"
+    },
+    {
+     "type": "me",
+     "pose": "scared",
+     "face": "scared",
+     "say": "And a lot of that happened during an ice age.",
+     "text": "ICE AGE."
+    },
+    {
+     "type": "big",
+     "text": "NAKED. IN AN ICE AGE.",
+     "say": "So imagine walking into an ice age with no fur, no coat, no nothing."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "worried",
+     "say": "That's not a bold fashion choice. That's a survival problem.",
+     "prop": "ice"
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "So clothes probably started as survival gear. Fashion came later.",
+     "text": "SURVIVAL FIRST."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "The tricky part is that clothes rot. Leather and fur don't last a hundred thousand years in the ground.",
+     "prop": "fur_coat"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "confused",
+     "say": "So how do we figure out when people started wearing them? That's where the bugs come in.",
+     "prop": "louse"
+    }
+   ]
+  },
+  {
+   "chapter": "The Lice Clue",
+   "shots": [
+    {
+     "type": "big",
+     "text": "BUT HERE'S THE WEIRD PART.",
+     "say": "Now here's the weird part."
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "Humans have two main kinds of lice. Head lice, which live in your hair,",
+     "prop": "louse"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "disgusted",
+     "say": "and body lice, which actually live in your clothes. Lovely, I know.",
+     "text": "IN YOUR CLOTHES."
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "HEAD LICE",
+      "prop": "louse",
+      "mark": "tick"
+     },
+     "right": {
+      "title": "BODY LICE",
+      "prop": "fur_coat",
+      "mark": "tick"
+     },
+     "say": "And body lice can't really survive without clothing. No clothes, no home."
+    },
+    {
+     "type": "diagram",
+     "title": "THE LOGIC",
+     "steps": [
+      [
+       "fur_coat",
+       "Clothes appear"
+      ],
+      [
+       "louse",
+       "Lice move in"
+      ],
+      [
+       "louse",
+       "New species"
+      ]
+     ],
+     "say": "So at some point, when people started wearing clothes, some head lice moved in, and slowly became a new kind of louse."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Which means if you can figure out when body lice split from head lice,"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "you can figure out roughly when clothes appeared.",
+     "text": "CLEVER."
+    },
+    {
+     "type": "draw",
+     "bg": "lab",
+     "say": "That's exactly what scientists did, by comparing the DNA of lice.",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "thinking",
+       "hold": "magnifier"
+      }
+     ],
+     "props": [
+      "louse",
+      "book"
+     ],
+     "label": "LICE DNA",
+     "ai": "a scientist stick figure studying a louse through a magnifying glass in a lab"
+    },
+    {
+     "type": "big",
+     "text": "AT LEAST 83,000 YEARS AGO.",
+     "say": "A big study in 2011 found the split happened at least eighty-three thousand years ago,"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "shocked",
+     "say": "and maybe as early as a hundred and seventy thousand years ago.",
+     "text": "UP TO 170,000?"
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "And it happened in Africa, before people left. So humans were already dressed when they set out.",
+     "text": "AFRICA FIRST."
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "laugh",
+     "say": "So, in a way, the first historians of fashion were bugs.",
+     "text": "THANKS, LICE."
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "neutral",
+     "say": "The exact numbers are still debated, of course. But it's the best clue we've got."
+    }
+   ]
+  },
+  {
+   "chapter": "The First Clothes Factory",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "And then there are the tools.",
+     "prop": "bone"
+    },
+    {
+     "type": "map",
+     "region": "Morocco",
+     "label": "CONTREBANDIERS CAVE",
+     "say": "In a cave on the coast of Morocco, archaeologists found a collection of carefully shaped bone tools."
+    },
+    {
+     "type": "big",
+     "text": "ABOUT 120,000 YEARS AGO.",
+     "say": "Some of them are around a hundred and twenty thousand years old."
+    },
+    {
+     "type": "draw",
+     "bg": "cave",
+     "say": "And they were made for one very specific job: scraping and smoothing animal hides.",
+     "people": [
+      {
+       "pose": "dig",
+       "face": "thinking",
+       "wear": "fur"
+      }
+     ],
+     "props": [
+      "bone",
+      "fur_coat"
+     ],
+     "ai": "an early human scraping an animal hide with a bone tool in a cave"
+    },
+    {
+     "type": "diagram",
+     "title": "MAKING LEATHER",
+     "steps": [
+      [
+       "deer",
+       "Animal"
+      ],
+      [
+       "bone",
+       "Scrape hide"
+      ],
+      [
+       "fur_coat",
+       "Soft leather"
+      ]
+     ],
+     "say": "Basically, you take an animal, scrape the hide clean, work it until it's soft, and boom. Leather."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "They also found bones of foxes and wildcats with cut marks from skinning,",
+     "prop": "wolf"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "shocked",
+     "say": "not for the meat, but for the fur.",
+     "text": "FUR COATS."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "laugh",
+     "say": "So, the first fashion workshop. Very fluffy. And, I imagine, very smelly.",
+     "prop": "stink"
+    }
+   ]
+  },
+  {
+   "chapter": "Neanderthal Capes",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "What about the Neanderthals? They lived in ice age Europe for hundreds of thousands of years.",
+     "prop": "ice"
+    },
+    {
+     "type": "draw",
+     "bg": "snow",
+     "say": "They definitely covered up. But probably with fairly simple things, like big wraps and capes.",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "neutral",
+       "wear": "fur"
+      }
+     ],
+     "props": [
+      "fire"
+     ],
+     "ai": "a Neanderthal wearing a simple fur cape standing in the snow by a fire"
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "Think of a big, heavy blanket thrown over your shoulders.",
+     "prop": "fur_coat"
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "CAPE",
+      "prop": "fur_coat",
+      "mark": "tick"
+     },
+     "right": {
+      "title": "FITTED",
+      "prop": "dress",
+      "mark": "x"
+     },
+     "say": "Warm-ish, sure. But loose. And the wind gets in absolutely everywhere."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "sweating",
+     "say": "It's like trying to survive a snowstorm in a bath towel.",
+     "text": "DRAFTY."
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "neutral",
+     "say": "Some researchers think this mattered in the coldest times. Others say Neanderthals were tough enough. It's still argued about."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "neutral",
+     "say": "But our own ancestors had a tiny invention that changed everything.",
+     "prop": "needle"
+    }
+   ]
+  },
+  {
+   "chapter": "The Caveman Costume Myth",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "Actually, hold on. Quick test. Picture a caveman. What's he wearing?",
+     "prop": "question"
+    },
+    {
+     "type": "draw",
+     "bg": "cave",
+     "say": "Let me guess. A leopard skin over one shoulder, and a big wooden club.",
+     "people": [
+      {
+       "pose": "hips",
+       "face": "smug",
+       "wear": "fur",
+       "hold": "stick"
+      }
+     ],
+     "props": [
+      "fire"
+     ],
+     "ai": "a cartoon caveman in a one-shoulder leopard skin holding a club"
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "unimpressed",
+     "say": "Yeah, that's mostly from cartoons and old movies.",
+     "text": "CARTOON MYTH."
+    },
+    {
+     "type": "big",
+     "text": "THAT OUTFIT WOULD KILL YOU.",
+     "say": "In a real ice age, that outfit would get you killed. Fast."
+    },
+    {
+     "type": "draw",
+     "bg": "snow",
+     "say": "Real ice age people needed covered arms, covered legs, boots, and hoods.",
+     "people": [
+      {
+       "pose": "wave",
+       "face": "happy",
+       "wear": "fur"
+      }
+     ],
+     "props": [
+      "ice"
+     ],
+     "ai": "a stick figure in a warm hooded fur parka in a snowy landscape"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "Think less cartoon caveman, more serious outdoor gear expert.",
+     "text": "OUTDOOR PROS."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "laugh",
+     "say": "Somebody please tell the cartoon studios."
+    }
+   ]
+  },
+  {
+   "chapter": "The First Needle",
+   "shots": [
+    {
+     "type": "big",
+     "text": "THE NEEDLE.",
+     "say": "So what was the invention? The sewing needle."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "happy",
+     "say": "It sounds boring, I know. But a needle with an eye lets you do something new.",
+     "prop": "needle"
+    },
+    {
+     "type": "diagram",
+     "title": "FITTED CLOTHES",
+     "steps": [
+      [
+       "fur_coat",
+       "Cut pieces"
+      ],
+      [
+       "needle",
+       "Sew them"
+      ],
+      [
+       "person",
+       "Clothes that fit"
+      ]
+     ],
+     "say": "You can cut pieces of hide and sew them tightly together, into clothes that actually fit your body."
+    },
+    {
+     "type": "map",
+     "region": "Denisova",
+     "label": "DENISOVA CAVE",
+     "say": "One of the oldest needles we know of was found in Denisova Cave, in Siberia."
+    },
+    {
+     "type": "big",
+     "text": "ABOUT 50,000 YEARS OLD.",
+     "say": "It's made from bird bone, and it's somewhere around fifty thousand years old."
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "excited",
+     "say": "And suddenly, you've got sleeves. Leggings. Hoods. No more drafty capes.",
+     "text": "SLEEVES!"
+    },
+    {
+     "type": "draw",
+     "bg": "snow",
+     "say": "With properly sewn clothes, people could survive in places like the Arctic.",
+     "people": [
+      {
+       "pose": "wave",
+       "face": "happy",
+       "wear": "fur"
+      },
+      {
+       "pose": "hold",
+       "face": "happy",
+       "wear": "fur",
+       "hold": "spear"
+      }
+     ],
+     "props": [
+      "mammoth"
+     ],
+     "ai": "two stick figures in sewn fur parkas waving next to a mammoth in a snowy tundra"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "So honestly, the humble needle might be one of the most important inventions ever made.",
+     "prop": "needle"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "laugh",
+     "say": "Right up there with fire, the wheel, and Wi-Fi."
+    }
+   ]
+  },
+  {
+   "chapter": "Beads and Bling",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "But clothes were never just about staying warm.",
+     "prop": "beads"
+    },
+    {
+     "type": "map",
+     "region": "Siberia",
+     "label": "SUNGIR",
+     "say": "Take a site called Sungir, in Russia. It's about thirty-four thousand years old."
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "Archaeologists found a man and two children buried in clothes covered in ivory beads.",
+     "props": [
+      "beads",
+      "skull"
+     ],
+     "label": "SUNGIR BURIAL"
+    },
+    {
+     "type": "big",
+     "text": "THOUSANDS OF BEADS.",
+     "say": "Not a few beads. Thousands of them. Each one carved by hand."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "shocked",
+     "say": "Researchers estimate each bead took around an hour to make.",
+     "text": "1 HOUR EACH."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "So we're talking thousands of hours of work, just on decoration.",
+     "prop": "clock"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "Which tells us clothes were already about something else too. Status. Identity. Who you were.",
+     "prop": "crown"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "laugh",
+     "say": "The Stone Age had designer outfits. Prices available on request.",
+     "text": "DESIGNER."
+    }
+   ]
+  },
+  {
+   "chapter": "Plants Into Fabric",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Animals gave people leather and fur. But plants gave them something else entirely.",
+     "prop": "flower"
+    },
+    {
+     "type": "map",
+     "region": "Georgia",
+     "label": "DZUDZUANA CAVE",
+     "say": "In a cave in the country of Georgia, scientists found tiny fibers of flax."
+    },
+    {
+     "type": "big",
+     "text": "ABOUT 30,000 YEARS OLD.",
+     "say": "About thirty thousand years old."
+    },
+    {
+     "type": "diagram",
+     "title": "FLAX TO FABRIC",
+     "steps": [
+      [
+       "wheat",
+       "Flax plant"
+      ],
+      [
+       "stick",
+       "Twist the fibers"
+      ],
+      [
+       "dress",
+       "Cloth"
+      ]
+     ],
+     "say": "Flax can be twisted into string, and string can be woven into cloth."
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "excited",
+     "say": "And here's the fun part. Some of the fibers were dyed. Black, gray, even pink and turquoise.",
+     "text": "PINK?!"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "Thirty thousand years ago, somebody really wanted something in pink.",
+     "text": "FASHION."
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "neutral",
+     "say": "To be fair, those fibers might have been for cords or baskets too. We can't be sure."
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "But little statues from around this time do show what look like woven caps and hats.",
+     "props": [
+      "person",
+      "beads"
+     ],
+     "label": "WOVEN CAP"
+    }
+   ]
+  },
+  {
+   "chapter": "The First Colors",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "And once people had cloth, of course, they wanted color.",
+     "prop": "flower"
+    },
+    {
+     "type": "list",
+     "title": "ANCIENT DYES",
+     "items": [
+      [
+       "fire",
+       "Red ochre"
+      ],
+      [
+       "leaf",
+       "Plants"
+      ],
+      [
+       "snail",
+       "Sea snails"
+      ]
+     ],
+     "say": "Red earth called ochre. All kinds of plants. And, as we'll see later, snails."
+    },
+    {
+     "type": "map",
+     "region": "Peru",
+     "label": "HUACA PRIETA",
+     "say": "In Peru, archaeologists found scraps of cotton cloth dyed blue with indigo,"
+    },
+    {
+     "type": "big",
+     "text": "ABOUT 6,000 YEARS OLD.",
+     "say": "and they're about six thousand years old. The oldest indigo dye we know of."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Indigo is the same dye family that's used to color denim today.",
+     "prop": "dress"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "So your blue jeans have a six-thousand-year-old color history.",
+     "text": "6,000 YEAR OLD BLUE."
+    }
+   ]
+  },
+  {
+   "chapter": "Farming for Fashion?",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "Now, let me throw a bold idea at you.",
+     "prop": "wheat"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Why did humans start farming? Most people would say: food, obviously.",
+     "prop": "bread"
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "But an archaeologist named Ian Gilligan has suggested there might be another reason.",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "smug",
+       "wear": "robe"
+      }
+     ],
+     "props": [
+      "book"
+     ],
+     "label": "IAN GILLIGAN"
+    },
+    {
+     "type": "diagram",
+     "title": "THE CLOTHES THEORY",
+     "steps": [
+      [
+       "fur_coat",
+       "Need clothes"
+      ],
+      [
+       "sheep",
+       "Keep animals"
+      ],
+      [
+       "wheat",
+       "Grow fibers"
+      ]
+     ],
+     "say": "People needed huge amounts of material for clothes. Animals for hides and wool. Plants for fiber."
+    },
+    {
+     "type": "big",
+     "text": "FARMING FOR CLOTHES?",
+     "say": "So maybe farming was partly about clothes, and not only about food."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "shocked",
+     "say": "Which would mean agriculture was, at least partly, a fashion decision.",
+     "text": "FASHION FARMERS."
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "unimpressed",
+     "say": "Most experts aren't convinced, to be honest. It's a minority view. But it's a fun one to think about."
+    }
+   ]
+  },
+  {
+   "chapter": "The Iceman's Outfit",
+   "shots": [
+    {
+     "type": "map",
+     "region": "Alps",
+     "label": "OTZI",
+     "say": "Fast forward to 1991. Two hikers in the Alps spot something sticking out of the ice."
+    },
+    {
+     "type": "big",
+     "text": "5,300 YEARS OLD.",
+     "say": "It's a man. And he's been there for about five thousand three hundred years. They named him Otzi."
+    },
+    {
+     "type": "draw",
+     "bg": "snow",
+     "say": "And the amazing thing is, he still had his clothes on.",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "neutral",
+       "wear": "fur",
+       "hold": "axe"
+      }
+     ],
+     "props": [
+      "mountain"
+     ],
+     "ai": "Otzi the iceman in his leather and fur clothing standing in the Alps"
+    },
+    {
+     "type": "list",
+     "title": "OTZI'S OUTFIT",
+     "items": [
+      [
+       "fur_coat",
+       "Goat hide coat"
+      ],
+      [
+       "bear",
+       "Bearskin hat"
+      ],
+      [
+       "leaf",
+       "Grass cape"
+      ],
+      [
+       "shoe",
+       "Stuffed shoes"
+      ]
+     ],
+     "say": "A goat hide coat. A bearskin hat. A cape made of grass. And leather leggings."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "His clothes were made from at least five different kinds of animal.",
+     "text": "5 ANIMALS."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "And his shoes were stuffed with grass, to keep his feet warm. Basically ancient insulation.",
+     "prop": "shoe"
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "laugh",
+     "say": "Honestly? He was better dressed for winter than I am.",
+     "text": "DRIP."
+    }
+   ]
+  },
+  {
+   "chapter": "The Oldest Dress",
+   "shots": [
+    {
+     "type": "map",
+     "region": "Egypt",
+     "label": "TARKHAN",
+     "say": "Meanwhile, down in Egypt, it was a completely different story. Too hot for furs."
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "People mostly wore linen. And the oldest woven dress in the world comes from there: the Tarkhan Dress.",
+     "props": [
+      "dress"
+     ],
+     "label": "TARKHAN DRESS"
+    },
+    {
+     "type": "big",
+     "text": "ABOUT 5,000 YEARS OLD.",
+     "say": "It's over five thousand years old. And it has pleats."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "shocked",
+     "say": "Pleats. Somebody carefully pleated this five thousand years ago.",
+     "text": "PLEATS."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Egyptian kids, on the other hand, often wore nothing at all. It was just too hot.",
+     "prop": "sun"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "And a lot of wealthy Egyptians shaved their heads and wore wigs instead.",
+     "text": "WIGS."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "laugh",
+     "say": "Partly to stay cool and clean. And partly because of... you guessed it. Lice.",
+     "prop": "louse"
+    }
+   ]
+  },
+  {
+   "chapter": "Ancient Underwear",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "And while we're in Egypt, let's talk about what was under the clothes.",
+     "prop": "question"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "sweating",
+     "say": "Don't worry. We'll keep this classy.",
+     "text": "CLASSY."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Egyptian men usually wore a simple linen loincloth.",
+     "prop": "dress"
+    },
+    {
+     "type": "draw",
+     "bg": "desert",
+     "say": "And when King Tutankhamun was buried, he was sent off with supplies for the afterlife,",
+     "props": [
+      "pyramid",
+      "crown"
+     ],
+     "label": "KING TUT",
+     "ai": "a golden Egyptian pharaoh tomb full of treasure"
+    },
+    {
+     "type": "big",
+     "text": "145 LOINCLOTHS.",
+     "say": "including around one hundred and forty-five loincloths."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "Which, honestly, makes sense. Eternity is a long time. Pack extra underwear.",
+     "text": "PACK EXTRA."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "The Romans had underwear too. They called it a subligaculum, which sounds like a dinosaur, but no.",
+     "prop": "toga"
+    }
+   ]
+  },
+  {
+   "chapter": "Who Invented Pants?",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "Here's a question nobody ever asks. Who invented pants?",
+     "prop": "question"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "confused",
+     "say": "Because for most of history, people wore robes, wraps, tunics, and skirts. Not trousers.",
+     "prop": "dress"
+    },
+    {
+     "type": "map",
+     "region": "China",
+     "label": "YANGHAI",
+     "say": "The oldest trousers we know of were found in a cemetery in western China,"
+    },
+    {
+     "type": "big",
+     "text": "ABOUT 3,000 YEARS OLD.",
+     "say": "and they're roughly three thousand years old."
+    },
+    {
+     "type": "draw",
+     "bg": "grass",
+     "say": "They belonged to a man who was buried with his horse gear. He was a rider.",
+     "people": [
+      {
+       "pose": "sit",
+       "face": "smug",
+       "wear": "fur"
+      }
+     ],
+     "props": [
+      "horse"
+     ],
+     "ai": "an ancient horse rider in early woolen trousers next to his horse on the steppe"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "And that's the secret. Pants were invented for riding horses.",
+     "text": "PANTS = HORSES."
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "ROBE ON A HORSE",
+      "prop": "dress",
+      "mark": "x"
+     },
+     "right": {
+      "title": "PANTS ON A HORSE",
+      "prop": "horse",
+      "mark": "tick"
+     },
+     "say": "If you've ever tried to ride a horse in a long robe, you'll understand why. Very quickly."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "The Greeks and Romans actually thought pants looked ridiculous. Barbarian clothing.",
+     "text": "BARBARIC PANTS."
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "neutral",
+     "say": "So next time you put on your jeans, take a moment to thank a horse.",
+     "prop": "horse"
+    }
+   ]
+  },
+  {
+   "chapter": "Shoes and Sandals",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "And what about your feet?",
+     "prop": "shoe"
+    },
+    {
+     "type": "map",
+     "region": "Armenia",
+     "label": "ARENI-1",
+     "say": "In a cave in Armenia, archaeologists found the oldest leather shoe ever discovered."
+    },
+    {
+     "type": "big",
+     "text": "5,500 YEARS OLD.",
+     "say": "It's around five thousand five hundred years old."
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "Made from a single piece of cowhide, laced up the front, and stuffed with grass.",
+     "props": [
+      "shoe",
+      "leaf"
+     ],
+     "label": "ARENI SHOE"
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "excited",
+     "say": "And it's roughly a modern women's size 7. Someone today could actually wear it.",
+     "text": "SIZE 7."
+    },
+    {
+     "type": "map",
+     "region": "Oregon",
+     "label": "FORT ROCK",
+     "say": "And in Oregon, woven sandals have been found that are even older. Around nine thousand years."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "So comfortable footwear? Also older than writing.",
+     "text": "FLIP-FLOPS."
+    }
+   ]
+  },
+  {
+   "chapter": "Silk and Status",
+   "shots": [
+    {
+     "type": "map",
+     "region": "China",
+     "label": "CHINA",
+     "say": "Back in China, people discovered something incredible. Silk."
+    },
+    {
+     "type": "diagram",
+     "title": "SILK",
+     "steps": [
+      [
+       "leaf",
+       "Mulberry leaves"
+      ],
+      [
+       "louse",
+       "Silkworm"
+      ],
+      [
+       "dress",
+       "Silk cloth"
+      ]
+     ],
+     "say": "Silkworms eat mulberry leaves, then spin cocoons made of one long, super fine thread."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "Chemical traces suggest people were using silk over eight thousand years ago.",
+     "text": "8,000 YEARS?"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "And China kept the secret of making it for centuries. Silk was worth a fortune.",
+     "prop": "coin"
+    },
+    {
+     "type": "crowd",
+     "bg": "desert",
+     "count": 8,
+     "poses": [
+      "walk",
+      "carry"
+     ],
+     "faces": [
+      "neutral",
+      "sweating"
+     ],
+     "say": "It traveled west along the trade routes we now call the Silk Road.",
+     "hold": "bag"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "Rich Romans loved it so much that some writers complained it was basically see-through.",
+     "text": "SEE-THROUGH?!"
+    }
+   ]
+  },
+  {
+   "chapter": "Togas and Purple",
+   "shots": [
+    {
+     "type": "map",
+     "region": "Rome",
+     "label": "ROME",
+     "say": "Speaking of Rome. Let's talk about the famous toga."
+    },
+    {
+     "type": "draw",
+     "bg": "white",
+     "say": "Only Roman citizens were allowed to wear one. It was a status symbol.",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "smug",
+       "wear": "toga"
+      }
+     ],
+     "props": [
+      "toga"
+     ],
+     "label": "TOGA"
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "It was basically a huge sheet of wool, wrapped very carefully around your body.",
+     "prop": "toga"
+    },
+    {
+     "type": "big",
+     "text": "UP TO 6 METERS LONG.",
+     "say": "Some of them were around six meters of cloth."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "sweating",
+     "say": "Heavy, hot, and nearly impossible to put on by yourself.",
+     "text": "NEED HELP."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "So many Romans just didn't want to wear it. Emperors actually had to order people to.",
+     "prop": "crown"
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "And the most expensive color in Rome? Purple.",
+     "prop": "snail"
+    },
+    {
+     "type": "diagram",
+     "title": "TYRIAN PURPLE",
+     "steps": [
+      [
+       "snail",
+       "Sea snails"
+      ],
+      [
+       "drop",
+       "A tiny drop"
+      ],
+      [
+       "dress",
+       "Purple cloth"
+      ]
+     ],
+     "say": "Purple dye came from sea snails. And each snail gave you just a tiny drop."
+    },
+    {
+     "type": "big",
+     "text": "THOUSANDS OF SNAILS.",
+     "say": "You needed thousands of snails to dye even a small piece of cloth."
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "excited",
+     "say": "So purple became the color of emperors. Literally, royal purple.",
+     "text": "ROYAL PURPLE."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "disgusted",
+     "say": "Fun fact: the dye workshops smelled horrible. Thousands of rotting snails. Glamorous.",
+     "prop": "stink"
+    }
+   ]
+  },
+  {
+   "chapter": "Buttons and Zippers",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Now, how did people keep all these clothes on? For most of history: belts, pins, and knots.",
+     "prop": "needle"
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "Buttons came surprisingly late.",
+     "prop": "coin"
+    },
+    {
+     "type": "map",
+     "region": "Indus",
+     "label": "INDUS VALLEY",
+     "say": "Some of the oldest button-like objects come from the Indus Valley, about five thousand years ago,"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "shocked",
+     "say": "but they were just decorations. Not for closing anything.",
+     "text": "JUST BLING."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "Buttons with buttonholes only really took off in Europe around eight hundred years ago.",
+     "prop": "coin"
+    },
+    {
+     "type": "big",
+     "text": "THE ZIPPER: 1913.",
+     "say": "And the modern zipper? Barely a hundred years old."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "laugh",
+     "say": "So for almost all of history, nobody ever got their zipper stuck. Lucky them.",
+     "text": "LUCKY."
+    }
+   ]
+  },
+  {
+   "chapter": "So Why Do We Wear Clothes?",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "So let's go back to the big question. Why did humans start wearing clothes?"
+    },
+    {
+     "type": "list",
+     "title": "THE REASONS",
+     "items": [
+      [
+       "ice",
+       "Warmth"
+      ],
+      [
+       "sun",
+       "Protection"
+      ],
+      [
+       "beads",
+       "Status"
+      ],
+      [
+       "heart",
+       "Modesty"
+      ]
+     ],
+     "say": "Warmth. Protection. Status. And later on, modesty."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Warmth almost certainly came first. When it's freezing, survival comes first.",
+     "prop": "fire"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "But decoration and status showed up very early too. Remember those beads at Sungir.",
+     "prop": "beads"
+    },
+    {
+     "type": "me",
+     "pose": "crossed",
+     "face": "neutral",
+     "say": "And modesty? That changes a lot depending on where and when you lived."
+    },
+    {
+     "type": "crowd",
+     "bg": "village",
+     "count": 8,
+     "poses": [
+      "stand",
+      "dance",
+      "wave"
+     ],
+     "faces": [
+      "happy",
+      "laugh"
+     ],
+     "say": "In some hot places, people wore very little for thousands of years, and that was completely normal."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "So there has never really been one rule for what counts as dressed.",
+     "text": "NO ONE RULE."
+    }
+   ]
+  },
+  {
+   "chapter": "Getting Dressed",
+   "shots": [
+    {
+     "type": "timeline",
+     "title": "THE STORY OF CLOTHES",
+     "points": [
+      [
+       "1 M yrs",
+       "ape"
+      ],
+      [
+       "120,000 yrs",
+       "bone"
+      ],
+      [
+       "50,000 yrs",
+       "needle"
+      ],
+      [
+       "5,000 yrs",
+       "dress"
+      ],
+      [
+       "Today",
+       "shoe"
+      ]
+     ],
+     "say": "From losing our fur, to scraping hides, to sewing with bone needles, to pleated linen, to whatever you're wearing right now."
+    },
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "neutral",
+     "say": "Clothes started as survival gear in a freezing world,",
+     "prop": "ice"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "and slowly turned into art, money, status, and identity.",
+     "prop": "crown"
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "So tomorrow morning, when you pull on your socks without thinking,",
+     "prop": "shoe"
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "happy",
+     "say": "remember you're continuing a habit that's over a hundred thousand years old. Started by sweaty runners and lice.",
+     "text": "100,000 YEARS."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "neutral",
+     "say": "But all those clothes had one big problem. They got dirty. And so did the people wearing them.",
+     "prop": "stink"
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "worried",
+     "say": "No soap. No shower. No washing machine. So how did ancient people actually stay clean?",
+     "text": "NO SOAP?"
+    },
+    {
+     "type": "me",
+     "pose": "wave",
+     "face": "smug",
+     "say": "That's the next video. You might want to wash your hands first."
+    }
+   ]
+  }
+ ]
+}

@@ -137,8 +137,8 @@ def word_weight(w):
     core = re.sub(r"[^A-Za-z0-9]", "", s)
     wt = len(core) * 1.0 + 2.2
     if re.search(r"[,;:]$", w):
-        wt += 4.0
-    elif re.search(r"[.!?…]$", w):
+        wt += 3.5
+    elif re.search(r"[.!?…][\"')]*$", w):
         wt += 3.0
     elif w.endswith("—") or w.endswith("-"):
         wt += 3.0
@@ -158,28 +158,105 @@ def sentence_words(sent, dur):
     return out
 
 
-def narrate(chunks, voice="am_michael", speed=1.0, gap=0.3, chunk_gaps=None, progress=None):
+def _groups(sents, max_chars=190, max_n=3):
+    """Join sentences into natural 'breath groups' spoken in one go."""
+    out, cur = [], []
+    for st in sents:
+        if cur and (len(" ".join(cur + [st])) > max_chars or len(cur) >= max_n):
+            out.append(cur)
+            cur = []
+        cur.append(st)
+    if cur:
+        out.append(cur)
+    return out
+
+
+def _silences(a, min_len=0.12, thr=0.012):
+    """Return list of (start, end) seconds of quiet gaps inside audio."""
+    hop = int(SR * .01)
+    n = len(a) // hop
+    if n < 5:
+        return []
+    env = np.sqrt(np.mean(a[:n * hop].reshape(n, hop) ** 2, axis=1))
+    quiet = env < thr
+    out, st = [], None
+    for k, q in enumerate(quiet):
+        if q and st is None:
+            st = k
+        elif not q and st is not None:
+            if (k - st) * .01 >= min_len and st > 0:
+                out.append((st * .01, k * .01))
+            st = None
+    return out
+
+
+def group_words(sents, a):
+    """Word timings for several sentences spoken together, using real pauses
+    in the audio to find where each sentence starts."""
+    dur = len(a) / SR
+    if len(sents) == 1:
+        return sentence_words(sents[0], dur)
+    lens = [sum(word_weight(w) for w in st.split()) for st in sents]
+    tot = sum(lens) or 1
+    expect, acc = [], 0
+    for L in lens[:-1]:
+        acc += L
+        expect.append(dur * acc / tot)
+    gaps = _silences(a)
+    bounds = []
+    used = set()
+    for e in expect:
+        best, bd = None, dur * .18
+        for gi, (g0, g1) in enumerate(gaps):
+            if gi in used:
+                continue
+            c = (g0 + g1) / 2
+            if abs(c - e) < bd:
+                best, bd = gi, abs(c - e)
+        if best is not None:
+            used.add(best)
+            bounds.append(gaps[best])
+        else:
+            bounds.append((e - .05, e + .05))
+    bounds = sorted(bounds)
+    out = []
+    starts = [0.0] + [b[1] for b in bounds]
+    ends = [b[0] for b in bounds] + [dur]
+    for st, s0, s1 in zip(sents, starts, ends):
+        s1 = max(s1, s0 + .2)
+        for w, ws, we in sentence_words(st, s1 - s0):
+            out.append([w, s0 + ws, s0 + we])
+    return out
+
+
+def narrate(chunks, voice="am_michael", speed=1.0, gap=0.28, chunk_gaps=None, progress=None, natural=True):
     """chunks: list of texts (one per scene). Returns (audio, words[]) where each
-    word = dict(w, s, e, chunk, sent)."""
+    word = dict(w, s, e, chunk, sent). natural=True speaks 2-3 sentences in one
+    breath so the voice flows like a person, not a robot."""
     pieces, words, t = [], [], 0.0
-    total = sum(len(split_sentences(c)) for c in chunks) or 1
+    allg = [(_groups(split_sentences(c)) if natural else [[x] for x in split_sentences(c)]) for c in chunks]
+    total = sum(len(g) for g in allg) or 1
     done = 0
-    for ci, text in enumerate(chunks):
-        sents = split_sentences(text)
-        for si, sent in enumerate(sents):
-            a = tts(sent, voice, speed)
-            dur = len(a) / SR
-            for w, s, e in sentence_words(sent, dur):
-                words.append(dict(w=w, s=t + s, e=t + e, chunk=ci, sent=len(pieces)))
+    for ci, groups in enumerate(allg):
+        for grp in groups:
+            text = " ".join(grp)
+            try:
+                a = tts(text, voice, speed)
+                tw = group_words(grp, a)
+            except Exception:
+                a = np.concatenate([np.concatenate([tts(sg, voice, speed), np.zeros(int(.25 * SR), np.float32)]) for sg in grp])
+                tw = group_words(grp, a)
+            for w, s_, e_ in tw:
+                words.append(dict(w=w, s=t + s_, e=t + e_, chunk=ci, sent=len(pieces)))
             pieces.append(a)
-            t += dur
-            g = gap * (1.3 if sent.endswith("?") else 1.0)
+            t += len(a) / SR
+            g = gap * (1.25 if text.endswith("?") else 1.0)
             pieces.append(np.zeros(int(g * SR), np.float32))
             t += g
             done += 1
             if progress:
                 progress(done / total)
-        extra = (chunk_gaps[ci] if chunk_gaps else 0.35)
+        extra = (chunk_gaps[ci] if chunk_gaps else 0.4)
         pieces.append(np.zeros(int(extra * SR), np.float32))
         t += extra
     audio = np.concatenate(pieces) if pieces else np.zeros(SR, np.float32)
