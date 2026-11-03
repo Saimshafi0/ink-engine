@@ -218,7 +218,8 @@ def make_pro(spec, idx=0, ai_image=None):
         above = s.get("above")
         PH = 600 if above else 680
         feet = 930 if above else 960
-        info = D.draw_person(p, hx_center, feet, PH, s["pose"], s["face"], lw=12, outfit=_outfit(s.get("wear")))
+        info = D.draw_person(p, hx_center, feet, PH, s["pose"], s["face"], lw=12, outfit=_outfit(s.get("wear")),
+                             hat=s.get("hat"), beard=s.get("beard"))
         hx, hy, r = info["head"]
         head = (hx, hy, r)
         if s.get("hold"):

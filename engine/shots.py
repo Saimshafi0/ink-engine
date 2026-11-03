@@ -91,7 +91,7 @@ def _me(pen, s, W, H, st):
     if prop:
         cx = W * .38
         D.draw_person(pen, cx, feet, Hh, s.get("pose", "point"), s.get("face", "neutral"), **st,
-                      flip=False, lw=H * .0075, shadow=True)
+                      flip=False, lw=H * .0075, shadow=True, hat=s.get("hat"), beard=s.get("beard"))
         ps = min(H * .3, Hh * .55)
         px, py = W * .66, feet - Hh * .45
         if not _sprite(prop, px, py, ps, "float", mark):
@@ -99,7 +99,8 @@ def _me(pen, s, W, H, st):
             if mark:
                 D.draw_prop(pen, mark, px, py, ps * 1.05)
         return (0.5, (top / H + .93) / 2)
-    D.draw_person(pen, W / 2, feet, Hh, s.get("pose", "stand"), s.get("face", "neutral"), **st, lw=H * .0075, shadow=True)
+    D.draw_person(pen, W / 2, feet, Hh, s.get("pose", "stand"), s.get("face", "neutral"), **st, lw=H * .0075, shadow=True,
+                  hat=s.get("hat"), beard=s.get("beard"))
     if mark:
         D.draw_prop(pen, mark, W * .72, feet - Hh * .5, H * .22)
     return (0.5, (top / H + .93) / 2)
@@ -167,7 +168,8 @@ def _scene(pen, s, W, H, st):
         flip = p.get("flip", x > W * .55 and np_ > 1)
         hold = p.get("hold")
         info = D.draw_person(pen, x, gy + H * .02, PH, p.get("pose", "stand"), p.get("face", "neutral"),
-                             flip=flip, lw=H * .0062, holding=hold, outfit=_outfit(p.get("wear")), **st)
+                             flip=flip, lw=H * .0062, holding=hold, outfit=_outfit(p.get("wear")),
+                             hat=p.get("hat"), beard=p.get("beard"), **st)
         centers.append(info["head"][:2])
     PS = H * (.3 if npr <= 2 else .22)
     if not np_ and npr <= 2:

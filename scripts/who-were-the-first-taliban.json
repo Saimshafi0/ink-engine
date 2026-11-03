@@ -1,0 +1,1345 @@
+{
+  "title": "Who Were the First Taliban?",
+  "thumbnail_text": "FIRST TALIBAN",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "thumbnails": [
+    {
+      "text": "FIRST TALIBAN",
+      "title": "Who Were the First Taliban?",
+      "color": "orange",
+      "hero": "person",
+      "pose": "hold",
+      "face": "angry",
+      "hat": "turban",
+      "beard": true,
+      "hold": "rifle"
+    },
+    {
+      "text": "JUST STUDENTS?",
+      "title": "The Taliban Started as a Group of Students",
+      "color": "dark",
+      "hero": "person",
+      "pose": "shrug",
+      "face": "confused",
+      "hat": "cap",
+      "beard": true,
+      "props": [
+        "book",
+        "rifle"
+      ],
+      "marks": [
+        "tick",
+        "x"
+      ]
+    },
+    {
+      "text": "16 RIFLES?",
+      "title": "How 30 Men With 16 Rifles Started the Taliban",
+      "color": "green",
+      "hero": "person",
+      "pose": "point_up",
+      "face": "shocked",
+      "hat": "black_turban",
+      "beard": "long",
+      "props": [
+        "rifle"
+      ],
+      "sidekick": {
+        "pose": "scared",
+        "face": "scared"
+      }
+    }
+  ],
+  "seo": {
+    "titles": [
+      "Who Were the First Taliban?",
+      "The Taliban Started as a Group of Students",
+      "How 30 Men With 16 Rifles Started the Taliban",
+      "How the Taliban Took Over Afghanistan",
+      "The Real Origin Story of the Taliban"
+    ],
+    "best_title": "Who Were the First Taliban?",
+    "description_hook": "Who were the first Taliban? The word Taliban simply means students, and in 1994 the movement began with a few dozen religious students and a one-eyed village mullah near Kandahar. Two years later, they ruled most of Afghanistan.",
+    "paragraphs": [
+      "In this animated history explainer we look at how Afghanistan went from a quiet kingdom to the Soviet war, why millions of refugees grew up in camps and madrasas in Pakistan, and how the mujahideen civil war left the country in chaos.",
+      "Then we follow Mullah Mohammad Omar, the famous story of 30 men and 16 rifles, the capture of Kandahar and Kabul, life under the first Taliban government, the destruction of the Bamiyan Buddhas, Osama bin Laden, and the 2001 US invasion.",
+      "We finish with Mullah Omar's secret death, the 2020 Doha deal, the Taliban's return in 2021, and what the origin of the Taliban teaches us. This is an educational history video; it does not support any armed group."
+    ],
+    "sources": [
+      "Ahmed Rashid - Taliban: Militant Islam, Oil and Fundamentalism in Central Asia (2000)",
+      "Steve Coll - Ghost Wars (2004)",
+      "Anand Gopal - No Good Men Among the Living (2014)",
+      "Bette Dam - Looking for the Enemy: Mullah Omar and the Unknown Taliban (2021)",
+      "Thomas Barfield - Afghanistan: A Cultural and Political History (2010)",
+      "United Nations reports on human rights in Afghanistan (1996-2001)",
+      "Antonio Giustozzi - Koran, Kalashnikov, and Laptop (2008)"
+    ],
+    "tags": [
+      "first taliban",
+      "who were the first taliban",
+      "origin of the taliban",
+      "history of the taliban",
+      "mullah omar",
+      "taliban history explained",
+      "afghanistan history",
+      "soviet afghan war",
+      "mujahideen",
+      "kandahar 1994",
+      "taliban 1996",
+      "bamiyan buddhas",
+      "afghanistan explained",
+      "taliban students",
+      "history documentary",
+      "animated history"
+    ],
+    "hashtags": [
+      "#taliban",
+      "#history",
+      "#afghanistan"
+    ],
+    "pinned_comment": "Did you know the word Taliban just means students? What part of this story surprised you most?"
+  },
+  "shorts": [
+    {
+      "scenes": [
+        7
+      ],
+      "hook": "30 MEN. 16 RIFLES.",
+      "title": "How the Taliban Really Started",
+      "description": "The famous origin story of the Taliban, and why nobody can fully prove it.",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#afghanistan"
+      ],
+      "pinned": "Legend or real history?"
+    },
+    {
+      "scenes": [
+        6
+      ],
+      "hook": "ALMOST NO PHOTOS.",
+      "title": "The Taliban Leader Who Avoided Cameras",
+      "description": "Mullah Omar ruled a country, but only a handful of photos of him exist.",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#mullahomar"
+      ],
+      "pinned": "Did you know this?"
+    },
+    {
+      "scenes": [
+        12
+      ],
+      "hook": "SECRET FOR 2 YEARS.",
+      "title": "His Death Was Hidden for Two Years",
+      "description": "The Taliban kept Mullah Omar's death secret from 2013 to 2015.",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#afghanistan"
+      ],
+      "pinned": "How did nobody notice?"
+    },
+    {
+      "scenes": [
+        1
+      ],
+      "hook": "TALIBAN = STUDENTS?",
+      "title": "What the Word Taliban Actually Means",
+      "description": "Talib means student. So how did students take a country?",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#taliban"
+      ],
+      "pinned": "Did you know what Taliban means?"
+    }
+  ],
+  "scenes": [
+    {
+      "chapter": "Just Students?",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Right now, if you type the word Taliban into a search bar, you'll get war, guns, and headlines.",
+          "prop": "phone"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "But here's something most people don't know. The word itself is surprisingly gentle.",
+          "text": "GENTLE?"
+        },
+        {
+          "type": "big",
+          "text": "TALIB = STUDENT.",
+          "say": "Talib means student. Taliban simply means students."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "confused",
+          "say": "As in, people who go to a religious school and study. That's it.",
+          "prop": "book"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "And the very first Taliban really were that. A small group of religious students in southern Afghanistan.",
+          "text": "A FEW DOZEN."
+        },
+        {
+          "type": "big",
+          "text": "1994.",
+          "say": "This was 1994. They had a few dozen men and, by one famous account, sixteen rifles."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "Two years later, they ruled most of Afghanistan.",
+          "text": "2 YEARS."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "So how does a group of students with a handful of guns take over a whole country?",
+          "prop": "question"
+        },
+        {
+          "type": "list",
+          "title": "TODAY",
+          "items": [
+            [
+              "tank",
+              "A war that broke a country"
+            ],
+            [
+              "book",
+              "Schools in refugee camps"
+            ],
+            [
+              "person",
+              "A one-eyed village mullah"
+            ],
+            [
+              "rifle",
+              "Sixteen rifles"
+            ]
+          ],
+          "say": "To answer that, we need a superpower's war, refugee camps, a one-eyed village mullah, and those sixteen rifles."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "Fair warning. This one isn't a funny ancient toilet story. A lot of real people got hurt. So we'll keep it honest."
+        }
+      ],
+      "say": "Right now, if you type the word Taliban into a search bar, you'll get war, guns, and headlines. But here's something most people don't know. The word itself is surprisingly gentle. Talib means student. Taliban simply means students. As in, people who go to a religious school and study. That's it. And the very first Taliban really were that. A small group of religious students in southern Afghanistan. This was 1994. They had a few dozen men and, by one famous account, sixteen rifles. Two years later, they ruled most of Afghanistan. So how does a group of students with a handful of guns take over a whole country? To answer that, we need a superpower's war, refugee camps, a one-eyed village mullah, and those sixteen rifles. Fair warning. This one isn't a funny ancient toilet story. A lot of real people got hurt. So we'll keep it honest."
+    },
+    {
+      "chapter": "A Country Before the War",
+      "shots": [
+        {
+          "type": "map",
+          "region": "Afghanistan",
+          "label": "AFGHANISTAN",
+          "say": "First, let's go back a bit. Afghanistan sits right in the middle of everything."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Iran to the west, Central Asia to the north, Pakistan to the east and south.",
+          "prop": "mountain"
+        },
+        {
+          "type": "draw",
+          "bg": "mountains",
+          "say": "It's a land of high mountains, dry valleys, and many different peoples.",
+          "people": [
+            {
+              "pose": "walk",
+              "face": "happy",
+              "hold": "bag"
+            },
+            {
+              "pose": "wave",
+              "face": "happy"
+            }
+          ],
+          "props": [
+            "goat"
+          ],
+          "ai": "a mountain village in Afghanistan with a shepherd and goats"
+        },
+        {
+          "type": "list",
+          "title": "SOME OF ITS PEOPLE",
+          "items": [
+            [
+              "person",
+              "Pashtuns"
+            ],
+            [
+              "person",
+              "Tajiks"
+            ],
+            [
+              "person",
+              "Hazaras"
+            ],
+            [
+              "person",
+              "Uzbeks"
+            ]
+          ],
+          "say": "Pashtuns, Tajiks, Hazaras, Uzbeks, and many more, each with their own languages and traditions."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "For much of the twentieth century, it was a kingdom. Poor, but mostly at peace.",
+          "prop": "crown"
+        },
+        {
+          "type": "big",
+          "text": "1973.",
+          "say": "Then, in 1973, the king was overthrown while he was abroad, getting medical treatment."
+        },
+        {
+          "type": "big",
+          "text": "1978.",
+          "say": "And in 1978, a communist party seized power in a bloody coup."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "worried",
+          "say": "The new government tried to change everything fast, and crushed anyone who resisted.",
+          "text": "TOO FAST."
+        },
+        {
+          "type": "me",
+          "pose": "scared",
+          "face": "worried",
+          "say": "Rebellions broke out all over the country. And then, the Soviet Union decided to step in.",
+          "prop": "tank"
+        }
+      ],
+      "say": "First, let's go back a bit. Afghanistan sits right in the middle of everything. Iran to the west, Central Asia to the north, Pakistan to the east and south. It's a land of high mountains, dry valleys, and many different peoples. Pashtuns, Tajiks, Hazaras, Uzbeks, and many more, each with their own languages and traditions. For much of the twentieth century, it was a kingdom. Poor, but mostly at peace. Then, in 1973, the king was overthrown while he was abroad, getting medical treatment. And in 1978, a communist party seized power in a bloody coup. The new government tried to change everything fast, and crushed anyone who resisted. Rebellions broke out all over the country. And then, the Soviet Union decided to step in."
+    },
+    {
+      "chapter": "The Soviet War",
+      "shots": [
+        {
+          "type": "big",
+          "text": "DECEMBER 1979.",
+          "say": "In December 1979, Soviet troops rolled into Afghanistan."
+        },
+        {
+          "type": "draw",
+          "bg": "mountains",
+          "say": "They expected a quick operation. Secure the cities, prop up the government, go home.",
+          "props": [
+            "tank",
+            "tank"
+          ],
+          "ai": "Soviet tanks rolling along a mountain road in Afghanistan"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "unimpressed",
+          "say": "It did not go that way. It lasted almost ten years.",
+          "text": "10 YEARS."
+        },
+        {
+          "type": "draw",
+          "bg": "mountains",
+          "say": "Afghan fighters called the mujahideen fought back from the mountains.",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "angry",
+              "hat": "pakol",
+              "beard": true,
+              "hold": "rifle"
+            },
+            {
+              "pose": "hold",
+              "face": "neutral",
+              "hat": "turban",
+              "beard": true,
+              "hold": "rifle"
+            }
+          ],
+          "props": [
+            "rock"
+          ],
+          "ai": "Afghan mujahideen fighters with rifles hiding in rocky mountains"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "And this was the Cold War, so other countries quickly got involved.",
+          "prop": "coin"
+        },
+        {
+          "type": "diagram",
+          "title": "THE MONEY PIPELINE",
+          "steps": [
+            [
+              "coin",
+              "USA and Saudi Arabia"
+            ],
+            [
+              "house",
+              "Pakistan's spy agency"
+            ],
+            [
+              "rifle",
+              "Mujahideen groups"
+            ]
+          ],
+          "say": "The United States and Saudi Arabia sent billions of dollars and weapons, mostly through Pakistan's spy agency, the ISI."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "neutral",
+          "say": "Pakistan decided which Afghan groups got the money. Remember that. It matters later.",
+          "text": "REMEMBER THIS."
+        },
+        {
+          "type": "big",
+          "text": "ABOUT 1,000,000 DEAD.",
+          "say": "The cost was enormous. Estimates range from half a million to two million Afghans killed."
+        },
+        {
+          "type": "crowd",
+          "bg": "desert",
+          "count": 12,
+          "poses": [
+            "walk",
+            "carry"
+          ],
+          "faces": [
+            "sad",
+            "worried"
+          ],
+          "say": "And millions more fled the country.",
+          "hold": "bag"
+        }
+      ],
+      "say": "In December 1979, Soviet troops rolled into Afghanistan. They expected a quick operation. Secure the cities, prop up the government, go home. It did not go that way. It lasted almost ten years. Afghan fighters called the mujahideen fought back from the mountains. And this was the Cold War, so other countries quickly got involved. The United States and Saudi Arabia sent billions of dollars and weapons, mostly through Pakistan's spy agency, the ISI. Pakistan decided which Afghan groups got the money. Remember that. It matters later. The cost was enormous. Estimates range from half a million to two million Afghans killed. And millions more fled the country."
+    },
+    {
+      "chapter": "Children of the Camps",
+      "shots": [
+        {
+          "type": "map",
+          "region": "Pakistan",
+          "label": "REFUGEE CAMPS",
+          "say": "Around three million refugees ended up in Pakistan, and many in Iran too."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "say": "Huge camps grew up near the border, full of tents and mud houses.",
+          "props": [
+            "tent",
+            "tent",
+            "hut"
+          ],
+          "ai": "a vast refugee camp of tents and mud houses near a dusty border"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "sad",
+          "say": "Imagine growing up there. Your father might be fighting, or gone. Your village might not exist anymore.",
+          "prop": "house",
+          "cross": true
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "For a lot of poor boys, there was one free place to go. A religious school, a madrasa.",
+          "prop": "book"
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "They offered food, a bed, and lessons. Mostly memorizing the Quran and strict religious rules.",
+          "people": [
+            {
+              "pose": "sit",
+              "face": "neutral",
+              "hat": "cap"
+            },
+            {
+              "pose": "sit",
+              "face": "neutral",
+              "hat": "cap"
+            },
+            {
+              "pose": "explain",
+              "face": "neutral",
+              "wear": "robe",
+              "hat": "cap"
+            }
+          ],
+          "props": [
+            "book"
+          ],
+          "label": "MADRASA",
+          "ai": "boys sitting on the floor studying with a teacher in a simple religious school"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "neutral",
+          "say": "Many of these schools, especially in Pakistan, taught a very strict, narrow version of Islam.",
+          "text": "VERY STRICT."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "Plenty of madrasas were just schools. But some became recruiting grounds for war.",
+          "prop": "rifle"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "These students had grown up with war, without much family life, and without seeing much of the wider world.",
+          "prop": "question"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "neutral",
+          "say": "Keep these boys in mind. A lot of them will become the first Taliban.",
+          "text": "THE STUDENTS."
+        }
+      ],
+      "say": "Around three million refugees ended up in Pakistan, and many in Iran too. Huge camps grew up near the border, full of tents and mud houses. Imagine growing up there. Your father might be fighting, or gone. Your village might not exist anymore. For a lot of poor boys, there was one free place to go. A religious school, a madrasa. They offered food, a bed, and lessons. Mostly memorizing the Quran and strict religious rules. Many of these schools, especially in Pakistan, taught a very strict, narrow version of Islam. Plenty of madrasas were just schools. But some became recruiting grounds for war. These students had grown up with war, without much family life, and without seeing much of the wider world. Keep these boys in mind. A lot of them will become the first Taliban."
+    },
+    {
+      "chapter": "Victory, Then Chaos",
+      "shots": [
+        {
+          "type": "big",
+          "text": "1989.",
+          "say": "In 1989, the Soviets finally gave up and pulled out."
+        },
+        {
+          "type": "crowd",
+          "bg": "city",
+          "count": 10,
+          "poses": [
+            "celebrate",
+            "wave",
+            "dance"
+          ],
+          "faces": [
+            "happy",
+            "excited"
+          ],
+          "say": "Lots of people expected peace. The war was over, right?"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sad",
+          "say": "Wrong. The Afghan communist government held on for three more years.",
+          "text": "NOT OVER."
+        },
+        {
+          "type": "big",
+          "text": "1992.",
+          "say": "And when it finally fell in 1992, the winners turned on each other."
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "say": "The mujahideen factions fought over Kabul and shelled it for years.",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "angry",
+              "hat": "pakol",
+              "beard": true,
+              "hold": "rifle"
+            },
+            {
+              "pose": "hold",
+              "face": "angry",
+              "hat": "turban",
+              "beard": true,
+              "hold": "rifle"
+            }
+          ],
+          "props": [
+            "house"
+          ],
+          "ai": "ruined buildings in Kabul with rival militia fighters in the 1990s"
+        },
+        {
+          "type": "me",
+          "pose": "scared",
+          "face": "scared",
+          "say": "Tens of thousands of civilians were killed in the fighting for Kabul alone.",
+          "text": "KABUL IN RUINS."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Outside the capital, the country split into pieces run by local commanders, often called warlords.",
+          "prop": "crown"
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "say": "On the roads, armed men set up checkpoints and demanded money from every truck and traveler.",
+          "people": [
+            {
+              "pose": "hips",
+              "face": "angry",
+              "hat": "pakol",
+              "beard": true,
+              "hold": "rifle"
+            },
+            {
+              "pose": "shrug",
+              "face": "sweating",
+              "hold": "coin"
+            }
+          ],
+          "props": [
+            "rock"
+          ],
+          "ai": "armed men at a roadside checkpoint stopping a nervous traveler"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "angry",
+          "say": "And worse. Robbery, kidnapping, and abuse were common, and nobody punished anyone.",
+          "text": "NO LAW."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "worried",
+          "say": "After fifteen years of war, a lot of ordinary Afghans wanted one thing more than anything. Order.",
+          "text": "ORDER."
+        }
+      ],
+      "say": "In 1989, the Soviets finally gave up and pulled out. Lots of people expected peace. The war was over, right? Wrong. The Afghan communist government held on for three more years. And when it finally fell in 1992, the winners turned on each other. The mujahideen factions fought over Kabul and shelled it for years. Tens of thousands of civilians were killed in the fighting for Kabul alone. Outside the capital, the country split into pieces run by local commanders, often called warlords. On the roads, armed men set up checkpoints and demanded money from every truck and traveler. And worse. Robbery, kidnapping, and abuse were common, and nobody punished anyone. After fifteen years of war, a lot of ordinary Afghans wanted one thing more than anything. Order."
+    },
+    {
+      "chapter": "The One-Eyed Mullah",
+      "shots": [
+        {
+          "type": "map",
+          "region": "Kandahar",
+          "label": "KANDAHAR",
+          "say": "Which brings us to Kandahar, the big city of the south."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "say": "Near it, in a village area called Singesar, lived a local religious teacher named Mohammad Omar.",
+          "people": [
+            {
+              "pose": "sit",
+              "face": "neutral",
+              "hat": "black_turban",
+              "beard": true
+            }
+          ],
+          "props": [
+            "house",
+            "book"
+          ],
+          "label": "SINGESAR",
+          "ai": "a quiet village near Kandahar with a small mud mosque"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "He'd fought against the Soviets as a mujahid, and was wounded several times.",
+          "prop": "rifle"
+        },
+        {
+          "type": "big",
+          "text": "HE LOST AN EYE.",
+          "say": "In one battle, shrapnel cost him his right eye."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "neutral",
+          "say": "After the war, he went back to his village and ran a small madrasa. A mullah, a teacher.",
+          "prop": "book"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Here's the strange part. He was famously shy. He barely spoke to outsiders, and almost never allowed photos.",
+          "prop": "camera",
+          "cross": true
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "neutral",
+          "say": "Even today, only a handful of photos of him are known to exist. For a future ruler, that's very unusual.",
+          "text": "ALMOST NO PHOTOS."
+        }
+      ],
+      "say": "Which brings us to Kandahar, the big city of the south. Near it, in a village area called Singesar, lived a local religious teacher named Mohammad Omar. He'd fought against the Soviets as a mujahid, and was wounded several times. In one battle, shrapnel cost him his right eye. After the war, he went back to his village and ran a small madrasa. A mullah, a teacher. Here's the strange part. He was famously shy. He barely spoke to outsiders, and almost never allowed photos. Even today, only a handful of photos of him are known to exist. For a future ruler, that's very unusual."
+    },
+    {
+      "chapter": "Sixteen Rifles",
+      "shots": [
+        {
+          "type": "big",
+          "text": "BUT HERE'S THE WEIRD PART.",
+          "say": "Now, here's the part everyone tells, and nobody can fully prove."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "say": "The story goes that in 1994, a local commander kidnapped two girls from a nearby village.",
+          "people": [
+            {
+              "pose": "hips",
+              "face": "angry",
+              "hat": "pakol",
+              "beard": true,
+              "hold": "rifle"
+            }
+          ],
+          "props": [
+            "house"
+          ],
+          "ai": "a tense village scene near Kandahar in 1994"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Locals went to the mullah for help. And Omar gathered his students.",
+          "prop": "book"
+        },
+        {
+          "type": "big",
+          "text": "30 MEN. 16 RIFLES.",
+          "say": "According to the famous account, about thirty men with sixteen rifles."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "say": "They attacked the commander's base, freed the girls, and executed the commander.",
+          "people": [
+            {
+              "pose": "run",
+              "face": "angry",
+              "hat": "turban",
+              "beard": true,
+              "hold": "rifle"
+            },
+            {
+              "pose": "run",
+              "face": "angry",
+              "hat": "black_turban",
+              "beard": true,
+              "hold": "rifle"
+            }
+          ],
+          "props": [
+            "house"
+          ],
+          "ai": "a small group of armed students advancing across dry ground"
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "Is it true? Honestly, we don't know. The details change depending on who tells it.",
+          "text": "TRUE?"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "There's even another version, where Omar said a woman appeared to him in a dream and told him to end the chaos.",
+          "prop": "thought"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "neutral",
+          "say": "Every movement has an origin story. What matters is that people believed this one.",
+          "text": "LEGEND."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Because it said exactly what tired Afghans wanted to hear. Here, finally, were men who would punish the bad guys.",
+          "prop": "tick"
+        }
+      ],
+      "say": "Now, here's the part everyone tells, and nobody can fully prove. The story goes that in 1994, a local commander kidnapped two girls from a nearby village. Locals went to the mullah for help. And Omar gathered his students. According to the famous account, about thirty men with sixteen rifles. They attacked the commander's base, freed the girls, and executed the commander. Is it true? Honestly, we don't know. The details change depending on who tells it. There's even another version, where Omar said a woman appeared to him in a dream and told him to end the chaos. Every movement has an origin story. What matters is that people believed this one. Because it said exactly what tired Afghans wanted to hear. Here, finally, were men who would punish the bad guys."
+    },
+    {
+      "chapter": "The Convoy and Kandahar",
+      "shots": [
+        {
+          "type": "big",
+          "text": "OCTOBER 1994.",
+          "say": "Then things moved incredibly fast. In October 1994, the Taliban seized the border town of Spin Boldak."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "say": "There they captured a huge weapons dump, with thousands of guns, tanks, and ammunition.",
+          "props": [
+            "rifle",
+            "tank",
+            "rifle"
+          ],
+          "label": "ARMS DEPOT",
+          "ai": "a huge pile of old weapons and ammunition crates in a desert depot"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "So much for sixteen rifles.",
+          "text": "SO MUCH FOR 16."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "A few weeks later, a convoy of trucks from Pakistan, trying to open a trade route, got stuck at warlord checkpoints.",
+          "prop": "boat"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "neutral",
+          "say": "The Taliban freed the convoy. And right after, in November 1994, they took Kandahar itself.",
+          "text": "KANDAHAR TAKEN."
+        },
+        {
+          "type": "crowd",
+          "bg": "city",
+          "count": 10,
+          "poses": [
+            "wave",
+            "stand",
+            "walk"
+          ],
+          "faces": [
+            "happy",
+            "neutral"
+          ],
+          "say": "Many people in Kandahar actually welcomed them at first. The checkpoints vanished. The roads felt safe."
+        },
+        {
+          "type": "big",
+          "text": "12,000 FIGHTERS.",
+          "say": "By the end of 1994, thousands of students had poured in from the madrasas. Around twelve thousand fighters."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "So who was helping them? The answer is one of the most argued-about topics in the whole story.",
+          "prop": "question"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Pakistan officially denied it. But many journalists and researchers documented Pakistani money, weapons, and advisers.",
+          "prop": "coin"
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "Pakistan wanted a friendly government next door, and a trade route to Central Asia. The Taliban looked like a good bet.",
+          "text": "A GOOD BET?"
+        }
+      ],
+      "say": "Then things moved incredibly fast. In October 1994, the Taliban seized the border town of Spin Boldak. There they captured a huge weapons dump, with thousands of guns, tanks, and ammunition. So much for sixteen rifles. A few weeks later, a convoy of trucks from Pakistan, trying to open a trade route, got stuck at warlord checkpoints. The Taliban freed the convoy. And right after, in November 1994, they took Kandahar itself. Many people in Kandahar actually welcomed them at first. The checkpoints vanished. The roads felt safe. By the end of 1994, thousands of students had poured in from the madrasas. Around twelve thousand fighters. So who was helping them? The answer is one of the most argued-about topics in the whole story. Pakistan officially denied it. But many journalists and researchers documented Pakistani money, weapons, and advisers. Pakistan wanted a friendly government next door, and a trade route to Central Asia. The Taliban looked like a good bet."
+    },
+    {
+      "chapter": "The Cloak and Kabul",
+      "shots": [
+        {
+          "type": "big",
+          "text": "APRIL 4, 1996.",
+          "say": "On April 4, 1996, something remarkable happened in Kandahar."
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "The city keeps a cloak believed to have belonged to the Prophet Muhammad, usually locked away in a shrine.",
+          "props": [
+            "house",
+            "scroll"
+          ],
+          "label": "SHRINE OF THE CLOAK"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "neutral",
+          "say": "Mullah Omar took it out and showed it to a huge crowd of clerics, from a rooftop.",
+          "prop": "crown"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "They gave him the title Amir al-Muminin. Commander of the Faithful.",
+          "text": "COMMANDER OF THE FAITHFUL."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "For a shy village mullah, that's a huge jump. He was now claiming religious authority over everyone.",
+          "prop": "person"
+        },
+        {
+          "type": "big",
+          "text": "SEPTEMBER 1996.",
+          "say": "Five months later, in September 1996, the Taliban captured Kabul."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sad",
+          "say": "They dragged out the former communist president, Najibullah, from a United Nations compound and killed him.",
+          "text": "A BRUTAL START."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "His body was hung in public. It was a clear message about what kind of rule was coming."
+        }
+      ],
+      "say": "On April 4, 1996, something remarkable happened in Kandahar. The city keeps a cloak believed to have belonged to the Prophet Muhammad, usually locked away in a shrine. Mullah Omar took it out and showed it to a huge crowd of clerics, from a rooftop. They gave him the title Amir al-Muminin. Commander of the Faithful. For a shy village mullah, that's a huge jump. He was now claiming religious authority over everyone. Five months later, in September 1996, the Taliban captured Kabul. They dragged out the former communist president, Najibullah, from a United Nations compound and killed him. His body was hung in public. It was a clear message about what kind of rule was coming."
+    },
+    {
+      "chapter": "Life Under the First Taliban",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "So what was it like to live under the first Taliban government?",
+          "prop": "scroll"
+        },
+        {
+          "type": "list",
+          "title": "BANNED",
+          "items": [
+            [
+              "music",
+              "Music"
+            ],
+            [
+              "tv",
+              "TV"
+            ],
+            [
+              "camera",
+              "Photos of people"
+            ],
+            [
+              "kite",
+              "Kite flying"
+            ]
+          ],
+          "say": "A long list of things were banned. Music. Television. Photos of living things. Even flying kites."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "Yes, kites. A hugely popular pastime in Afghanistan. Gone.",
+          "prop": "kite",
+          "cross": true
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Men were ordered to grow beards, and could be punished if theirs was too short.",
+          "text": "BEARD RULES."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sad",
+          "say": "For women and girls, it was far worse.",
+          "prop": "dress"
+        },
+        {
+          "type": "list",
+          "title": "WOMEN AND GIRLS",
+          "items": [
+            [
+              "book",
+              "No school for girls"
+            ],
+            [
+              "house",
+              "No most jobs"
+            ],
+            [
+              "dress",
+              "Full burqa outside"
+            ]
+          ],
+          "say": "Girls were banned from school. Most women were banned from work. Outside, they had to cover completely and be with a male relative."
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "say": "A religious police force patrolled the streets, beating people for breaking the rules.",
+          "people": [
+            {
+              "pose": "hips",
+              "face": "angry",
+              "hat": "turban",
+              "beard": true,
+              "hold": "stick"
+            },
+            {
+              "pose": "scared",
+              "face": "scared"
+            }
+          ],
+          "ai": "a religious police patrol in Kabul in the late 1990s"
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "There were public punishments, and massacres of civilians, documented by the United Nations.",
+          "text": "UN REPORTS."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Only three countries in the world recognized their government. Pakistan, Saudi Arabia, and the UAE.",
+          "prop": "flag"
+        },
+        {
+          "type": "big",
+          "text": "MARCH 2001.",
+          "say": "And in March 2001, they blew up the giant Buddhas of Bamiyan, statues around fifteen hundred years old."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sad",
+          "say": "The world begged them not to. They did it anyway.",
+          "prop": "rock"
+        }
+      ],
+      "say": "So what was it like to live under the first Taliban government? A long list of things were banned. Music. Television. Photos of living things. Even flying kites. Yes, kites. A hugely popular pastime in Afghanistan. Gone. Men were ordered to grow beards, and could be punished if theirs was too short. For women and girls, it was far worse. Girls were banned from school. Most women were banned from work. Outside, they had to cover completely and be with a male relative. A religious police force patrolled the streets, beating people for breaking the rules. There were public punishments, and massacres of civilians, documented by the United Nations. Only three countries in the world recognized their government. Pakistan, Saudi Arabia, and the UAE. And in March 2001, they blew up the giant Buddhas of Bamiyan, statues around fifteen hundred years old. The world begged them not to. They did it anyway."
+    },
+    {
+      "chapter": "A Dangerous Guest",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "And then there was one guest who changed everything.",
+          "prop": "person"
+        },
+        {
+          "type": "big",
+          "text": "1996.",
+          "say": "In 1996, Osama bin Laden moved to Afghanistan."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Mullah Omar let him stay. In Pashtun custom, protecting a guest is a serious duty.",
+          "text": "THE GUEST."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "Bin Laden kept planning attacks anyway. Omar reportedly told him to stop, and was ignored.",
+          "prop": "x"
+        },
+        {
+          "type": "big",
+          "text": "SEPTEMBER 11, 2001.",
+          "say": "Then came September 11, 2001."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sad",
+          "say": "Nearly three thousand people were killed in the attacks on the United States.",
+          "text": "ALMOST 3,000."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "The US demanded that the Taliban hand over bin Laden. Mullah Omar refused.",
+          "prop": "x"
+        },
+        {
+          "type": "big",
+          "text": "OCTOBER 2001.",
+          "say": "In October 2001, the United States and its allies attacked."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "neutral",
+          "say": "Within about two months, the Taliban government collapsed, and Omar disappeared.",
+          "text": "GONE."
+        }
+      ],
+      "say": "And then there was one guest who changed everything. In 1996, Osama bin Laden moved to Afghanistan. Mullah Omar let him stay. In Pashtun custom, protecting a guest is a serious duty. Bin Laden kept planning attacks anyway. Omar reportedly told him to stop, and was ignored. Then came September 11, 2001. Nearly three thousand people were killed in the attacks on the United States. The US demanded that the Taliban hand over bin Laden. Mullah Omar refused. In October 2001, the United States and its allies attacked. Within about two months, the Taliban government collapsed, and Omar disappeared."
+    },
+    {
+      "chapter": "The Hidden Leader",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Where did he go? For years, almost everyone assumed he was hiding in Pakistan.",
+          "prop": "question"
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "say": "But a Dutch journalist, Bette Dam, later reported he hid inside Afghanistan, in Zabul province.",
+          "people": [
+            {
+              "pose": "sit",
+              "face": "neutral",
+              "hat": "black_turban",
+              "beard": true
+            }
+          ],
+          "props": [
+            "house"
+          ],
+          "label": "ZABUL",
+          "ai": "a quiet mud-walled compound in rural southern Afghanistan"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "According to her research, for a while he lived just a few kilometers from a US military base.",
+          "text": "NEXT DOOR?"
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "Some officials disputed parts of this. But the Taliban themselves later backed her version.",
+          "prop": "book"
+        },
+        {
+          "type": "big",
+          "text": "2013.",
+          "say": "He died of illness in 2013."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sweating",
+          "say": "And here's the wild part. The Taliban kept his death secret for two years. They kept issuing statements in his name.",
+          "text": "SECRET FOR 2 YEARS."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "neutral",
+          "say": "The world only found out in 2015.",
+          "prop": "phone"
+        }
+      ],
+      "say": "Where did he go? For years, almost everyone assumed he was hiding in Pakistan. But a Dutch journalist, Bette Dam, later reported he hid inside Afghanistan, in Zabul province. According to her research, for a while he lived just a few kilometers from a US military base. Some officials disputed parts of this. But the Taliban themselves later backed her version. He died of illness in 2013. And here's the wild part. The Taliban kept his death secret for two years. They kept issuing statements in his name. The world only found out in 2015."
+    },
+    {
+      "chapter": "Twenty Years Later",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Meanwhile, the Taliban never really went away. They fought a long insurgency for twenty years.",
+          "prop": "rifle"
+        },
+        {
+          "type": "big",
+          "text": "FEBRUARY 2020.",
+          "say": "In February 2020, the United States signed a deal with them in Doha, and agreed to leave."
+        },
+        {
+          "type": "big",
+          "text": "AUGUST 15, 2021.",
+          "say": "And on August 15, 2021, the Taliban walked back into Kabul, almost without a fight."
+        },
+        {
+          "type": "crowd",
+          "bg": "city",
+          "count": 12,
+          "poses": [
+            "run",
+            "scared",
+            "walk"
+          ],
+          "faces": [
+            "scared",
+            "worried"
+          ],
+          "say": "Thousands of people rushed to the airport, desperate to get out."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Today they rule Afghanistan again, and many of the old rules are back. Including bans on girls going to secondary school.",
+          "prop": "book",
+          "cross": true
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "In 2025, Russia became the first country to formally recognize their new government.",
+          "prop": "flag"
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "Most of the world still hasn't. And the debate about how to deal with them is far from over."
+        }
+      ],
+      "say": "Meanwhile, the Taliban never really went away. They fought a long insurgency for twenty years. In February 2020, the United States signed a deal with them in Doha, and agreed to leave. And on August 15, 2021, the Taliban walked back into Kabul, almost without a fight. Thousands of people rushed to the airport, desperate to get out. Today they rule Afghanistan again, and many of the old rules are back. Including bans on girls going to secondary school. In 2025, Russia became the first country to formally recognize their new government. Most of the world still hasn't. And the debate about how to deal with them is far from over."
+    },
+    {
+      "chapter": "So Who Were the First Taliban?",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "So, who were the first Taliban?"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Not a giant army. Not, at first, a terror group. A few dozen religious students and a shy, one-eyed village mullah.",
+          "prop": "book"
+        },
+        {
+          "type": "diagram",
+          "title": "HOW IT HAPPENED",
+          "steps": [
+            [
+              "tank",
+              "15 years of war"
+            ],
+            [
+              "tent",
+              "A generation in camps"
+            ],
+            [
+              "rifle",
+              "Chaos and warlords"
+            ],
+            [
+              "person",
+              "The Taliban"
+            ]
+          ],
+          "say": "But they grew out of fifteen years of war, a generation raised in camps, and a country desperate for order."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "neutral",
+          "say": "And foreign money and politics shaped every step. The Soviets, the Americans, the Saudis, and Pakistan.",
+          "text": "EVERYONE PLAYED."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "That's the real lesson here. Movements like this don't come out of nowhere. They grow out of broken places.",
+          "text": "BROKEN PLACES."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "And Afghanistan has been a crossroads for invaders for thousands of years. Persians, Greeks, Mongols, the British.",
+          "prop": "mountain"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "neutral",
+          "say": "People call it the graveyard of empires. But is that actually true?",
+          "text": "GRAVEYARD OF EMPIRES?"
+        },
+        {
+          "type": "me",
+          "pose": "wave",
+          "face": "neutral",
+          "say": "That's the next video. And the answer is more surprising than you'd think."
+        }
+      ],
+      "say": "So, who were the first Taliban? Not a giant army. Not, at first, a terror group. A few dozen religious students and a shy, one-eyed village mullah. But they grew out of fifteen years of war, a generation raised in camps, and a country desperate for order. And foreign money and politics shaped every step. The Soviets, the Americans, the Saudis, and Pakistan. That's the real lesson here. Movements like this don't come out of nowhere. They grow out of broken places. And Afghanistan has been a crossroads for invaders for thousands of years. Persians, Greeks, Mongols, the British. People call it the graveyard of empires. But is that actually true? That's the next video. And the answer is more surprising than you'd think."
+    }
+  ]
+}

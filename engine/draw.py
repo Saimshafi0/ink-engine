@@ -348,7 +348,8 @@ def draw_face(pen, cx, cy, r, face, blink=False, mouth=0.0, flip=False, lw=5):
 
 
 def draw_person(pen, x, feet_y, H, pose="stand", face="neutral", blink=False, mouth=0.0,
-                flip=False, lw=None, holding=None, bob=0.0, skin=CREAM, outfit=None, shadow=False):
+                flip=False, lw=None, holding=None, bob=0.0, skin=CREAM, outfit=None, shadow=False,
+                hat=None, beard=None):
     """Draw one stick person. x = centre, feet_y = ground line, H = total height."""
     pose_n = norm_pose(pose)
     face = norm_face(face)
@@ -424,7 +425,11 @@ def draw_person(pen, x, feet_y, H, pose="stand", face="neutral", blink=False, mo
         hands["L"] = arm("L")
         hands["R"] = arm("R")
     pen.circle(head_cx, head_cy, r, fill=skin, w=lw)
+    if beard:
+        draw_beard(pen, head_cx, head_cy, r, lw, beard)
     draw_face(pen, head_cx, head_cy, r, face, blink, mouth, flip, lw)
+    if hat:
+        draw_hat(pen, head_cx, head_cy, r, lw, hat)
     if P.get("front"):
         hands["L"] = arm("L")
         hands["R"] = arm("R")
@@ -1394,6 +1399,135 @@ PROPS.update({"louse": _louse, "lice": _louse, "bug": _louse, "flea": _louse, "s
 ANIMALS = ANIMALS | {"louse", "snail"}
 
 
+# ---------------- hats & beards ----------------
+def draw_beard(pen, cx, cy, r, lw, kind=True):
+    """Pencil-sketch beard: strokes from the cheeks down past the chin, with a mustache.
+    The upper edge dips below the mouth in the middle, so the face stays readable."""
+    k = str(kind).lower()
+    ink = (150, 146, 140) if k in ("grey", "gray", "white") else (58, 52, 46)
+    shade = (232, 228, 220) if k in ("grey", "gray", "white") else (214, 204, 188)
+    rnd = random.Random(int(cx * 7 + cy * 3))
+    drop = 1.5 if k == "long" else 1.22
+    half = r * .9
+
+    def upper(x):
+        u = abs(x - cx) / half
+        return cy + r * (.05 + .62 * max(0.0, 1 - u * u) ** 1.5)
+
+    def lower(x):
+        u = min(1.0, abs(x - cx) / half)
+        return cy + r * (.1 + (drop - .1) * (1 - u ** 2.2) ** .8)
+
+    xs = [cx - half + 2 * half * i / 24 for i in range(25)]
+    poly = [(x, upper(x)) for x in xs] + [(x, lower(x)) for x in xs[::-1]]
+    pen.poly(poly, fill=shade, w=0)
+    for _ in range(230):
+        x0 = rnd.uniform(cx - half * .97, cx + half * .97)
+        u0, l0 = upper(x0), lower(x0)
+        if l0 - u0 < r * .06:
+            continue
+        y0 = u0 + (l0 - u0) * rnd.random() ** .8
+        dy = rnd.uniform(.07, .16) * r
+        lean = (x0 - cx) / half * .05 * r
+        pen.line([(x0, y0), (x0 + lean + rnd.uniform(-.02, .02) * r, min(l0, y0 + dy))], max(1, lw * .3), ink, wob=0)
+    pen.line([(x, lower(x)) for x in xs], max(1, lw * .5), ink, wob=.3)
+    # mustache
+    for side in (-1, 1):
+        for _ in range(14):
+            t = rnd.uniform(.05, 1)
+            x0 = cx + side * t * r * .32
+            y0 = cy + r * (.3 + .06 * t)
+            pen.line([(x0, y0), (x0 + side * .03 * r, y0 + rnd.uniform(.06, .1) * r)], max(1, lw * .3), ink, wob=0)
+
+
+def draw_hat(pen, cx, cy, r, lw, kind="turban"):
+    kind = str(kind).lower()
+    if kind in ("turban", "pagri", "black_turban", "white_turban"):
+        col = (40, 38, 40) if kind == "black_turban" else (240, 238, 232)
+        top = cy - r * .55
+        pen.poly([(cx - r * 1.0, top + r * .15), (cx - r * .9, top - r * .45), (cx - r * .4, top - r * .78), (cx + r * .4, top - r * .8),
+                  (cx + r * .92, top - r * .45), (cx + r * 1.02, top + r * .15), (cx + r * .6, top + r * .3), (cx - r * .6, top + r * .3)],
+                 fill=col, w=lw)
+        sc = (120, 116, 110) if kind != "black_turban" else (90, 88, 92)
+        for k in range(3):
+            y = top - r * (.5 - k * .22)
+            pen.line(pen.bez((cx - r * .85, y + r * .25), (cx, y - r * .1), (cx + r * .88, y + r * .2)), max(1, lw * .45), sc, wob=.2)
+        # hanging tail
+        pen.poly([(cx + r * .85, top + r * .05), (cx + r * 1.2, top + r * .4), (cx + r * 1.15, top + r * 1.1), (cx + r * .98, top + r * .35)], fill=col, w=lw * .8)
+    elif kind in ("cap", "topi", "prayer_cap", "kufi"):
+        col = (244, 242, 236)
+        pen.poly([(cx - r * .9, cy - r * .42)] + [(cx + r * .9 * math.cos(math.radians(a)), cy - r * .42 - r * .55 * math.sin(math.radians(a))) for a in range(180, -1, -15)] + [(cx + r * .9, cy - r * .42)],
+                 fill=col, w=lw)
+        for k in range(4):
+            x = cx - r * .55 + k * r * .37
+            pen.line([(x, cy - r * .5), (x, cy - r * .82 + abs(k - 1.5) * r * .08)], max(1, lw * .35), (170, 165, 155), wob=0)
+    elif kind in ("pakol",):
+        col = (160, 130, 96)
+        pen.rrect(cx - r * .95, cy - r * 1.15, cx + r * .95, cy - r * .55, r * .2, fill=col, w=lw)
+        pen.ellipse(cx, cy - r * 1.15, r * .95, r * .2, fill=(176, 146, 110), w=lw * .8)
+    elif kind in ("helmet",):
+        pen.poly([(cx - r * 1.05, cy - r * .3)] + [(cx + r * 1.0 * math.cos(math.radians(a)), cy - r * .3 - r * .8 * math.sin(math.radians(a))) for a in range(180, -1, -15)] + [(cx + r * 1.05, cy - r * .3)],
+                 fill=(108, 120, 84), w=lw)
+    elif kind in ("crown",):
+        _crown(pen, cx, cy - r * 1.0, r * 1.1, lw)
+
+
+def _rifle(p, x, y, s, lw):
+    wood = (150, 96, 56)
+    metal = (70, 72, 76)
+    # stock
+    p.poly([(x - .55 * s, y + .02 * s), (x - .3 * s, y - .06 * s), (x - .28 * s, y + .06 * s), (x - .52 * s, y + .16 * s)], fill=wood, w=lw)
+    # body
+    p.rect(x - .3 * s, y - .07 * s, x + .12 * s, y + .05 * s, fill=metal, w=lw)
+    # handguard
+    p.rect(x + .1 * s, y - .06 * s, x + .3 * s, y + .03 * s, fill=wood, w=lw)
+    # barrel
+    p.rect(x + .3 * s, y - .04 * s, x + .58 * s, y, fill=metal, w=lw * .8)
+    # curved magazine
+    p.poly([(x - .02 * s, y + .05 * s), (x + .08 * s, y + .05 * s), (x + .14 * s, y + .3 * s), (x + .04 * s, y + .32 * s)], fill=metal, w=lw)
+    # grip
+    p.poly([(x - .2 * s, y + .05 * s), (x - .12 * s, y + .05 * s), (x - .16 * s, y + .2 * s), (x - .24 * s, y + .19 * s)], fill=wood, w=lw * .8)
+
+
+def _tank(p, x, y, s, lw):
+    col = (110, 120, 86)
+    p.rrect(x - .5 * s, y + .05 * s, x + .5 * s, y + .3 * s, .12 * s, fill=(70, 72, 70), w=lw)
+    for i in range(5):
+        p.circle(x - .38 * s + i * .19 * s, y + .18 * s, .07 * s, fill=(130, 130, 126), w=lw * .6)
+    p.rect(x - .45 * s, y - .1 * s, x + .45 * s, y + .06 * s, fill=col, w=lw)
+    p.rrect(x - .22 * s, y - .28 * s, x + .2 * s, y - .1 * s, .06 * s, fill=col, w=lw)
+    p.rect(x + .2 * s, y - .22 * s, x + .62 * s, y - .17 * s, fill=col, w=lw * .8)
+
+
+def _kite(p, x, y, s, lw):
+    p.poly([(x, y - .42 * s), (x + .28 * s, y - .05 * s), (x, y + .25 * s), (x - .28 * s, y - .05 * s)], fill=C["clay"], w=lw)
+    p.line([(x, y - .42 * s), (x, y + .25 * s)], lw * .5)
+    p.line([(x - .28 * s, y - .05 * s), (x + .28 * s, y - .05 * s)], lw * .5)
+    p.line(p.bez((x, y + .25 * s), (x - .15 * s, y + .38 * s), (x + .05 * s, y + .5 * s)), lw * .7)
+
+
+def _tv(p, x, y, s, lw):
+    p.rrect(x - .42 * s, y - .3 * s, x + .42 * s, y + .25 * s, .06 * s, fill=(60, 60, 64), w=lw)
+    p.rect(x - .34 * s, y - .23 * s, x + .34 * s, y + .17 * s, fill=C["sky"], w=0)
+    for d in (-1, 1):
+        p.line([(x, y - .3 * s), (x + d * .2 * s, y - .5 * s)], lw * .7)
+
+
+def _camera(p, x, y, s, lw):
+    p.rrect(x - .4 * s, y - .2 * s, x + .4 * s, y + .25 * s, .06 * s, fill=(60, 60, 64), w=lw)
+    p.rect(x - .15 * s, y - .3 * s, x + .1 * s, y - .2 * s, fill=(60, 60, 64), w=lw)
+    p.circle(x, y + .03 * s, .15 * s, fill=C["sky2"], w=lw)
+
+
+def _flag_white(p, x, y, s, lw):
+    p.line([(x - .3 * s, y + .5 * s), (x - .3 * s, y - .45 * s)], lw * 1.2, C["bark"])
+    p.poly([(x - .3 * s, y - .45 * s), (x + .4 * s, y - .38 * s), (x + .38 * s, y - .02 * s), (x - .3 * s, y - .06 * s)], fill=WHITE, w=lw)
+
+
+PROPS.update({"rifle": _rifle, "gun": _rifle, "ak47": _rifle, "kalashnikov": _rifle, "tank": _tank, "kite": _kite,
+              "tv": _tv, "television": _tv, "camera": _camera, "photo": _camera, "flag": _flag_white, "white_flag": _flag_white})
+
+
 def prop_name(n):
     n = (n or "").lower().strip().replace(" ", "_").replace("-", "_")
     if n in PROPS:
@@ -1590,7 +1724,7 @@ REGIONS = {
     "europe": (15, 50, 2.0), "greece": (22, 39, 2.8), "rome": (12, 42, 2.8), "italy": (12, 42, 2.6),
     "britain": (-2, 54, 2.8), "england": (-1, 52, 2.8), "france": (2, 46, 2.6), "spain": (-4, 40, 2.6),
     "germany": (10, 51, 2.6), "scandinavia": (15, 63, 2.2), "levant": (35, 32, 2.8), "israel": (35, 31.5, 2.8),
-    "turkey": (33, 39, 2.6), "anatolia": (33, 39, 2.6), "persia": (53, 32, 2.4), "iran": (53, 32, 2.4), "morocco": (-7, 32, 2.6), "denisova": (85, 51, 2.4), "altai": (85, 51, 2.4), "alps": (11, 46.8, 2.8), "oregon": (-121, 43.5, 2.6), "kenya": (37, 0, 2.2), "indonesia": (120, -2, 2.0),
+    "turkey": (33, 39, 2.6), "anatolia": (33, 39, 2.6), "persia": (53, 32, 2.4), "iran": (53, 32, 2.4), "afghanistan": (66, 34, 2.6), "kandahar": (65.7, 31.6, 2.8), "kabul": (69.2, 34.5, 2.8), "bamiyan": (67.8, 34.8, 2.8), "soviet union": (60, 55, 1.6), "ussr": (60, 55, 1.6), "new york": (-74, 40.7, 2.6), "morocco": (-7, 32, 2.6), "denisova": (85, 51, 2.4), "altai": (85, 51, 2.4), "alps": (11, 46.8, 2.8), "oregon": (-121, 43.5, 2.6), "kenya": (37, 0, 2.2), "indonesia": (120, -2, 2.0),
     "arabia": (45, 23, 2.2), "india": (78, 22, 2.2), "indus": (69, 27, 2.4), "pakistan": (69, 29, 2.4),
     "china": (105, 35, 2.0), "japan": (138, 36, 2.6), "mongolia": (103, 47, 2.2), "siberia": (100, 62, 1.8),
     "russia": (90, 60, 1.6), "indonesia": (115, -2, 2.0), "australia": (134, -25, 2.0),
