@@ -1,0 +1,1353 @@
+{
+  "title": "Who Had the First Kiss in History?",
+  "thumbnail_text": "FIRST KISS?",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "thumbnails": [
+    {
+      "text": "FIRST KISS?",
+      "title": "Who Had the First Kiss in History?",
+      "color": "pink",
+      "hero": "ape",
+      "props": [
+        "heart"
+      ],
+      "sidekick": {
+        "pose": "point_left",
+        "face": "shocked"
+      }
+    },
+    {
+      "text": "WHO KISSED FIRST?",
+      "title": "The First Kiss Happened 21 Million Years Ago",
+      "color": "green",
+      "hero": "person",
+      "pose": "wave",
+      "face": "happy",
+      "wear": "fur",
+      "props": [
+        "heart"
+      ],
+      "effects": [
+        "hearts"
+      ],
+      "sidekick": {
+        "pose": "facepalm",
+        "face": "shocked"
+      }
+    },
+    {
+      "text": "HOW WAS KISSING INVENTED?",
+      "title": "How Was Kissing Invented?",
+      "color": "purple",
+      "hero": "person",
+      "pose": "scared",
+      "face": "disgusted",
+      "props": [
+        "bug",
+        "heart"
+      ],
+      "marks": [
+        "x"
+      ]
+    }
+  ],
+  "seo": {
+    "titles": [
+      "Who Had the First Kiss in History?",
+      "The First Kiss Happened 21 Million Years Ago",
+      "How Was Kissing Invented?",
+      "Did Humans Kiss Neanderthals?",
+      "The Surprising History of Kissing"
+    ],
+    "best_title": "Who Had the First Kiss in History?",
+    "description_hook": "Who had the first kiss in history? A 2025 Oxford study says kissing began 21 to 17 million years ago in our ape ancestors, long before humans, and humans may even have kissed Neanderthals.",
+    "paragraphs": [
+      "In this animated history of kissing we start with the 80 million bacteria swapped in a single kiss, why less than half of the world's cultures practice romantic kissing, and what chimps and bonobos reveal about the origin of the kiss.",
+      "Then we look at the theories of why kissing evolved, the shared mouth microbes of humans and Neanderthals, the first written kisses on 4,500 year old Mesopotamian clay tablets, and the link between kissing and ancient disease.",
+      "We finish with Roman kisses, medieval contracts sealed with a kiss, the 1439 kissing ban, the Inuit kunik, Edison's scandalous 1896 film The Kiss, why it's called a French kiss, which way people tilt their heads, mistletoe, the 58-hour kissing record, and what kissing does to your brain."
+    ],
+    "sources": [
+      "Brindle et al. - The evolutionary origins of kissing, Evolution and Human Behavior (2025)",
+      "Kort et al. - Shaping the oral microbiota through intimate kissing, Microbiome (2014)",
+      "Jankowiak, Volsche & Garcia - Is the romantic-sexual kiss a near human universal? American Anthropologist (2015)",
+      "Weyrich et al. - Neanderthal behaviour, diet, and disease inferred from ancient DNA in dental calculus, Nature (2017)",
+      "Arbøll & Rasmussen - The ancient history of kissing, Science (2023)",
+      "Pliny the Elder - Natural History, Book 26",
+      "Sheril Kirshenbaum - The Science of Kissing (2011)",
+      "Gunturkun - Adult persistence of head-turning asymmetry, Nature (2003)",
+      "Guinness World Records - Longest kiss (2013)"
+    ],
+    "tags": [
+      "first kiss in history",
+      "history of kissing",
+      "who invented kissing",
+      "why do humans kiss",
+      "first kiss 21 million years ago",
+      "did humans kiss neanderthals",
+      "kissing study oxford 2025",
+      "ancient history",
+      "mesopotamia kissing",
+      "roman kisses",
+      "eskimo kiss kunik",
+      "first movie kiss 1896",
+      "science of kissing",
+      "ancient humans",
+      "history explained",
+      "why is it called a french kiss",
+      "mistletoe history"
+    ],
+    "hashtags": [
+      "#historyofkissing",
+      "#history",
+      "#ancienthumans"
+    ],
+    "pinned_comment": "Be honest: did you know kissing is NOT universal? Does your culture kiss romantically?"
+  },
+  "scenes": [
+    {
+      "chapter": "80 Million Germs",
+      "shots": [
+        {
+          "type": "big",
+          "text": "80,000,000.",
+          "say": "Eighty million."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "That's roughly how many bacteria two people swap in a single ten-second kiss.",
+          "prop": "bug"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "say": "Scientists actually measured this. In 2014, a Dutch team had couples kiss, and then checked their spit.",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "thinking",
+              "hold": "magnifier"
+            }
+          ],
+          "props": [
+            "bug"
+          ],
+          "label": "THE KISS STUDY",
+          "ai": "a scientist stick figure studying a sample with a magnifying glass in a lab"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "disgusted",
+          "say": "Eighty million bacteria. Ten seconds. And we call this... romantic.",
+          "text": "ROMANTIC?"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "smug",
+          "say": "Think about it. Pressing your face into another face and trading spit is a genuinely strange thing to do.",
+          "prop": "heart"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "And yet, here we are. Movies end with it. Weddings are sealed with it. Teenagers panic about it.",
+          "prop": "ring"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "So where did kissing actually come from? Who did it first?",
+          "text": "WHO WAS FIRST?"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "Spoiler: it wasn't a human. It wasn't even close to being a human.",
+          "text": "NOT HUMAN."
+        },
+        {
+          "type": "list",
+          "title": "TODAY",
+          "items": [
+            [
+              "ape",
+              "A 20 million year old kiss"
+            ],
+            [
+              "heart",
+              "Kissing Neanderthals"
+            ],
+            [
+              "scroll",
+              "The first written kiss"
+            ],
+            [
+              "medicine",
+              "A kissing ban"
+            ]
+          ],
+          "say": "Today we're going back twenty million years, to apes, Neanderthals, ancient tablets, and at least one king who tried to ban kissing."
+        },
+        {
+          "type": "me",
+          "pose": "wave",
+          "face": "happy",
+          "say": "Let's pucker up and go.",
+          "prop": "heart"
+        }
+      ],
+      "say": "Eighty million. That's roughly how many bacteria two people swap in a single ten-second kiss. Scientists actually measured this. In 2014, a Dutch team had couples kiss, and then checked their spit. Eighty million bacteria. Ten seconds. And we call this... romantic. Think about it. Pressing your face into another face and trading spit is a genuinely strange thing to do. And yet, here we are. Movies end with it. Weddings are sealed with it. Teenagers panic about it. So where did kissing actually come from? Who did it first? Spoiler: it wasn't a human. It wasn't even close to being a human. Today we're going back twenty million years, to apes, Neanderthals, ancient tablets, and at least one king who tried to ban kissing. Let's pucker up and go."
+    },
+    {
+      "chapter": "Not Everyone Kisses",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "But first, here's something that surprises almost everyone.",
+          "prop": "question"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "You probably assume every culture on Earth kisses romantically. It feels so natural.",
+          "prop": "heart"
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "In 2015, anthropologists looked at records from 168 different cultures around the world.",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "smug",
+              "wear": "robe"
+            }
+          ],
+          "props": [
+            "book",
+            "scroll"
+          ],
+          "label": "168 CULTURES"
+        },
+        {
+          "type": "big",
+          "text": "LESS THAN HALF.",
+          "say": "And they found romantic kissing in less than half of them."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "Less than half! In many societies, romantic kissing just wasn't a thing.",
+          "text": "NOT A THING."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "In some, people actually found the idea pretty gross. Swapping spit? With your mouth? Why?",
+          "prop": "stink"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "Kissing between parents and children, or friends, is more widespread. But the romantic kind is far from universal.",
+          "text": "NOT UNIVERSAL."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "Which raises the question. If it's not universal for humans, where did it start?"
+        }
+      ],
+      "say": "But first, here's something that surprises almost everyone. You probably assume every culture on Earth kisses romantically. It feels so natural. In 2015, anthropologists looked at records from 168 different cultures around the world. And they found romantic kissing in less than half of them. Less than half! In many societies, romantic kissing just wasn't a thing. In some, people actually found the idea pretty gross. Swapping spit? With your mouth? Why? Kissing between parents and children, or friends, is more widespread. But the romantic kind is far from universal. Which raises the question. If it's not universal for humans, where did it start?"
+    },
+    {
+      "chapter": "The First Kiss",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "To find out, we have to look at our closest relatives.",
+          "prop": "ape"
+        },
+        {
+          "type": "draw",
+          "bg": "jungle",
+          "say": "Chimpanzees kiss. Especially after a fight, to make up.",
+          "props": [
+            "ape",
+            "heart"
+          ],
+          "ai": "two chimpanzees kissing in a jungle after an argument"
+        },
+        {
+          "type": "draw",
+          "bg": "jungle",
+          "say": "And bonobos? Bonobos kiss a lot. Like, a lot.",
+          "props": [
+            "monkey",
+            "heart",
+            "monkey"
+          ],
+          "ai": "two bonobos kissing affectionately in a jungle"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "laugh",
+          "say": "Bonobos are basically the most romantic apes on the planet. We'll leave it there.",
+          "text": "WE'LL LEAVE IT THERE."
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "say": "In 2025, a team led by Oxford biologist Matilda Brindle mapped which primates kiss.",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "happy",
+              "wear": "robe"
+            }
+          ],
+          "props": [
+            "ape",
+            "book"
+          ],
+          "label": "OXFORD 2025",
+          "ai": "an Oxford scientist stick figure presenting a family tree of apes"
+        },
+        {
+          "type": "diagram",
+          "title": "THE METHOD",
+          "steps": [
+            [
+              "ape",
+              "Which apes kiss?"
+            ],
+            [
+              "tree",
+              "Family tree"
+            ],
+            [
+              "clock",
+              "Trace it back"
+            ]
+          ],
+          "say": "Then they traced kissing back through the family tree of apes, to see roughly when it first appeared."
+        },
+        {
+          "type": "big",
+          "text": "21 MILLION YEARS AGO.",
+          "say": "The answer? Somewhere around twenty-one to seventeen million years ago."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "So the first kiss happened millions of years before humans even existed.",
+          "text": "BEFORE HUMANS."
+        },
+        {
+          "type": "draw",
+          "bg": "jungle",
+          "say": "Somewhere in an ancient forest, two ape ancestors pressed their mouths together.",
+          "props": [
+            "ape",
+            "heart",
+            "ape"
+          ],
+          "ai": "two prehistoric ape ancestors kissing in an ancient forest with a heart above them"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "smug",
+          "say": "They had no idea they were starting a tradition that would end up in every rom-com ever made.",
+          "prop": "tv"
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "To be fair, this is based on modeling, not fossils. You can't fossilize a kiss. But it's the best estimate we have."
+        }
+      ],
+      "say": "To find out, we have to look at our closest relatives. Chimpanzees kiss. Especially after a fight, to make up. And bonobos? Bonobos kiss a lot. Like, a lot. Bonobos are basically the most romantic apes on the planet. We'll leave it there. In 2025, a team led by Oxford biologist Matilda Brindle mapped which primates kiss. Then they traced kissing back through the family tree of apes, to see roughly when it first appeared. The answer? Somewhere around twenty-one to seventeen million years ago. So the first kiss happened millions of years before humans even existed. Somewhere in an ancient forest, two ape ancestors pressed their mouths together. They had no idea they were starting a tradition that would end up in every rom-com ever made. To be fair, this is based on modeling, not fossils. You can't fossilize a kiss. But it's the best estimate we have."
+    },
+    {
+      "chapter": "But Why Kiss?",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Okay, but why would an ape start kissing in the first place? It's not obviously useful.",
+          "prop": "question"
+        },
+        {
+          "type": "list",
+          "title": "THE THEORIES",
+          "items": [
+            [
+              "monkey",
+              "Grooming"
+            ],
+            [
+              "bread",
+              "Feeding babies"
+            ],
+            [
+              "stink",
+              "Smelling each other"
+            ]
+          ],
+          "say": "There are a few theories. And honestly, none of them are fully proven."
+        },
+        {
+          "type": "draw",
+          "bg": "jungle",
+          "say": "One idea: grooming. Apes pick bugs off each other with their lips. Sometimes the lips just... stayed.",
+          "props": [
+            "monkey",
+            "bug",
+            "monkey"
+          ],
+          "ai": "two apes grooming each other closely in the jungle"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "disgusted",
+          "say": "So the first kiss might have been a cleaning accident.",
+          "text": "CLEANING ACCIDENT."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Another idea: feeding. Many ape mothers chew food and pass it to their babies, mouth to mouth.",
+          "prop": "bread"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "neutral",
+          "say": "Over time, that mouth-to-mouth contact may have started to mean comfort and love.",
+          "prop": "heart"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "And a third idea: smell. Getting your face that close lets you sniff someone out, maybe even check if they're healthy.",
+          "prop": "stink"
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "Scientists still argue. It's probably a mix. Kissing likely meant different things at different times."
+        }
+      ],
+      "say": "Okay, but why would an ape start kissing in the first place? It's not obviously useful. There are a few theories. And honestly, none of them are fully proven. One idea: grooming. Apes pick bugs off each other with their lips. Sometimes the lips just... stayed. So the first kiss might have been a cleaning accident. Another idea: feeding. Many ape mothers chew food and pass it to their babies, mouth to mouth. Over time, that mouth-to-mouth contact may have started to mean comfort and love. And a third idea: smell. Getting your face that close lets you sniff someone out, maybe even check if they're healthy. Scientists still argue. It's probably a mix. Kissing likely meant different things at different times."
+    },
+    {
+      "chapter": "Kissing Neanderthals",
+      "shots": [
+        {
+          "type": "big",
+          "text": "BUT HERE'S THE WEIRD PART.",
+          "say": "Now here's where it gets really weird."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Remember, our ancestors met another kind of human. Neanderthals.",
+          "prop": "person"
+        },
+        {
+          "type": "draw",
+          "bg": "jungle",
+          "say": "We know they had children together. Most people outside Africa carry a little Neanderthal DNA.",
+          "people": [
+            {
+              "pose": "wave",
+              "face": "happy",
+              "wear": "fur"
+            },
+            {
+              "pose": "wave",
+              "face": "confused",
+              "wear": "fur"
+            }
+          ],
+          "props": [
+            "heart"
+          ],
+          "ai": "an early modern human and a Neanderthal shyly waving at each other in a forest"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "But in 2017, scientists studying Neanderthal teeth found something extra.",
+          "prop": "tooth"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "say": "Tiny bits of an ancient mouth microbe that humans and Neanderthals seem to have shared.",
+          "props": [
+            "tooth",
+            "bug"
+          ],
+          "label": "SHARED MOUTH MICROBE"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "How do you share mouth bacteria with someone? Sharing food. Or...",
+          "text": "OR..."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "...kissing. The Oxford team said it gives a much more romantic spin on human and Neanderthal relationships.",
+          "prop": "heart"
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "To be clear, nobody can prove a specific kiss happened. But your great-great-great-many-times grandparents might have been kissing Neanderthals.",
+          "text": "PROBABLY."
+        }
+      ],
+      "say": "Now here's where it gets really weird. Remember, our ancestors met another kind of human. Neanderthals. We know they had children together. Most people outside Africa carry a little Neanderthal DNA. But in 2017, scientists studying Neanderthal teeth found something extra. Tiny bits of an ancient mouth microbe that humans and Neanderthals seem to have shared. How do you share mouth bacteria with someone? Sharing food. Or... ...kissing. The Oxford team said it gives a much more romantic spin on human and Neanderthal relationships. To be clear, nobody can prove a specific kiss happened. But your great-great-great-many-times grandparents might have been kissing Neanderthals."
+    },
+    {
+      "chapter": "The First Written Kiss",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Okay. When does kissing first show up in writing?",
+          "prop": "scroll"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "For a long time, people thought the oldest written kiss came from South Asia, about thirty-five hundred years ago.",
+          "prop": "book"
+        },
+        {
+          "type": "map",
+          "region": "Mesopotamia",
+          "label": "MESOPOTAMIA",
+          "say": "But in 2023, two researchers looked again at clay tablets from Mesopotamia."
+        },
+        {
+          "type": "big",
+          "text": "4,500 YEARS AGO.",
+          "say": "And they found kissing mentioned about forty-five hundred years ago. A thousand years earlier."
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "Thousands of tablets mention kissing between lovers, but also between friends and family members.",
+          "props": [
+            "scroll",
+            "heart"
+          ],
+          "label": "CLAY TABLETS"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "So there was no single inventor of kissing. It showed up in many places, over and over.",
+          "text": "NO INVENTOR."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "Which makes sense. Nobody needed a manual. Apes figured it out twenty million years ago.",
+          "prop": "ape"
+        }
+      ],
+      "say": "Okay. When does kissing first show up in writing? For a long time, people thought the oldest written kiss came from South Asia, about thirty-five hundred years ago. But in 2023, two researchers looked again at clay tablets from Mesopotamia. And they found kissing mentioned about forty-five hundred years ago. A thousand years earlier. Thousands of tablets mention kissing between lovers, but also between friends and family members. So there was no single inventor of kissing. It showed up in many places, over and over. Which makes sense. Nobody needed a manual. Apes figured it out twenty million years ago."
+    },
+    {
+      "chapter": "Kissing and Disease",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "worried",
+          "say": "Now, remember those eighty million bacteria?",
+          "prop": "bug"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "The same 2023 researchers pointed out something interesting in Mesopotamian medical texts.",
+          "prop": "scroll"
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "They describe a mouth illness with blisters, called bushanu, that sounds a lot like herpes.",
+          "props": [
+            "medicine",
+            "bug"
+          ],
+          "label": "BUSHANU"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "disgusted",
+          "say": "So kissing may have quietly helped spread diseases, even back then.",
+          "text": "OOPS."
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "But they were careful. Ancient medical texts mixed science with religion. We can't be sure what that disease really was."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "smug",
+          "say": "Still, it's a good reminder. Every kiss in history came with a free gift.",
+          "text": "FREE GIFT."
+        }
+      ],
+      "say": "Now, remember those eighty million bacteria? The same 2023 researchers pointed out something interesting in Mesopotamian medical texts. They describe a mouth illness with blisters, called bushanu, that sounds a lot like herpes. So kissing may have quietly helped spread diseases, even back then. But they were careful. Ancient medical texts mixed science with religion. We can't be sure what that disease really was. Still, it's a good reminder. Every kiss in history came with a free gift."
+    },
+    {
+      "chapter": "Roman Kisses",
+      "shots": [
+        {
+          "type": "map",
+          "region": "Rome",
+          "label": "ROME",
+          "say": "The Romans took kissing very seriously. So seriously, they had different words for different kisses."
+        },
+        {
+          "type": "list",
+          "title": "ROMAN KISSES",
+          "items": [
+            [
+              "person",
+              "Osculum: friendly"
+            ],
+            [
+              "heart",
+              "Basium: loving"
+            ],
+            [
+              "fire",
+              "Savium: passionate"
+            ]
+          ],
+          "say": "An osculum was a friendly kiss. A basium was an affectionate kiss. And a savium was... the passionate one."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "laugh",
+          "say": "Imagine having to pick the right word every time. Awkward.",
+          "text": "AWKWARD."
+        },
+        {
+          "type": "draw",
+          "bg": "market",
+          "say": "Kissing was also a greeting. Romans kissed friends and family when they met, sometimes over and over.",
+          "people": [
+            {
+              "pose": "wave",
+              "face": "happy",
+              "wear": "toga"
+            },
+            {
+              "pose": "wave",
+              "face": "happy",
+              "wear": "toga"
+            }
+          ],
+          "props": [
+            "heart"
+          ],
+          "ai": "two Romans in togas greeting each other with a kiss in a market"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "According to the writer Pliny, Emperor Tiberius even tried to ban everyday kissing.",
+          "prop": "crown",
+          "cross": true
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Why? Pliny says a nasty skin disease was spreading, and kissing seemed to pass it around.",
+          "prop": "medicine"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "A two-thousand-year-old social distancing rule. Some things never change.",
+          "text": "SOCIAL DISTANCING."
+        }
+      ],
+      "say": "The Romans took kissing very seriously. So seriously, they had different words for different kisses. An osculum was a friendly kiss. A basium was an affectionate kiss. And a savium was... the passionate one. Imagine having to pick the right word every time. Awkward. Kissing was also a greeting. Romans kissed friends and family when they met, sometimes over and over. According to the writer Pliny, Emperor Tiberius even tried to ban everyday kissing. Why? Pliny says a nasty skin disease was spreading, and kissing seemed to pass it around. A two-thousand-year-old social distancing rule. Some things never change."
+    },
+    {
+      "chapter": "The Kiss of Contracts",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "In medieval Europe, kissing had a whole new job. Business.",
+          "prop": "scroll"
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "A kiss could seal a deal, like a signature. Lords and knights kissed to seal their loyalty.",
+          "people": [
+            {
+              "pose": "give",
+              "face": "neutral",
+              "wear": "rich"
+            },
+            {
+              "pose": "give",
+              "face": "neutral",
+              "wear": "robe"
+            }
+          ],
+          "props": [
+            "scroll",
+            "crown"
+          ],
+          "ai": "a medieval lord and knight sealing an oath in a castle hall"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "Imagine signing your phone contract with a kiss.",
+          "prop": "phone"
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "In church, people shared a kiss of peace during services. It was a sign of trust.",
+          "prop": "heart"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "There's even a popular story that the X we use for kisses at the end of messages comes from this.",
+          "text": "XOXO?"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "People who couldn't write signed with an X, and kissed it to make it official.",
+          "prop": "x"
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "Is it true? Historians aren't sure. But it's a lovely story, and that's basically why it survived."
+        }
+      ],
+      "say": "In medieval Europe, kissing had a whole new job. Business. A kiss could seal a deal, like a signature. Lords and knights kissed to seal their loyalty. Imagine signing your phone contract with a kiss. In church, people shared a kiss of peace during services. It was a sign of trust. There's even a popular story that the X we use for kisses at the end of messages comes from this. People who couldn't write signed with an X, and kissed it to make it official. Is it true? Historians aren't sure. But it's a lovely story, and that's basically why it survived."
+    },
+    {
+      "chapter": "A Royal Kissing Ban",
+      "shots": [
+        {
+          "type": "map",
+          "region": "Britain",
+          "label": "ENGLAND",
+          "say": "Then came the plague."
+        },
+        {
+          "type": "big",
+          "text": "1439.",
+          "say": "There's a famous story that in 1439, King Henry the Sixth of England banned kissing."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "The idea was to slow the spread of disease. Fewer kisses, fewer germs.",
+          "prop": "medicine"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sad",
+          "say": "Not a fun time to be dating in medieval England.",
+          "text": "TOUGH TIMES."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "neutral",
+          "say": "Historians argue about how official this ban really was. But fear of disease and kissing go way back.",
+          "prop": "bug"
+        }
+      ],
+      "say": "Then came the plague. There's a famous story that in 1439, King Henry the Sixth of England banned kissing. The idea was to slow the spread of disease. Fewer kisses, fewer germs. Not a fun time to be dating in medieval England. Historians argue about how official this ban really was. But fear of disease and kissing go way back."
+    },
+    {
+      "chapter": "Not Your Usual Kiss",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "And not everyone kisses the same way.",
+          "prop": "question"
+        },
+        {
+          "type": "map",
+          "region": "Americas",
+          "label": "ARCTIC",
+          "say": "In the Arctic, Inuit families have a greeting called the kunik."
+        },
+        {
+          "type": "draw",
+          "bg": "snow",
+          "say": "You press your nose and upper lip against someone's cheek, and gently breathe in.",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "happy",
+              "wear": "fur"
+            },
+            {
+              "pose": "stand",
+              "face": "happy",
+              "wear": "fur"
+            }
+          ],
+          "props": [
+            "heart"
+          ],
+          "ai": "two people in fur parkas greeting each other with a nose to cheek kunik in the snow"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "Outsiders called it an Eskimo kiss, and imagined nose rubbing. That's not quite right.",
+          "text": "NOT NOSE RUBBING."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "happy",
+          "say": "It's more like breathing in someone you love. Honestly, kind of sweet.",
+          "prop": "heart"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "Also very practical when it's minus forty and your lips would freeze together.",
+          "prop": "ice"
+        }
+      ],
+      "say": "And not everyone kisses the same way. In the Arctic, Inuit families have a greeting called the kunik. You press your nose and upper lip against someone's cheek, and gently breathe in. Outsiders called it an Eskimo kiss, and imagined nose rubbing. That's not quite right. It's more like breathing in someone you love. Honestly, kind of sweet. Also very practical when it's minus forty and your lips would freeze together."
+    },
+    {
+      "chapter": "The First Movie Kiss",
+      "shots": [
+        {
+          "type": "big",
+          "text": "1896.",
+          "say": "Fast forward to 1896."
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "say": "Thomas Edison's company filmed a short movie called The Kiss. It lasted about eighteen seconds.",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "happy",
+              "wear": "rich"
+            },
+            {
+              "pose": "stand",
+              "face": "happy",
+              "wear": "rich"
+            }
+          ],
+          "props": [
+            "camera",
+            "heart"
+          ],
+          "label": "THE KISS",
+          "ai": "an 1890s film set with two actors about to kiss and an old movie camera"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "People were scandalized. Some critics called it shocking and disgusting.",
+          "text": "SCANDAL!"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "It was just a middle-aged couple kissing, from a stage play. Very mild by today's standards.",
+          "prop": "tv"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "smug",
+          "say": "But it was one of the most popular films of its time. Because, of course it was.",
+          "text": "OF COURSE."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "neutral",
+          "say": "That eighteen seconds kicked off a whole century of movie kisses.",
+          "prop": "camera"
+        }
+      ],
+      "say": "Fast forward to 1896. Thomas Edison's company filmed a short movie called The Kiss. It lasted about eighteen seconds. People were scandalized. Some critics called it shocking and disgusting. It was just a middle-aged couple kissing, from a stage play. Very mild by today's standards. But it was one of the most popular films of its time. Because, of course it was. That eighteen seconds kicked off a whole century of movie kisses."
+    },
+    {
+      "chapter": "Why Is It a French Kiss?",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Okay, quick question. Why is a deep kiss called a French kiss? Did France invent it?",
+          "prop": "question"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "smug",
+          "say": "Spoiler: no. Apes beat them by about twenty million years.",
+          "prop": "ape"
+        },
+        {
+          "type": "map",
+          "region": "France",
+          "label": "FRANCE",
+          "say": "The phrase seems to come from English speakers in the early twentieth century."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Back then, the British and Americans thought the French were a bit, well, more passionate about romance.",
+          "prop": "heart"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "laugh",
+          "say": "So anything a little too romantic got called French. It was basically a polite way of saying scandalous.",
+          "text": "SCANDALOUS."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "And here's the funny part. For a long time, French didn't even have its own word for it.",
+          "text": "NO WORD!"
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "Only in 2014 did a big French dictionary add the slang verb galocher, meaning to French kiss.",
+          "props": [
+            "book",
+            "heart"
+          ],
+          "label": "GALOCHER",
+          "ai": "an open French dictionary with a heart on the page"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "So the French kiss is French in name only. History is weird.",
+          "text": "NAME ONLY."
+        }
+      ],
+      "say": "Okay, quick question. Why is a deep kiss called a French kiss? Did France invent it? Spoiler: no. Apes beat them by about twenty million years. The phrase seems to come from English speakers in the early twentieth century. Back then, the British and Americans thought the French were a bit, well, more passionate about romance. So anything a little too romantic got called French. It was basically a polite way of saying scandalous. And here's the funny part. For a long time, French didn't even have its own word for it. Only in 2014 did a big French dictionary add the slang verb galocher, meaning to French kiss. So the French kiss is French in name only. History is weird."
+    },
+    {
+      "chapter": "Your Brain on Kisses",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "So why do we still do it? Why does it feel so good?",
+          "prop": "heart"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "say": "Scientists think kissing triggers a burst of brain chemicals linked to pleasure and bonding.",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "neutral",
+              "wear": "robe"
+            }
+          ],
+          "props": [
+            "heart",
+            "chart_up"
+          ],
+          "label": "BRAIN CHEMISTRY",
+          "ai": "a scientist stick figure pointing at a cartoon brain lit up with hearts"
+        },
+        {
+          "type": "list",
+          "title": "WHAT KISSING MAY DO",
+          "items": [
+            [
+              "heart",
+              "Feel-good chemicals"
+            ],
+            [
+              "drop",
+              "Less stress"
+            ],
+            [
+              "person",
+              "Stronger bonds"
+            ]
+          ],
+          "say": "Feel-good chemicals. Lower stress. A stronger bond with the person you're kissing."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Your lips are also packed with nerve endings. They're some of the most sensitive skin on your body.",
+          "prop": "tooth"
+        },
+        {
+          "type": "me",
+          "pose": "crossed",
+          "face": "neutral",
+          "say": "Some of these studies are small, so take the details with a grain of salt.",
+          "prop": "salt"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "smug",
+          "say": "But the basic idea makes sense. Kissing feels good, so we keep doing it. Twenty million years and counting.",
+          "text": "20 MILLION YEARS."
+        }
+      ],
+      "say": "So why do we still do it? Why does it feel so good? Scientists think kissing triggers a burst of brain chemicals linked to pleasure and bonding. Feel-good chemicals. Lower stress. A stronger bond with the person you're kissing. Your lips are also packed with nerve endings. They're some of the most sensitive skin on your body. Some of these studies are small, so take the details with a grain of salt. But the basic idea makes sense. Kissing feels good, so we keep doing it. Twenty million years and counting."
+    },
+    {
+      "chapter": "Which Way Do You Tilt?",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "Here's a weird one. When you go in for a kiss, which way do you tilt your head?",
+          "prop": "question"
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "In 2003, a scientist watched couples kissing in public places, like airports, parks and train stations.",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "thinking",
+              "hold": "magnifier"
+            }
+          ],
+          "props": [
+            "heart"
+          ],
+          "label": "THE TILT STUDY"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "laugh",
+          "say": "Yes. Somebody's job was to watch strangers kiss in airports. For science.",
+          "text": "FOR SCIENCE."
+        },
+        {
+          "type": "big",
+          "text": "2 OUT OF 3 TILT RIGHT.",
+          "say": "He found about two out of three people tilt their heads to the right."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Nobody's totally sure why. It might be linked to the same habits that make most people right-handed.",
+          "prop": "person"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "smug",
+          "say": "So if you and your partner ever bump noses, now you know who to blame. The left-tilters.",
+          "text": "BLAME LEFT-TILTERS."
+        }
+      ],
+      "say": "Here's a weird one. When you go in for a kiss, which way do you tilt your head? In 2003, a scientist watched couples kissing in public places, like airports, parks and train stations. Yes. Somebody's job was to watch strangers kiss in airports. For science. He found about two out of three people tilt their heads to the right. Nobody's totally sure why. It might be linked to the same habits that make most people right-handed. So if you and your partner ever bump noses, now you know who to blame. The left-tilters."
+    },
+    {
+      "chapter": "Mistletoe and Records",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "And of course, humans turned kissing into traditions, and eventually, competitions.",
+          "prop": "star"
+        },
+        {
+          "type": "draw",
+          "bg": "snow",
+          "say": "Kissing under the mistletoe became a popular Christmas custom in England a few hundred years ago.",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "happy"
+            },
+            {
+              "pose": "stand",
+              "face": "happy"
+            }
+          ],
+          "props": [
+            "leaf",
+            "heart"
+          ],
+          "ai": "two people kissing under a sprig of mistletoe in a snowy village at Christmas"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "Some say it goes back to older Norse myths about mistletoe and love. That part's harder to prove.",
+          "prop": "leaf"
+        },
+        {
+          "type": "big",
+          "text": "58 HOURS.",
+          "say": "And the record for the longest kiss? Over fifty-eight hours, set by a couple in Thailand in 2013."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "Fifty-eight hours. No sleeping. No stopping.",
+          "text": "NO SLEEP."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "That's a lot of bacteria. I'm not doing that math.",
+          "prop": "bug"
+        }
+      ],
+      "say": "And of course, humans turned kissing into traditions, and eventually, competitions. Kissing under the mistletoe became a popular Christmas custom in England a few hundred years ago. Some say it goes back to older Norse myths about mistletoe and love. That part's harder to prove. And the record for the longest kiss? Over fifty-eight hours, set by a couple in Thailand in 2013. Fifty-eight hours. No sleeping. No stopping. That's a lot of bacteria. I'm not doing that math."
+    },
+    {
+      "chapter": "Twenty Million Years Later",
+      "shots": [
+        {
+          "type": "timeline",
+          "title": "THE HISTORY OF THE KISS",
+          "points": [
+            [
+              "21 M yrs",
+              "ape"
+            ],
+            [
+              "120,000 yrs",
+              "person"
+            ],
+            [
+              "2500 BC",
+              "scroll"
+            ],
+            [
+              "1896 AD",
+              "camera"
+            ]
+          ],
+          "say": "Ape ancestors. Neanderthals. Clay tablets. Roman greetings. A scandalous movie."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "So, who had the first kiss in history?"
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Not Romeo and Juliet. Not some ancient king. Probably two hairy apes in a forest, twenty million years ago.",
+          "prop": "ape"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "And every kiss since then, including yours, is part of that very long, very germy tradition.",
+          "prop": "bug"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "Eighty million bacteria at a time.",
+          "text": "80 MILLION."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "But kissing is one thing. When did humans start actually getting married?",
+          "prop": "ring"
+        },
+        {
+          "type": "me",
+          "pose": "wave",
+          "face": "smug",
+          "say": "That's the next video. And the first weddings were not exactly romantic."
+        }
+      ],
+      "say": "Ape ancestors. Neanderthals. Clay tablets. Roman greetings. A scandalous movie. So, who had the first kiss in history? Not Romeo and Juliet. Not some ancient king. Probably two hairy apes in a forest, twenty million years ago. And every kiss since then, including yours, is part of that very long, very germy tradition. Eighty million bacteria at a time. But kissing is one thing. When did humans start actually getting married? That's the next video. And the first weddings were not exactly romantic."
+    }
+  ],
+  "shorts": [
+    {
+      "scenes": [
+        3
+      ],
+      "hook": "21 MILLION YEAR KISS?",
+      "title": "The First Kiss Was 21 Million Years Ago",
+      "description": "A 2025 Oxford study traced kissing back to our ape ancestors.",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#science"
+      ],
+      "pinned": "Did you know this?"
+    },
+    {
+      "scenes": [
+        5
+      ],
+      "hook": "WE KISSED NEANDERTHALS?",
+      "title": "Humans Probably Kissed Neanderthals",
+      "description": "Shared mouth microbes suggest our ancestors got very close.",
+      "hashtags": [
+        "#shorts",
+        "#neanderthal",
+        "#history"
+      ],
+      "pinned": "Weirdest fact you've heard today?"
+    },
+    {
+      "scenes": [
+        8
+      ],
+      "hook": "ROMANS HAD 3 KISSES.",
+      "title": "Romans Had 3 Words for Kissing",
+      "description": "Osculum, basium, savium. And an emperor who tried to ban kissing.",
+      "hashtags": [
+        "#shorts",
+        "#ancientrome",
+        "#history"
+      ],
+      "pinned": "Which kiss is your favorite?"
+    },
+    {
+      "scenes": [
+        12
+      ],
+      "hook": "THE 1896 KISS SCANDAL.",
+      "title": "The First Movie Kiss Shocked America",
+      "description": "18 seconds in 1896 that people called disgusting.",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#movies"
+      ],
+      "pinned": "Would this shock anyone today?"
+    },
+    {
+      "scenes": [
+        13
+      ],
+      "hook": "FRENCH KISS ISN'T FRENCH?",
+      "title": "Why Is It Called a French Kiss?",
+      "description": "France didn't invent it. And French didn't even have a word for it until 2014.",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#language"
+      ],
+      "pinned": "Did you know this?"
+    }
+  ]
+}
