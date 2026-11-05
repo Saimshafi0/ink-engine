@@ -70,7 +70,9 @@ STORY RULES
 - A twist in the middle ("but here's the weird part..."). End with a line that makes people want the next video.
 - 8-22 scenes (more for longer videos). Each scene = one chapter (2-4 word chapter name with a keyword).
 - Each scene has 6-14 shots; every shot has its own "say" (one spoken thought, 6-20 words),
-  so a new picture appears every 2-3 seconds. About 45% "me", 10% "big", 45% scenes/diagrams/maps.
+  so a new picture appears every 2-3 seconds. SHOW, DON'T TALK: only about 20% "me" (narrator), 10% "big",
+  70% visuals ("draw" scenes with backgrounds, people and props, "crowd", "map", "diagram", "compare", "timeline", "list").
+  Never two "me" shots in a row. Whenever the line describes something, DRAW it as a scene.
 - Numbers can be written as digits ("10,000", "3000 BC"); the voice reads them correctly.
 
 {SHOT_DOC}
@@ -126,7 +128,8 @@ RULES for each Short (100-130 words total, 35-50 seconds):
 - Real facts only (if it's history or science). Simple words, US English.
 - A funny twist near the end. The LAST line must loop naturally back into the first line so people rewatch.
 - No "subscribe"/"follow" at the start. No emojis in "say".
-- Mostly "me" shots (pose/face changes a lot, many different props) + "big", "list", "compare", "diagram", "draw" shots.
+- Mostly VISUAL shots: "draw" scenes (background + people + props), "compare", "list", "diagram", "map", "big".
+  Only about 30% "me" shots, never two "me" in a row.
   Use animals and props from the lists below so every shot has something to look at.
 
 {SHOT_DOC}

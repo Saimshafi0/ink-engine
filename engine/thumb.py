@@ -92,6 +92,8 @@ def split_text(text):
     if n == 3:
         return [" ".join(words[:2]), words[2]] if len(words[0] + words[1]) <= 9 else [words[0], " ".join(words[1:])]
     if n == 4:
+        if len(words[2] + words[3]) > 11:
+            return [" ".join(words[:2]), words[2], words[3]]
         return [" ".join(words[:2]), " ".join(words[2:])]
     lines, cur = [], ""
     for w in words:

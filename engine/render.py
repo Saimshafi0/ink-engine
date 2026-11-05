@@ -41,7 +41,7 @@ def animate_flags(shot):
     return False, False
 
 
-OUTDOOR = ("jungle", "desert", "grass", "village", "sea", "river", "mountains", "snow")
+OUTDOOR = ("jungle", "desert", "grass", "village", "sea", "river", "mountains", "snow", "ancient")
 
 
 def _sprite_image(spec, H, scale):
@@ -132,7 +132,7 @@ class ShotSource:
                 tall = im.resize((w, int(h * 1.07)), Image.BILINEAR)
                 alt.paste(tall, (0, h - tall.size[1]), tall)
             self.sprites.append(dict(img=im, alt=alt, x=sp["x"] * sc, y=sp["y"] * sc, anim=sp["anim"],
-                                     ph=self.rnd.uniform(0, 6.28)))
+                                     ph=self.rnd.uniform(0, 6.28), start=3 + 5 * i))
         t = S.norm_type(self.shot.get("type"))
         bg = D.norm_bg(self.shot.get("bg"))
         if self.ai is None and t in ("draw", "crowd") and bg in OUTDOOR and self.shot.get("birds", True):
@@ -167,8 +167,18 @@ class ShotSource:
                 dy = math.sin(t * 1.1 + sp["ph"]) * H * .004
             elif a == "idle":
                 dy = -abs(math.sin(t * 2.6 + sp["ph"])) * H * .006
+            elif a == "pop":
+                dy = math.sin(t * 1.8 + sp["ph"]) * H * .005
             elif a == "flicker" and sp["alt"] is not None and (i // 3) % 2:
                 im = sp["alt"]
+            if a in ("pop", "float", "idle"):
+                k = i - sp.get("start", 0)
+                if k < 0:
+                    continue          # not on screen yet
+                if k < 8:             # pop in: 0 -> 1.12 -> 1
+                    z = (0.35, 0.6, 0.85, 1.05, 1.12, 1.08, 1.03, 1.0)[k]
+                    w0, h0 = im.size
+                    im = im.resize((max(2, int(w0 * z)), max(2, int(h0 * z))), Image.BILINEAR)
             x = int(sp["x"] + dx - im.size[0] / 2)
             y = int(sp["y"] + dy - im.size[1] / 2)
             img.paste(im, (x, y), im)

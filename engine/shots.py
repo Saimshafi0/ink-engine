@@ -194,6 +194,8 @@ def _scene(pen, s, W, H, st):
             anim = "flicker"
         elif pn in getattr(D, "ANIMALS", ()):
             anim = "idle"
+        elif not big and anim is None:
+            anim = "pop"   # props pop in one after another, then sway a little
         if (s.get("cross") or s.get("tick")) and i == 0:
             anim = None
         if not (anim and _sprite(name, x, y, sz, anim)):

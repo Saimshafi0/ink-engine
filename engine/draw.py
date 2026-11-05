@@ -1551,16 +1551,31 @@ def draw_prop(pen, name, x, y, s, lw=None):
 # =====================================================================
 #  BACKGROUNDS  (w x h logical)
 # =====================================================================
-BGS = ["white", "jungle", "desert", "snow", "cave", "night", "village", "sea", "city", "grass", "market", "lab", "river", "mountains"]
+BGS = ["white", "jungle", "desert", "snow", "cave", "night", "village", "sea", "city", "grass", "market", "lab", "river", "mountains", "ancient"]
 BG_ALIAS = {"forest": "jungle", "savanna": "grass", "plains": "grass", "field": "grass", "farm": "grass",
             "egypt": "desert", "beach": "sea", "ocean": "sea", "campfire": "night", "town": "village",
-            "ice": "snow", "ice_age": "snow", "indoor": "cave", "temple": "market", "street": "city", "home": "village"}
+            "ice": "snow", "ice_age": "snow", "indoor": "cave", "temple": "ancient", "greece": "ancient", "greek": "ancient", "athens": "ancient", "rome": "ancient", "roman": "ancient", "forum": "ancient", "agora": "ancient", "street": "city", "home": "village"}
 
 
 def norm_bg(b):
     b = (b or "white").lower().strip()
     b = BG_ALIAS.get(b, b)
     return b if b in BGS else "white"
+
+
+def _temple(p, x, gy, s, lw):
+    """Greek / Roman temple, s = height, base on gy."""
+    stone, stone2 = (240, 234, 218), (214, 204, 182)
+    wdt = s * 1.2
+    p.rect(x - wdt / 2, gy - s * .1, x + wdt / 2, gy, fill=stone2, w=lw)
+    p.rect(x - wdt / 2 + s * .05, gy - s * .16, x + wdt / 2 - s * .05, gy - s * .1, fill=stone, w=lw)
+    n = 5
+    for i in range(n):
+        cx = x - wdt / 2 + s * .14 + i * (wdt - s * .28) / (n - 1)
+        p.rect(cx - s * .045, gy - s * .7, cx + s * .045, gy - s * .16, fill=stone, w=lw)
+        p.line([(cx, gy - s * .66), (cx, gy - s * .2)], lw * .4, stone2, wob=0)
+    p.rect(x - wdt / 2 + s * .02, gy - s * .8, x + wdt / 2 - s * .02, gy - s * .7, fill=stone, w=lw)
+    p.poly([(x - wdt / 2 - s * .02, gy - s * .8), (x, gy - s * 1.0), (x + wdt / 2 + s * .02, gy - s * .8)], fill=stone2, w=lw)
 
 
 def ground_y(bg, h):
@@ -1659,6 +1674,20 @@ def draw_bg(pen, bg, w, h, seed=0):
                 for c_ in range(2):
                     pen.rect(x0 + 25 + c_ * bw * .4, gy - bh + 25 + r_ * 70, x0 + 25 + c_ * bw * .4 + bw * .2, gy - bh + 55 + r_ * 70, fill=C["sky2"], w=lw * .5)
         ground((150, 150, 148))
+    elif bg == "ancient":
+        fill(C["sky"])
+        _cloud(pen, w * .62, h * .14, h * .12, lw)
+        hills((206, 196, 160), gy - h * .2, h * .07, 1)
+        _temple(pen, w * .5, gy - h * .27, h * .2, lw * .7)          # far temple on the hill
+        _temple(pen, w * .13, gy, h * .5, lw)                        # near temples left and right
+        _temple(pen, w * .88, gy, h * .44, lw)
+        for xx in (w * .32, w * .68):
+            pen.rect(xx - h * .018, gy - h * .26, xx + h * .018, gy, fill=(236, 230, 214), w=lw)
+            pen.rect(xx - h * .03, gy - h * .29, xx + h * .03, gy - h * .26, fill=(236, 230, 214), w=lw)
+        ground((222, 210, 182))
+        for i in range(6):
+            xx = w * (i + .5) / 6
+            pen.line([(xx, gy + h * .03), (xx + w * .05, gy + h * .03)], lw * .5, (196, 184, 156), wob=.5)
     elif bg == "grass":
         fill(C["sky"])
         _cloud(pen, w * .3, h * .16, h * .14, lw)
@@ -1721,7 +1750,7 @@ REGIONS = {
     "world": (20, 20, 1.0), "mesopotamia": (44, 33, 2.4), "sumer": (46, 31, 2.6), "babylon": (44, 32.5, 2.6),
     "iraq": (44, 33, 2.4), "egypt": (31, 27, 2.4), "nile": (31, 26, 2.4), "africa": (20, 5, 1.5),
     "east africa": (37, 0, 2.0), "kenya": (37, 0, 2.2), "ethiopia": (39, 9, 2.2), "south africa": (25, -29, 2.2),
-    "europe": (15, 50, 2.0), "greece": (22, 39, 2.8), "rome": (12, 42, 2.8), "italy": (12, 42, 2.6),
+    "europe": (15, 50, 2.0), "greece": (22, 39, 2.8), "athens": (23.7, 38, 3.0), "sparta": (22.4, 37.1, 3.0), "venice": (12.3, 45.4, 3.0), "viterbo": (12.1, 42.4, 3.0), "kentucky": (-85.3, 37.5, 2.6), "victoria": (145, -37, 2.6), "new zealand": (172.5, -41.5, 2.4), "iceland": (-19, 65, 2.6), "virginia": (-78.5, 37.5, 2.6), "tamil nadu": (79.5, 11, 2.6), "uttaramerur": (79.75, 12.6, 2.8), "philadelphia": (-75.2, 40, 2.6), "massachusetts": (-71.8, 42.3, 2.6), "plymouth": (-70.7, 41.95, 2.8), "rome": (12, 42, 2.8), "italy": (12, 42, 2.6),
     "britain": (-2, 54, 2.8), "england": (-1, 52, 2.8), "france": (2, 46, 2.6), "spain": (-4, 40, 2.6),
     "germany": (10, 51, 2.6), "scandinavia": (15, 63, 2.2), "levant": (35, 32, 2.8), "israel": (35, 31.5, 2.8),
     "turkey": (33, 39, 2.6), "anatolia": (33, 39, 2.6), "persia": (53, 32, 2.4), "iran": (53, 32, 2.4), "afghanistan": (66, 34, 2.6), "kandahar": (65.7, 31.6, 2.8), "kabul": (69.2, 34.5, 2.8), "bamiyan": (67.8, 34.8, 2.8), "soviet union": (60, 55, 1.6), "ussr": (60, 55, 1.6), "new york": (-74, 40.7, 2.6), "morocco": (-7, 32, 2.6), "denisova": (85, 51, 2.4), "altai": (85, 51, 2.4), "alps": (11, 46.8, 2.8), "oregon": (-121, 43.5, 2.6), "kenya": (37, 0, 2.2), "indonesia": (120, -2, 2.0),
@@ -1821,3 +1850,168 @@ def label_arrow(pen, tx, ty, ax, ay, text, size=40):
     a = math.atan2(ay - sy, ax - sx)
     for d in (2.6, -2.6):
         pen.line([(ax, ay), (ax + size * .45 * math.cos(a + d), ay + size * .45 * math.sin(a + d))], lw)
+
+
+# ---- voting props ----
+def _ostracon(p, x, y, s, lw):
+    pts = [(x - .45 * s, y - .1 * s), (x - .2 * s, y - .38 * s), (x + .3 * s, y - .32 * s), (x + .48 * s, y + .05 * s),
+           (x + .28 * s, y + .36 * s), (x - .15 * s, y + .3 * s), (x - .4 * s, y + .18 * s)]
+    p.poly(pts, fill=C["clay"], w=lw)
+    for k, (dx, dy) in enumerate(((-.25, -.12), (-.08, -.14), (.1, -.12), (.26, -.1), (-.2, .08), (0, .1), (.18, .1))):
+        cx, cy = x + dx * s, y + dy * s
+        if k % 3 == 0:
+            p.line([(cx - .05 * s, cy - .06 * s), (cx + .05 * s, cy + .06 * s)], w=lw * .55)
+            p.line([(cx + .05 * s, cy - .06 * s), (cx - .05 * s, cy + .06 * s)], w=lw * .55)
+        elif k % 3 == 1:
+            p.ellipse(cx, cy, .045 * s, .06 * s, w=lw * .55)
+        else:
+            p.line([(cx - .05 * s, cy - .06 * s), (cx - .05 * s, cy + .06 * s), (cx + .05 * s, cy + .06 * s)], w=lw * .55)
+
+
+def _ballot_box(p, x, y, s, lw):
+    p.rect(x - .42 * s, y - .2 * s, x + .42 * s, y + .45 * s, fill=(225, 235, 245), w=lw)
+    p.rect(x - .42 * s, y - .3 * s, x + .42 * s, y - .2 * s, fill=(200, 215, 230), w=lw)
+    p.rect(x - .18 * s, y - .27 * s, x + .18 * s, y - .23 * s, fill=INK, w=0)
+    p.poly([(x - .12 * s, y - .25 * s), (x - .1 * s, y - .62 * s), (x + .16 * s, y - .6 * s), (x + .12 * s, y - .25 * s)], fill=WHITE, w=lw * .8)
+    p.line([(x - .04 * s, y - .48 * s), (x + .0 * s, y - .42 * s), (x + .08 * s, y - .54 * s)], w=lw * .7, color=(40, 160, 70))
+    p.text(x, y + .13 * s, "VOTE", max(10, int(.2 * s)), fname="oswald")
+
+
+def _ballot(p, x, y, s, lw):
+    p.rect(x - .3 * s, y - .4 * s, x + .3 * s, y + .4 * s, fill=WHITE, w=lw)
+    for k in range(3):
+        yy = y - .22 * s + k * .22 * s
+        p.rect(x - .2 * s, yy - .06 * s, x - .08 * s, yy + .06 * s, w=lw * .6)
+        p.line([(x - .0 * s, yy), (x + .2 * s, yy)], w=lw * .5, color=(150, 150, 150))
+    p.line([(x - .19 * s, y - .22 * s), (x - .15 * s, y - .17 * s), (x - .07 * s, y - .3 * s)], w=lw * .8, color=(40, 160, 70))
+
+
+def _vote_ball(col):
+    def f(p, x, y, s, lw):
+        p.circle(x, y, .3 * s, fill=col, w=lw)
+        p.circle(x - .1 * s, y - .1 * s, .06 * s, fill=(255, 255, 255) if col != WHITE else (230, 230, 230), w=0)
+    return f
+
+
+def _kleroterion(p, x, y, s, lw):
+    p.poly([(x - .4 * s, y + .5 * s), (x - .35 * s, y - .5 * s), (x + .35 * s, y - .5 * s), (x + .4 * s, y + .5 * s)], fill=C["stone2"], w=lw)
+    for r in range(6):
+        for c in range(4):
+            p.rect(x - .26 * s + c * .14 * s, y - .38 * s + r * .13 * s, x - .18 * s + c * .14 * s, y - .34 * s + r * .13 * s, fill=INK, w=0)
+    p.rect(x + .3 * s, y - .45 * s, x + .36 * s, y + .4 * s, fill=(230, 220, 200), w=lw * .6)
+
+
+def _bean(p, x, y, s, lw):
+    for dx, col in ((-.15, WHITE), (.18, INK)):
+        p.ellipse(x + dx * s, y, .14 * s, .2 * s, fill=col, w=lw * .8)
+
+
+def _wax_tablet(p, x, y, s, lw):
+    p.rrect(x - .42 * s, y - .32 * s, x + .42 * s, y + .32 * s, 6, fill=C["wood"] if "wood" in C else (150, 100, 60), w=lw)
+    p.rect(x - .34 * s, y - .24 * s, x + .34 * s, y + .24 * s, fill=(70, 55, 40), w=lw * .6)
+    p.text(x, y, "V", max(10, int(.35 * s)), fname="oswald", color=(240, 220, 170))
+
+
+def _toga_white(p, x, y, s, lw):
+    p.poly([(x - .3 * s, y - .4 * s), (x + .3 * s, y - .4 * s), (x + .38 * s, y + .45 * s), (x - .38 * s, y + .45 * s)], fill=WHITE, w=lw)
+    p.line([(x - .3 * s, y - .4 * s), (x + .3 * s, y + .3 * s)], w=lw * .7)
+
+
+PROPS.update({"ostracon": _ostracon, "ostraka": _ostracon, "pottery_shard": _ostracon, "shard": _ostracon,
+              "ballot_box": _ballot_box, "ballot": _ballot, "vote": _ballot, "white_ball": _vote_ball(WHITE),
+              "black_ball": _vote_ball(INK), "kleroterion": _kleroterion, "bean": _bean, "beans": _bean,
+              "wax_tablet": _wax_tablet, "tablet": _wax_tablet, "white_toga": _toga_white})
+
+
+# ---------------------------------------------------------------- voting props
+def _ostrakon(p, x, y, s, lw):
+    pts = [(x - .42 * s, y - .12 * s), (x - .2 * s, y - .34 * s), (x + .18 * s, y - .3 * s), (x + .44 * s, y - .06 * s),
+           (x + .34 * s, y + .26 * s), (x + .02 * s, y + .34 * s), (x - .3 * s, y + .22 * s)]
+    p.poly(pts, fill=C["clay"], w=lw)
+    p.line([(x - .3 * s, y + .14 * s), (x + .28 * s, y + .2 * s)], lw * .5, C["clay2"], wob=.6)
+    for k in range(2):  # scratched letters
+        yy = y - .1 * s + k * .14 * s
+        p.line([(x - .22 * s + j * .09 * s + (j % 2) * .03 * s, yy - (j % 2) * .06 * s) for j in range(6)], lw * .55, INK, wob=.4)
+
+
+def _ballot_box(p, x, y, s, lw):
+    p.poly([(x - .4 * s, y - .12 * s), (x - .22 * s, y - .28 * s), (x + .48 * s, y - .28 * s), (x + .3 * s, y - .12 * s)], fill=C["wall"], w=lw)
+    p.rect(x - .4 * s, y - .12 * s, x + .3 * s, y + .45 * s, fill=C["brown"], w=lw)
+    p.poly([(x + .3 * s, y - .12 * s), (x + .48 * s, y - .28 * s), (x + .48 * s, y + .3 * s), (x + .3 * s, y + .45 * s)], fill=C["bark"], w=lw)
+    p.line([(x - .15 * s, y - .2 * s), (x + .22 * s, y - .2 * s)], lw * 1.6, INK)
+    p.rect(x - .08 * s, y - .62 * s, x + .16 * s, y - .2 * s, fill=WHITE, w=lw * .8)
+    p.line([(x - .02 * s, y - .44 * s), (x + .03 * s, y - .38 * s), (x + .12 * s, y - .52 * s)], lw * .9, GREEN)
+    p.text(x - .05 * s, y + .18 * s, "VOTE", int(.17 * s), "oswald", WHITE, weight="Bold")
+
+
+def _ballot(p, x, y, s, lw):
+    p.rect(x - .3 * s, y - .4 * s, x + .3 * s, y + .4 * s, fill=WHITE, w=lw)
+    for i in range(3):
+        yy = y - .22 * s + i * .22 * s
+        p.rect(x - .22 * s, yy - .07 * s, x - .08 * s, yy + .07 * s, fill=None, w=lw * .6)
+        p.line([(x - .02 * s, yy), (x + .22 * s, yy)], lw * .5, wob=.3)
+    p.line([(x - .21 * s, y - .02 * s), (x - .15 * s, y + .05 * s), (x - .05 * s, y - .1 * s)], lw * 1.1, GREEN)
+
+
+def _wax_tablet(p, x, y, s, lw):
+    p.rect(x - .4 * s, y - .3 * s, x + .4 * s, y + .3 * s, fill=C["bark"], w=lw)
+    p.rect(x - .32 * s, y - .22 * s, x + .32 * s, y + .22 * s, fill=(60, 48, 40), w=lw * .5)
+    p.text(x, y + .01 * s, "V", int(.34 * s), "oswald", C["gold"], weight="Bold")
+
+
+def _vote_balls(p, x, y, s, lw):
+    p.circle(x - .2 * s, y, .2 * s, fill=WHITE, w=lw)
+    p.circle(x + .22 * s, y, .2 * s, fill=INK, w=lw)
+    p.circle(x - .26 * s, y - .07 * s, .05 * s, fill=(235, 235, 235), w=0)
+    p.circle(x + .16 * s, y - .07 * s, .05 * s, fill=(90, 90, 90), w=0)
+
+
+def _black_ball(p, x, y, s, lw):
+    p.circle(x, y, .3 * s, fill=INK, w=lw)
+    p.circle(x - .1 * s, y - .1 * s, .07 * s, fill=(90, 90, 90), w=0)
+
+
+def _key(p, x, y, s, lw):
+    p.circle(x - .25 * s, y, .17 * s, fill=C["gold"], w=lw)
+    p.circle(x - .25 * s, y, .06 * s, fill=WHITE, w=lw * .6)
+    p.rect(x - .09 * s, y - .04 * s, x + .42 * s, y + .04 * s, fill=C["gold"], w=lw)
+    p.rect(x + .26 * s, y + .04 * s, x + .32 * s, y + .16 * s, fill=C["gold"], w=lw * .8)
+    p.rect(x + .35 * s, y + .04 * s, x + .41 * s, y + .12 * s, fill=C["gold"], w=lw * .8)
+
+
+def _shield(p, x, y, s, lw):
+    p.circle(x, y, .4 * s, fill=C["blue"], w=lw)
+    p.circle(x, y, .26 * s, fill=None, w=lw * .5, color=(240, 240, 240))
+    p.circle(x, y, .1 * s, fill=C["stone"], w=lw)
+
+
+def _hand(p, x, y, s, lw):
+    p.rect(x - .14 * s, y + .1 * s, x + .14 * s, y + .5 * s, fill=CREAM, w=lw)
+    p.rrect(x - .2 * s, y - .12 * s, x + .2 * s, y + .18 * s, .08 * s, fill=CREAM, w=lw)
+    for i, h in enumerate((.3, .4, .42, .36)):
+        fx = x - .15 * s + i * .1 * s
+        p.rrect(fx - .045 * s, y - .12 * s - h * s, fx + .045 * s, y - .06 * s, .04 * s, fill=CREAM, w=lw * .8)
+    p.poly([(x + .18 * s, y + .02 * s), (x + .36 * s, y - .16 * s), (x + .4 * s, y - .1 * s), (x + .22 * s, y + .14 * s)], fill=CREAM, w=lw * .8)
+
+
+def _kleroterion(p, x, y, s, lw):
+    p.poly([(x - .32 * s, y + .5 * s), (x - .28 * s, y - .5 * s), (x + .28 * s, y - .5 * s), (x + .32 * s, y + .5 * s)], fill=C["stone"], w=lw)
+    for r in range(6):
+        for c in range(4):
+            p.rect(x - .22 * s + c * .1 * s, y - .4 * s + r * .13 * s, x - .16 * s + c * .1 * s, y - .36 * s + r * .13 * s, fill=C["stone2"], w=lw * .3)
+    p.rect(x + .18 * s, y - .42 * s, x + .24 * s, y + .38 * s, fill=C["gold"], w=lw * .6)
+    p.circle(x + .21 * s, y + .44 * s, .05 * s, fill=INK, w=lw * .5)
+
+
+def _poster(p, x, y, s, lw):
+    p.rect(x - .45 * s, y - .32 * s, x + .45 * s, y + .32 * s, fill=C["wall"], w=lw)
+    p.text(x, y - .12 * s, "VOTE", int(.2 * s), "oswald", RED, weight="Bold")
+    p.text(x, y + .1 * s, "VATIA!", int(.18 * s), "hand", INK)
+
+
+PROPS.update({"ostrakon": _ostrakon, "ostraka": _ostrakon, "shard": _ostrakon, "pottery_shard": _ostrakon,
+              "ballot_box": _ballot_box, "ballotbox": _ballot_box, "ballot": _ballot, "vote": _ballot, "voting_paper": _ballot,
+              "wax_tablet": _wax_tablet, "tablet": _wax_tablet, "vote_balls": _vote_balls, "balls": _vote_balls,
+              "black_ball": _black_ball, "blackball": _black_ball, "key": _key, "shield": _shield, "hand": _hand,
+              "raised_hand": _hand, "kleroterion": _kleroterion, "lottery_machine": _kleroterion, "poster": _poster,
+              "graffiti": _poster, "sign": _poster})

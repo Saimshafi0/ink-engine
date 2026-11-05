@@ -26,6 +26,9 @@ def validate_pair(data):
             s["type"] = S.norm_type(s.get("type"))
             if s["type"] == "big" and not s.get("text"):
                 s["text"] = s["say"].upper()
+        if data.get("more_visuals", True):
+            from . import visual as V
+            V.boost([shots], float(data.get("max_narrator", .35)))
         sh["shots"] = shots
         sh.setdefault("topic", data.get("topic", "Short"))
         sh.setdefault("title", sh["topic"][:48])

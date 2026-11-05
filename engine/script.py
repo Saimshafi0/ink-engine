@@ -94,6 +94,11 @@ def validate(data, kind="video"):
     if not clean:
         raise ScriptError("Koi bhi scene sahi nahi tha. Script dobara banayein.")
     data["scenes"] = clean
+    if data.get("more_visuals", True):
+        from . import visual as V
+        n = V.boost([sc["shots"] for sc in clean], float(data.get("max_narrator", .3)))
+        if n:
+            warn.append(f"{n} narrator shots ko scenes mein badal diya (zyada visuals).")
     return data, warn
 
 

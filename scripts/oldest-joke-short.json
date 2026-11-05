@@ -1,0 +1,191 @@
+{
+ "voice": "am_michael",
+ "speed": 0.97,
+ "shorts": [
+  {
+   "topic": "The World's Oldest Joke",
+   "title": "The World's Oldest Joke Is 4,000 Years Old",
+   "description": "The oldest recorded joke comes from ancient Sumer, about 1900 BC. And yes, it's about a fart. #shorts #history #ancienthistory",
+   "pinned": "Which ancient joke was better, the fart one or the barber one?",
+   "cover": "The 'NEVER HAPPENED SINCE THE DAWN OF TIME:' big text shot",
+   "shots": [
+    {
+     "type": "big",
+     "text": "OLDEST JOKE EVER?",
+     "say": "The oldest joke in the world is a fart joke."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "unimpressed",
+     "text": "NOT A PUN.",
+     "prop": "red_x",
+     "say": "Not a pun. A fart joke."
+    },
+    {
+     "type": "map",
+     "region": "Mesopotamia",
+     "label": "1900 BC",
+     "prop": "scroll",
+     "say": "It's from Sumer, ancient Iraq, about 1900 BC,"
+    },
+    {
+     "type": "draw",
+     "bg": "desert",
+     "people": [
+      {
+       "pose": "sit",
+       "face": "laugh",
+       "hold": "stone"
+      }
+     ],
+     "props": [
+      "scroll"
+     ],
+     "say": "where somebody carved it into clay. On purpose."
+    },
+    {
+     "type": "me",
+     "pose": "hips",
+     "face": "smug",
+     "text": "BRACE YOURSELF.",
+     "say": "Okay. Brace yourself."
+    },
+    {
+     "type": "big",
+     "text": "NEVER HAPPENED SINCE THE DAWN OF TIME:",
+     "say": "Something that has never happened since the dawn of time,"
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "sit",
+       "face": "smug",
+       "wear": "robe"
+      },
+      {
+       "pose": "sit",
+       "face": "disgusted"
+      }
+     ],
+     "props": [
+      "stink"
+     ],
+     "cross": true,
+     "say": "a young woman did not fart in her husband's lap."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "unimpressed",
+     "text": "THAT'S IT.",
+     "say": "That's it. That's the whole joke."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "shocked",
+     "text": "RANKED #1",
+     "prop": "scroll",
+     "say": "And real researchers ranked it number one, back in 2008."
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "laugh",
+     "prop": "stink",
+     "say": "And honestly? Still works."
+    },
+    {
+     "type": "map",
+     "region": "Egypt",
+     "label": "1600 BC",
+     "prop": "pyramid",
+     "say": "Second place? Egypt, 1600 BC."
+    },
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "prop": "crown",
+     "text": "BORED PHARAOH?",
+     "say": "How do you cheer up a bored pharaoh?"
+    },
+    {
+     "type": "draw",
+     "bg": "river",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "excited",
+       "hold": "fish"
+      }
+     ],
+     "props": [
+      "boat",
+      "fish"
+     ],
+     "say": "Sail women in fishing nets down the Nile, and tell him to go fishing."
+    },
+    {
+     "type": "draw",
+     "bg": "city",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "happy",
+       "wear": "toga",
+       "hold": "book"
+      }
+     ],
+     "label": "PHILOGELOS",
+     "say": "Then the Greeks wrote a whole joke book."
+    },
+    {
+     "type": "draw",
+     "bg": "city",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "smug",
+       "hold": "needle"
+      },
+      {
+       "pose": "sit",
+       "face": "unimpressed"
+      }
+     ],
+     "say": "A barber asks a man, how should I cut your hair?"
+    },
+    {
+     "type": "big",
+     "text": "\"IN SILENCE.\"",
+     "say": "He says, in silence."
+    },
+    {
+     "type": "me",
+     "pose": "celebrate",
+     "face": "laugh",
+     "prop": "green_tick",
+     "say": "Okay, that one's actually good."
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "1900 BC",
+      "prop": "stink",
+      "mark": "tick"
+     },
+     "right": {
+      "title": "2026",
+      "prop": "phone",
+      "mark": "tick"
+     },
+     "say": "Four thousand years later, we have the internet, and still,"
+    }
+   ]
+  }
+ ]
+}

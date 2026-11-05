@@ -1,0 +1,2712 @@
+{
+ "title": "How Did Ancient People Vote?",
+ "thumbnail_text": "FIRST ELECTION?",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "more_visuals": true,
+ "thumbnails": [
+  {
+   "text": "FIRST ELECTION?",
+   "title": "How Did Ancient People Vote?",
+   "color": "blue",
+   "hero": "person",
+   "pose": "give",
+   "face": "excited",
+   "wear": "robe",
+   "beard": true,
+   "props": [
+    "ballot_box"
+   ],
+   "sidekick": {
+    "pose": "scared",
+    "face": "shocked"
+   }
+  },
+  {
+   "text": "VOTED WITH POTS?!",
+   "title": "They Voted With Broken Pottery",
+   "color": "orange",
+   "hero": "person",
+   "pose": "scared",
+   "face": "shocked",
+   "beard": true,
+   "bg_prop": "ostrakon",
+   "arrow": true
+  },
+  {
+   "text": "SHOUT TO VOTE?!",
+   "title": "Ancient Sparta Elected Leaders by Shouting",
+   "color": "red",
+   "hero": "person",
+   "pose": "celebrate",
+   "face": "angry",
+   "wear": "red",
+   "beard": true,
+   "props": [
+    "ballot_box"
+   ],
+   "effects": [
+    "exclaim"
+   ]
+  }
+ ],
+ "seo": {
+  "titles": [
+   "How Did Ancient People Vote?",
+   "They Voted With Broken Pottery",
+   "Ancient Sparta Elected Leaders by Shouting",
+   "The Strangest Elections in History",
+   "Where Did Voting Come From?"
+  ],
+  "best_title": "How Did Ancient People Vote?",
+  "description_hook": "How did ancient people vote before ballot boxes? Athenians voted with broken pottery, Spartans shouted, Romans let the rich vote first, and one election ended with the roof torn off a palace.",
+  "paragraphs": [
+   "From ostracism in ancient Athens to the secret ballot in Rome, this is the strange history of voting. We look at the first rigged election, the lottery machine called the kleroterion, and why Athenians thought elections favored the rich.",
+   "Then we travel to Sparta's shouting elections, Pompeii's election graffiti, Buddhist voting sticks, the Chola-era kudavolai pot system in Uttaramerur, the Viking Althing, the three-year papal election of Viterbo, and how Venice gave us the word ballot.",
+   "Finally, how the secret Australian ballot spread around the world, and when New Zealand became the first country where women voted in national elections."
+  ],
+  "sources": [
+   "Plutarch, Life of Aristides 7",
+   "Aristotle, Constitution of the Athenians & Politics",
+   "Plutarch, Life of Lycurgus 26",
+   "Lang, M. - Ostraka, The Athenian Agora vol. 25 (1990)",
+   "Commentariolum Petitionis (64 BC)",
+   "Uttaramerur inscriptions of Parantaka I (c. 919-921 AD)",
+   "Cicero, De Lege Agraria 2.4",
+   "Mowbray & Gollmann - Electing the Doge of Venice (2007)"
+  ],
+  "tags": [
+   "how did ancient people vote",
+   "ancient voting",
+   "history of voting",
+   "ancient athens democracy",
+   "ostracism",
+   "ostraka",
+   "first election in history",
+   "kleroterion",
+   "sparta shouting election",
+   "roman elections",
+   "secret ballot history",
+   "origin of the word ballot",
+   "papal conclave viterbo",
+   "althing iceland",
+   "uttaramerur kudavolai",
+   "pompeii election graffiti",
+   "history of democracy",
+   "ancient history explained",
+   "election history",
+   "back then explained"
+  ],
+  "hashtags": [
+   "#history",
+   "#election",
+   "#ancienthistory"
+  ],
+  "pinned_comment": "If you lived in ancient Athens, who would you ostracize? 👇"
+ },
+ "shorts": [
+  {
+   "scenes": [
+    1
+   ],
+   "hook": "HE VOTED HIMSELF OUT",
+   "title": "He Wrote His Own Name on the Ballot",
+   "description": "A farmer asked a stranger to write a name on his vote. The stranger was the man he voted against. #shorts #history #athens",
+   "hashtags": [
+    "#shorts",
+    "#history",
+    "#athens"
+   ],
+   "pinned": "Would you have written your own name?"
+  },
+  {
+   "scenes": [
+    4
+   ],
+   "hook": "THE FIRST RIGGED ELECTION?",
+   "title": "The First Rigged Election in History?",
+   "description": "190 votes, only 14 handwritings. #shorts #history #election",
+   "hashtags": [
+    "#shorts",
+    "#history",
+    "#election"
+   ],
+   "pinned": "Rigged or just organized?"
+  },
+  {
+   "scenes": [
+    9
+   ],
+   "hook": "SPARTA VOTED BY SHOUTING",
+   "title": "Sparta Picked Leaders by Shouting",
+   "description": "Loudest crowd wins. #shorts #sparta #history",
+   "hashtags": [
+    "#shorts",
+    "#sparta",
+    "#history"
+   ],
+   "pinned": "Would you win a Spartan election?"
+  },
+  {
+   "scenes": [
+    16
+   ],
+   "hook": "NO ROOF UNTIL YOU VOTE",
+   "title": "The Election That Lasted Three Years",
+   "description": "So they took the roof off. #shorts #history #pope",
+   "hashtags": [
+    "#shorts",
+    "#history",
+    "#pope"
+   ],
+   "pinned": "How long would you last on bread and water?"
+  },
+  {
+   "scenes": [
+    12
+   ],
+   "hook": "ROMAN ATTACK ADS?",
+   "title": "Ancient Roman Election Graffiti",
+   "description": "The late night drinkers endorse Vatia. #shorts #rome #history",
+   "hashtags": [
+    "#shorts",
+    "#rome",
+    "#history"
+   ],
+   "pinned": "Which slogan would you vote for?"
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "The Man Who Voted Himself Out",
+   "shots": [
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "walk",
+       "face": "neutral",
+       "hold": "ostrakon",
+       "wear": "robe"
+      }
+     ],
+     "props": [],
+     "say": "Athens, 482 BC. A farmer walks into the city holding a broken piece of pottery."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "shrug",
+       "face": "confused",
+       "hold": "ostrakon",
+       "wear": "robe"
+      }
+     ],
+     "props": [],
+     "say": "He can't read. He can't write. But today, he has to vote.",
+     "text": "CAN'T WRITE"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "give",
+       "face": "worried",
+       "hold": "ostrakon",
+       "wear": "robe"
+      },
+      {
+       "pose": "stand",
+       "face": "neutral",
+       "wear": "toga",
+       "beard": true
+      }
+     ],
+     "props": [],
+     "say": "So he walks up to a random stranger and says, excuse me, could you write a name on this for me?"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "worried",
+       "wear": "robe"
+      },
+      {
+       "pose": "hold",
+       "face": "happy",
+       "hold": "ostrakon",
+       "wear": "toga",
+       "beard": true
+      }
+     ],
+     "props": [],
+     "say": "The stranger says, sure. Which name?"
+    },
+    {
+     "type": "big",
+     "text": "\"ARISTIDES.\"",
+     "say": "And the farmer says, Aristides."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "neutral",
+       "wear": "robe"
+      },
+      {
+       "pose": "stand",
+       "face": "shocked",
+       "hold": "ostrakon",
+       "wear": "toga",
+       "beard": true
+      }
+     ],
+     "props": [],
+     "say": "The stranger pauses. Because the stranger... is Aristides.",
+     "label": "ARISTIDES"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "neutral",
+       "wear": "robe"
+      },
+      {
+       "pose": "explain",
+       "face": "confused",
+       "wear": "toga",
+       "beard": true
+      }
+     ],
+     "props": [],
+     "say": "So he asks, did this Aristides ever do something to you?"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "shrug",
+       "face": "unimpressed",
+       "wear": "robe"
+      }
+     ],
+     "props": [
+      "question"
+     ],
+     "say": "And the farmer says, no. I don't even know the guy."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "crossed",
+       "face": "angry",
+       "wear": "robe"
+      }
+     ],
+     "props": [],
+     "say": "I'm just tired of everyone calling him Aristides the Just.",
+     "text": "SO ANNOYING"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "give",
+       "face": "sad",
+       "hold": "ostrakon",
+       "wear": "toga",
+       "beard": true
+      },
+      {
+       "pose": "stand",
+       "face": "happy",
+       "wear": "robe"
+      }
+     ],
+     "props": [],
+     "say": "And Aristides, without saying a word, writes his own name on the pottery and hands it back."
+    },
+    {
+     "type": "draw",
+     "bg": "sea",
+     "people": [
+      {
+       "pose": "walk",
+       "face": "sad",
+       "wear": "toga",
+       "beard": true
+      }
+     ],
+     "props": [
+      "boat"
+     ],
+     "say": "A few days later, Athens kicks him out of the city. For ten years.",
+     "text": "10 YEARS"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "unimpressed",
+     "say": "And that's one of the oldest voting stories we have. Ancient Greek writer Plutarch tells it.",
+     "prop": "scroll"
+    }
+   ]
+  },
+  {
+   "chapter": "This Week, Millions Voted",
+   "shots": [
+    {
+     "type": "crowd",
+     "bg": "city",
+     "count": 10,
+     "poses": [
+      "stand",
+      "hold"
+     ],
+     "faces": [
+      "neutral",
+      "sleepy",
+      "unimpressed"
+     ],
+     "say": "This week, millions of Americans stood in line to vote.",
+     "hold": "ballot"
+    },
+    {
+     "type": "draw",
+     "bg": "city",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "happy",
+       "hold": "ballot"
+      }
+     ],
+     "props": [
+      "ballot_box"
+     ],
+     "say": "Paper ballots. Little booths. Stickers that say I voted."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "thinking",
+     "say": "But somebody had to invent all of this. Voting didn't just fall from the sky.",
+     "prop": "question"
+    },
+    {
+     "type": "timeline",
+     "title": "HOW PEOPLE VOTED",
+     "points": [
+      [
+       "482 BC",
+       "ostrakon"
+      ],
+      [
+       "139 BC",
+       "wax_tablet"
+      ],
+      [
+       "1268",
+       "vote_balls"
+      ],
+      [
+       "1856",
+       "ballot"
+      ]
+     ],
+     "say": "And for most of history, it looked nothing like today."
+    },
+    {
+     "type": "list",
+     "title": "THEY VOTED WITH",
+     "items": [
+      [
+       "ostrakon",
+       "Broken pots"
+      ],
+      [
+       "speech",
+       "Shouting"
+      ],
+      [
+       "vote_balls",
+       "Little balls"
+      ],
+      [
+       "sword",
+       "Swords"
+      ]
+     ],
+     "say": "People voted with broken pots, shouting contests, colored balls, and even swords."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "scared",
+       "face": "shocked"
+      }
+     ],
+     "props": [
+      "house",
+      "exclaim"
+     ],
+     "say": "Some elections were rigged. One lasted almost three years. And one ended with people tearing the roof off a palace."
+    },
+    {
+     "type": "big",
+     "text": "HOW DID ANCIENT PEOPLE VOTE?",
+     "say": "So, how did ancient people actually vote?"
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "happy",
+     "say": "Let's start with the place everyone says invented it.",
+     "prop": "kleroterion"
+    }
+   ]
+  },
+  {
+   "chapter": "Voting with Broken Pots",
+   "shots": [
+    {
+     "type": "map",
+     "region": "athens",
+     "label": "ATHENS",
+     "say": "Ancient Athens, around 500 BC.",
+     "prop": "ostrakon"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "smug",
+       "hold": "coin",
+       "wear": "rich",
+       "hat": "crown"
+      }
+     ],
+     "props": [
+      "exclaim"
+     ],
+     "say": "The Athenians had a very specific fear. That one guy gets too popular, too rich, and then just takes over."
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "excited",
+     "say": "So they came up with a solution that is honestly kind of genius. And kind of terrifying."
+    },
+    {
+     "type": "diagram",
+     "title": "THE OSTRACISM VOTE",
+     "steps": [
+      [
+       "hand",
+       "Do we want one?"
+      ],
+      [
+       "ostrakon",
+       "Write a name"
+      ],
+      [
+       "boat",
+       "Bye for 10 years"
+      ]
+     ],
+     "say": "Once a year, they could hold a vote to kick someone out of the city."
+    },
+    {
+     "type": "draw",
+     "bg": "market",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "smug",
+       "hold": "ostrakon",
+       "wear": "robe"
+      }
+     ],
+     "props": [],
+     "say": "No trial. No crime needed. You just write the name of the person you want gone.",
+     "text": "NO TRIAL"
+    },
+    {
+     "type": "draw",
+     "bg": "lab",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "thinking",
+       "hold": "magnifier"
+      }
+     ],
+     "props": [
+      "ostrakon"
+     ],
+     "say": "And because paper was expensive, they wrote it on broken pottery. Little shards called ostraka.",
+     "label": "OSTRAKON"
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "smug",
+     "say": "That's literally where the word ostracize comes from.",
+     "text": "OSTRACIZE",
+     "prop": "ostrakon"
+    },
+    {
+     "type": "crowd",
+     "bg": "market",
+     "count": 12,
+     "poses": [
+      "hold"
+     ],
+     "faces": [
+      "neutral"
+     ],
+     "say": "The votes were counted, and if there were at least 6,000 shards in total,",
+     "hold": "ostrakon"
+    },
+    {
+     "type": "draw",
+     "bg": "sea",
+     "people": [
+      {
+       "pose": "walk",
+       "face": "sad",
+       "hold": "bag",
+       "wear": "toga"
+      }
+     ],
+     "props": [
+      "boat"
+     ],
+     "say": "whoever had the most votes had ten days to pack and leave. For ten years."
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "HOUSE",
+      "prop": "house",
+      "mark": "tick"
+     },
+     "right": {
+      "title": "YOU",
+      "prop": "person",
+      "mark": "x"
+     },
+     "say": "Weirdly, you didn't lose your house or your money. You just had to go away."
+    },
+    {
+     "type": "me",
+     "pose": "hips",
+     "face": "unimpressed",
+     "say": "Basically, a ten year time out. For adults.",
+     "text": "TIME OUT"
+    }
+   ]
+  },
+  {
+   "chapter": "The First Rigged Election?",
+   "shots": [
+    {
+     "type": "draw",
+     "bg": "lab",
+     "people": [
+      {
+       "pose": "dig",
+       "face": "neutral",
+       "hold": "tool"
+      }
+     ],
+     "props": [
+      "rock"
+     ],
+     "say": "Now, here's where it gets interesting. In 1937, archaeologists were digging near the Acropolis in Athens."
+    },
+    {
+     "type": "draw",
+     "bg": "lab",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "shocked",
+       "hold": "ostrakon"
+      }
+     ],
+     "props": [
+      "clay_pot"
+     ],
+     "say": "And in an old well, they found about 190 of these shards.",
+     "text": "190 SHARDS"
+    },
+    {
+     "type": "draw",
+     "bg": "lab",
+     "people": [
+      {
+       "pose": "point",
+       "face": "excited"
+      }
+     ],
+     "props": [
+      "ostrakon"
+     ],
+     "say": "Every single one had the same name on it. Themistocles. A famous Athenian general.",
+     "label": "THEMISTOCLES"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "neutral",
+     "say": "Fine. Lots of people didn't like him. That's not weird."
+    },
+    {
+     "type": "draw",
+     "bg": "lab",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "shocked",
+       "hold": "magnifier"
+      }
+     ],
+     "props": [
+      "ostrakon",
+      "exclaim"
+     ],
+     "say": "But when experts studied the handwriting, the 190 shards were written by only about 14 people.",
+     "text": "ONLY 14 WRITERS"
+    },
+    {
+     "type": "draw",
+     "bg": "market",
+     "people": [
+      {
+       "pose": "give",
+       "face": "smug",
+       "hold": "ostrakon",
+       "wear": "robe"
+      },
+      {
+       "pose": "stand",
+       "face": "confused",
+       "wear": "robe"
+      }
+     ],
+     "props": [],
+     "say": "So it looks like someone made a big pile of ready made votes, to hand out to people on voting day."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "unimpressed",
+     "say": "Pre filled ballots. Two and a half thousand years ago.",
+     "text": "RIGGED?",
+     "prop": "ostrakon",
+     "cross": true
+    },
+    {
+     "type": "draw",
+     "bg": "lab",
+     "people": [
+      {
+       "pose": "shrug",
+       "face": "laugh"
+      }
+     ],
+     "props": [
+      "clay_pot"
+     ],
+     "say": "And the funny part? Those shards were never used. They were just dumped in the well."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "smug",
+     "say": "But Themistocles did get ostracized later anyway. So I guess it worked eventually."
+    }
+   ]
+  },
+  {
+   "chapter": "A Show of Hands",
+   "shots": [
+    {
+     "type": "draw",
+     "bg": "mountains",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "happy",
+       "wear": "robe"
+      }
+     ],
+     "props": [
+      "hand"
+     ],
+     "say": "Okay, but ostracism was the rare, dramatic one. Most of the time, Athenians voted with their hands."
+    },
+    {
+     "type": "crowd",
+     "bg": "mountains",
+     "count": 14,
+     "poses": [
+      "stand",
+      "point_up"
+     ],
+     "faces": [
+      "neutral",
+      "thinking"
+     ],
+     "say": "Citizens met on a hill called the Pnyx, sometimes thousands of men at once."
+    },
+    {
+     "type": "crowd",
+     "bg": "mountains",
+     "count": 14,
+     "poses": [
+      "point_up"
+     ],
+     "faces": [
+      "happy",
+      "angry",
+      "neutral"
+     ],
+     "say": "Someone proposed a law, people argued, and then everyone raised a hand."
+    },
+    {
+     "type": "draw",
+     "bg": "mountains",
+     "people": [
+      {
+       "pose": "think",
+       "face": "thinking",
+       "wear": "toga"
+      }
+     ],
+     "props": [
+      "hand",
+      "question"
+     ],
+     "say": "And nobody counted them one by one. Officials just looked at the crowd and judged which side had more hands."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "unimpressed",
+     "say": "Which, if you think about it, is just vibes. Very official vibes.",
+     "text": "JUST VIBES"
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "lie",
+       "face": "sleepy"
+      }
+     ],
+     "props": [
+      "wheat",
+      "bed"
+     ],
+     "say": "Here's the problem. A lot of people didn't bother showing up. They had farms. And jobs. And honestly, better things to do."
+    },
+    {
+     "type": "draw",
+     "bg": "market",
+     "people": [
+      {
+       "pose": "run",
+       "face": "excited",
+       "wear": "robe"
+      },
+      {
+       "pose": "run",
+       "face": "scared",
+       "wear": "robe"
+      }
+     ],
+     "props": [],
+     "say": "So according to the comic playwright Aristophanes, slaves would sweep the market with a rope dipped in red paint,",
+     "text": "RED ROPE"
+    },
+    {
+     "type": "draw",
+     "bg": "market",
+     "people": [
+      {
+       "pose": "scared",
+       "face": "worried",
+       "wear": "red"
+      }
+     ],
+     "props": [
+      "exclaim"
+     ],
+     "say": "and anyone caught with red paint on their clothes, who wasn't at the meeting, could be punished.",
+     "label": "CAUGHT"
+    },
+    {
+     "type": "draw",
+     "bg": "mountains",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "excited",
+       "hold": "coin",
+       "wear": "robe"
+      }
+     ],
+     "props": [
+      "coin"
+     ],
+     "say": "Later, Athens tried something that works way better. They just paid people to show up."
+    },
+    {
+     "type": "me",
+     "pose": "hips",
+     "face": "smug",
+     "say": "And suddenly, the meetings were full. Shocking.",
+     "prop": "coin",
+     "tick": true
+    }
+   ]
+  },
+  {
+   "chapter": "Elections Are for Rich People",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "thinking",
+     "say": "Now here's something that will sound completely backwards to us."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "crossed",
+       "face": "unimpressed",
+       "wear": "toga",
+       "beard": true
+      }
+     ],
+     "props": [
+      "ballot_box"
+     ],
+     "say": "The Athenians did not think elections were very democratic.",
+     "cross": true
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "smug",
+       "hold": "coin",
+       "wear": "rich"
+      }
+     ],
+     "props": [
+      "speech",
+      "coin"
+     ],
+     "say": "Because think about it. Who wins elections? The famous guy. The rich guy. The guy who gives the best speeches."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "thinking",
+       "hold": "scroll",
+       "wear": "toga",
+       "beard": true
+      }
+     ],
+     "props": [],
+     "say": "The philosopher Aristotle wrote that choosing by election is how rich people stay in charge.",
+     "label": "ARISTOTLE"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "excited",
+       "wear": "toga"
+      }
+     ],
+     "props": [
+      "vote_balls"
+     ],
+     "say": "Choosing by lottery, on the other hand? That's real democracy.",
+     "text": "LOTTERY!"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "excited",
+     "say": "So for most government jobs, Athens didn't vote at all. They picked random people.",
+     "prop": "vote_balls"
+    },
+    {
+     "type": "draw",
+     "bg": "lab",
+     "people": [
+      {
+       "pose": "point",
+       "face": "excited"
+      }
+     ],
+     "props": [
+      "kleroterion"
+     ],
+     "say": "And they built a machine for it. A big stone slab called a kleroterion.",
+     "label": "KLEROTERION"
+    },
+    {
+     "type": "diagram",
+     "title": "THE LOTTERY MACHINE",
+     "steps": [
+      [
+       "coin",
+       "Name tokens in"
+      ],
+      [
+       "vote_balls",
+       "Balls drop"
+      ],
+      [
+       "green_tick",
+       "You're picked!"
+      ]
+     ],
+     "say": "Citizens put name tokens into slots. Black and white balls dropped down a tube. And the balls decided which rows got picked."
+    },
+    {
+     "type": "draw",
+     "bg": "market",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "shocked",
+       "wear": "robe"
+      }
+     ],
+     "props": [
+      "kleroterion",
+      "exclaim"
+     ],
+     "say": "Jury duty. Running the city council. Checking the markets. All random."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "sweating",
+     "say": "Imagine getting a letter saying, congratulations, you are now running the city for a year. Good luck.",
+     "text": "CONGRATS?"
+    }
+   ]
+  },
+  {
+   "chapter": "Who Got to Vote",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "hips",
+     "face": "worried",
+     "say": "But before we call Athens perfect, there's a big catch."
+    },
+    {
+     "type": "list",
+     "title": "WHO COULD VOTE",
+     "items": [
+      [
+       "person",
+       "Man"
+      ],
+      [
+       "sundial",
+       "Adult"
+      ],
+      [
+       "house",
+       "Athenian parents"
+      ],
+      [
+       "key",
+       "Not a slave"
+      ]
+     ],
+     "say": "To vote, you had to be a man, over 18, born to Athenian parents, and free."
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "COULD VOTE",
+      "prop": "person",
+      "mark": "tick"
+     },
+     "right": {
+      "title": "COULD NOT",
+      "prop": "person",
+      "mark": "x"
+     },
+     "say": "No women. No slaves. No foreigners, even if they'd lived there their whole lives."
+    },
+    {
+     "type": "crowd",
+     "bg": "ancient",
+     "count": 10,
+     "poses": [
+      "stand",
+      "shrug"
+     ],
+     "faces": [
+      "sad",
+      "unimpressed",
+      "neutral"
+     ],
+     "say": "So out of everyone living in Athens, only a small slice could actually vote. Historians usually guess around 10 to 20 percent."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "unimpressed",
+     "say": "So, democracy. But a very exclusive club version of it.",
+     "text": "MEMBERS ONLY"
+    }
+   ]
+  },
+  {
+   "chapter": "The Vote That Backfired",
+   "shots": [
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "laugh",
+       "wear": "toga"
+      }
+     ],
+     "props": [
+      "ostrakon"
+     ],
+     "say": "And the end of ostracism is my favorite story in this whole video."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "think",
+       "face": "smug",
+       "wear": "toga"
+      }
+     ],
+     "props": [],
+     "say": "Around 416 BC, there was a politician named Hyperbolus. And he had a plan.",
+     "label": "HYPERBOLUS",
+     "think": "ostrakon"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "point",
+       "face": "angry",
+       "wear": "rich"
+      },
+      {
+       "pose": "point",
+       "face": "angry",
+       "wear": "rich"
+      }
+     ],
+     "props": [],
+     "say": "Two powerful men, Nicias and Alcibiades, hated each other. So Hyperbolus called an ostracism vote, hoping one of them would get kicked out.",
+     "text": "NICIAS VS ALCIBIADES"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "hips",
+       "face": "smug",
+       "wear": "toga",
+       "hat": "crown"
+      }
+     ],
+     "props": [],
+     "say": "Then he'd have more power. Simple."
+    },
+    {
+     "type": "draw",
+     "bg": "night",
+     "people": [
+      {
+       "pose": "trade",
+       "face": "smug",
+       "wear": "rich"
+      },
+      {
+       "pose": "trade",
+       "face": "smug",
+       "wear": "rich"
+      }
+     ],
+     "props": [],
+     "say": "But Nicias and Alcibiades talked to each other. And they made a deal."
+    },
+    {
+     "type": "draw",
+     "bg": "market",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "laugh",
+       "hold": "ostrakon",
+       "wear": "robe"
+      },
+      {
+       "pose": "hold",
+       "face": "laugh",
+       "hold": "ostrakon",
+       "wear": "robe"
+      }
+     ],
+     "props": [],
+     "say": "They told all their supporters to write the same name. Hyperbolus.",
+     "label": "HYPERBOLUS"
+    },
+    {
+     "type": "draw",
+     "bg": "sea",
+     "people": [
+      {
+       "pose": "walk",
+       "face": "shocked",
+       "hold": "bag",
+       "wear": "toga"
+      }
+     ],
+     "props": [
+      "boat"
+     ],
+     "say": "So the guy who started the vote got kicked out by his own vote.",
+     "text": "KICKED OUT"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "And Athens was so embarrassed that, as far as we know, they never used ostracism again.",
+     "prop": "ostrakon",
+     "cross": true
+    }
+   ]
+  },
+  {
+   "chapter": "Sparta: Loudest Wins",
+   "shots": [
+    {
+     "type": "map",
+     "region": "sparta",
+     "label": "SPARTA",
+     "say": "Now, while Athens was doing lotteries and pottery, their neighbor Sparta had a very different idea.",
+     "prop": "shield"
+    },
+    {
+     "type": "draw",
+     "bg": "mountains",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "unimpressed",
+       "wear": "red",
+       "beard": true
+      },
+      {
+       "pose": "crossed",
+       "face": "sleepy",
+       "wear": "red",
+       "beard": true
+      }
+     ],
+     "props": [],
+     "say": "Sparta had a council of old men, called the Gerousia. Thirty members, most of them over sixty.",
+     "label": "GEROUSIA"
+    },
+    {
+     "type": "draw",
+     "bg": "mountains",
+     "people": [
+      {
+       "pose": "think",
+       "face": "thinking",
+       "hold": "shield",
+       "wear": "red"
+      }
+     ],
+     "props": [
+      "question"
+     ],
+     "say": "And when a seat opened up, how did they pick the new guy?"
+    },
+    {
+     "type": "big",
+     "text": "THEY SHOUTED.",
+     "say": "They shouted."
+    },
+    {
+     "type": "crowd",
+     "bg": "mountains",
+     "count": 14,
+     "poses": [
+      "celebrate",
+      "point_up"
+     ],
+     "faces": [
+      "excited",
+      "laugh",
+      "angry"
+     ],
+     "say": "The candidates walked through the assembly one at a time, and the crowd yelled for the one they liked."
+    },
+    {
+     "type": "draw",
+     "bg": "night",
+     "people": [
+      {
+       "pose": "sit",
+       "face": "thinking"
+      },
+      {
+       "pose": "sit",
+       "face": "sleepy"
+      }
+     ],
+     "props": [
+      "house"
+     ],
+     "say": "Meanwhile, a few judges sat locked in a building nearby, where they couldn't see anything."
+    },
+    {
+     "type": "draw",
+     "bg": "night",
+     "people": [
+      {
+       "pose": "sit",
+       "face": "shocked",
+       "hold": "scroll"
+      }
+     ],
+     "props": [
+      "speech",
+      "exclaim"
+     ],
+     "say": "They just listened, and wrote down which candidate got the loudest shout.",
+     "text": "LOUDEST WINS"
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "laugh",
+     "say": "Which means the winner was whoever had the friends with the biggest lungs.",
+     "text": "BIG LUNGS"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "facepalm",
+       "face": "unimpressed",
+       "hold": "scroll",
+       "wear": "toga",
+       "beard": true
+      }
+     ],
+     "props": [],
+     "say": "Even Aristotle thought this was childish. And honestly? He's not wrong."
+    }
+   ]
+  },
+  {
+   "chapter": "Rome: The Rich Vote First",
+   "shots": [
+    {
+     "type": "map",
+     "region": "rome",
+     "label": "ROME",
+     "say": "A few centuries later, Rome built one of the most complicated voting systems ever.",
+     "prop": "wax_tablet"
+    },
+    {
+     "type": "crowd",
+     "bg": "ancient",
+     "count": 12,
+     "poses": [
+      "point_up",
+      "celebrate"
+     ],
+     "faces": [
+      "happy",
+      "neutral"
+     ],
+     "say": "Romans did vote. Lots. They elected officials every single year.",
+     "hold": "wax_tablet"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "But there was a twist, and it was very, very Roman."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "neutral",
+       "wear": "toga"
+      },
+      {
+       "pose": "stand",
+       "face": "neutral",
+       "wear": "toga"
+      },
+      {
+       "pose": "stand",
+       "face": "neutral",
+       "wear": "toga"
+      }
+     ],
+     "props": [],
+     "say": "For the biggest elections, you didn't vote as one person. You voted inside a group, called a century.",
+     "label": "1 CENTURY = 1 VOTE"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "happy",
+       "hold": "wax_tablet",
+       "wear": "toga"
+      }
+     ],
+     "props": [
+      "ballot_box"
+     ],
+     "say": "Your group decided together, and the whole group counted as one vote."
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "RICH",
+      "prop": "money_bag"
+     },
+     "right": {
+      "title": "POOR",
+      "prop": "bread"
+     },
+     "say": "And there were 193 groups. The rich had lots of small groups. The poor were crammed into a few giant ones."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "smug",
+       "hold": "money_bag",
+       "wear": "rich",
+       "hat": "crown"
+      }
+     ],
+     "props": [],
+     "say": "And the rich groups voted first.",
+     "text": "RICH FIRST"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "hips",
+       "face": "smug",
+       "wear": "rich"
+      }
+     ],
+     "props": [
+      "x"
+     ],
+     "say": "Once a candidate reached a majority, voting just stopped."
+    },
+    {
+     "type": "crowd",
+     "bg": "ancient",
+     "count": 12,
+     "poses": [
+      "stand",
+      "lie"
+     ],
+     "faces": [
+      "sleepy",
+      "sad",
+      "unimpressed"
+     ],
+     "say": "So very often, the poorest Romans stood in line all day and never voted at all."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "unimpressed",
+     "say": "Technically, everyone had a vote. Practically, you could go home.",
+     "text": "GO HOME"
+    }
+   ]
+  },
+  {
+   "chapter": "The White Toga",
+   "shots": [
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "hips",
+       "face": "smug",
+       "wear": "white"
+      }
+     ],
+     "props": [],
+     "say": "If you wanted to run for office in Rome, you had to dress the part."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "happy",
+       "wear": "white"
+      }
+     ],
+     "props": [
+      "star"
+     ],
+     "say": "Candidates rubbed their togas with chalk to make them extra white. Bright, clean, trustworthy.",
+     "text": "EXTRA WHITE"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "point",
+       "face": "excited",
+       "wear": "white"
+      }
+     ],
+     "props": [],
+     "say": "The Latin word for whitened was candidus. And that's where we get the word candidate.",
+     "label": "CANDIDATUS"
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "laugh",
+     "say": "So every candidate today is basically named after a very clean shirt.",
+     "text": "CANDIDATE"
+    },
+    {
+     "type": "draw",
+     "bg": "lab",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "excited",
+       "hold": "scroll"
+      }
+     ],
+     "props": [],
+     "say": "We even have a campaign guide from 64 BC, written for Cicero, probably by his younger brother.",
+     "label": "64 BC"
+    },
+    {
+     "type": "list",
+     "title": "ROMAN CAMPAIGN TIPS",
+     "items": [
+      [
+       "person",
+       "Remember everyone's name"
+      ],
+      [
+       "speech",
+       "Shake every hand"
+      ],
+      [
+       "heart",
+       "Promise everything"
+      ]
+     ],
+     "say": "And the advice is a little too familiar."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "smug",
+       "wear": "white"
+      }
+     ],
+     "props": [
+      "heart"
+     ],
+     "say": "It basically says, people would rather hear a nice promise than a flat no. So promise."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "unimpressed",
+     "say": "Two thousand years later, I don't think that book has gone out of date."
+    }
+   ]
+  },
+  {
+   "chapter": "Pompeii Election Graffiti",
+   "shots": [
+    {
+     "type": "map",
+     "region": "italy",
+     "label": "POMPEII",
+     "say": "And in Pompeii, we can still read real Roman campaign ads.",
+     "prop": "poster"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "point",
+       "face": "shocked"
+      }
+     ],
+     "props": [
+      "poster",
+      "mountain"
+     ],
+     "say": "When the volcano buried the city in 79 AD, it froze the walls exactly as they were. Covered in painted election slogans."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "happy",
+       "hold": "brush"
+      }
+     ],
+     "props": [
+      "poster"
+     ],
+     "say": "Thousands of them. Painted on houses, shops, and bars.",
+     "text": "THOUSANDS"
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "sleepy"
+      }
+     ],
+     "props": [
+      "poster"
+     ],
+     "say": "Most are boring. Vote for this guy, he's a good man."
+    },
+    {
+     "type": "draw",
+     "bg": "night",
+     "people": [
+      {
+       "pose": "dance",
+       "face": "laugh",
+       "hold": "beer"
+      }
+     ],
+     "props": [
+      "poster",
+      "beer"
+     ],
+     "say": "But some are amazing. One says, the late night drinkers ask you to elect Marcus Cerrinius Vatia."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "lie",
+       "face": "sleepy"
+      }
+     ],
+     "props": [
+      "poster"
+     ],
+     "say": "Another says, all the deadbeats ask for Vatia.",
+     "text": "DEADBEATS"
+    },
+    {
+     "type": "me",
+     "pose": "point_up",
+     "face": "smug",
+     "say": "Historians think these might have been written by his rivals. To make him look bad.",
+     "text": "ATTACK ADS?"
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "lie",
+       "face": "sleepy"
+      },
+      {
+       "pose": "point",
+       "face": "angry"
+      }
+     ],
+     "props": [
+      "bed"
+     ],
+     "say": "And one is just someone yelling at their friend. Valens, wake up and vote for Sabinus!"
+    },
+    {
+     "type": "me",
+     "pose": "hips",
+     "face": "laugh",
+     "say": "Ancient Roman get out the vote. Very aggressive."
+    }
+   ]
+  },
+  {
+   "chapter": "The Secret Ballot",
+   "shots": [
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "worried",
+       "wear": "toga"
+      },
+      {
+       "pose": "hold",
+       "face": "smug",
+       "hold": "scroll",
+       "wear": "rich"
+      }
+     ],
+     "props": [
+      "speech"
+     ],
+     "say": "For a long time, Roman voting was out loud. You told an official your choice, and everyone heard it."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "sweating",
+       "wear": "toga"
+      },
+      {
+       "pose": "crossed",
+       "face": "angry",
+       "hold": "money_bag",
+       "wear": "rich"
+      }
+     ],
+     "props": [],
+     "say": "Which is a problem when your boss, or your landlord, is standing right behind you.",
+     "text": "AWKWARD"
+    },
+    {
+     "type": "timeline",
+     "title": "SECRET BALLOT",
+     "points": [
+      [
+       "139 BC",
+       "wax_tablet"
+      ],
+      [
+       "137 BC",
+       "wax_tablet"
+      ],
+      [
+       "107 BC",
+       "wax_tablet"
+      ]
+     ],
+     "say": "So in 139 BC, Rome passed a law for secret voting."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "thinking",
+       "hold": "wax_tablet",
+       "wear": "toga"
+      }
+     ],
+     "props": [
+      "wax_tablet"
+     ],
+     "say": "Voters got small wooden tablets covered with wax, and scratched in their choice."
+    },
+    {
+     "type": "draw",
+     "bg": "river",
+     "people": [
+      {
+       "pose": "walk",
+       "face": "neutral",
+       "hold": "wax_tablet",
+       "wear": "toga"
+      }
+     ],
+     "props": [
+      "ballot_box"
+     ],
+     "say": "Then they crossed a narrow wooden walkway, a little bridge, and dropped the tablet in a basket."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "smug",
+       "hold": "scroll",
+       "wear": "toga"
+      }
+     ],
+     "props": [],
+     "say": "Cicero called the ballot the silent defender of freedom.",
+     "label": "CICERO",
+     "text": "SILENT DEFENDER"
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "laugh",
+     "say": "Which is a very fancy way to say, now my landlord can't see what I wrote."
+    }
+   ]
+  },
+  {
+   "chapter": "India: Sticks and Pots",
+   "shots": [
+    {
+     "type": "map",
+     "region": "india",
+     "label": "INDIA",
+     "say": "Now let's go to India, where voting showed up in some surprising places.",
+     "prop": "ballot_box"
+    },
+    {
+     "type": "draw",
+     "bg": "jungle",
+     "people": [
+      {
+       "pose": "sit",
+       "face": "thinking",
+       "wear": "gold"
+      },
+      {
+       "pose": "sit",
+       "face": "neutral",
+       "wear": "gold"
+      }
+     ],
+     "props": [
+      "tree"
+     ],
+     "say": "In early Buddhist monasteries, monks sometimes had to settle disagreements by vote."
+    },
+    {
+     "type": "draw",
+     "bg": "jungle",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "happy",
+       "hold": "stick",
+       "wear": "gold"
+      }
+     ],
+     "props": [],
+     "say": "And according to Buddhist rules, they used small wooden sticks, called salaka.",
+     "label": "SALAKA"
+    },
+    {
+     "type": "draw",
+     "bg": "jungle",
+     "people": [
+      {
+       "pose": "give",
+       "face": "neutral",
+       "hold": "stick",
+       "wear": "gold"
+      },
+      {
+       "pose": "hold",
+       "face": "thinking",
+       "hold": "stick",
+       "wear": "gold"
+      }
+     ],
+     "props": [],
+     "say": "A monk would hand out sticks in different colors, and you voted by picking one."
+    },
+    {
+     "type": "list",
+     "title": "3 WAYS TO VOTE",
+     "items": [
+      [
+       "key",
+       "Secret"
+      ],
+      [
+       "speech",
+       "Whispered"
+      ],
+      [
+       "hand",
+       "Open"
+      ]
+     ],
+     "say": "And the rules even describe three ways to vote."
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "excited",
+     "say": "Secret, whispered in the ear, or completely open. Pretty modern for a monastery.",
+     "tick": true
+    },
+    {
+     "type": "map",
+     "region": "uttaramerur",
+     "label": "UTTARAMERUR",
+     "say": "And then there's a village in South India called Uttaramerur.",
+     "prop": "clay_pot"
+    },
+    {
+     "type": "draw",
+     "bg": "desert",
+     "people": [
+      {
+       "pose": "point",
+       "face": "shocked"
+      }
+     ],
+     "props": [
+      "house"
+     ],
+     "say": "On the walls of a temple there, there are inscriptions from around 920 AD, under the Chola king Parantaka the First.",
+     "text": "920 AD"
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "thinking",
+       "hold": "scroll"
+      }
+     ],
+     "props": [
+      "clay_pot"
+     ],
+     "say": "And they describe, in great detail, how the village chose its council."
+    },
+    {
+     "type": "diagram",
+     "title": "THE POT SYSTEM",
+     "steps": [
+      [
+       "leaf",
+       "Name on a leaf"
+      ],
+      [
+       "clay_pot",
+       "Into the pot"
+      ],
+      [
+       "person",
+       "A kid picks"
+      ]
+     ],
+     "say": "Every candidate's name was written on a palm leaf ticket. The tickets were put in a pot. And a young boy pulled out the winners."
+    },
+    {
+     "type": "list",
+     "title": "RULES TO RUN",
+     "items": [
+      [
+       "sundial",
+       "Age 35 to 70"
+      ],
+      [
+       "house",
+       "Own land and a house"
+      ],
+      [
+       "book",
+       "Be educated"
+      ]
+     ],
+     "say": "But not just anyone could put their name in."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "scared",
+       "face": "shocked",
+       "hold": "scroll"
+      },
+      {
+       "pose": "stand",
+       "face": "worried"
+      },
+      {
+       "pose": "stand",
+       "face": "worried"
+      }
+     ],
+     "props": [
+      "x"
+     ],
+     "say": "And if a council member didn't hand in proper accounts, he was banned. And so were his relatives."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "laugh",
+     "say": "Imagine not being allowed to run because your cousin was bad at math.",
+     "text": "THANKS COUSIN"
+    }
+   ]
+  },
+  {
+   "chapter": "Vikings Clash Their Weapons",
+   "shots": [
+    {
+     "type": "map",
+     "region": "iceland",
+     "label": "ICELAND",
+     "say": "Now, way up north. Iceland, the year 930.",
+     "prop": "shield"
+    },
+    {
+     "type": "crowd",
+     "bg": "mountains",
+     "count": 12,
+     "poses": [
+      "stand",
+      "point_up"
+     ],
+     "faces": [
+      "neutral",
+      "angry",
+      "happy"
+     ],
+     "say": "Viking settlers started meeting every summer in an open field, at an assembly called the Althing.",
+     "hold": "shield"
+    },
+    {
+     "type": "draw",
+     "bg": "mountains",
+     "people": [
+      {
+       "pose": "point",
+       "face": "excited",
+       "hold": "shield",
+       "beard": true
+      }
+     ],
+     "props": [],
+     "say": "It's often called the oldest parliament in the world that still exists today.",
+     "label": "ALTHING"
+    },
+    {
+     "type": "draw",
+     "bg": "mountains",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "angry",
+       "hold": "sword",
+       "beard": true
+      },
+      {
+       "pose": "celebrate",
+       "face": "excited",
+       "hold": "sword",
+       "beard": true
+      }
+     ],
+     "props": [
+      "shield",
+      "exclaim"
+     ],
+     "say": "And when people approved a decision, they didn't raise their hands. They raised their weapons, and clashed them together."
+    },
+    {
+     "type": "big",
+     "text": "CLANG.",
+     "say": "Clang."
+    },
+    {
+     "type": "draw",
+     "bg": "mountains",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "smug",
+       "hold": "sword",
+       "beard": true
+      }
+     ],
+     "props": [],
+     "say": "There's even an old Norse word for it. Vápnatak. Literally, taking up weapons.",
+     "text": "VAPNATAK"
+    },
+    {
+     "type": "me",
+     "pose": "hips",
+     "face": "laugh",
+     "say": "Which is a lot more exciting than an online survey."
+    }
+   ]
+  },
+  {
+   "chapter": "Locked In Without a Roof",
+   "shots": [
+    {
+     "type": "map",
+     "region": "viterbo",
+     "label": "VITERBO",
+     "say": "Okay, now the longest election story I know. Italy, 1268.",
+     "prop": "key"
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "neutral",
+       "wear": "red"
+      },
+      {
+       "pose": "stand",
+       "face": "thinking",
+       "wear": "red"
+      },
+      {
+       "pose": "stand",
+       "face": "neutral",
+       "wear": "red"
+      }
+     ],
+     "props": [
+      "house"
+     ],
+     "say": "The Pope had died. And the cardinals met in the town of Viterbo to choose the next one."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "point",
+       "face": "angry",
+       "wear": "red"
+      },
+      {
+       "pose": "point",
+       "face": "angry",
+       "wear": "red"
+      }
+     ],
+     "props": [],
+     "say": "There were about 20 of them. And they just could not agree.",
+     "text": "NO DEAL"
+    },
+    {
+     "type": "timeline",
+     "title": "STILL NO POPE",
+     "points": [
+      [
+       "1268",
+       "clock"
+      ],
+      [
+       "1269",
+       "clock"
+      ],
+      [
+       "1270",
+       "clock"
+      ],
+      [
+       "1271",
+       "clock"
+      ]
+     ],
+     "say": "Weeks turned into months. Months turned into years."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "angry",
+       "hold": "key"
+      }
+     ],
+     "props": [
+      "house"
+     ],
+     "say": "So the people of Viterbo got fed up. They locked the cardinals inside the palace.",
+     "label": "LOCKED"
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "sit",
+       "face": "sad",
+       "hold": "bread",
+       "wear": "red"
+      }
+     ],
+     "props": [
+      "water"
+     ],
+     "say": "Then they cut their food down to bread and water.",
+     "text": "BREAD + WATER"
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "scared",
+       "face": "shocked",
+       "wear": "red"
+      }
+     ],
+     "props": [
+      "house",
+      "cloud"
+     ],
+     "say": "And when that still didn't work, they took the roof off the building.",
+     "text": "NO ROOF"
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "sweating",
+     "say": "Imagine trying to make a big decision while it's raining on your head.",
+     "prop": "cloud"
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "excited",
+       "wear": "red",
+       "hat": "crown"
+      }
+     ],
+     "props": [
+      "star"
+     ],
+     "say": "A few of the cardinals died of old age during the election. Finally, in 1271, they chose a new Pope. Gregory the Tenth.",
+     "text": "FINALLY"
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "smug",
+       "hold": "key",
+       "wear": "red",
+       "hat": "crown"
+      }
+     ],
+     "props": [
+      "bread"
+     ],
+     "say": "And Gregory made new rules. From now on, cardinals would be locked in until they chose. With less food the longer they took."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "point",
+       "face": "happy",
+       "hold": "key"
+      }
+     ],
+     "props": [
+      "key"
+     ],
+     "say": "The Latin for with a key is cum clave. Which is why it's still called a conclave today.",
+     "label": "CONCLAVE"
+    }
+   ]
+  },
+  {
+   "chapter": "Where Ballot Comes From",
+   "shots": [
+    {
+     "type": "map",
+     "region": "venice",
+     "label": "VENICE",
+     "say": "Meanwhile, Venice had its own way of choosing its leader, the Doge.",
+     "prop": "vote_balls"
+    },
+    {
+     "type": "draw",
+     "bg": "sea",
+     "people": [
+      {
+       "pose": "think",
+       "face": "confused",
+       "wear": "rich"
+      }
+     ],
+     "props": [
+      "boat",
+      "question"
+     ],
+     "say": "And they were so scared of cheating that they made it absurdly complicated."
+    },
+    {
+     "type": "diagram",
+     "title": "THE DOGE ELECTION",
+     "steps": [
+      [
+       "vote_balls",
+       "Lottery"
+      ],
+      [
+       "hand",
+       "Vote"
+      ],
+      [
+       "vote_balls",
+       "Lottery"
+      ],
+      [
+       "crown",
+       "Doge!"
+      ]
+     ],
+     "say": "From 1268, it went lottery, then vote, then lottery, then vote, again and again, ten rounds, before the final 41 men chose the Doge."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "unimpressed",
+     "say": "Ten rounds. Just so nobody could buy it.",
+     "text": "10 ROUNDS"
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "happy",
+       "hold": "vote_balls"
+      }
+     ],
+     "props": [
+      "clay_pot"
+     ],
+     "say": "And for the lottery parts, a young boy was brought in to pull little balls out of a pot, one by one."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "point",
+       "face": "excited"
+      }
+     ],
+     "props": [
+      "vote_balls"
+     ],
+     "say": "In Italian, a little ball was a ballotta.",
+     "label": "BALLOTTA"
+    },
+    {
+     "type": "big",
+     "text": "BALLOTTA → BALLOT",
+     "say": "And that's where the English word ballot comes from."
+    },
+    {
+     "type": "draw",
+     "bg": "night",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "smug",
+       "hold": "black_ball"
+      }
+     ],
+     "props": [
+      "ballot_box"
+     ],
+     "say": "And in some clubs, you voted with white or black balls in a box. One black ball, and you were out."
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "laugh",
+     "say": "Which is where we get the word blackballed.",
+     "text": "BLACKBALLED",
+     "prop": "black_ball"
+    }
+   ]
+  },
+  {
+   "chapter": "Voting Out Loud",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "unimpressed",
+     "say": "Now, you'd think once secret voting was invented, everyone kept it. Nope."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "worried"
+      },
+      {
+       "pose": "crossed",
+       "face": "angry",
+       "hold": "money_bag",
+       "wear": "rich"
+      }
+     ],
+     "props": [
+      "speech"
+     ],
+     "say": "For centuries, in lots of places, people voted out loud, in public, in front of everyone."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "give",
+       "face": "smug",
+       "hold": "coin",
+       "wear": "rich"
+      },
+      {
+       "pose": "dance",
+       "face": "laugh",
+       "hold": "beer"
+      }
+     ],
+     "props": [
+      "beer"
+     ],
+     "say": "In England, elections could get rowdy. Candidates bought drinks, and sometimes paid people outright for their votes.",
+     "text": "FREE BEER"
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "neutral",
+       "hold": "ballot"
+      }
+     ],
+     "props": [
+      "ballot_box"
+     ],
+     "say": "In early America, many people handed in ballots printed by the parties themselves. Often in different colors.",
+     "text": "COLORED BALLOTS"
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "worried",
+     "say": "So everyone watching knew exactly how you voted."
+    },
+    {
+     "type": "map",
+     "region": "victoria",
+     "label": "VICTORIA, 1856",
+     "say": "The fix came from Australia. In 1856, the colony of Victoria started printing official ballots, filled in privately.",
+     "prop": "ballot"
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "happy",
+       "hold": "ballot"
+      }
+     ],
+     "props": [
+      "ballot_box"
+     ],
+     "say": "So good, the world called it the Australian ballot.",
+     "label": "AUSTRALIAN BALLOT"
+    },
+    {
+     "type": "timeline",
+     "title": "SECRET BALLOT ARRIVES",
+     "points": [
+      [
+       "1856",
+       "ballot"
+      ],
+      [
+       "1872",
+       "ballot"
+      ],
+      [
+       "1888",
+       "ballot"
+      ],
+      [
+       "1891",
+       "ballot"
+      ]
+     ],
+     "say": "Britain adopted it in 1872. American states started in 1888. And Kentucky held on to voting out loud until 1891."
+    }
+   ]
+  },
+  {
+   "chapter": "Who Was Finally Allowed",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "think",
+     "face": "thinking",
+     "say": "And remember who was missing back in Athens?"
+    },
+    {
+     "type": "map",
+     "region": "new zealand",
+     "label": "NEW ZEALAND, 1893",
+     "say": "In 1893, New Zealand became the first country where women could vote in national elections.",
+     "prop": "ballot_box"
+    },
+    {
+     "type": "crowd",
+     "bg": "city",
+     "count": 12,
+     "poses": [
+      "celebrate",
+      "point_up"
+     ],
+     "faces": [
+      "happy",
+      "excited"
+     ],
+     "say": "And over the next century, more and more people who were left out, finally got in.",
+     "hold": "ballot"
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "ATHENS",
+      "prop": "person",
+      "mark": "x"
+     },
+     "right": {
+      "title": "TODAY",
+      "prop": "ballot_box",
+      "mark": "tick"
+     },
+     "say": "Athens: a small slice of the people. Today: almost every adult."
+    },
+    {
+     "type": "draw",
+     "bg": "lab",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "happy",
+       "hold": "ostrakon"
+      }
+     ],
+     "props": [
+      "ballot"
+     ],
+     "say": "Two and a half thousand years from pottery shards to paper ballots."
+    }
+   ]
+  },
+  {
+   "chapter": "Your Turn",
+   "shots": [
+    {
+     "type": "me",
+     "pose": "explain",
+     "face": "happy",
+     "say": "So the next time you stand in a long line to vote, just remember.",
+     "prop": "ballot_box"
+    },
+    {
+     "type": "draw",
+     "bg": "market",
+     "people": [
+      {
+       "pose": "run",
+       "face": "scared",
+       "wear": "red"
+      }
+     ],
+     "props": [
+      "exclaim"
+     ],
+     "say": "At least nobody's chasing you with a rope dipped in red paint."
+    },
+    {
+     "type": "draw",
+     "bg": "mountains",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "angry",
+       "hold": "shield",
+       "wear": "red"
+      }
+     ],
+     "props": [
+      "speech"
+     ],
+     "say": "You don't have to out shout a Spartan."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "shrug",
+       "face": "laugh"
+      }
+     ],
+     "props": [
+      "house"
+     ],
+     "say": "And nobody's taking the roof off the building."
+    },
+    {
+     "type": "draw",
+     "bg": "ancient",
+     "people": [
+      {
+       "pose": "give",
+       "face": "worried",
+       "hold": "ostrakon",
+       "wear": "robe"
+      },
+      {
+       "pose": "stand",
+       "face": "shocked",
+       "wear": "toga",
+       "beard": true
+      }
+     ],
+     "props": [],
+     "say": "And please, if someone asks you to write a name on their pottery, check whose name it is first."
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "smug",
+     "say": "Now, if you were in ancient Athens, who would you ostracize? Tell me in the comments.",
+     "prop": "ostrakon"
+    }
+   ]
+  }
+ ]
+}
