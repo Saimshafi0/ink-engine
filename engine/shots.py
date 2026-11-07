@@ -210,7 +210,7 @@ def _scene(pen, s, W, H, st):
 
 def _outfit(w):
     return {"fur": D.C["fur"], "skin": D.C["fur"], "robe": D.C["paper"], "white": D.WHITE, "red": D.C["clay"],
-            "blue": D.C["blue"], "green": D.C["leaf"], "toga": D.WHITE, "rich": D.C["purple"], "gold": D.C["gold"]}.get((w or "").lower())
+            "blue": D.C["blue"], "green": D.C["leaf"], "toga": D.WHITE, "rich": D.C["purple"], "gold": D.C["gold"], "pink": D.C["pink"], "purple": D.C["purple"], "dress": D.C["pink"], "yellow": D.YELLOW}.get((w or "").lower())
 
 
 def _overlays(pen, s, W, H, gy, centers, prop_pos=()):

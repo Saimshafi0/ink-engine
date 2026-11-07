@@ -299,7 +299,7 @@ def make_pro(spec, idx=0, ai_image=None):
 
 def _outfit(w):
     return {"fur": D.C["fur"], "robe": D.C["paper"], "white": D.WHITE, "toga": D.WHITE, "rich": D.C["purple"],
-            "red": D.C["clay"], "blue": D.C["blue"], "green": D.C["leaf"], "gold": D.C["gold"]}.get((w or "").lower())
+            "red": D.C["clay"], "blue": D.C["blue"], "green": D.C["leaf"], "gold": D.C["gold"], "pink": D.C["pink"], "purple": D.C["purple"], "dress": D.C["pink"], "yellow": D.YELLOW}.get((w or "").lower())
 
 
 # ------------------------------------------------------------------ auto ideas

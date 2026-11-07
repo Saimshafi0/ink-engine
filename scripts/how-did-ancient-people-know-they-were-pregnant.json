@@ -1,0 +1,2041 @@
+{
+  "title": "How Did Ancient People Know They Were Pregnant?",
+  "thumbnail_text": "FIRST PREGNANCY TEST?",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "more_visuals": true,
+  "scenes": [
+    {
+      "chapter": "Three Minutes vs Ten Days",
+      "shots": [
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "worried",
+              "hold": "pregnancy_test",
+              "wear": "blue",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [
+            "clock"
+          ],
+          "say": "Right now, if you want to know if you're pregnant, it takes about three minutes.",
+          "text": "3 MINUTES"
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "sweating",
+              "hold": "pregnancy_test",
+              "wear": "blue",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [
+            "exclaim"
+          ],
+          "say": "You pee on a little stick, you wait, and you stare at it like it owes you money."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "thinking",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "pyramid",
+            "sun"
+          ],
+          "say": "Three and a half thousand years ago, in Egypt, it took about ten days.",
+          "text": "10 DAYS"
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "shrug",
+              "face": "confused",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "sack",
+            "sack"
+          ],
+          "say": "And instead of a stick, you got two bags of grain."
+        },
+        {
+          "type": "compare",
+          "left": {
+            "title": "1350 BC",
+            "prop": "sack"
+          },
+          "right": {
+            "title": "TODAY",
+            "prop": "pregnancy_test"
+          },
+          "say": "Same question. Very different method."
+        },
+        {
+          "type": "big",
+          "text": "PEE ON WHEAT.",
+          "say": "And yes, you had to pee on them."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "shocked",
+          "say": "And here's the crazy part. Scientists tested it. And it kind of worked.",
+          "prop": "sprout",
+          "tick": true
+        },
+        {
+          "type": "timeline",
+          "title": "PREGNANCY TESTS",
+          "points": [
+            [
+              "1350 BC",
+              "sack"
+            ],
+            [
+              "1600s",
+              "urine"
+            ],
+            [
+              "1930s",
+              "frog"
+            ],
+            [
+              "1977",
+              "pregnancy_test"
+            ]
+          ],
+          "say": "So today, we're going from bags of grain, to garlic, to rabbits, to frogs, to the little plastic stick."
+        },
+        {
+          "type": "big",
+          "text": "HOW DID ANCIENT PEOPLE KNOW THEY WERE PREGNANT?",
+          "say": "How did ancient people know they were pregnant?"
+        }
+      ],
+      "say": "Right now, if you want to know if you're pregnant, it takes about three minutes. You pee on a little stick, you wait, and you stare at it like it owes you money. Three and a half thousand years ago, in Egypt, it took about ten days. And instead of a stick, you got two bags of grain. Same question. Very different method. And yes, you had to pee on them. And here's the crazy part. Scientists tested it. And it kind of worked. So today, we're going from bags of grain, to garlic, to rabbits, to frogs, to the little plastic stick. How did ancient people know they were pregnant?"
+    },
+    {
+      "chapter": "Before Any Test",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "First, let's start with the obvious. Before any test, how did you even know?"
+        },
+        {
+          "type": "list",
+          "title": "THE OLD SIGNS",
+          "items": [
+            [
+              "x",
+              "No period"
+            ],
+            [
+              "bowl",
+              "Morning sickness"
+            ],
+            [
+              "heart",
+              "Sore breasts"
+            ],
+            [
+              "bed",
+              "Very tired"
+            ]
+          ],
+          "say": "Women noticed the same signs people notice today."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "lie",
+              "face": "sweating",
+              "wear": "pink",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [
+            "medicine",
+            "question"
+          ],
+          "say": "The problem? All of those can also mean you're sick, stressed, or just ate something bad."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "worried",
+          "say": "So for months, nobody could be completely sure.",
+          "text": "NOT SURE"
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "shocked",
+              "wear": "pink",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [
+            "baby",
+            "exclaim"
+          ],
+          "say": "The real proof came around four or five months in. When the woman first felt the baby move."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "celebrate",
+              "face": "excited",
+              "wear": "pink",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [
+            "baby"
+          ],
+          "say": "It was called quickening. And for centuries, that moment was when a pregnancy officially counted.",
+          "label": "QUICKENING"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "laugh",
+          "say": "Imagine waiting five months to find out. No group chat could survive that.",
+          "prop": "phone"
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "point_up",
+              "face": "excited",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "pyramid"
+          ],
+          "say": "So obviously, people wanted a faster answer. And the ancient Egyptians had an idea."
+        }
+      ],
+      "say": "First, let's start with the obvious. Before any test, how did you even know? Women noticed the same signs people notice today. The problem? All of those can also mean you're sick, stressed, or just ate something bad. So for months, nobody could be completely sure. The real proof came around four or five months in. When the woman first felt the baby move. It was called quickening. And for centuries, that moment was when a pregnancy officially counted. Imagine waiting five months to find out. No group chat could survive that. So obviously, people wanted a faster answer. And the ancient Egyptians had an idea."
+    },
+    {
+      "chapter": "Pee on the Grain",
+      "shots": [
+        {
+          "type": "map",
+          "region": "egypt",
+          "label": "EGYPT, 1350 BC",
+          "say": "Egypt, around 1350 BC.",
+          "prop": "sack"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "excited",
+              "hold": "scroll",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [],
+          "say": "Instructions written on ancient papyrus describe a test. And it's surprisingly simple.",
+          "label": "PAPYRUS"
+        },
+        {
+          "type": "diagram",
+          "title": "THE GRAIN TEST",
+          "steps": [
+            [
+              "urine",
+              "Pee"
+            ],
+            [
+              "sack",
+              "On the grain"
+            ],
+            [
+              "clock",
+              "Wait"
+            ]
+          ],
+          "say": "A woman pees on two bags. One full of barley, one full of wheat. Then you wait a few days."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "celebrate",
+              "face": "excited",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "sprout",
+            "green_tick"
+          ],
+          "say": "If both bags sprouted? She's pregnant."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "shrug",
+              "face": "sad",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "sack"
+          ],
+          "say": "If nothing grew? Not pregnant.",
+          "cross": true
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "think",
+              "face": "thinking",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "baby",
+            "question"
+          ],
+          "say": "And it even claimed to tell you if it's a boy or a girl."
+        },
+        {
+          "type": "compare",
+          "left": {
+            "title": "BARLEY",
+            "prop": "sack"
+          },
+          "right": {
+            "title": "WHEAT",
+            "prop": "wheat"
+          },
+          "say": "If the barley grew first, a boy. If the wheat grew first, a girl."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "Historians actually argue about which grain meant which. Even the ancient gender reveal had confusion.",
+          "text": "BOY OR GIRL?"
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "walk",
+              "face": "sleepy",
+              "hold": "urine",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "sack",
+            "sun"
+          ],
+          "say": "Now, picture this as a daily routine. Wake up. Have breakfast. Water the barley."
+        },
+        {
+          "type": "me",
+          "pose": "hips",
+          "face": "unimpressed",
+          "say": "Personally, I'd just wait the five months."
+        }
+      ],
+      "say": "Egypt, around 1350 BC. Instructions written on ancient papyrus describe a test. And it's surprisingly simple. A woman pees on two bags. One full of barley, one full of wheat. Then you wait a few days. If both bags sprouted? She's pregnant. If nothing grew? Not pregnant. And it even claimed to tell you if it's a boy or a girl. If the barley grew first, a boy. If the wheat grew first, a girl. Historians actually argue about which grain meant which. Even the ancient gender reveal had confusion. Now, picture this as a daily routine. Wake up. Have breakfast. Water the barley. Personally, I'd just wait the five months."
+    },
+    {
+      "chapter": "The Garlic Test",
+      "shots": [
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "thinking",
+              "hold": "scroll",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [],
+          "say": "And grain wasn't the only test. An even older Egyptian papyrus, from around 1800 BC, has another one.",
+          "label": "1800 BC"
+        },
+        {
+          "type": "big",
+          "text": "GARLIC.",
+          "say": "It involves garlic."
+        },
+        {
+          "type": "draw",
+          "bg": "night",
+          "people": [
+            {
+              "pose": "lie",
+              "face": "worried",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "garlic",
+            "moon"
+          ],
+          "say": "A woman would place a clove of garlic, or an onion, inside her body. Down there. Overnight."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "sweating",
+              "wear": "white",
+              "hat": "egypt_hair"
+            },
+            {
+              "pose": "stand",
+              "face": "disgusted",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "stink"
+          ],
+          "say": "Then in the morning, a doctor smelled her breath."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "celebrate",
+              "face": "happy",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "garlic",
+            "green_tick"
+          ],
+          "say": "If her breath smelled of garlic, good news. She could get pregnant."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "sad",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "garlic"
+          ],
+          "say": "If it didn't, bad news.",
+          "cross": true
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "unimpressed",
+          "say": "The idea was that everything inside the body was connected by tubes. Which, to be fair, is not how anything works.",
+          "prop": "question"
+        },
+        {
+          "type": "draw",
+          "bg": "ancient",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "smug",
+              "hold": "garlic",
+              "wear": "toga",
+              "hat": "curly_hair",
+              "beard": true
+            }
+          ],
+          "props": [],
+          "say": "And this test was so convincing that Greek doctors used almost the same one, more than a thousand years later.",
+          "label": "GREECE"
+        }
+      ],
+      "say": "And grain wasn't the only test. An even older Egyptian papyrus, from around 1800 BC, has another one. It involves garlic. A woman would place a clove of garlic, or an onion, inside her body. Down there. Overnight. Then in the morning, a doctor smelled her breath. If her breath smelled of garlic, good news. She could get pregnant. If it didn't, bad news. The idea was that everything inside the body was connected by tubes. Which, to be fair, is not how anything works. And this test was so convincing that Greek doctors used almost the same one, more than a thousand years later."
+    },
+    {
+      "chapter": "Did It Actually Work?",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "excited",
+          "say": "Okay, so ancient medicine is weird. We know. But here's where it gets interesting."
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "thinking",
+              "hold": "urine",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "microscope"
+          ],
+          "say": "In 1963, researchers decided to actually test the Egyptian grain method.",
+          "text": "1963"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "neutral",
+              "hold": "urine",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "sack",
+            "sack"
+          ],
+          "say": "They took urine from pregnant women, non pregnant women, and men. And they watered seeds with it."
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "shrug",
+              "face": "neutral",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "sack"
+          ],
+          "say": "Urine from men, and from women who weren't pregnant? Nothing grew.",
+          "cross": true
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "celebrate",
+              "face": "shocked",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "sprout",
+            "exclaim"
+          ],
+          "say": "But urine from pregnant women made the seeds sprout in about 70 percent of cases.",
+          "text": "70%"
+        },
+        {
+          "type": "big",
+          "text": "70%.",
+          "say": "Seventy percent. From a test that's three and a half thousand years old."
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "thinking",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "sprout",
+            "microscope"
+          ],
+          "say": "Scientists think pregnancy hormones in the urine may help the seeds grow."
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "facepalm",
+              "face": "unimpressed",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "coin",
+            "baby"
+          ],
+          "say": "The boy or girl part, though? Completely useless. Basically a coin flip."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "smug",
+              "hold": "book",
+              "wear": "green",
+              "hat": "blonde_hair"
+            }
+          ],
+          "props": [
+            "sack"
+          ],
+          "say": "But it worked well enough that the grain test was still around in a German folk book in 1699.",
+          "label": "1699"
+        },
+        {
+          "type": "me",
+          "pose": "celebrate",
+          "face": "laugh",
+          "say": "Three thousand years of peeing on wheat. Honestly? Respect.",
+          "prop": "wheat"
+        }
+      ],
+      "say": "Okay, so ancient medicine is weird. We know. But here's where it gets interesting. In 1963, researchers decided to actually test the Egyptian grain method. They took urine from pregnant women, non pregnant women, and men. And they watered seeds with it. Urine from men, and from women who weren't pregnant? Nothing grew. But urine from pregnant women made the seeds sprout in about 70 percent of cases. Seventy percent. From a test that's three and a half thousand years old. Scientists think pregnancy hormones in the urine may help the seeds grow. The boy or girl part, though? Completely useless. Basically a coin flip. But it worked well enough that the grain test was still around in a German folk book in 1699. Three thousand years of peeing on wheat. Honestly? Respect."
+    },
+    {
+      "chapter": "The Greek Bedtime Drink",
+      "shots": [
+        {
+          "type": "map",
+          "region": "greece",
+          "label": "GREECE",
+          "say": "Now let's jump to ancient Greece.",
+          "prop": "beer_mug"
+        },
+        {
+          "type": "draw",
+          "bg": "ancient",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "smug",
+              "hold": "scroll",
+              "wear": "toga",
+              "hat": "curly_hair",
+              "beard": true
+            }
+          ],
+          "props": [],
+          "say": "The famous doctor Hippocrates, or at least the writings named after him, had his own test.",
+          "label": "HIPPOCRATES"
+        },
+        {
+          "type": "draw",
+          "bg": "night",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "happy",
+              "hold": "mug",
+              "wear": "white",
+              "hat": "black_hair"
+            }
+          ],
+          "props": [
+            "honey",
+            "moon"
+          ],
+          "say": "Before bed, a woman drank a mix of water and honey."
+        },
+        {
+          "type": "draw",
+          "bg": "night",
+          "people": [
+            {
+              "pose": "lie",
+              "face": "sweating",
+              "wear": "white",
+              "hat": "black_hair"
+            }
+          ],
+          "props": [
+            "exclaim"
+          ],
+          "say": "If she got stomach cramps and rumbling during the night, she was pregnant.",
+          "text": "RUMBLE"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "laugh",
+          "say": "Which means every bad dinner in ancient Greece was a pregnancy scare.",
+          "prop": "meat"
+        },
+        {
+          "type": "draw",
+          "bg": "ancient",
+          "people": [
+            {
+              "pose": "think",
+              "face": "confused",
+              "wear": "white",
+              "hat": "black_hair"
+            }
+          ],
+          "props": [
+            "question"
+          ],
+          "say": "Some ancient writers also believed a woman could feel her womb close right after sex."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "unimpressed",
+          "say": "Which is impossible. At that point, nothing has even happened yet.",
+          "cross": true
+        }
+      ],
+      "say": "Now let's jump to ancient Greece. The famous doctor Hippocrates, or at least the writings named after him, had his own test. Before bed, a woman drank a mix of water and honey. If she got stomach cramps and rumbling during the night, she was pregnant. Which means every bad dinner in ancient Greece was a pregnancy scare. Some ancient writers also believed a woman could feel her womb close right after sex. Which is impossible. At that point, nothing has even happened yet."
+    },
+    {
+      "chapter": "Secrets of Women",
+      "shots": [
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "smug",
+              "hold": "book",
+              "wear": "rich",
+              "hat": "short_hair",
+              "beard": true
+            }
+          ],
+          "props": [],
+          "say": "In the 1200s, a very popular book called Secrets of Women had its own theory.",
+          "label": "SECRETS OF WOMEN"
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "excited",
+              "hold": "book",
+              "wear": "rich",
+              "hat": "short_hair",
+              "beard": true
+            }
+          ],
+          "props": [
+            "drop",
+            "question"
+          ],
+          "say": "It claimed that when a woman got pregnant, her period blood traveled up to her breasts, and turned into milk."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "unimpressed",
+          "say": "That is not a thing. Blood does not take the elevator.",
+          "text": "NOPE"
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "crossed",
+              "face": "smug",
+              "hold": "book",
+              "wear": "rich",
+              "hat": "short_hair",
+              "beard": true
+            },
+            {
+              "pose": "crossed",
+              "face": "unimpressed",
+              "wear": "green",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [
+            "star"
+          ],
+          "say": "And remember, this book was written by men, for men, about women. And it was a bestseller for centuries."
+        }
+      ],
+      "say": "In the 1200s, a very popular book called Secrets of Women had its own theory. It claimed that when a woman got pregnant, her period blood traveled up to her breasts, and turned into milk. That is not a thing. Blood does not take the elevator. And remember, this book was written by men, for men, about women. And it was a bestseller for centuries."
+    },
+    {
+      "chapter": "Plead the Belly",
+      "shots": [
+        {
+          "type": "draw",
+          "bg": "night",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "scared",
+              "wear": "white",
+              "hat": "black_hair"
+            }
+          ],
+          "props": [
+            "exclaim"
+          ],
+          "say": "And knowing if a woman was pregnant wasn't just about babies. Sometimes it was life or death."
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "point_up",
+              "face": "worried",
+              "wear": "white",
+              "hat": "black_hair"
+            },
+            {
+              "pose": "crossed",
+              "face": "angry",
+              "wear": "rich",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [],
+          "say": "In old England, a woman sentenced to death could say, I'm pregnant. It was called pleading the belly.",
+          "label": "PLEAD THE BELLY"
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "think",
+              "face": "thinking",
+              "wear": "purple",
+              "hat": "black_hair"
+            },
+            {
+              "pose": "think",
+              "face": "thinking",
+              "wear": "green",
+              "hat": "blonde_hair"
+            },
+            {
+              "pose": "crossed",
+              "face": "unimpressed",
+              "wear": "pink",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [],
+          "say": "And since there was no test, the court called in a jury of matrons. A group of married women, who examined her.",
+          "label": "JURY OF MATRONS"
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "celebrate",
+              "face": "happy",
+              "wear": "white",
+              "hat": "black_hair"
+            }
+          ],
+          "props": [
+            "baby",
+            "clock"
+          ],
+          "say": "If they decided she was quick with child, her punishment was delayed until after the birth."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "So a pregnancy test, without the test. Just a group of very serious aunties.",
+          "text": "SERIOUS AUNTIES"
+        }
+      ],
+      "say": "And knowing if a woman was pregnant wasn't just about babies. Sometimes it was life or death. In old England, a woman sentenced to death could say, I'm pregnant. It was called pleading the belly. And since there was no test, the court called in a jury of matrons. A group of married women, who examined her. If they decided she was quick with child, her punishment was delayed until after the birth. So a pregnancy test, without the test. Just a group of very serious aunties."
+    },
+    {
+      "chapter": "The Piss Prophets",
+      "shots": [
+        {
+          "type": "timeline",
+          "title": "MEDIEVAL EUROPE",
+          "points": [
+            [
+              "500",
+              "crown"
+            ],
+            [
+              "1000",
+              "sword"
+            ],
+            [
+              "1500",
+              "urine"
+            ]
+          ],
+          "say": "Fast forward to medieval Europe. And things get, let's say, creative."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "thinking",
+              "hold": "urine",
+              "wear": "rich",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "magnifier"
+          ],
+          "say": "Doctors were obsessed with urine. They held it up in a glass flask, looked at the color, and diagnosed almost everything.",
+          "text": "UROSCOPY"
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "smug",
+              "hold": "urine",
+              "wear": "rich",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [],
+          "say": "People even had a nickname for them. Piss prophets.",
+          "label": "PISS PROPHET"
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "excited",
+              "hold": "needle",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "urine"
+          ],
+          "say": "One medieval recipe said, leave a needle in a woman's urine. If it turns red or black, she's pregnant."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "unimpressed",
+          "say": "Which mostly just tells you that needles rust.",
+          "prop": "needle"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "confused",
+              "hold": "scroll",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "leaf"
+          ],
+          "say": "And then something hilarious happened. In the 1500s, someone copying the recipe misread needle, as nettle.",
+          "text": "NEEDLE → NETTLE"
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "point",
+              "face": "smug",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "leaf",
+            "urine"
+          ],
+          "say": "So the new test became, leave a nettle plant in urine overnight. If it gets red spots, you're pregnant."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "laugh",
+          "say": "A typo. Became medicine. For years.",
+          "text": "A TYPO"
+        },
+        {
+          "type": "list",
+          "title": "MEDIEVAL TESTS",
+          "items": [
+            [
+              "fire",
+              "Boil the urine"
+            ],
+            [
+              "urine",
+              "Look for white streaks"
+            ],
+            [
+              "clock",
+              "Seal it for days"
+            ],
+            [
+              "bug",
+              "Look for 'live things'"
+            ]
+          ],
+          "say": "And there were plenty more."
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "disgusted",
+              "hold": "jar",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "bug"
+          ],
+          "say": "One book from 1656 said, seal the urine in a jar for a few days, and you'll see certain live things in it.",
+          "label": "1656"
+        },
+        {
+          "type": "me",
+          "pose": "point",
+          "face": "disgusted",
+          "say": "Yes. Bacteria. You will definitely see live things. That's not a baby, that's just gross."
+        }
+      ],
+      "say": "Fast forward to medieval Europe. And things get, let's say, creative. Doctors were obsessed with urine. They held it up in a glass flask, looked at the color, and diagnosed almost everything. People even had a nickname for them. Piss prophets. One medieval recipe said, leave a needle in a woman's urine. If it turns red or black, she's pregnant. Which mostly just tells you that needles rust. And then something hilarious happened. In the 1500s, someone copying the recipe misread needle, as nettle. So the new test became, leave a nettle plant in urine overnight. If it gets red spots, you're pregnant. A typo. Became medicine. For years. And there were plenty more. One book from 1656 said, seal the urine in a jar for a few days, and you'll see certain live things in it. Yes. Bacteria. You will definitely see live things. That's not a baby, that's just gross."
+    },
+    {
+      "chapter": "The Rosewater Lady",
+      "shots": [
+        {
+          "type": "map",
+          "region": "england",
+          "label": "LONDON, 1590s",
+          "say": "And in 1590s London, there was a woman named Catherine Chaire.",
+          "prop": "flower"
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "smug",
+              "hold": "soap",
+              "wear": "purple",
+              "hat": "red_hair"
+            }
+          ],
+          "props": [
+            "flower",
+            "water"
+          ],
+          "say": "She said she could detect pregnancy by washing a woman's clothes with red rosewater and soap."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "confused",
+          "say": "How that's supposed to work? Nobody knows. Probably including her."
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "worried",
+              "wear": "purple",
+              "hat": "red_hair"
+            },
+            {
+              "pose": "crossed",
+              "face": "angry",
+              "wear": "rich",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "x"
+          ],
+          "say": "Here's the catch. Women weren't even allowed to practice medicine back then."
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "sad",
+              "hold": "urine",
+              "wear": "green",
+              "hat": "long_hair"
+            },
+            {
+              "pose": "point",
+              "face": "angry",
+              "wear": "rich",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [],
+          "say": "Another woman, known as Mistress Phillips, was taken to court for diagnosing pregnancy by looking at urine. The exact same thing male doctors were doing.",
+          "label": "COURT"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "unimpressed",
+          "say": "Same test. Same pee. Different rules.",
+          "text": "SAME PEE"
+        }
+      ],
+      "say": "And in 1590s London, there was a woman named Catherine Chaire. She said she could detect pregnancy by washing a woman's clothes with red rosewater and soap. How that's supposed to work? Nobody knows. Probably including her. Here's the catch. Women weren't even allowed to practice medicine back then. Another woman, known as Mistress Phillips, was taken to court for diagnosing pregnancy by looking at urine. The exact same thing male doctors were doing. Same test. Same pee. Different rules."
+    },
+    {
+      "chapter": "The Mice",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "excited",
+          "say": "So for thousands of years, nobody had a test that really worked. Until the 1920s.",
+          "prop": "microscope"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "excited",
+              "wear": "white",
+              "hat": "short_hair"
+            },
+            {
+              "pose": "hold",
+              "face": "smug",
+              "hold": "scroll",
+              "wear": "white",
+              "hat": "black_hair"
+            }
+          ],
+          "props": [],
+          "say": "In 1927, two German scientists, Selmar Aschheim and Bernhard Zondek, found something big.",
+          "text": "1927"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "point",
+              "face": "happy",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "urine",
+            "baby"
+          ],
+          "say": "When a woman is pregnant, her body makes a hormone. And that hormone ends up in her urine.",
+          "label": "HORMONE"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "neutral",
+              "hold": "needle",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "mouse",
+            "mouse"
+          ],
+          "say": "So they injected a woman's urine into young female mice. Five mice for every test.",
+          "text": "5 MICE"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "shocked",
+              "hold": "magnifier",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "mouse",
+            "exclaim"
+          ],
+          "say": "After a few days, if the mice's ovaries had changed, the woman was pregnant."
+        },
+        {
+          "type": "me",
+          "pose": "celebrate",
+          "face": "excited",
+          "say": "And it actually worked. The first truly reliable pregnancy test in history.",
+          "tick": true
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "shrug",
+              "face": "sad"
+            }
+          ],
+          "props": [
+            "mouse"
+          ],
+          "say": "The bad news? To check the ovaries, the mice had to die.",
+          "auto_visual": true,
+          "cross": true
+        }
+      ],
+      "say": "So for thousands of years, nobody had a test that really worked. Until the 1920s. In 1927, two German scientists, Selmar Aschheim and Bernhard Zondek, found something big. When a woman is pregnant, her body makes a hormone. And that hormone ends up in her urine. So they injected a woman's urine into young female mice. Five mice for every test. After a few days, if the mice's ovaries had changed, the woman was pregnant. And it actually worked. The first truly reliable pregnancy test in history. The bad news? To check the ovaries, the mice had to die."
+    },
+    {
+      "chapter": "The Rabbit Died",
+      "shots": [
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "happy",
+              "hold": "needle",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "rabbit"
+          ],
+          "say": "A few years later, in 1931, an American doctor named Maurice Friedman swapped the mice for rabbits.",
+          "label": "1931"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "point",
+              "face": "neutral",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "rabbit",
+            "urine"
+          ],
+          "say": "Bigger animal. Easier to inject. Same idea."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "shocked",
+              "hold": "scroll",
+              "wear": "blue",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [
+            "rabbit"
+          ],
+          "say": "And that's where an old phrase comes from. The rabbit died. It meant you were pregnant.",
+          "text": "THE RABBIT DIED"
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sad",
+          "say": "Except here's the dark twist. The rabbit died every time. Pregnant or not.",
+          "prop": "rabbit",
+          "cross": true
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "unimpressed",
+          "say": "So the phrase was technically wrong. But nobody wanted to say the rabbit got dissected."
+        }
+      ],
+      "say": "A few years later, in 1931, an American doctor named Maurice Friedman swapped the mice for rabbits. Bigger animal. Easier to inject. Same idea. And that's where an old phrase comes from. The rabbit died. It meant you were pregnant. Except here's the dark twist. The rabbit died every time. Pregnant or not. So the phrase was technically wrong. But nobody wanted to say the rabbit got dissected."
+    },
+    {
+      "chapter": "The Frog That Laid Eggs",
+      "shots": [
+        {
+          "type": "map",
+          "region": "south africa",
+          "label": "SOUTH AFRICA",
+          "say": "Then a British scientist named Lancelot Hogben, working in South Africa, found a better animal.",
+          "prop": "frog"
+        },
+        {
+          "type": "draw",
+          "bg": "river",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "excited",
+              "hold": "frog",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "frog"
+          ],
+          "say": "The African clawed frog.",
+          "label": "CLAWED FROG"
+        },
+        {
+          "type": "diagram",
+          "title": "THE FROG TEST",
+          "steps": [
+            [
+              "urine",
+              "Inject urine"
+            ],
+            [
+              "frog",
+              "Wait 12 hours"
+            ],
+            [
+              "baby",
+              "Eggs = pregnant!"
+            ]
+          ],
+          "say": "You injected a woman's urine under the frog's skin. If she was pregnant, the frog laid eggs within about 12 hours."
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "celebrate",
+              "face": "happy",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "frog",
+            "green_tick"
+          ],
+          "say": "And the best part? The frog didn't die. You could use it again and again."
+        },
+        {
+          "type": "me",
+          "pose": "celebrate",
+          "face": "laugh",
+          "say": "Finally. An animal that survives this story.",
+          "prop": "frog"
+        },
+        {
+          "type": "crowd",
+          "bg": "lab",
+          "count": 8,
+          "poses": [
+            "hold"
+          ],
+          "faces": [
+            "neutral",
+            "happy"
+          ],
+          "say": "From the 1940s to the 1960s, hospitals around the world kept tanks full of these frogs.",
+          "hold": "frog"
+        },
+        {
+          "type": "draw",
+          "bg": "sea",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "neutral",
+              "hold": "frog",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "boat",
+            "frog"
+          ],
+          "say": "Tens of thousands of frogs, shipped all over the world. Just to test pregnancies."
+        },
+        {
+          "type": "draw",
+          "bg": "jungle",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "worried",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "frog",
+            "exclaim"
+          ],
+          "say": "Some scientists even think this frog trade may have helped spread a deadly fungus that later hurt frogs everywhere."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "sad",
+          "say": "So the frogs survived the test. Just not the side effects."
+        }
+      ],
+      "say": "Then a British scientist named Lancelot Hogben, working in South Africa, found a better animal. The African clawed frog. You injected a woman's urine under the frog's skin. If she was pregnant, the frog laid eggs within about 12 hours. And the best part? The frog didn't die. You could use it again and again. Finally. An animal that survives this story. From the 1940s to the 1960s, hospitals around the world kept tanks full of these frogs. Tens of thousands of frogs, shipped all over the world. Just to test pregnancies. Some scientists even think this frog trade may have helped spread a deadly fungus that later hurt frogs everywhere. So the frogs survived the test. Just not the side effects."
+    },
+    {
+      "chapter": "No More Animals",
+      "shots": [
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "celebrate",
+              "face": "excited",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "microscope",
+            "green_tick"
+          ],
+          "say": "By the 1960s, scientists finally figured out how to detect the hormone without any animals.",
+          "text": "NO ANIMALS"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "happy",
+              "hold": "urine",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "clock"
+          ],
+          "say": "They used antibodies that react with the pregnancy hormone. The answer came in about two hours.",
+          "text": "2 HOURS"
+        },
+        {
+          "type": "compare",
+          "left": {
+            "title": "1927",
+            "prop": "mouse",
+            "mark": "x"
+          },
+          "right": {
+            "title": "1960s",
+            "prop": "urine",
+            "mark": "tick"
+          },
+          "say": "From killing mice for a week, to a test tube in two hours."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "excited",
+          "say": "But you still had to go to a doctor. And that's where one woman changed everything."
+        }
+      ],
+      "say": "By the 1960s, scientists finally figured out how to detect the hormone without any animals. They used antibodies that react with the pregnancy hormone. The answer came in about two hours. From killing mice for a week, to a test tube in two hours. But you still had to go to a doctor. And that's where one woman changed everything."
+    },
+    {
+      "chapter": "The Woman Paid One Dollar",
+      "shots": [
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "happy",
+              "wear": "yellow",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [],
+          "say": "In 1967, a young designer named Margaret Crane worked for a drug company in New Jersey.",
+          "label": "MARGARET CRANE"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "think",
+              "face": "thinking",
+              "wear": "yellow",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [
+            "urine",
+            "urine"
+          ],
+          "say": "She was hired to design cosmetics. But one day she saw rows of pregnancy tests in the lab."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "excited",
+          "say": "And she thought, wait. This is just a test tube. Why can't women do this at home?",
+          "prop": "house"
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "excited",
+              "hold": "urine",
+              "wear": "yellow",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [
+            "magnifier"
+          ],
+          "say": "So at home, she built a prototype. A paper clip holder, a test tube, a mirror, and a dropper.",
+          "text": "PROTOTYPE"
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "celebrate",
+              "face": "excited",
+              "wear": "yellow",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [
+            "urine",
+            "baby"
+          ],
+          "say": "If a red ring appeared at the bottom of the tube, you were pregnant."
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "crossed",
+              "face": "angry",
+              "wear": "rich",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "money_bag"
+          ],
+          "say": "Her company hated the idea. They were worried doctors would get angry and stop buying their tests.",
+          "cross": true
+        },
+        {
+          "type": "timeline",
+          "title": "THE PREDICTOR",
+          "points": [
+            [
+              "1967",
+              "urine"
+            ],
+            [
+              "early 70s",
+              "flag"
+            ],
+            [
+              "1977",
+              "pregnancy_test"
+            ]
+          ],
+          "say": "But eventually, it went on sale in Canada in the early 1970s, and in the US in 1977, as The Predictor."
+        },
+        {
+          "type": "big",
+          "text": "$1.",
+          "say": "And how much did Margaret Crane get for inventing it? One dollar."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "sad",
+          "say": "And according to her, she never even got the dollar.",
+          "prop": "coin",
+          "cross": true
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "celebrate",
+              "face": "happy",
+              "wear": "yellow",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [
+            "house",
+            "star"
+          ],
+          "say": "Today, her prototype is in the Smithsonian, a national museum in Washington. So she got a museum. Just not a dollar.",
+          "label": "SMITHSONIAN"
+        }
+      ],
+      "say": "In 1967, a young designer named Margaret Crane worked for a drug company in New Jersey. She was hired to design cosmetics. But one day she saw rows of pregnancy tests in the lab. And she thought, wait. This is just a test tube. Why can't women do this at home? So at home, she built a prototype. A paper clip holder, a test tube, a mirror, and a dropper. If a red ring appeared at the bottom of the tube, you were pregnant. Her company hated the idea. They were worried doctors would get angry and stop buying their tests. But eventually, it went on sale in Canada in the early 1970s, and in the US in 1977, as The Predictor. And how much did Margaret Crane get for inventing it? One dollar. And according to her, she never even got the dollar. Today, her prototype is in the Smithsonian, a national museum in Washington. So she got a museum. Just not a dollar."
+    },
+    {
+      "chapter": "The Stick",
+      "shots": [
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "sit",
+              "face": "sweating",
+              "wear": "blue",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [
+            "urine",
+            "clock"
+          ],
+          "say": "The first home tests took two hours and ten steps. And you weren't allowed to touch the tube."
+        },
+        {
+          "type": "draw",
+          "bg": "city",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "excited",
+              "hold": "pregnancy_test",
+              "wear": "blue",
+              "hat": "long_hair"
+            }
+          ],
+          "props": [],
+          "say": "Then in 1988, the first stick tests appeared. Pee, wait a few minutes, done.",
+          "text": "1988"
+        },
+        {
+          "type": "draw",
+          "bg": "lab",
+          "people": [
+            {
+              "pose": "point",
+              "face": "smug",
+              "wear": "white",
+              "hat": "short_hair"
+            }
+          ],
+          "props": [
+            "pregnancy_test",
+            "frog"
+          ],
+          "say": "And here's the funny thing. Today's test is looking for the exact same hormone that made those mice, rabbits, and frogs react."
+        },
+        {
+          "type": "crowd",
+          "bg": "city",
+          "count": 10,
+          "poses": [
+            "hold",
+            "celebrate"
+          ],
+          "faces": [
+            "happy",
+            "worried",
+            "excited"
+          ],
+          "say": "Americans now buy around 20 million pregnancy tests every year.",
+          "hold": "pregnancy_test"
+        }
+      ],
+      "say": "The first home tests took two hours and ten steps. And you weren't allowed to touch the tube. Then in 1988, the first stick tests appeared. Pee, wait a few minutes, done. And here's the funny thing. Today's test is looking for the exact same hormone that made those mice, rabbits, and frogs react. Americans now buy around 20 million pregnancy tests every year."
+    },
+    {
+      "chapter": "Back to the Wheat",
+      "shots": [
+        {
+          "type": "timeline",
+          "title": "THE WHOLE STORY",
+          "points": [
+            [
+              "1350 BC",
+              "sack"
+            ],
+            [
+              "1500s",
+              "needle"
+            ],
+            [
+              "1927",
+              "mouse"
+            ],
+            [
+              "1940s",
+              "frog"
+            ],
+            [
+              "1988",
+              "pregnancy_test"
+            ]
+          ],
+          "say": "So, from grain bags, to garlic, to needles, to mice, rabbits, frogs, and finally a little plastic stick."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "stand",
+              "face": "smug",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "sprout"
+          ],
+          "say": "And the craziest part is still the first one."
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "celebrate",
+              "face": "excited",
+              "wear": "white",
+              "hat": "egypt_hair"
+            }
+          ],
+          "props": [
+            "sprout",
+            "green_tick"
+          ],
+          "say": "An Egyptian woman, three and a half thousand years ago, peeing on a bag of wheat, was right about 70 percent of the time.",
+          "text": "70%"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "laugh",
+          "say": "Which honestly is better than my weather app.",
+          "prop": "cloud"
+        },
+        {
+          "type": "draw",
+          "bg": "desert",
+          "people": [
+            {
+              "pose": "point",
+              "face": "smug",
+              "hold": "garlic"
+            }
+          ],
+          "props": [
+            "wheat"
+          ],
+          "say": "So which ancient test would you trust the least? Grain, garlic, or the needle? Tell me in the comments.",
+          "auto_visual": true
+        }
+      ],
+      "say": "So, from grain bags, to garlic, to needles, to mice, rabbits, frogs, and finally a little plastic stick. And the craziest part is still the first one. An Egyptian woman, three and a half thousand years ago, peeing on a bag of wheat, was right about 70 percent of the time. Which honestly is better than my weather app. So which ancient test would you trust the least? Grain, garlic, or the needle? Tell me in the comments."
+    }
+  ],
+  "thumbnails": [
+    {
+      "text": "FIRST PREGNANCY TEST?",
+      "title": "How Did Ancient People Know They Were Pregnant?",
+      "color": "pink",
+      "hero": "person",
+      "pose": "hold",
+      "face": "shocked",
+      "wear": "white",
+      "hold": "sack",
+      "props": [
+        "pregnancy_test"
+      ]
+    },
+    {
+      "text": "PEE ON WHEAT?!",
+      "title": "The First Pregnancy Test in History",
+      "color": "yellow",
+      "hero": "person",
+      "pose": "shrug",
+      "face": "confused",
+      "wear": "white",
+      "props": [
+        "sack",
+        "sprout"
+      ],
+      "arrow": true
+    },
+    {
+      "text": "FROG PREGNANCY TEST?!",
+      "title": "The History of the Pregnancy Test",
+      "color": "green",
+      "hero": "person",
+      "pose": "hold",
+      "face": "shocked",
+      "hold": "frog",
+      "props": [
+        "pregnancy_test"
+      ]
+    }
+  ],
+  "seo": {
+    "titles": [
+      "How Did Ancient People Know They Were Pregnant?",
+      "The First Pregnancy Test in History",
+      "The History of the Pregnancy Test",
+      "How Did Women Know They Were Pregnant Before Tests?",
+      "Ancient Egyptian Pregnancy Test"
+    ],
+    "best_title": "How Did Ancient People Know They Were Pregnant?",
+    "description_hook": "How did women know they were pregnant before pregnancy tests? 3,500 years ago, Egyptian women peed on wheat and barley. And in 1963, scientists found it worked about 70% of the time.",
+    "paragraphs": [
+      "The history of the pregnancy test is stranger than you think. We start with the Egyptian grain test from around 1350 BC, the garlic test in the Kahun papyrus, and the Greek honey drink attributed to Hippocrates.",
+      "Then medieval piss prophets, a typo that turned a needle into a nettle, the 1656 sealed urine test, the rosewater test of Catherine Chaire, and the English 'plea of the belly' with its jury of matrons.",
+      "Finally, the 20th century: the 1927 Aschheim-Zondek mouse test, the Friedman rabbit test ('the rabbit died'), Hogben's African clawed frog test, and Margaret Crane, who designed the first home pregnancy test and signed away her rights for one dollar."
+    ],
+    "sources": [
+      "Papyrus Carlsberg / Berlin Medical Papyrus (c. 1350 BC)",
+      "Kahun Gynaecological Papyrus (c. 1825 BC)",
+      "Ghalioungui, Khalil & Ammar (1963) - On an ancient Egyptian method of diagnosing pregnancy",
+      "Hippocratic Corpus, Aphorisms",
+      "Aschheim & Zondek (1927/1928)",
+      "Friedman (1931)",
+      "Hogben - Xenopus pregnancy test (1930s)",
+      "Smithsonian National Museum of American History - The Predictor (2015)",
+      "The Conversation - A brief history of pregnancy tests (2023)"
+    ],
+    "tags": [
+      "how did ancient people know they were pregnant",
+      "history of pregnancy test",
+      "first pregnancy test",
+      "ancient egyptian pregnancy test",
+      "pregnancy test wheat barley",
+      "how did women know they were pregnant before tests",
+      "frog pregnancy test",
+      "rabbit test",
+      "the rabbit died meaning",
+      "margaret crane",
+      "piss prophets",
+      "ancient medicine",
+      "weird history",
+      "history of medicine",
+      "ancient egypt",
+      "women in history",
+      "history explained",
+      "back then explained"
+    ],
+    "hashtags": [
+      "#history",
+      "#ancientegypt",
+      "#pregnancy"
+    ],
+    "pinned_comment": "Which ancient test would you trust the least: grain, garlic or the needle? 👇"
+  },
+  "shorts": [
+    {
+      "scenes": [
+        3
+      ],
+      "hook": "THEY PEED ON WHEAT",
+      "title": "The First Pregnancy Test Was Wheat",
+      "description": "Egypt, 1350 BC: pee on wheat and barley. #shorts #history #ancientegypt",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#ancientegypt"
+      ],
+      "pinned": "Would you trust the wheat?"
+    },
+    {
+      "scenes": [
+        9
+      ],
+      "hook": "A TYPO BECAME MEDICINE",
+      "title": "A Typo Became a Pregnancy Test",
+      "description": "Needle became nettle. #shorts #history #medieval",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#medieval"
+      ],
+      "pinned": "What other typo changed history?"
+    },
+    {
+      "scenes": [
+        12
+      ],
+      "hook": "THE RABBIT DIED?",
+      "title": "What 'The Rabbit Died' Really Means",
+      "description": "The dark truth behind the rabbit test. #shorts #history #science",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#science"
+      ],
+      "pinned": "Did you know this phrase?"
+    },
+    {
+      "scenes": [
+        15
+      ],
+      "hook": "SHE GOT $1",
+      "title": "She Invented the Home Pregnancy Test for $1",
+      "description": "Margaret Crane's story. #shorts #history #women",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#womeninhistory"
+      ],
+      "pinned": "Should she have been paid more?"
+    },
+    {
+      "scenes": [
+        8
+      ],
+      "hook": "PLEAD THE BELLY",
+      "title": "The Pregnancy Test That Saved Lives",
+      "description": "England's jury of matrons. #shorts #history #england",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#england"
+      ],
+      "pinned": "Have you heard of this?"
+    }
+  ]
+}

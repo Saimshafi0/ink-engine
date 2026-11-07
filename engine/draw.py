@@ -1470,6 +1470,38 @@ def draw_hat(pen, cx, cy, r, lw, kind="turban"):
                  fill=(108, 120, 84), w=lw)
     elif kind in ("crown",):
         _crown(pen, cx, cy - r * 1.0, r * 1.1, lw)
+    elif kind in HAIR_STYLES:
+        _hair(pen, cx, cy, r, lw, kind)
+
+
+HAIR_STYLES = {"long_hair": (96, 60, 36), "hair": (96, 60, 36), "woman": (96, 60, 36), "blonde_hair": (226, 184, 92),
+               "black_hair": (36, 32, 30), "egypt_hair": (28, 26, 28), "bob": (28, 26, 28), "messy_hair": (92, 58, 36),
+               "curly_hair": (92, 58, 36), "short_hair": (70, 58, 50), "red_hair": (190, 86, 40)}
+
+
+def _hair(p, cx, cy, r, lw, kind):
+    col = HAIR_STYLES[kind]
+    long_ = kind in ("long_hair", "hair", "woman", "blonde_hair", "black_hair", "red_hair")
+    if long_ or kind in ("egypt_hair", "bob"):
+        drop = r * (1.45 if long_ else .75)
+        for side in (-1, 1):   # side curtains, outside the face
+            p.poly([(cx + side * r * .78, cy - r * .55), (cx + side * r * 1.1, cy - r * .1), (cx + side * r * (1.18 if long_ else 1.08), cy + drop),
+                    (cx + side * r * (.92 if long_ else .86), cy + drop + r * .08), (cx + side * r * .9, cy + r * .2)], fill=col, w=lw)
+    # top of the head
+    if kind in ("egypt_hair", "bob"):
+        p.poly([(cx - r * 1.04, cy - r * .1), (cx - r * .9, cy - r * .72), (cx - r * .35, cy - r * 1.06), (cx + r * .35, cy - r * 1.06),
+                (cx + r * .9, cy - r * .72), (cx + r * 1.04, cy - r * .1), (cx + r * .8, cy - r * .38), (cx - r * .8, cy - r * .38)], fill=col, w=lw)
+        p.line([(cx - r * .82, cy - r * .42), (cx + r * .82, cy - r * .42)], lw * 1.6, C["gold"], wob=0)
+    elif kind in ("messy_hair", "curly_hair"):
+        p.poly([(cx - r * 1.0, cy - r * .1), (cx - r * .9, cy - r * .75), (cx - r * .3, cy - r * 1.12), (cx + r * .35, cy - r * 1.1),
+                (cx + r * .92, cy - r * .7), (cx + r * 1.0, cy - r * .05), (cx + r * .55, cy - r * .5), (cx - r * .55, cy - r * .5)], fill=col, w=lw)
+        for a in (-160, -120, -80, -40):
+            ang = math.radians(a)
+            p.circle(cx + r * .8 * math.cos(ang), cy + r * .8 * math.sin(ang), r * .28, fill=col, w=lw * .8)
+    else:
+        p.poly([(cx - r * 1.02, cy - r * .05), (cx - r * .92, cy - r * .72), (cx - r * .35, cy - r * 1.08), (cx + r * .4, cy - r * 1.06),
+                (cx + r * .95, cy - r * .66), (cx + r * 1.02, cy - r * .05), (cx + r * .7, cy - r * .45), (cx + r * .1, cy - r * .62),
+                (cx - r * .5, cy - r * .5), (cx - r * .8, cy - r * .3)], fill=col, w=lw)
 
 
 def _rifle(p, x, y, s, lw):
@@ -2015,3 +2047,72 @@ PROPS.update({"ostrakon": _ostrakon, "ostraka": _ostrakon, "shard": _ostrakon, "
               "black_ball": _black_ball, "blackball": _black_ball, "key": _key, "shield": _shield, "hand": _hand,
               "raised_hand": _hand, "kleroterion": _kleroterion, "lottery_machine": _kleroterion, "poster": _poster,
               "graffiti": _poster, "sign": _poster})
+
+
+# ---------------------------------------------------------------- pregnancy / body props
+def _preg_test(p, x, y, s, lw):
+    p.rrect(x - .12 * s, y - .5 * s, x + .12 * s, y + .5 * s, .1 * s, fill=WHITE, w=lw)
+    p.rrect(x - .12 * s, y + .22 * s, x + .12 * s, y + .5 * s, .1 * s, fill=(120, 170, 230), w=lw)
+    p.rect(x - .07 * s, y - .3 * s, x + .07 * s, y - .02 * s, fill=(240, 240, 240), w=lw * .6)
+    for dx in (-.03, .03):
+        p.line([(x + dx * s, y - .26 * s), (x + dx * s, y - .06 * s)], lw * 1.1, (220, 60, 110), wob=0)
+
+
+def _baby(p, x, y, s, lw):
+    p.ellipse(x, y + .12 * s, .3 * s, .26 * s, fill=(240, 236, 250), w=lw)   # blanket
+    p.circle(x, y - .18 * s, .2 * s, fill=CREAM, w=lw)
+    p.arc(x - .07 * s, y - .2 * s, .04 * s, .03 * s, 200, 340, lw * .6)
+    p.arc(x + .07 * s, y - .2 * s, .04 * s, .03 * s, 200, 340, lw * .6)
+    p.arc(x, y - .12 * s, .05 * s, .03 * s, 20, 160, lw * .6)
+    p.line([(x - .03 * s, y - .38 * s), (x, y - .43 * s), (x + .04 * s, y - .37 * s)], lw * .6, INK, wob=0)
+
+
+def _garlic(p, x, y, s, lw):
+    p.poly([(x, y - .42 * s), (x + .06 * s, y - .25 * s), (x + .32 * s, y - .02 * s), (x + .3 * s, y + .22 * s), (x, y + .32 * s),
+            (x - .3 * s, y + .22 * s), (x - .32 * s, y - .02 * s), (x - .06 * s, y - .25 * s)], fill=(246, 240, 226), w=lw)
+    for dx in (-.14, 0, .14):
+        p.line([(x + dx * s * .5, y - .2 * s), (x + dx * s, y + .28 * s)], lw * .45, (200, 190, 170), wob=.3)
+
+
+def _mouse(p, x, y, s, lw):
+    p.ellipse(x, y + .05 * s, .32 * s, .2 * s, fill=(190, 190, 196), w=lw)
+    p.circle(x + .3 * s, y - .05 * s, .13 * s, fill=(190, 190, 196), w=lw)
+    p.circle(x + .25 * s, y - .19 * s, .08 * s, fill=(236, 170, 180), w=lw * .7)
+    p.circle(x + .36 * s, y - .07 * s, .025 * s, fill=INK, w=0)
+    p.line([(x - .32 * s, y + .05 * s), (x - .5 * s, y - .05 * s), (x - .58 * s, y + .08 * s)], lw * .7, (236, 170, 180), wob=.4)
+
+
+def _sprout(p, x, y, s, lw):
+    p.poly([(x - .3 * s, y), (x + .3 * s, y), (x + .24 * s, y + .4 * s), (x - .24 * s, y + .4 * s)], fill=C["clay"], w=lw)
+    p.rect(x - .32 * s, y - .04 * s, x + .32 * s, y + .04 * s, fill=C["clay2"], w=lw * .8)
+    for dx, h in ((-.15, .45), (0, .6), (.15, .5)):
+        p.line([(x + dx * s, y - .04 * s), (x + dx * s * 1.2, y - h * s)], lw * .9, GREEN, wob=.3)
+        p.ellipse(x + dx * s * 1.2 + .05 * s, y - h * s + .05 * s, .07 * s, .035 * s, fill=GREEN, w=lw * .5)
+
+
+def _sack(p, x, y, s, lw):
+    p.poly([(x - .3 * s, y - .25 * s), (x - .38 * s, y + .35 * s), (x + .38 * s, y + .35 * s), (x + .3 * s, y - .25 * s),
+            (x + .12 * s, y - .35 * s), (x - .12 * s, y - .35 * s)], fill=C["sand2"], w=lw)
+    p.line([(x - .18 * s, y - .28 * s), (x + .18 * s, y - .28 * s)], lw, C["bark"], wob=0)
+    for dx in (-.1, .05, .15):
+        p.line([(x + dx * s, y - .33 * s), (x + dx * s * 1.4, y - .62 * s)], lw * .8, GREEN, wob=.3)
+
+
+def _urine(p, x, y, s, lw):
+    p.poly([(x - .22 * s, y - .38 * s), (x + .22 * s, y - .38 * s), (x + .18 * s, y + .4 * s), (x - .18 * s, y + .4 * s)], fill=(250, 250, 250), w=lw)
+    p.poly([(x - .2 * s, y - .1 * s), (x + .2 * s, y - .1 * s), (x + .18 * s, y + .38 * s), (x - .18 * s, y + .38 * s)], fill=(246, 214, 70), w=0)
+    p.line([(x - .2 * s, y - .1 * s), (x + .2 * s, y - .1 * s)], lw * .6, (210, 170, 40), wob=0)
+
+
+def _microscope(p, x, y, s, lw):
+    p.rect(x - .3 * s, y + .38 * s, x + .3 * s, y + .48 * s, fill=(70, 72, 80), w=lw)
+    p.poly([(x + .05 * s, y + .38 * s), (x + .18 * s, y + .38 * s), (x + .18 * s, y - .1 * s), (x + .05 * s, y - .1 * s)], fill=(70, 72, 80), w=lw)
+    p.poly([(x - .18 * s, y - .45 * s), (x - .05 * s, y - .5 * s), (x + .1 * s, y + .05 * s), (x - .02 * s, y + .1 * s)], fill=(220, 222, 228), w=lw)
+    p.rect(x - .22 * s, y + .12 * s, x + .14 * s, y + .17 * s, fill=(70, 72, 80), w=lw * .8)
+
+
+PROPS.update({"pregnancy_test": _preg_test, "test_stick": _preg_test, "baby": _baby, "infant": _baby, "garlic": _garlic,
+              "onion": _garlic, "mouse": _mouse, "mice": _mouse, "rat": _mouse, "sprout": _sprout, "seedling": _sprout,
+              "sack": _sack, "grain_bag": _sack, "seed_bag": _sack, "barley": _sack, "urine": _urine, "pee": _urine,
+              "urine_glass": _urine, "microscope": _microscope})
+ANIMALS = set(ANIMALS) | {"mouse", "mice", "rat"}

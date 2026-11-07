@@ -17,6 +17,9 @@ SHOT_DOC = f"""SHOT TYPES (each shot = one picture, 2-3 seconds of narration):
 - {{"type":"timeline","title":"CAPS","points":[["3000 BC",PROP],["500 BC",PROP],["1800 AD",PROP]]}}
 - {{"type":"list","title":"CAPS","items":[[PROP,"short text"],[PROP,"short text"]]}}
 ANIMALS (use them in "props", they move a little): cat, dog, lion, elephant, owl, chicken, bear, rabbit, frog, crocodile, ape, monkey, goat, cow, pig, horse, camel, mammoth, deer, wolf, fish, bird, snake
+PEOPLE extras: "hat": long_hair (woman) | blonde_hair | black_hair | red_hair | egypt_hair | curly_hair | short_hair | crown | helmet | turban, "beard": true,
+  "wear": white|robe|toga|fur|rich|red|blue|green|pink|purple|yellow|gold. Use long_hair etc. so women look like women.
+BG "ancient" = Greek/Roman temples (use it for Athens, Rome, Egypt cities; "city" is MODERN buildings).
 Sky props (sun, moon, cloud, star, bird) float in the sky; outdoor scenes get flying birds automatically; fire flickers.
 POSES: {", ".join(POSES)}
 FACES: {", ".join(FACES)}

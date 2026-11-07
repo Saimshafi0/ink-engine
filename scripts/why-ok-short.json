@@ -1,0 +1,198 @@
+{
+ "voice": "am_michael",
+ "speed": 1.0,
+ "shorts": [
+  {
+   "topic": "Why do we say OK?",
+   "title": "Why Do We Say OK?",
+   "description": "OK started in 1839 as a newspaper joke: oll korrect. #shorts #history #words",
+   "pinned": "What word should I explain next?",
+   "cover": "Big text: OK WAS A JOKE.",
+   "shots": [
+    {
+     "type": "big",
+     "text": "OK WAS A JOKE.",
+     "say": "The word OK started as a joke."
+    },
+    {
+     "type": "me",
+     "pose": "shrug",
+     "face": "confused",
+     "text": "OK?",
+     "prop": "question",
+     "say": "You say it every day. But what does it mean?"
+    },
+    {
+     "type": "map",
+     "region": "massachusetts",
+     "label": "BOSTON, 1839",
+     "prop": "scroll",
+     "say": "Boston, 1839."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "hold",
+       "face": "laugh",
+       "hold": "scroll"
+      }
+     ],
+     "props": [
+      "exclaim"
+     ],
+     "text": "OMG LOL",
+     "say": "Newspapers had a trend. Abbreviations. Like texting, in 1839."
+    },
+    {
+     "type": "list",
+     "title": "1839 SLANG",
+     "items": [
+      [
+       "green_tick",
+       "O.W. = Oll Wright"
+      ],
+      [
+       "x",
+       "N.G. = No Go"
+      ],
+      [
+       "question",
+       "K.Y. = Know Yuse"
+      ]
+     ],
+     "say": "Misspelled on purpose. Oll wright. Know yuse."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "explain",
+       "face": "smug",
+       "hold": "scroll"
+      }
+     ],
+     "label": "O.K.",
+     "say": "So one editor wrote O.K. Short for oll korrect. All correct, spelled wrong."
+    },
+    {
+     "type": "me",
+     "pose": "facepalm",
+     "face": "unimpressed",
+     "text": "OLL KORRECT",
+     "say": "That's it. That's the joke."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "sleepy",
+       "hold": "scroll"
+      }
+     ],
+     "props": [
+      "x"
+     ],
+     "say": "Every other abbreviation died."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "celebrate",
+       "face": "excited",
+       "wear": "rich"
+      },
+      {
+       "pose": "point_up",
+       "face": "happy"
+      }
+     ],
+     "props": [
+      "flag"
+     ],
+     "text": "OLD KINDERHOOK",
+     "say": "But in 1840, Van Buren's nickname was Old Kinderhook, and his fans formed OK Clubs."
+    },
+    {
+     "type": "crowd",
+     "bg": "village",
+     "count": 10,
+     "poses": [
+      "celebrate",
+      "point_up"
+     ],
+     "faces": [
+      "excited",
+      "happy"
+     ],
+     "hold": "flag",
+     "say": "Suddenly, the whole country was shouting OK."
+    },
+    {
+     "type": "draw",
+     "bg": "village",
+     "people": [
+      {
+       "pose": "sit",
+       "face": "thinking",
+       "hold": "scroll"
+      }
+     ],
+     "props": [
+      "lightning"
+     ],
+     "say": "Then telegraph operators loved it. Two letters. Fast."
+    },
+    {
+     "type": "map",
+     "region": "world",
+     "label": "EVERYWHERE",
+     "prop": "speech",
+     "say": "Today, it's one of the most used words on Earth."
+    },
+    {
+     "type": "draw",
+     "bg": "night",
+     "people": [
+      {
+       "pose": "stand",
+       "face": "neutral",
+       "hat": "helmet"
+      }
+     ],
+     "props": [
+      "flag",
+      "star"
+     ],
+     "text": "1969",
+     "say": "In 1969, one of the first things said on the Moon was, okay, engine stop."
+    },
+    {
+     "type": "me",
+     "pose": "point",
+     "face": "laugh",
+     "prop": "moon",
+     "say": "A spelling joke, on the Moon."
+    },
+    {
+     "type": "compare",
+     "left": {
+      "title": "1839",
+      "prop": "scroll"
+     },
+     "right": {
+      "title": "TODAY",
+      "prop": "phone"
+     },
+     "say": "So next time you text someone OK, remember,"
+    }
+   ]
+  }
+ ]
+}
