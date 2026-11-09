@@ -128,16 +128,21 @@ def sfx_events(flat):
 
 
 def camera_style(i, f):
+    """Phase 3: more energetic, varied camera per shot type."""
     typ = S.norm_type(f["shot"].get("type"))
     if typ == "big":
         return "in", True
     if typ == "map":
         return "in", False
+    if typ == "compare" or typ == "diagram":
+        return ("in" if i % 2 == 0 else "out"), True
     if f.get("part"):
         return ("pan" if i % 2 else "out"), False
     if typ == "me":
-        return ("in" if i % 3 else "out"), (i % 2 == 0)
-    return ("in", "out", "pan")[i % 3], (i % 4 == 0)
+        return ("in" if i % 2 == 0 else "out"), True
+    if typ in ("draw", "crowd"):
+        return ("in", "out", "pan")[i % 3], (i % 3 == 0)
+    return ("in", "out", "pan")[i % 3], (i % 3 == 0)
 
 
 def ai_paths(flat, data, mode, settings, log):

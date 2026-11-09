@@ -199,24 +199,26 @@ class ShotSource:
 
 
 def frame_states(shot, n, mouth_env, seed):
-    """Per-frame (blink, mouth, bob)."""
+    """Per-frame (blink, mouth, bob) — richer micro-motion."""
     anim, talk = animate_flags(shot)
     rnd = random.Random(seed)
     out = []
-    next_blink = rnd.randint(int(FPS * .8), int(FPS * 2.5))
+    next_blink = rnd.randint(int(FPS * .7), int(FPS * 2.2))
     talk_phase = 0
+    bob_speed = 0.75 + (seed % 7) * 0.04
+    bob_phase = (seed % 100) * 0.1
     for i in range(n):
         if not anim:
             out.append((False, 0, 0))
             continue
-        blink = next_blink <= i < next_blink + 3
-        if i >= next_blink + 3:
-            next_blink = i + rnd.randint(int(FPS * 2.2), int(FPS * 4.5))
-        bob = 1 if math.sin(i / FPS * math.pi * 0.9 + seed) > 0.2 else 0
+        blink = next_blink <= i < next_blink + rnd.choice([2, 3, 3, 4])
+        if i >= next_blink + 4:
+            next_blink = i + rnd.randint(int(FPS * 1.8), int(FPS * 4.2))
+        bob = 1 if math.sin(i / FPS * math.pi * bob_speed + bob_phase) > 0.15 else 0
         m = 0
-        if talk and mouth_env is not None and i < len(mouth_env) and mouth_env[i] > 0.25:
+        if talk and mouth_env is not None and i < len(mouth_env) and mouth_env[i] > 0.22:
             talk_phase += 1
-            m = 1 if (talk_phase // 3) % 2 == 0 else 0
+            m = 1 if (talk_phase // 2) % 2 == 0 else 0
         else:
             talk_phase = 0
         out.append((blink, m, bob))
@@ -224,26 +226,30 @@ def frame_states(shot, n, mouth_env, seed):
 
 
 def camera(i, n, style, focus, zh, pop):
-    """Return view scale v (>=1) and center (fx, fy) in 0..1 for frame i."""
+    """Stronger cinematic camera motion."""
     t = i / max(1, n - 1)
+    e = ease(t)
     if style == "in":
-        v = 1.0 + 0.055 * ease(t) * zh
+        v = 1.0 + 0.085 * e * max(zh, 1.0)
     elif style == "out":
-        v = 1.06 * zh - 0.055 * ease(t)
+        v = 1.09 * max(zh, 1.0) - 0.075 * e
     elif style == "pan":
-        v = 1.07
+        v = 1.08
     else:
-        v = 1.0 + 0.03 * t
+        v = 1.0 + 0.045 * t
     if zh > 1.05 and style != "out":
-        v = 1.0 + (min(zh, 2.6) - 1.0) * 0.18 * ease(t * 1.3) + 0.02
-    if pop and i < 6:
-        v *= (1.07, 1.045, 1.025, 1.012, 1.005, 1.0)[i]
+        v = 1.0 + (min(zh, 2.8) - 1.0) * 0.22 * ease(t * 1.25) + 0.025
+    if pop and i < 7:
+        v *= (1.09, 1.06, 1.04, 1.025, 1.015, 1.008, 1.0)[min(i, 6)]
     fx, fy = focus
     if style == "pan":
-        fx = 0.47 + 0.06 * t
-    # blend centre: start at image centre, drift towards focus
-    cx = 0.5 + (fx - 0.5) * min(1.0, (v - 1.0) * 6)
-    cy = 0.5 + (fy - 0.5) * min(1.0, (v - 1.0) * 6)
+        fx = 0.46 + 0.08 * e
+        fy = 0.50 + 0.02 * math.sin(t * 3.1)
+    if style not in ("pan",) and n > int(FPS * 1.2):
+        fx += 0.008 * math.sin(t * 2.4 + (fx or 0.5) * 5)
+        fy += 0.006 * math.cos(t * 1.9 + (fy or 0.5) * 4)
+    cx = 0.5 + (fx - 0.5) * min(1.0, (v - 1.0) * 5.5)
+    cy = 0.5 + (fy - 0.5) * min(1.0, (v - 1.0) * 5.5)
     return max(1.0, v), cx, cy
 
 

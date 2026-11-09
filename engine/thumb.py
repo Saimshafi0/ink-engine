@@ -326,21 +326,30 @@ def guess_props(text):
 
 
 def auto_specs(data):
-    """Three good thumbnail ideas when the script did not give them."""
+    """Three high-CTR thumbnail ideas (Phase 3: stronger defaults + effects)."""
     title = data.get("title", "")
-    props = guess_props(title + " " + " ".join(sc.get("chapter", "") for sc in data.get("scenes", [])))
+    blob = title + " " + " ".join(sc.get("chapter", "") for sc in data.get("scenes", []))
+    props = guess_props(blob)
     p1 = props[0]
     p2 = props[1] if len(props) > 1 else "question"
-    text = data.get("thumbnail_text") or "WAIT, WHAT?"
+    text = data.get("thumbnail_text")
+    if not text or len(text) > 22 or text.upper() in ("WAIT, WHAT?", "WAIT WHAT?", "WHAT?"):
+        words = [w for w in re.sub(r"[^A-Za-z0-9 ]", " ", title).split() if len(w) > 2]
+        if words:
+            text = " ".join(words[:3]).upper()
+            if len(text) > 18:
+                text = " ".join(words[:2]).upper()
+        else:
+            text = "WAIT, WHAT?"
     seo = data.get("seo") or {}
     titles = (seo.get("titles") or []) + [title] * 3
     return [
         dict(text=text, title=titles[0], color="green", hero="person", pose="scared", face="shocked",
-             props=[p1], marks=["x"], arrow=True),
+             props=[p1], marks=["x"], arrow=True, effects=["question"]),
         dict(text=text, title=titles[1], color="orange", hero="person", pose="point_up", face="smug", hold=p1,
-             props=[p2], marks=["tick"]),
+             props=[p2], marks=["tick"], effects=["stars"]),
         dict(text=text, title=titles[2], color="dark", hero="person", pose="shrug", face="confused",
-             props=[p1], sidekick={"pose": "point_left", "face": "shocked"}, arrow=True),
+             props=[p1], sidekick={"pose": "point_left", "face": "shocked"}, arrow=True, effects=["sweat"]),
     ]
 
 

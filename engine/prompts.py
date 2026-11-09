@@ -45,16 +45,19 @@ EX_THUMBS = """   {"text":"DRUNK APES?","title":"Humans Were Drinking Before The
    {"text":"13,000 YEAR OLD BEER?","title":"Who Made the First Beer in History?","color":"dark","hero":"person","pose":"carry","face":"shocked","wear":"fur","above":"beer_bowl","arrow":true},
    {"text":"PAID IN BEER?!","title":"How Did Ancient Humans Discover Alcohol?","color":"orange","hero":"person","pose":"celebrate","face":"excited","hold":"beer","bg_prop":"pyramid","props":["coin","beer"],"marks":["x","tick"]}"""
 
-HOOK_RULE = """- First 15 seconds: talk straight to the viewer about their own life ("Right now, millions of people are..."),
-  then hit them with a surprising fact ("It's older than writing. Older than farming. Older than humans."),
-  then promise what they will learn. Never start with "In this video"."""
+HOOK_RULE = """- First 12-18 seconds are everything. Structure:
+  1) Pattern interrupt or relatable open ("Right now you're sitting on something that used to be a death sentence.")
+  2) Immediate surprising fact with a number or name.
+  3) Clear promise of what they'll understand by the end.
+  Never start with "In this video", "Today we're going to", or "Have you ever wondered"."""
 
 
 def long_script_prompt(topic, minutes=8):
     words = int(minutes * 150)
-    return f"""You are the head writer of a hugely successful English YouTube channel (US audience) that explains
-"how did ancient / old-time humans do everyday things?" with simple stick-figure animation and calm,
-dry, friendly humour (like Casually Explained meets a history teacher). Write a COMPLETE video script.
+    return f"""You are the head writer of a top-performing English YouTube channel (US + global audience) that explains
+"how did ancient / old-time humans do everyday things?" with stick-figure animation and dry, confident humour
+(Casually Explained energy + modern high-retention history channels). Write a COMPLETE video script.
+Prefer expressive poses when useful: lean, present, clap, look, bow, flex, celebrate, facepalm, shrug, point_up.
 
 TOPIC: {topic}
 LENGTH: about {words} words of narration (~{minutes} minutes).
@@ -111,39 +114,38 @@ Give 4 "shorts", each pointing to one scene (scene numbers start at 1) that is s
 
 
 def quick_shorts_prompt(topic, variation=0):
-    return f"""You write viral YouTube Shorts in a dry, deadpan, funny style like "Casually Explained":
-a stick-figure narrator on a white background, quick drawn props, charts, labels, red X / green tick, big text.
+    return f"""You write elite, high-retention YouTube Shorts in a dry, deadpan, slightly smug style (Casually Explained + modern viral history channels).
 
 USER TOPIC: {topic}
 Write TWO different Shorts:
  1) exactly the user's topic
- 2) a NEW related topic in the same style that you choose (say what it is in "topic").
-{"Use completely different jokes and angles than the obvious ones (variation " + str(variation) + ")." if variation else ""}
+ 2) a NEW related topic that is even more surprising or shareable (you invent it — put the real topic name in "topic")
+{"Variation " + str(variation) + ": deliberately avoid the most obvious angle and jokes. Find a fresher, weirder, or more specific angle." if variation else ""}
 
-RULES for each Short (100-130 words total, 35-50 seconds):
-- Shot 1 = the hook: a scroll-stopping line, type "big", same words in "text" and "say" (max 7 words).
-  Make it a surprising claim or a question everyone has but never asked ("Why do we say bless you?").
-- Then fast points: a new shot every 1.5-2.5 seconds. 14-20 shots in total.
-- SOUND LIKE A FUNNY FRIEND TALKING, NOT A LIST OF FACTS:
-  * Each "say" is one spoken thought (4-14 words). Lines can flow into each other with commas.
-  * Use spoken connectors: "So,", "Okay, but", "Here's the thing.", "And honestly?", "Which, to be fair,".
-  * Talk to the viewer ("you"), react to the facts, deadpan jokes. Never 4 tiny "Fact. Fact." lines in a row.
-- Real facts only (if it's history or science). Simple words, US English.
-- A funny twist near the end. The LAST line must loop naturally back into the first line so people rewatch.
-- No "subscribe"/"follow" at the start. No emojis in "say".
-- Mostly VISUAL shots: "draw" scenes (background + people + props), "compare", "list", "diagram", "map", "big".
-  Only about 30% "me" shots, never two "me" in a row.
-  Use animals and props from the lists below so every shot has something to look at.
+VIRAL RULES (non-negotiable):
+- Length: 110-140 words total spoken (≈42-52 seconds). 15-20 shots.
+- Shot 1 MUST be type "big". The text + say must be identical, max 7 words, and create an open loop or pattern interrupt.
+  Good examples: "ROMANS BRUSHED TEETH WITH PEE", "THE OLDEST JOKE IS A FART", "OK WAS LITERALLY A JOKE"
+  Bad examples: "Interesting fact about history", "Have you ever wondered..."
+- Structure: 1) Pattern-interrupt hook  2) Quick confirmation  3) Origin  4) Weird twist  5) Modern comparison  6) Rewatch loop ending
+- Voice: smart, slightly tired friend. Use "you", "honestly", "which is wild". Never lecture.
+- Every "say" = 4-13 words. Real specific facts. Max 30% "me" shots. Never two "me" in a row.
+- Prefer expressive poses: lean, present, clap, look, bow, flex, celebrate, facepalm, shrug, point_up, hips.
+- Title under 48 chars. Description 1-2 punchy lines + hashtags. Pinned = spicy question.
 
 {SHOT_DOC}
 
-OUTPUT: ONLY valid JSON:
+OUTPUT: ONLY valid JSON (no markdown):
 {{
  "voice": "am_michael", "speed": 1.0,
  "shorts": [
-  {{"topic":"...", "title":"curiosity title under 50 chars", "description":"1-2 lines + #shorts #tag1 #tag2",
-    "pinned":"one question for viewers", "cover":"which moment makes the best cover frame",
-    "shots":[ {{"type":"big","text":"IS SHE INTO YOU?","say":"Is she into you?"}}, {{"type":"me","pose":"think","face":"thinking","say":"..."}} ]}},
-  {{ ...second short... }}
+  {{
+   "topic": "...", "title": "curiosity title under 48 chars",
+   "description": "1-2 strong lines + #shorts #history #tag",
+   "pinned": "one question people will answer",
+   "cover": "best visual moment",
+   "shots": [ {{"type":"big","text":"HOOK IN CAPS.","say":"Hook in caps."}}, {{"type":"me","pose":"shrug","face":"unimpressed","text":"YES. REALLY.","say":"Yes. Really."}} ]
+  }},
+  {{ ... second short ... }}
  ]
 }}"""

@@ -195,13 +195,20 @@ POSES = {
     "throw":     dict(L=[(-.6, .3), (-1.2, .05)], R=[(.65, -.2), (.4, -1.0)], LL=[(-.4, .75), (-.65, 1.55)], RL=[(.35, .8), (.45, 1.6)], holds="R"),
     "dig":       dict(L=[(.5, .5), (1.0, .9)], R=[(.6, .45), (1.15, .6)], LL=[(-.3, .75), (-.5, 1.6)], RL=[(.3, .8), (.4, 1.6)], lean=.15),
     "lie":       dict(L=[(-.35, .75), (-.45, 1.45)], R=[(.35, .75), (.45, 1.45)], LL=[(-.12, .8), (-.12, 1.6)], RL=[(.12, .8), (.12, 1.6)], lie=True),
+    "lean":      dict(L=[(-.45, .7), (-.55, 1.4)], R=[(.55, .65), (.7, 1.35)], LL=[(-.15, .85), (-.1, 1.65)], RL=[(.4, .75), (.55, 1.55)], lean=.18),
+    "present":   dict(L=[(-.7, .4), (-1.3, -.1)], R=[(.7, .4), (1.3, -.1)], LL=[(-.25, .8), (-.32, 1.6)], RL=[(.25, .8), (.32, 1.6)], open_hands=True),
+    "clap":      dict(L=[(-.15, .55), (.25, .45)], R=[(.15, .55), (-.25, .45)], LL=[(-.25, .8), (-.32, 1.6)], RL=[(.25, .8), (.32, 1.6)]),
+    "look":      dict(L=[(-.35, .75), (-.45, 1.45)], R=[(.35, .75), (.45, 1.45)], LL=[(-.25, .8), (-.32, 1.6)], RL=[(.25, .8), (.32, 1.6)], lean=.12),
+    "bow":       dict(L=[(-.5, .9), (-.7, 1.4)], R=[(.5, .9), (.7, 1.4)], LL=[(-.3, .85), (-.4, 1.55)], RL=[(.3, .85), (.4, 1.55)], lean=.35),
+    "flex":      dict(L=[(-.9, .2), (-1.1, -.6)], R=[(.9, .2), (1.1, -.6)], LL=[(-.3, .8), (-.4, 1.6)], RL=[(.3, .8), (.4, 1.6)]),
 }
 FACES = ["neutral", "happy", "smug", "thinking", "confused", "shocked", "sad", "scared", "angry",
          "sweating", "laugh", "unimpressed", "disgusted", "sleepy", "excited", "worried"]
 POSE_ALIAS = {"point_right": "point", "arms_crossed": "crossed", "cross": "crossed", "hands_on_hips": "hips",
               "happy": "celebrate", "cheer": "celebrate", "idle": "stand", "neutral": "stand",
-              "thinking": "think", "talk": "explain", "present": "explain", "hunt": "throw",
-              "sleep": "lie", "farm": "dig", "work": "dig", "eat": "hold", "drink": "hold", "afraid": "scared"}
+              "thinking": "think", "talk": "explain", "present": "present", "hunt": "throw",
+              "sleep": "lie", "farm": "dig", "work": "dig", "eat": "hold", "drink": "hold", "afraid": "scared",
+              "leaning": "lean", "show": "present", "applause": "clap", "look_around": "look", "bowing": "bow"}
 FACE_ALIAS = {"surprised": "shocked", "confused": "confused", "curious": "thinking", "smirk": "smug",
               "joy": "happy", "fear": "scared", "mad": "angry", "bored": "unimpressed", "tired": "sleepy",
               "nervous": "worried", "proud": "smug", "gross": "disgusted", "think": "thinking"}

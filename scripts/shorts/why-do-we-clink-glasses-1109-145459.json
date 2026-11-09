@@ -1,0 +1,162 @@
+{
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "shorts": [
+    {
+      "topic": "Why Do We Clink Glasses?",
+      "title": "Why Do We Clink Glasses When We Toast?",
+      "description": "The real reason we clink glasses is darker (and dumber) than you think. #shorts #history #etymology #funfacts",
+      "pinned": "Did you already know this one, or did it surprise you?",
+      "cover": "The big text 'TO CHECK FOR POISON' moment",
+      "shots": [
+        {
+          "type": "big",
+          "text": "WHY DO WE CLINK GLASSES?",
+          "say": "Why do we clink glasses when we toast?"
+        },
+        {
+          "type": "draw",
+          "bg": "ancient",
+          "people": [
+            {
+              "pose": "shrug",
+              "face": "unimpressed"
+            }
+          ],
+          "props": [
+            "drum"
+          ],
+          "say": "It's not just for the sound.",
+          "auto_visual": true,
+          "text": "NOT JUST FOR FUN."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "text": "THE OLD STORY...",
+          "say": "The popular story says it was to check for poison."
+        },
+        {
+          "type": "draw",
+          "bg": "ancient",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "smug",
+              "wear": "toga",
+              "hold": "cup"
+            },
+            {
+              "pose": "sit",
+              "face": "worried",
+              "wear": "toga"
+            }
+          ],
+          "props": [
+            "cup",
+            "stink"
+          ],
+          "say": "If you slammed your cup into theirs hard enough, the drinks would mix."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "unimpressed",
+          "text": "NICE STORY.",
+          "say": "Nice story. Almost certainly fake."
+        },
+        {
+          "type": "big",
+          "text": "NO REAL EVIDENCE",
+          "say": "There's almost no historical evidence for the poison theory."
+        },
+        {
+          "type": "map",
+          "region": "Europe",
+          "label": "Middle Ages",
+          "prop": "cup",
+          "say": "The real reason is much simpler."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "celebrate",
+              "face": "happy",
+              "wear": "robe",
+              "hold": "cup"
+            },
+            {
+              "pose": "celebrate",
+              "face": "laugh",
+              "wear": "robe",
+              "hold": "cup"
+            }
+          ],
+          "props": [
+            "cup"
+          ],
+          "say": "In the Middle Ages, toasting was already common."
+        },
+        {
+          "type": "me",
+          "pose": "present",
+          "face": "smug",
+          "text": "SOUND + TOUCH",
+          "say": "Clinking added sound and physical contact."
+        },
+        {
+          "type": "draw",
+          "bg": "ancient",
+          "people": [
+            {
+              "pose": "lean",
+              "face": "happy",
+              "wear": "rich",
+              "hold": "cup"
+            }
+          ],
+          "props": [
+            "cup"
+          ],
+          "say": "It made the toast feel more shared and more formal."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "shocked",
+          "text": "ALSO... SPIRITS",
+          "say": "Some cultures also believed the sound scared away evil spirits."
+        },
+        {
+          "type": "big",
+          "text": "THAT PART MIGHT BE TRUE",
+          "say": "That part might actually be true."
+        },
+        {
+          "type": "me",
+          "pose": "hips",
+          "face": "smug",
+          "say": "So next time you clink glasses..."
+        },
+        {
+          "type": "draw",
+          "bg": "ancient",
+          "people": [
+            {
+              "pose": "lean",
+              "face": "laugh",
+              "hold": "green_tick"
+            }
+          ],
+          "props": [],
+          "say": "You're either bonding... or scaring ghosts. Possibly both.",
+          "auto_visual": true
+        }
+      ]
+    }
+  ],
+  "topic": "Why Do We Clink Glasses?"
+}
