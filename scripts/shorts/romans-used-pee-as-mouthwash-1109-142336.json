@@ -1,0 +1,170 @@
+{
+  "voice": "am_fenrir",
+  "speed": 1.05,
+  "shorts": [
+    {
+      "topic": "Romans Used Pee as Mouthwash",
+      "title": "Romans Brushed Their Teeth With Urine",
+      "description": "Ancient Romans literally used human urine as mouthwash and toothpaste. And it actually worked. #shorts #history #ancientrome #grosshistory",
+      "pinned": "Would you try it for whiter teeth? Be honest.",
+      "cover": "The 'THEY USED HUMAN PEE' big text shot",
+      "shots": [
+        {
+          "type": "big",
+          "text": "ROMANS USED PEE AS MOUTHWASH",
+          "say": "Ancient Romans brushed their teeth with human urine."
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "people": [
+            {
+              "pose": "facepalm",
+              "face": "disgusted",
+              "hold": "red_x"
+            }
+          ],
+          "props": [],
+          "say": "Not animal urine. Human pee.",
+          "auto_visual": true,
+          "text": "YES. REAL URINE."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "unimpressed",
+          "text": "AND IT WORKED.",
+          "say": "And the crazy part? It actually worked."
+        },
+        {
+          "type": "map",
+          "region": "Italy",
+          "label": "Ancient Rome",
+          "prop": "colosseum",
+          "say": "In ancient Rome, urine was valuable."
+        },
+        {
+          "type": "draw",
+          "bg": "roman_street",
+          "people": [
+            {
+              "pose": "pour",
+              "face": "neutral",
+              "wear": "toga",
+              "hold": "pot"
+            }
+          ],
+          "props": [
+            "amphora",
+            "coins"
+          ],
+          "say": "Public toilets had special pots where people peed for money."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "text": "WHY THOUGH?",
+          "say": "Why? Because urine contains ammonia."
+        },
+        {
+          "type": "big",
+          "text": "AMMONIA = NATURAL BLEACH",
+          "say": "Ammonia is a natural bleaching agent."
+        },
+        {
+          "type": "draw",
+          "bg": "roman_bath",
+          "people": [
+            {
+              "pose": "brush",
+              "face": "smug",
+              "wear": "toga",
+              "hold": "stick"
+            }
+          ],
+          "props": [
+            "urine_pot",
+            "white_teeth"
+          ],
+          "say": "So they used it to whiten clothes... and their teeth."
+        },
+        {
+          "type": "me",
+          "pose": "hips",
+          "face": "smug",
+          "text": "MOUTHWASH TOO",
+          "say": "Some even gargled with it as mouthwash."
+        },
+        {
+          "type": "draw",
+          "bg": "roman_house",
+          "people": [
+            {
+              "pose": "gargle",
+              "face": "disgusted",
+              "wear": "robe"
+            }
+          ],
+          "props": [
+            "cup",
+            "stink"
+          ],
+          "cross": true,
+          "say": "Roman poets even made fun of people who had 'urine-whitened' smiles."
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "people": [
+            {
+              "pose": "point_up",
+              "face": "shocked",
+              "hold": "coin"
+            }
+          ],
+          "props": [
+            "crown"
+          ],
+          "say": "The emperor Vespasian even put a tax on public urine collection.",
+          "auto_visual": true,
+          "text": "EMPEROR TAXED IT"
+        },
+        {
+          "type": "big",
+          "text": "\"MONEY DOESN'T STINK\"",
+          "say": "When his son complained, Vespasian held up a coin and said: money doesn't stink."
+        },
+        {
+          "type": "me",
+          "pose": "celebrate",
+          "face": "laugh",
+          "prop": "green_tick",
+          "say": "That phrase still exists in Latin today: Pecunia non olet."
+        },
+        {
+          "type": "compare",
+          "left": {
+            "title": "Ancient Rome",
+            "prop": "urine_pot",
+            "mark": "tick"
+          },
+          "right": {
+            "title": "2026",
+            "prop": "toothpaste",
+            "mark": "tick"
+          },
+          "say": "Two thousand years later we still want white teeth... we just switched the ingredients."
+        },
+        {
+          "type": "me",
+          "pose": "point",
+          "face": "smug",
+          "prop": "stink",
+          "say": "So next time your toothpaste burns... just be thankful."
+        }
+      ]
+    }
+  ],
+  "topic": "Romans Used Pee as Mouthwash"
+}
