@@ -1,0 +1,248 @@
+{
+  "title": "How Did Ancient Humans Go to the Toilet?",
+  "thumbnail_text": "NO TOILET PAPER?",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "thumbnails": [
+    {
+      "text": "NO TOILET PAPER?",
+      "title": "How Did Ancient Humans Go to the Toilet?",
+      "color": "green",
+      "hero": "person",
+      "pose": "scared",
+      "face": "shocked",
+      "props": [
+        "toilet"
+      ],
+      "marks": [
+        "x"
+      ],
+      "arrow": true,
+      "effects": [
+        "question"
+      ]
+    },
+    {
+      "text": "THEY USED THIS?",
+      "title": "Ancient Toilet Secrets That Will Shock You",
+      "color": "orange",
+      "hero": "person",
+      "pose": "disgusted",
+      "face": "disgusted",
+      "hold": "sponge",
+      "effects": [
+        "stink"
+      ]
+    },
+    {
+      "text": "ROMAN TOILETS",
+      "title": "What Ancient Romans Really Did in the Bathroom",
+      "color": "dark",
+      "hero": "person",
+      "pose": "shrug",
+      "face": "confused",
+      "props": [
+        "sponge",
+        "toilet"
+      ],
+      "sidekick": {
+        "pose": "point_left",
+        "face": "shocked"
+      },
+      "arrow": true
+    }
+  ],
+  "seo": {
+    "titles": [
+      "How Did Ancient Humans Go to the Toilet?",
+      "Ancient Toilet Secrets That Will Shock You",
+      "What Ancient Romans Really Did in the Bathroom",
+      "No Toilet Paper for 10,000 Years?",
+      "How People Survived Without Toilets"
+    ],
+    "best_title": "How Did Ancient Humans Go to the Toilet?",
+    "description_hook": "Right now you're sitting on something that used to be a death sentence. Here's how ancient humans actually went to the toilet.",
+    "paragraphs": [
+      "For most of human history there was no toilet paper, no sewers, and no privacy. People used sticks, sponges on sticks, and even their hands. The results were often deadly.",
+      "Romans had public toilets with shared sponges. Medieval people threw waste out windows. The story is worse than you think."
+    ],
+    "sources": [
+      "The Archaeology of Sanitation - Mitchell (2015)",
+      "Roman Toilets and Hygiene - Jansen (2011)"
+    ],
+    "tags": [
+      "ancient toilets",
+      "history of toilets",
+      "how did ancient people go to the bathroom",
+      "roman toilets",
+      "toilet paper history",
+      "ancient hygiene",
+      "prehistoric toilets"
+    ],
+    "hashtags": [
+      "#history",
+      "#ancienthumans",
+      "#toilets"
+    ],
+    "pinned_comment": "Would you survive a week without toilet paper?"
+  },
+  "shorts": [
+    {
+      "scenes": [
+        2
+      ],
+      "hook": "NO TOILET PAPER",
+      "title": "Ancient Humans Had No Toilet Paper",
+      "description": "They used something much worse.",
+      "hashtags": [
+        "#shorts",
+        "#history"
+      ],
+      "pinned": "Could you do this?"
+    }
+  ],
+  "scenes": [
+    {
+      "chapter": "No Toilet",
+      "shots": [
+        {
+          "type": "big",
+          "text": "NO TOILET PAPER.",
+          "say": "Right now you're sitting on something that used to be a death sentence."
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "people": [
+            {
+              "pose": "scared",
+              "face": "shocked"
+            }
+          ],
+          "props": [
+            "toilet"
+          ],
+          "text": "FOR 10,000 YEARS",
+          "say": "For ten thousand years, almost nobody had toilet paper."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "confused",
+          "say": "So what did they actually use?"
+        }
+      ],
+      "say": "Right now you're sitting on something that used to be a death sentence. For ten thousand years, almost nobody had toilet paper. So what did they actually use?"
+    },
+    {
+      "chapter": "Sticks and Sponges",
+      "shots": [
+        {
+          "type": "draw",
+          "bg": "cave",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "disgusted",
+              "hold": "stick"
+            }
+          ],
+          "props": [
+            "stick"
+          ],
+          "say": "Most people just used a stick."
+        },
+        {
+          "type": "draw",
+          "bg": "ancient",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "neutral",
+              "hold": "sponge"
+            }
+          ],
+          "props": [
+            "sponge"
+          ],
+          "text": "ROMAN SPONGE STICK",
+          "say": "Romans had a shared sponge on a stick in public toilets."
+        },
+        {
+          "type": "crowd",
+          "bg": "ancient",
+          "count": 6,
+          "poses": [
+            "sit"
+          ],
+          "faces": [
+            "neutral"
+          ],
+          "say": "You wiped, rinsed it, and left it for the next person."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "disgusted",
+          "say": "Which is wild when you think about it."
+        }
+      ],
+      "say": "Most people just used a stick. Romans had a shared sponge on a stick in public toilets. You wiped, rinsed it, and left it for the next person. Which is wild when you think about it."
+    },
+    {
+      "chapter": "The Deadly Part",
+      "shots": [
+        {
+          "type": "big",
+          "text": "IT KILLED PEOPLE.",
+          "say": "The real problem wasn't the smell."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "scared",
+              "face": "scared"
+            }
+          ],
+          "props": [
+            "skull"
+          ],
+          "say": "Bad sanitation caused more deaths than most wars."
+        },
+        {
+          "type": "compare",
+          "left": {
+            "title": "THEN",
+            "prop": "stick",
+            "mark": "x"
+          },
+          "right": {
+            "title": "NOW",
+            "prop": "toilet",
+            "mark": "tick"
+          },
+          "say": "We only fixed this a couple of centuries ago."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "point_up",
+              "face": "smug"
+            }
+          ],
+          "props": [
+            "toilet",
+            "meat"
+          ],
+          "say": "And that's why your toilet is actually one of the greatest inventions in history.",
+          "auto_visual": true
+        }
+      ],
+      "say": "The real problem wasn't the smell. Bad sanitation caused more deaths than most wars. We only fixed this a couple of centuries ago. And that's why your toilet is actually one of the greatest inventions in history."
+    }
+  ]
+}

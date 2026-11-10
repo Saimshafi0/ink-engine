@@ -53,42 +53,34 @@ HOOK_RULE = """- First 12-18 seconds are everything. Structure:
 
 
 def long_script_prompt(topic, minutes=8):
-    words = int(minutes * 150)
-    return f"""You are the head writer of a top-performing English YouTube channel (US + global audience) that explains
-"how did ancient / old-time humans do everyday things?" with stick-figure animation and dry, confident humour
-(Casually Explained energy + modern high-retention history channels). Write a COMPLETE video script.
-Prefer expressive poses when useful: lean, present, clap, look, bow, flex, celebrate, facepalm, shrug, point_up.
+    words = int(minutes * 155)
+    return f"""You are the head writer of a top-performing English YouTube channel that makes people unable to stop watching. Stick-figure animation, dry confident humour, Casually Explained energy mixed with modern high-retention history channels.
 
 TOPIC: {topic}
-LENGTH: about {words} words of narration (~{minutes} minutes).
+LENGTH: about {words} words of narration (~{minutes} minutes). Every second must earn the next.
 
-STORY RULES
-{HOOK_RULE}
-- SOUND LIKE A PERSON, NOT A LIST OF FACTS. Write like a funny friend telling a story out loud:
-  * Sentences flow into each other. A "say" can end with a comma and the next shot continues the sentence.
-  * Mix short punchy lines with longer flowing ones. Never 5 tiny "Fact. Fact. Fact." lines in a row.
-  * Use spoken connectors: "So picture this,", "Now, here's the thing.", "And honestly?", "Which, to be fair,",
-    "Okay, quick question.", "Let me guess.", "You know what?", "...and that's where it gets weird."
-  * Talk to the viewer ("you", "imagine you're..."), react to the facts ("Pleats. Somebody pleated this."),
-    and make small jokes about yourself and modern life. Explain WHY things matter, not just WHAT happened.
-  * Each "say" is 6-20 words (one natural spoken thought). Dry joke every 20-30 seconds. No cringe, no "smash that like button".
-- Real history only: real dates, places, archaeology, named sources. If historians disagree, say so.
-- A twist in the middle ("but here's the weird part..."). End with a line that makes people want the next video.
-- 8-22 scenes (more for longer videos). Each scene = one chapter (2-4 word chapter name with a keyword).
-- Each scene has 6-14 shots; every shot has its own "say" (one spoken thought, 6-20 words),
-  so a new picture appears every 2-3 seconds. SHOW, DON'T TALK: only about 20% "me" (narrator), 10% "big",
-  70% visuals ("draw" scenes with backgrounds, people and props, "crowd", "map", "diagram", "compare", "timeline", "list").
-  Never two "me" shots in a row. Whenever the line describes something, DRAW it as a scene.
-- Numbers can be written as digits ("10,000", "3000 BC"); the voice reads them correctly.
+STORY RULES (non-negotiable)
+- First 15 seconds must create an open loop the viewer needs closed. Start with a pattern interrupt, shocking fact, or direct challenge to the viewer. Never start with "In this video", "Today", or "Have you ever wondered".
+- SOUND LIKE A PERSON talking to one friend. Mix short punches with flowing sentences. Use connectors: "So picture this,", "Here's the thing though,", "And honestly?", "Which is wild when you think about it.", "Okay but wait.", "You know what the crazy part is?"
+- Talk directly to the viewer ("you", "imagine you're..."). React to the facts. Explain WHY it mattered and what it felt like, not just what happened.
+- Dry joke or sharp observation every 20-30 seconds. No cringe, no like-and-subscribe.
+- Real history only: real dates, places, archaeology, named sources. If historians disagree, say so clearly.
+- One clear twist in the middle. End on a line that makes people want the next video or leaves a strong final image.
+- Inject a pattern interrupt or mini-surprise roughly every 40-50 seconds.
+- 10-18 scenes. Each scene = one short chapter name (2-4 words with a keyword). End each chapter with a mini-hook into the next.
+- Each scene has 8-16 shots. Every shot has its own "say" (one natural spoken thought, 5-18 words). A new picture must appear every 2-3 seconds.
+- VISUAL DOMINANCE: Maximum 12% "me" shots. Prefer "draw", "crowd", "diagram", "compare", "map", "timeline", "list". Never two "me" shots in a row. Whenever the narration describes an action, object, place, or person, draw it as a scene with specific props, poses, and faces.
+- Prefer expressive poses: flex, panic, whisper, celebrate, facepalm, shrug, point_up, lean, present, clap, look, bow.
+- Numbers as digits ("10,000", "3000 BC").
 
 {SHOT_DOC}
 
 {THUMB_DOC}
 
-OUTPUT: ONLY valid JSON (no markdown, no comments) in exactly this shape (the thumbnails below are only examples, make your own for this topic):
+OUTPUT: ONLY valid JSON (no markdown, no comments) in exactly this shape. Thumbnails below are examples only — invent strong new ones for this topic:
 {{
  "title": "curiosity question under 60 characters, main keyword in first 4 words",
- "thumbnail_text": "2-3 WORDS?",
+ "thumbnail_text": "2-4 WORDS?",
  "voice": "am_michael", "speed": 1.0,
  "thumbnails": [
 {EX_THUMBS}
@@ -107,7 +99,7 @@ OUTPUT: ONLY valid JSON (no markdown, no comments) in exactly this shape (the th
    {{"scenes":[3],"hook":"3-6 WORD HOOK?","title":"curiosity title under 50 chars","description":"1-2 lines","hashtags":["#shorts","#history","#topic"],"pinned":"question"}}
  ],
  "scenes": [
-   {{"chapter":"Chapter Name","shots":[ {{"type":"me","pose":"shrug","face":"confused","text":"NO TOILET PAPER.","say":"So, no toilet paper."}} ]}}
+   {{"chapter":"Chapter Name","shots":[ {{"type":"draw","bg":"grass","people":[{{"pose":"shrug","face":"confused"}}],"props":["toilet"],"text":"NO TOILET.","say":"So picture this. No toilet paper."}} ]}}
  ]
 }}
 Give 4 "shorts", each pointing to one scene (scene numbers start at 1) that is surprising on its own (30-55 s)."""

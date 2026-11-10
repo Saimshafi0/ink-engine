@@ -361,7 +361,7 @@ def draw_person(pen, x, feet_y, H, pose="stand", face="neutral", blink=False, mo
     pose_n = norm_pose(pose)
     face = norm_face(face)
     P = POSES[pose_n]
-    r = H * 0.25
+    r = H * 0.28  # slightly bigger head for better expressions
     lw = lw or max(2.4, H * 0.013)
     s = -1 if flip else 1
     lean = P.get("lean", 0) * s

@@ -90,7 +90,7 @@ def to_scene(s, bg):
     return out
 
 
-def boost(scenes_shots, max_me=0.3):
+def boost(scenes_shots, max_me=0.12):
     """scenes_shots: list of shot lists (one per scene). Changes them in place. Returns count converted."""
     total = sum(len(x) for x in scenes_shots)
     if not total:
