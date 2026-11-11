@@ -1,0 +1,741 @@
+{
+  "title": "How Did Ancient Women Handle Their Periods?",
+  "thumbnail_text": "100 PERIODS?",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "thumbnails": [
+    {
+      "text": "100 PERIODS?",
+      "title": "Ancient Women Had Way Fewer Periods",
+      "color": "red",
+      "hero": "person",
+      "pose": "shocked",
+      "face": "shocked",
+      "wear": "white",
+      "hold": "cloth",
+      "effects": [
+        "question"
+      ]
+    },
+    {
+      "text": "RAGS & CLOTH?",
+      "title": "How Did Ancient Women Handle Periods?",
+      "color": "beige",
+      "hero": "person",
+      "pose": "explain",
+      "face": "thinking",
+      "wear": "robe",
+      "hold": "linen",
+      "bg_prop": "pyramid"
+    },
+    {
+      "text": "NO TAMPONS?",
+      "title": "The Truth About Ancient Periods",
+      "color": "dark",
+      "hero": "person",
+      "pose": "shrug",
+      "face": "confused",
+      "wear": "fur",
+      "props": [
+        "cloth",
+        "moss"
+      ]
+    }
+  ],
+  "seo": {
+    "titles": [
+      "How Did Ancient Women Handle Their Periods?",
+      "Ancient Women Had Only 100 Periods",
+      "Why Ancient Periods Were Completely Different",
+      "What Ancient Women Used Instead of Pads",
+      "The Truth About Ancient Menstruation"
+    ],
+    "best_title": "How Did Ancient Women Handle Their Periods?",
+    "description_hook": "Ancient women had far fewer periods than we do today. Here's what they actually used, what the medical texts say, and why the monthly problem wasn't so monthly.",
+    "paragraphs": [
+      "In this video we look at how ancient women managed menstruation with cloth, linen, moss and whatever was available, and why they experienced only about 100 periods in a lifetime compared to 400 today.",
+      "We cover the Kahun Gynaecological Papyrus, Deir el-Medina work records, Greek and Roman practices, menstrual huts, and the practical knowledge passed from mother to daughter.",
+      "Clear, easy explanations with the real evidence and the popular myths."
+    ],
+    "sources": [
+      "Strassmann - The Biology of Menstruation in Homo sapiens, Current Anthropology (1997)",
+      "Kahun Gynaecological Papyrus (c. 1825 BCE)",
+      "Ebers Papyrus",
+      "Helen King - Hippocrates' Woman",
+      "National Geographic - Periods through history"
+    ],
+    "tags": [
+      "ancient periods",
+      "how did ancient women handle periods",
+      "history of menstruation",
+      "ancient egypt periods",
+      "kahun papyrus",
+      "ancient hygiene",
+      "women's history"
+    ],
+    "hashtags": [
+      "#history",
+      "#ancienthumans",
+      "#periods"
+    ],
+    "pinned_comment": "Which ancient method surprised you the most?"
+  },
+  "shorts": [
+    {
+      "scenes": [
+        2
+      ],
+      "hook": "ONLY 100 PERIODS?",
+      "title": "Ancient Women Had Way Fewer Periods",
+      "description": "Modern women get about 400. Ancient women got around 100. Here's why.",
+      "hashtags": [
+        "#shorts",
+        "#history",
+        "#periods"
+      ],
+      "pinned": "Did you know this?"
+    },
+    {
+      "scenes": [
+        4
+      ],
+      "hook": "ON THE RAG",
+      "title": "Where 'On the Rag' Comes From",
+      "description": "The most common ancient method was simple folded cloth.",
+      "hashtags": [
+        "#shorts",
+        "#history"
+      ],
+      "pinned": "Makes sense when you think about it."
+    }
+  ],
+  "scenes": [
+    {
+      "chapter": "The Big Difference",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "hold",
+          "face": "neutral",
+          "say": "Right now, millions of women around the world are on their period.",
+          "prop": "cloth"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "neutral",
+          "say": "They use a pad, a tampon, a cup, and they move on."
+        },
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "For most of human history, none of that existed."
+        },
+        {
+          "type": "big",
+          "text": "NO PHARMACIES.",
+          "say": "No pharmacies. No disposable products. No modern underwear."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "So how did ancient women actually handle their periods?",
+          "text": "THE REAL QUESTION."
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "people": [
+            {
+              "pose": "facepalm",
+              "face": "shocked"
+            }
+          ],
+          "props": [
+            "sundial"
+          ],
+          "say": "And here's the weird part. They had far fewer of them than women today.",
+          "auto_visual": true,
+          "text": "WAY FEWER."
+        },
+        {
+          "type": "compare",
+          "left": {
+            "title": "MODERN",
+            "prop": "person",
+            "mark": "tick"
+          },
+          "right": {
+            "title": "ANCIENT",
+            "prop": "person",
+            "mark": "x"
+          },
+          "say": "A modern woman can have around 400 periods in her life. An ancient woman? Around 100."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "happy",
+          "say": "That's the real story. The bodies were the same. The lifestyle was not."
+        }
+      ],
+      "say": "Right now, millions of women around the world are on their period. They use a pad, a tampon, a cup, and they move on. For most of human history, none of that existed. No pharmacies. No disposable products. No modern underwear. So how did ancient women actually handle their periods? And here's the weird part. They had far fewer of them than women today. A modern woman can have around 400 periods in her life. An ancient woman? Around 100. That's the real story. The bodies were the same. The lifestyle was not."
+    },
+    {
+      "chapter": "Why So Few Periods",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "Ancient women started their periods later. Often around 15 or 16."
+        },
+        {
+          "type": "list",
+          "title": "BECAUSE",
+          "items": [
+            [
+              "apple",
+              "Poorer nutrition"
+            ],
+            [
+              "person",
+              "Hard living"
+            ],
+            [
+              "house",
+              "More illness"
+            ]
+          ],
+          "say": "Nutrition and hard living delayed the first period."
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "Then they spent a huge part of their lives pregnant or breastfeeding."
+        },
+        {
+          "type": "diagram",
+          "title": "WHY PERIODS STOPPED",
+          "steps": [
+            [
+              "person",
+              "Pregnant"
+            ],
+            [
+              "baby",
+              "Breastfeeding"
+            ],
+            [
+              "tick",
+              "No period"
+            ]
+          ],
+          "say": "Breastfeeding can pause periods for months or even years."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "neutral",
+          "say": "No birth control. High child mortality. So they had many children, one after another."
+        },
+        {
+          "type": "big",
+          "text": "ABOUT 100 PERIODS.",
+          "say": "Scientists studied the Dogon people in Mali. Their women averaged about 100 periods in a lifetime."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "shocked",
+          "say": "Modern women get three or four times that number."
+        }
+      ],
+      "say": "Ancient women started their periods later. Often around 15 or 16. Nutrition and hard living delayed the first period. Then they spent a huge part of their lives pregnant or breastfeeding. Breastfeeding can pause periods for months or even years. No birth control. High child mortality. So they had many children, one after another. Scientists studied the Dogon people in Mali. Their women averaged about 100 periods in a lifetime. Modern women get three or four times that number."
+    },
+    {
+      "chapter": "Almost No Records",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "think",
+          "face": "thinking",
+          "say": "When the period did come, they still had to deal with it."
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "confused",
+          "say": "But almost nothing was written down about the practical side."
+        },
+        {
+          "type": "list",
+          "title": "WHY NO EVIDENCE",
+          "items": [
+            [
+              "scroll",
+              "Private topic"
+            ],
+            [
+              "cloth",
+              "Organic materials"
+            ],
+            [
+              "x",
+              "Things rot"
+            ]
+          ],
+          "say": "It was private. Often taboo. And the materials they used simply rotted away."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "We piece it together from medical texts, rare notes, and what traditional societies still do."
+        }
+      ],
+      "say": "When the period did come, they still had to deal with it. But almost nothing was written down about the practical side. It was private. Often taboo. And the materials they used simply rotted away. We piece it together from medical texts, rare notes, and what traditional societies still do."
+    },
+    {
+      "chapter": "Cloth and Rags",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "point",
+          "face": "smug",
+          "say": "The most common solution, almost everywhere, was simple.",
+          "prop": "cloth"
+        },
+        {
+          "type": "big",
+          "text": "CLOTH.",
+          "say": "Folded rags. Linen strips. Soft fabric pinned or tied in place."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "neutral"
+            }
+          ],
+          "props": [
+            "soap"
+          ],
+          "say": "Then washed and reused. That's where the old phrase 'on the rag' comes from.",
+          "auto_visual": true
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "say": "In Egypt, linen was everywhere. Women used strips of linen as pads.",
+          "props": [
+            "linen",
+            "river"
+          ],
+          "ai": "an Egyptian woman washing linen strips by the Nile"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "neutral",
+          "say": "Some stories say they used softened papyrus as early tampons. Possible, but hard to prove."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "point_up",
+              "face": "smug"
+            }
+          ],
+          "props": [
+            "needle"
+          ],
+          "say": "Linen and cloth were almost certainly more common.",
+          "auto_visual": true
+        },
+        {
+          "type": "draw",
+          "bg": "market",
+          "say": "In Greece and Rome, the same idea: homemade pads of wool or rags.",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "neutral",
+              "wear": "robe",
+              "hold": "cloth"
+            }
+          ]
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "unimpressed",
+          "say": "Old claims about Hippocrates describing wooden tampons are mostly mistranslations."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "neutral"
+            }
+          ],
+          "props": [
+            "meat",
+            "sundial"
+          ],
+          "say": "Those descriptions were for treating wounds or medical problems, not everyday periods.",
+          "auto_visual": true
+        }
+      ],
+      "say": "The most common solution, almost everywhere, was simple. Folded rags. Linen strips. Soft fabric pinned or tied in place. Then washed and reused. That's where the old phrase 'on the rag' comes from. In Egypt, linen was everywhere. Women used strips of linen as pads. Some stories say they used softened papyrus as early tampons. Possible, but hard to prove. Linen and cloth were almost certainly more common. In Greece and Rome, the same idea: homemade pads of wool or rags. Old claims about Hippocrates describing wooden tampons are mostly mistranslations. Those descriptions were for treating wounds or medical problems, not everyday periods."
+    },
+    {
+      "chapter": "Egypt's Records",
+      "shots": [
+        {
+          "type": "map",
+          "region": "Egypt",
+          "label": "EGYPT",
+          "say": "Egypt gives us the best written evidence."
+        },
+        {
+          "type": "big",
+          "text": "1825 BCE.",
+          "say": "The Kahun Gynaecological Papyrus is the oldest known medical text about women's health."
+        },
+        {
+          "type": "draw",
+          "bg": "white",
+          "say": "It talks about the womb, fertility, pregnancy, and contraception.",
+          "props": [
+            "scroll"
+          ],
+          "label": "KAHUN PAPYRUS"
+        },
+        {
+          "type": "me",
+          "pose": "shrug",
+          "face": "neutral",
+          "say": "One method involved crocodile dung. Another used honey and natron."
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "happy"
+            }
+          ],
+          "props": [
+            "beer",
+            "crown"
+          ],
+          "say": "It doesn't give a clear period guide, but it shows people were thinking carefully about the female body.",
+          "auto_visual": true
+        },
+        {
+          "type": "map",
+          "region": "Egypt",
+          "label": "DEIR EL-MEDINA",
+          "say": "At the workers' village of Deir el-Medina, scribes kept attendance records."
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "people": [
+            {
+              "pose": "point",
+              "face": "shocked"
+            }
+          ],
+          "props": [
+            "sundial"
+          ],
+          "say": "Women sometimes took days off for 'hesmen' — their word for menstruation.",
+          "auto_visual": true,
+          "text": "REAL RECORD."
+        },
+        {
+          "type": "me",
+          "pose": "facepalm",
+          "face": "laugh",
+          "say": "That's rare. Most places never wrote it down so casually."
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "There are also hints of special spaces, and the red tyet amulet linked to protection."
+        }
+      ],
+      "say": "Egypt gives us the best written evidence. The Kahun Gynaecological Papyrus is the oldest known medical text about women's health. It talks about the womb, fertility, pregnancy, and contraception. One method involved crocodile dung. Another used honey and natron. It doesn't give a clear period guide, but it shows people were thinking carefully about the female body. At the workers' village of Deir el-Medina, scribes kept attendance records. Women sometimes took days off for 'hesmen' — their word for menstruation. That's rare. Most places never wrote it down so casually. There are also hints of special spaces, and the red tyet amulet linked to protection."
+    },
+    {
+      "chapter": "Other Materials and Places",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "In other places, women used whatever grew nearby."
+        },
+        {
+          "type": "list",
+          "title": "LOCAL MATERIALS",
+          "items": [
+            [
+              "plant",
+              "Moss"
+            ],
+            [
+              "grass",
+              "Soft grass"
+            ],
+            [
+              "leaf",
+              "Plant fibers"
+            ]
+          ],
+          "say": "Moss, soft grass, plant fibers. In some areas, even animal hide or sea sponges."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "shrug",
+              "face": "neutral"
+            }
+          ],
+          "props": [
+            "needle"
+          ],
+          "say": "Some women simply free-bled into their clothing, especially if the flow was light.",
+          "auto_visual": true
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "say": "In some cultures, menstruating women stayed in special huts outside the village.",
+          "props": [
+            "house"
+          ],
+          "label": "MENSTRUAL HUT"
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "The Dogon still do this in traditional practice. It makes the timing public."
+        }
+      ],
+      "say": "In other places, women used whatever grew nearby. Moss, soft grass, plant fibers. In some areas, even animal hide or sea sponges. Some women simply free-bled into their clothing, especially if the flow was light. In some cultures, menstruating women stayed in special huts outside the village. The Dogon still do this in traditional practice. It makes the timing public."
+    },
+    {
+      "chapter": "Ideas and Myths",
+      "shots": [
+        {
+          "type": "draw",
+          "bg": "ancient",
+          "people": [
+            {
+              "pose": "explain",
+              "face": "neutral"
+            }
+          ],
+          "props": [
+            "sword",
+            "scroll"
+          ],
+          "say": "Greek and Roman writers had strong ideas about the body.",
+          "auto_visual": true
+        },
+        {
+          "type": "me",
+          "pose": "point_up",
+          "face": "smug",
+          "say": "They thought a woman's body was softer and held more fluid. Periods released the extra blood."
+        },
+        {
+          "type": "draw",
+          "bg": "ancient",
+          "people": [
+            {
+              "pose": "facepalm",
+              "face": "unimpressed"
+            }
+          ],
+          "props": [
+            "wine",
+            "sword"
+          ],
+          "say": "The Roman writer Pliny claimed menstrual blood could sour wine, kill bees, and rust metal.",
+          "auto_visual": true
+        },
+        {
+          "type": "big",
+          "text": "WILD EXAGGERATIONS.",
+          "say": "Wild exaggerations. But they show how powerful and mysterious the process seemed."
+        },
+        {
+          "type": "draw",
+          "bg": "ancient",
+          "people": [
+            {
+              "pose": "shrug",
+              "face": "neutral"
+            }
+          ],
+          "props": [
+            "meat",
+            "sundial"
+          ],
+          "say": "In Egypt, menstrual blood sometimes appeared in remedies, linked to the power of creating life.",
+          "auto_visual": true
+        }
+      ],
+      "say": "Greek and Roman writers had strong ideas about the body. They thought a woman's body was softer and held more fluid. Periods released the extra blood. The Roman writer Pliny claimed menstrual blood could sour wine, kill bees, and rust metal. Wild exaggerations. But they show how powerful and mysterious the process seemed. In Egypt, menstrual blood sometimes appeared in remedies, linked to the power of creating life."
+    },
+    {
+      "chapter": "Passed Down Quietly",
+      "shots": [
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "happy",
+          "say": "Most of the real knowledge never got written down."
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "say": "Mothers told daughters. Sisters told sisters.",
+          "people": [
+            {
+              "pose": "talk",
+              "face": "happy",
+              "wear": "robe"
+            },
+            {
+              "pose": "listen",
+              "face": "thinking",
+              "wear": "robe"
+            }
+          ]
+        },
+        {
+          "type": "draw",
+          "bg": "village",
+          "people": [
+            {
+              "pose": "point_up",
+              "face": "smug"
+            }
+          ],
+          "props": [
+            "needle"
+          ],
+          "say": "Women shared what worked with the cloth they had, the plants nearby, and the rules of their community.",
+          "auto_visual": true
+        },
+        {
+          "type": "me",
+          "pose": "celebrate",
+          "face": "happy",
+          "say": "They managed with less frequency, simpler materials, and a lot of practical skill."
+        }
+      ],
+      "say": "Most of the real knowledge never got written down. Mothers told daughters. Sisters told sisters. Women shared what worked with the cloth they had, the plants nearby, and the rules of their community. They managed with less frequency, simpler materials, and a lot of practical skill."
+    },
+    {
+      "chapter": "The Real Story",
+      "shots": [
+        {
+          "type": "timeline",
+          "title": "THE DIFFERENCE",
+          "points": [
+            [
+              "Ancient",
+              "person"
+            ],
+            [
+              "Fewer periods",
+              "tick"
+            ],
+            [
+              "Cloth & rags",
+              "cloth"
+            ],
+            [
+              "Today",
+              "person"
+            ]
+          ],
+          "say": "From cloth and river water, to modern products and more frequent cycles."
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "people": [
+            {
+              "pose": "think",
+              "face": "thinking"
+            }
+          ],
+          "props": [
+            "sundial"
+          ],
+          "say": "Today we have better products and more choice. But we also have far more periods in a lifetime.",
+          "auto_visual": true
+        },
+        {
+          "type": "me",
+          "pose": "explain",
+          "face": "neutral",
+          "say": "The bodies are the same. The lifestyle changed."
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "people": [
+            {
+              "pose": "hold",
+              "face": "happy",
+              "hold": "cloth"
+            }
+          ],
+          "props": [
+            "sundial"
+          ],
+          "say": "So next time you reach for a pad or a cup, remember how it used to be done.",
+          "auto_visual": true
+        },
+        {
+          "type": "draw",
+          "bg": "grass",
+          "people": [
+            {
+              "pose": "wave",
+              "face": "smug"
+            }
+          ],
+          "props": [
+            "needle"
+          ],
+          "say": "Folded cloth, practical knowledge, and women who just got on with it.",
+          "auto_visual": true
+        }
+      ],
+      "say": "From cloth and river water, to modern products and more frequent cycles. Today we have better products and more choice. But we also have far more periods in a lifetime. The bodies are the same. The lifestyle changed. So next time you reach for a pad or a cup, remember how it used to be done. Folded cloth, practical knowledge, and women who just got on with it."
+    }
+  ]
+}
